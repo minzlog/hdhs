@@ -1,0 +1,36 @@
+name: Daily TV Schedule Scrape
+
+on:
+  schedule:
+    # 매일 한국시간(KST) 06:00 = UTC 21:00 (전날)
+    - cron: "0 21 * * *"
+  workflow_dispatch: {}  # 수동 실행 버튼
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      - name: Python 설치
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 패키지 설치
+        run: pip install requests beautifulsoup4
+
+      - name: 스크래퍼 실행
+        run: python naver_schedule_scraper.py
+
+      - name: 결과 커밋 & 푸시
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/*.json
+          git diff --staged --quiet || git commit -m "chore: 편성표 자동 갱신 $(date -u +%Y-%m-%d)"
+          git push
