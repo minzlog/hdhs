@@ -1,4 +1,4 @@
-name: Daily TV Schedule Scrape
+name: Daily Schedule & Weather Scrape
 
 on:
   schedule:
@@ -24,13 +24,18 @@ jobs:
       - name: 패키지 설치
         run: pip install requests beautifulsoup4
 
-      - name: 스크래퍼 실행
+      - name: 편성표 스크래퍼 실행
         run: python naver_schedule_scraper.py
+
+      - name: 날씨 스크래퍼 실행
+        env:
+          API_KEY: ${{ secrets.WEATHER_API_KEY }}
+        run: python weather_scraper.py
 
       - name: 결과 커밋 & 푸시
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/*.json
-          git diff --staged --quiet || git commit -m "chore: 편성표 자동 갱신 $(date -u +%Y-%m-%d)"
+          git add data/*.json weather/asos/*.json weather/forecast/*.json
+          git diff --staged --quiet || git commit -m "chore: 편성표·날씨 자동 갱신 $(date -u +%Y-%m-%d)"
           git push
