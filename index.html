@@ -235,8 +235,8 @@
 
   table.schedule thead th.time-col {
     width: 56px;
-    text-align: left;
-    padding-left: 4px;
+    text-align: center;
+    padding-left: 0;
     font-family: 'Pretendard', -apple-system, sans-serif;
     font-size: 10.5px;
     color: var(--ink-soft);
@@ -262,8 +262,8 @@
   td.time-col {
     font-size: 11px;
     color: var(--ink-soft);
-    text-align: right;
-    padding: 6px 8px 0 0;
+    text-align: center;
+    padding: 6px 0 0;
     white-space: nowrap;
     font-weight: 600;
     border-right: 1px solid var(--rule);
@@ -385,12 +385,36 @@
     cursor: pointer;
   }
   .month-nav button:hover { background: var(--rule); }
+  .month-nav .month-label-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    min-width: 150px;
+    justify-content: center;
+    cursor: pointer;
+    padding: 4px 6px;
+    border-radius: 6px;
+  }
+  .month-nav .month-label-wrap:hover { background: #fff; }
   .month-nav .month-label {
     font-size: 19px;
     font-weight: 700;
-    min-width: 130px;
     text-align: center;
     font-family: 'Noto Serif KR', Georgia, serif;
+  }
+  .month-nav .month-cal-icon {
+    font-size: 14px;
+    opacity: 0.55;
+  }
+  .month-nav input[type="month"] {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    border: none;
   }
 
   .legend-row {
@@ -531,7 +555,11 @@
 
 <div class="month-nav">
   <button id="prevMonth" aria-label="이전 달">‹</button>
-  <span class="month-label" id="monthLabel">2026.06</span>
+  <div class="month-label-wrap" id="monthLabelWrap">
+    <span class="month-label" id="monthLabel">2026.06</span>
+    <i class="month-cal-icon">📅</i>
+    <input type="month" id="monthPicker">
+  </div>
   <button id="nextMonth" aria-label="다음 달">›</button>
 </div>
 
@@ -837,11 +865,9 @@ function renderDayCell(year, month, day, monthData, today) {
     }
 
     let lyHtml = '';
-    if (year >= 2026) {
-      const ly = getLastYearData(dateStr, monthData);
-      if (ly) {
-        lyHtml = `<div class="ly">작년 ${ly.minTa.toFixed(0)}°/${ly.maxTa.toFixed(0)}°</div>`;
-      }
+    const ly = getLastYearData(dateStr, monthData);
+    if (ly && ly.minTa !== null && ly.maxTa !== null) {
+      lyHtml = `<div class="ly">작년 ${ly.minTa.toFixed(0)}°/${ly.maxTa.toFixed(0)}°</div>`;
     }
 
     statsHtml =
@@ -860,7 +886,9 @@ function renderDayCell(year, month, day, monthData, today) {
 }
 
 async function renderMonth(year, month) {
+  const ym = `${year}-${String(month).padStart(2, '0')}`;
   document.getElementById('monthLabel').textContent = `${year}.${String(month).padStart(2, '0')}`;
+  document.getElementById('monthPicker').value = ym;
 
   const monthData = await loadMonthData(year, month);
   const today = todayStr();
@@ -964,6 +992,15 @@ function switchTab(tab) {
   document.getElementById('nextMonth').addEventListener('click', () => {
     currentMonth += 1;
     if (currentMonth > 12) { currentMonth = 1; currentYear += 1; }
+    renderMonth(currentYear, currentMonth);
+  });
+
+  // 월 직접 조회 (라벨 클릭 -> 네이티브 월 선택기)
+  document.getElementById('monthPicker').addEventListener('change', (e) => {
+    const [y, m] = e.target.value.split('-').map(Number);
+    if (!y || !m) return;
+    currentYear = y;
+    currentMonth = m;
     renderMonth(currentYear, currentMonth);
   });
 })();
