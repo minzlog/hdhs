@@ -31,22 +31,24 @@
 
   .masthead {
     border-bottom: 3px double var(--ink);
-    padding: 28px 24px 18px;
-    text-align: center;
-    position: relative;
+    padding: 14px 24px;
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    flex-wrap: wrap;
   }
 
   .masthead .kicker {
     font-family: 'Pretendard', -apple-system, sans-serif;
-    font-size: 11px;
-    letter-spacing: 0.28em;
+    font-size: 9.5px;
+    letter-spacing: 0.22em;
     text-transform: uppercase;
     color: var(--ink-soft);
-    margin: 0 0 6px;
+    margin: 0;
   }
 
   .masthead h1 {
-    font-size: clamp(28px, 5vw, 44px);
+    font-size: 20px;
     font-weight: 700;
     margin: 0;
     letter-spacing: -0.01em;
@@ -54,21 +56,26 @@
 
   .masthead .sub {
     font-family: 'Pretendard', -apple-system, sans-serif;
-    font-size: 13px;
+    font-size: 11.5px;
     color: var(--ink-soft);
-    margin-top: 8px;
+    margin: 0;
   }
 
   .controls {
     max-width: 1080px;
-    margin: 22px auto 0;
-    padding: 0 24px;
+    margin: 0 auto;
+    padding: 14px 24px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 14px;
     flex-wrap: wrap;
     font-family: 'Pretendard', -apple-system, sans-serif;
+    background: var(--paper);
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    border-bottom: 1px solid var(--rule);
   }
 
   .date-nav {
@@ -99,23 +106,30 @@
     display: flex;
     align-items: center;
     gap: 6px;
+    cursor: pointer;
+    padding: 4px 2px;
+  }
+
+  .date-display .date-text {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+
+  .date-display .cal-icon {
+    font-size: 13px;
+    opacity: 0.6;
   }
 
   .date-display input[type="date"] {
-    font-family: 'Pretendard', -apple-system, sans-serif;
-    font-size: 14px;
-    font-weight: 600;
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
     border: none;
-    background: transparent;
-    color: var(--ink);
-    cursor: pointer;
-    padding: 4px 2px;
-    width: 138px;
-  }
-  .date-display input[type="date"]::-webkit-calendar-picker-indicator {
-    cursor: pointer;
-    opacity: 0.65;
-    margin-left: 4px;
   }
 
   .today-badge {
@@ -167,9 +181,14 @@
 
   .grid-wrap {
     max-width: 1080px;
-    margin: 28px auto 60px;
+    margin: 0 auto;
     padding: 0 24px;
-    overflow-x: auto;
+  }
+
+  .scroll-x {
+    overflow: auto;
+    max-height: calc(100vh - 130px);
+    border-bottom: 1px solid var(--rule);
   }
 
   table.schedule {
@@ -183,7 +202,7 @@
     position: sticky;
     top: 0;
     background: var(--paper);
-    z-index: 2;
+    z-index: 3;
     padding: 10px 6px 12px;
     border-bottom: 2px solid var(--ink);
     font-size: 13.5px;
@@ -271,14 +290,6 @@
     font-size: 11px;
   }
 
-  .day-label {
-    text-align: center;
-    font-family: 'Pretendard', -apple-system, sans-serif;
-    font-size: 11px;
-    color: var(--ink-soft);
-    margin: -8px 0 18px;
-  }
-
   .no-data {
     max-width: 1080px;
     margin: 60px auto;
@@ -298,15 +309,16 @@
 <body>
 
 <header class="masthead">
-  <p class="kicker">Daily Broadcast Grid</p>
   <h1>방송 편성표</h1>
-  <p class="sub">지상파 4 · 종합편성 4 — 시간대별 통합 편성</p>
+  <span class="sub">지상파 4 · 종합편성 4</span>
 </header>
 
 <div class="controls">
   <div class="date-nav">
     <button class="arrow" id="prevDay" aria-label="이전 날짜">‹</button>
-    <div class="date-display">
+    <div class="date-display" id="dateDisplay">
+      <span class="date-text" id="dateText">2026-06-21 (일)</span>
+      <i class="cal-icon" id="calIcon">📅</i>
       <input type="date" id="datePicker">
       <span class="today-badge" id="todayBadge" style="display:none;">오늘</span>
     </div>
@@ -319,8 +331,6 @@
     <span><span class="dot comprehensive"></span>종합편성</span>
   </div>
 </div>
-
-<p class="day-label" id="dayLabel"></p>
 
 <div class="grid-wrap" id="gridWrap"></div>
 <div class="no-data" id="noData" style="display:none;">
@@ -356,7 +366,7 @@ function timeToMinutes(t) {
 function formatDateLabel(dateStr) {
   const d = new Date(dateStr + 'T00:00:00');
   const days = ['일','월','화','수','목','금','토'];
-  return `${d.getFullYear()}년 ${d.getMonth()+1}월 ${d.getDate()}일 (${days[d.getDay()]})`;
+  return `${dateStr} (${days[d.getDay()]})`;
 }
 
 function isToday(dateStr) {
@@ -412,7 +422,7 @@ function renderGrid(data, dateStr) {
     channelPrograms[ch.key] = list;
   });
 
-  let html = '<table class="schedule"><thead><tr>';
+  let html = '<div class="scroll-x"><table class="schedule"><thead><tr>';
   html += '<th class="time-col">시간</th>';
   CHANNELS.forEach(ch => {
     html += `<th class="${ch.group}">${ch.key}<span class="ch-band"></span></th>`;
@@ -448,7 +458,7 @@ function renderGrid(data, dateStr) {
     html += '</tr>';
   });
 
-  html += '</tbody></table>';
+  html += '</tbody></table></div>';
   wrap.innerHTML = html;
 }
 
@@ -459,7 +469,7 @@ function escapeHtml(str) {
 }
 
 async function refresh(dateStr) {
-  document.getElementById('dayLabel').textContent = formatDateLabel(dateStr);
+  document.getElementById('dateText').textContent = formatDateLabel(dateStr);
   document.getElementById('todayBadge').style.display = isToday(dateStr) ? 'inline-block' : 'none';
   const data = await getDataForDate(dateStr);
   renderGrid(data, dateStr);
