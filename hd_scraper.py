@@ -3,30 +3,6 @@
 현대홈쇼핑(HD) 편성표 수집기
 
 라이브방송(TV쇼핑) / 데이터방송(TV+샵) 편성을 공통 스키마로 변환해 저장한다.
-
-== 저장 구조 ==
-homeshopping/
-├── HD_live/{YYYY-MM}.json   라이브(TV쇼핑)
-└── HD_data/{YYYY-MM}.json   데이터방송(TV+샵)
-
-== 공통 스키마 (월 파일 안에 날짜별 누적) ==
-{
-  "company": "HD", "broadcast": "live", "month": "2026-06",
-  "days": {
-    "2026-06-22": [
-      {"start":"08:00","end":"09:59","brand":"미우미우","product":"하프문 숄더백",
-       "price":39000,"link":"https://..."}
-    ]
-  }
-}
-
-== 수집 정책 ==
-오늘 기준 -1일 ~ +5일(7일)을 매번 수집.
-과거(오늘 이전) 날짜가 이미 기록돼 있으면 다시 안 건드리고 보존, 오늘+미래만 갱신.
-
-== 사용법 ==
-  pip install requests
-  python hd_scraper.py
 """
 
 import os
@@ -51,7 +27,7 @@ def today_kst():
 
 
 def parse_price(v):
-    """가격을 원 단위 정수로 정규화. '69,900' / 69900 / None 등 처리."""
+    """가격을 원 단위 정수로 정규화."""
     if v is None:
         return 0
     if isinstance(v, (int, float)):
@@ -66,10 +42,7 @@ def parse_price(v):
 
 
 def add_categories(programs):
-    """
-    1) 원본 상품명으로 카테고리 분류 (분류 모델은 원본 패턴으로 학습됨)
-    2) 분류가 끝난 뒤 product 필드를 화면 표시용으로 정제
-    """
+    """카테고리 분류 및 상품명 정제."""
     if not programs:
         return programs
     pairs = [(p["brand"], p["product"]) for p in programs]
@@ -83,8 +56,7 @@ def add_categories(programs):
 def fetch_hyundai(date_compact, broad_param):
     """
     date_compact: 'YYYYMMDD'
-    broad_param: 'etv'(라이브/TV쇼핑) | 'dtv'(데이터/TV+샵)
-    페이지 0~7을 순회 후 (시작시각, 상품코드)로 중복 제거.
+    broad_param: 'etv'(라이브) | 'dtv'(데이터)
     """
     headers = {"User-Agent": UA, "Referer": "https://www.hmall.com/"}
     seen = {}
@@ -114,6 +86,28 @@ def fetch_hyundai(date_compact, broad_param):
         time.sleep(0.15)
 
     programs = sorted(seen.values(), key=lambda x: x["start"])
+
+    # 데이터방송(dtv) 한정 시간 조정 로직 추가
+    if broad_param == "dtv" and programs:
+        for i in range(len(programs) - 1):
+            programs[i]["end"] = programs[i + 1]["start"]
+        
+        # 마지막 방송 종료 시각 보정 (ex: 01:19 -> 01:20 / 23:59 -> 24:00)
+        last_p = programs[-1]
+        if last_p["end"]:
+            try:
+                h, m = map(int, last_p["end"].split(":"))
+                m += 1
+                if m >= 60:
+                    m = 0
+                    h += 1
+                if h >= 24:
+                    last_p["end"] = "24:00"
+                else:
+                    last_p["end"] = f"{h:02d}:{m:02d}"
+            except Exception:
+                pass
+
     return programs
 
 
@@ -166,7 +160,7 @@ def main():
                 continue
 
             days[date_dash] = programs
-            print(f"  -> {len(programs)}개 편성")
+            print(f"  -> {len(programs)}개編成")
             time.sleep(REQUEST_DELAY)
 
         for ym, days in month_data.items():
