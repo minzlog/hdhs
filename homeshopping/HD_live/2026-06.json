@@ -391,15 +391,6 @@
       {
         "start": "19:30",
         "end": "21:45",
-        "brand": "곡물도감",
-        "product": "무가당 서리태 가득 콩물 두유 총 90팩",
-        "price": 129000,
-        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2230220838&preview=true",
-        "category": "일반식품"
-      },
-      {
-        "start": "19:30",
-        "end": "21:45",
         "brand": "오늘설렘",
         "product": "제주산 애플망고 x 1박스",
         "price": 89900,
@@ -885,7 +876,7 @@
         "product": "덴프스 덴마크 유산균 이야기 6박스",
         "price": 198000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2148994586&preview=true",
-        "category": "건강식품"
+        "category": "가전"
       },
       {
         "start": "16:30",
@@ -930,7 +921,7 @@
         "product": "비에날씬 프로 12박스 비에날퀸 1박스 플러스 1박스",
         "price": 699000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2244836050&preview=true",
-        "category": "건강식품"
+        "category": "가전"
       },
       {
         "start": "21:45",
