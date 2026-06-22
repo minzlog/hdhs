@@ -22,7 +22,7 @@ jobs:
           python-version: "3.11"
 
       - name: 패키지 설치
-        run: pip install requests beautifulsoup4 scikit-learn joblib
+        run: pip install requests beautifulsoup4 scikit-learn joblib pandas openpyxl
 
       - name: 편성표 스크래퍼 실행
         run: python naver_schedule_scraper.py
