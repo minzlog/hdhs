@@ -27,7 +27,7 @@ scrape_naver.py
        b) 화면에 실제로 보이는(visible, offsetParent!==null) 카드 내용 변화
           -> a)를 못 찾았을 때의 보조 판단 기준
      클릭 후 한 번에 못 넘어가도 즉시 포기하지 않고 재시도(최대 3회)한다.
-  3. 시청률 기준: 드라마 5% 이상, 예능 1.6% 이상만 필터링.
+  3. 시청률 기준: 드라마 5% 이상, 예능 1% 이상만 필터링.
   4. 결과를 weekStart(해당 주 월요일, YYYY-MM-DD) 기준 JSON 파일로 저장.
      기존 파일이 있으면 동일 weekStart 내에서 program id로 병합(merge)한다.
 """
@@ -53,7 +53,7 @@ VARIETY_URL = (
 )
 
 MIN_RATING_DRAMA = 5.0
-MIN_RATING_VARIETY = 1.6
+MIN_RATING_VARIETY = 1.0
 KST = timezone(timedelta(hours=9))
 
 DEBUG = False
@@ -116,6 +116,11 @@ def fetch_drama(page):
     page.goto(DRAMA_URL, wait_until="networkidle", timeout=30000)
     page.wait_for_selector("li.info_box", timeout=15000)
     html = page.content()
+    try:
+        raw_card_count = len(page.query_selector_all("li.info_box"))
+    except Exception:
+        raw_card_count = "?"
+    print(f"  [drama] 전체카드(보이는+숨김 포함)={raw_card_count}개")
     programs = parse_cards_from_html(html, "drama", min_rating=MIN_RATING_DRAMA, base_url=DRAMA_URL)
     return dedupe_programs(programs)
 
@@ -186,24 +191,20 @@ def fetch_variety(page, max_pages: int = 30):
         paging_text = read_paging_text(page)
         cur, tot = parse_current_total(paging_text)
         html = page.content()
+
+        # 시청률 무관 전체 카드 수 (풀 자체가 작은지 / 필터링 때문에 적은지 구분용 진단 정보)
+        try:
+            raw_card_count = len(page.query_selector_all("li.info_box:visible"))
+        except Exception:
+            raw_card_count = "?"
+
         programs = parse_cards_from_html(html, "variety", min_rating=MIN_RATING_VARIETY, base_url=VARIETY_URL)
         all_programs.extend(programs)
 
-        total_cards = None
-        if DEBUG:
-            try:
-                total_cards = len(page.query_selector_all("li.info_box:visible"))
-            except Exception:
-                total_cards = "?"
-        if DEBUG:
-            print(
-                f"  [variety] page {page_num} "
-                f"(네이버 표시: 현재{cur}/전체{tot}) "
-                f"visible_cards={total_cards} "
-                f">= {MIN_RATING_VARIETY}%: {len(programs)}건"
-            )
-        else:
-            print(f"  [variety] page {page_num}: {len(programs)} programs >= {MIN_RATING_VARIETY}%")
+        print(
+            f"  [variety] page {page_num} (네이버 표시: 현재{cur}/전체{tot}) "
+            f"전체카드={raw_card_count}개 중 >= {MIN_RATING_VARIETY}%: {len(programs)}건"
+        )
 
         # 네이버 자체 카운터로 마지막 페이지 도달을 알 수 있으면 그걸 우선 신뢰
         if cur is not None and tot is not None and cur >= tot:
