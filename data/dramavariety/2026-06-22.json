@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-22",
   "weekEnd": "2026-06-28",
-  "collectedAt": "2026-06-23T14:25:18.341549+09:00",
+  "collectedAt": "2026-06-23T14:35:29.111662+09:00",
   "programs": [
     {
       "id": "drama_붉은 진주_월-화-수-목_오후 07:50",
@@ -17,7 +17,7 @@
       "time": "오후 07:50",
       "rating": 7.2,
       "ratingDate": "06.22",
-      "link": "?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=40528849&qvt=0&query=%EB%B6%89%EC%9D%80%20%EC%A7%84%EC%A3%BC"
+      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=40528849&qvt=0&query=%EB%B6%89%EC%9D%80%20%EC%A7%84%EC%A3%BC"
     },
     {
       "id": "drama_첫 번째 남자_월-화-수-금_오후 07:05",
@@ -33,7 +33,7 @@
       "time": "오후 07:05",
       "rating": 6.1,
       "ratingDate": "06.22",
-      "link": "?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=39834874&qvt=0&query=%EC%B2%AB%20%EB%B2%88%EC%A7%B8%20%EB%82%A8%EC%9E%90"
+      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=39834874&qvt=0&query=%EC%B2%AB%20%EB%B2%88%EC%A7%B8%20%EB%82%A8%EC%9E%90"
     },
     {
       "id": "drama_첫 번째 남자_목_오후 07:10",
@@ -46,7 +46,7 @@
       "time": "오후 07:10",
       "rating": 6.1,
       "ratingDate": "06.22",
-      "link": "?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=39834874&qvt=0&query=%EC%B2%AB%20%EB%B2%88%EC%A7%B8%20%EB%82%A8%EC%9E%90"
+      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=39834874&qvt=0&query=%EC%B2%AB%20%EB%B2%88%EC%A7%B8%20%EB%82%A8%EC%9E%90"
     },
     {
       "id": "drama_기쁜 우리 좋은 날_월-화-수-목-금_오후 08:30",
@@ -63,7 +63,7 @@
       "time": "오후 08:30",
       "rating": 10.8,
       "ratingDate": "06.22",
-      "link": "?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=40757232&qvt=0&query=%EA%B8%B0%EC%81%9C%20%EC%9A%B0%EB%A6%AC%20%EC%A2%8B%EC%9D%80%20%EB%82%A0"
+      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=40757232&qvt=0&query=%EA%B8%B0%EC%81%9C%20%EC%9A%B0%EB%A6%AC%20%EC%A2%8B%EC%9D%80%20%EB%82%A0"
     },
     {
       "id": "variety_남의 집 귀한 가족_화_오후 09:50",
@@ -76,7 +76,7 @@
       "time": "오후 09:50",
       "rating": 1.8,
       "ratingDate": "06.16",
-      "link": "?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=41104576&qvt=0&query=%EB%82%A8%EC%9D%98%20%EC%A7%91%20%EA%B7%80%ED%95%9C%20%EA%B0%80%EC%A1%B1"
+      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=41104576&qvt=0&query=%EB%82%A8%EC%9D%98%20%EC%A7%91%20%EA%B7%80%ED%95%9C%20%EA%B0%80%EC%A1%B1"
     },
     {
       "id": "variety_셀럽병사의 비밀_화_오후 10:00",
@@ -89,7 +89,7 @@
       "time": "오후 10:00",
       "rating": 2.2,
       "ratingDate": "06.16",
-      "link": "?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=35657189&qvt=0&query=%EC%85%80%EB%9F%BD%EB%B3%91%EC%82%AC%EC%9D%98%20%EB%B9%84%EB%B0%80"
+      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=35657189&qvt=0&query=%EC%85%80%EB%9F%BD%EB%B3%91%EC%82%AC%EC%9D%98%20%EB%B9%84%EB%B0%80"
     },
     {
       "id": "variety_동상이몽 2 - 너는 내 운명_화_오후 10:40",
@@ -102,7 +102,7 @@
       "time": "오후 10:40",
       "rating": 2.9,
       "ratingDate": "06.16",
-      "link": "?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=6017510&qvt=0&query=%EB%8F%99%EC%83%81%EC%9D%B4%EB%AA%BD%202%20%EB%84%88%EB%8A%94%20%EB%82%B4%20%EC%9A%B4%EB%AA%85"
+      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=6017510&qvt=0&query=%EB%8F%99%EC%83%81%EC%9D%B4%EB%AA%BD%202%20%EB%84%88%EB%8A%94%20%EB%82%B4%20%EC%9A%B4%EB%AA%85"
     }
   ]
 }
