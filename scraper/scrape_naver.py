@@ -1,7 +1,8 @@
 """
 scrape_naver.py
 네이버 "방영중한국드라마" / "방영중한국예능" 검색 위젯을 수집해
-'X월 X주차.json' 형식의 파일명으로 추적 및 정밀 누적 적재한다.
+데이터의 실제 발생일(ratingDate)이 속한 주의 월요일 날짜('YYYY-MM-DD.json')를 추적하여
+해당 날짜 파일에 정밀 누적(Merge) 적재한다. (독립 실행형 통합 버전)
 """
 import argparse
 import json
@@ -13,43 +14,27 @@ from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
+# 가장 안정적이고 깨끗한 네이버 PC 공식 검색 URL 표준 규격
 DRAMA_URL = "https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query=%EB%B0%A9%EC%98%81%EC%A4%91%ED%95%9C%EA%B5%AD%EB%93%9C%EB%9D%BC%EB%A7%88"
 VARIETY_URL = "https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query=%EB%B0%A9%EC%98%81%EC%A4%91%ED%95%9C%EA%B5%AD%EC%98%88%EB%8A%A5"
 
+# 시청률 커트라인 기준 (드라마 5.0%, 예능 1.0%)
 MIN_RATING_DRAMA = 5.0
 MIN_RATING_VARIETY = 1.0
 KST = timezone(timedelta(hours=9))
 
+DAY_ORDER = ["월", "화", "수", "목", "금", "토", "일"]
+DAY_INDEX = {d: i for i, d in enumerate(DAY_ORDER)}
 DEBUG = False
 
 
-# ==========================================
-#        정밀 주차 계산 유틸리티 함수
-# ==========================================
+def to_local_date_str(d):
+    return f"{d.getFullYear()}-{String(d.getMonth() + 1).padStart(2, '0')}-{String(d.getDate()).padStart(2, '0')}"
 
-def get_week_of_month_string(date_obj):
-    """
-    날짜를 받아 'X월 X주차' 형태의 직관적인 문자열을 반환합니다.
-    그 달의 첫 번째 목요일이 포함된 주를 1주차로 계산하는 표준 방식을 따릅니다.
-    """
-    first_day = date_obj.replace(day=1)
-    # 첫 주 목요일 찾기
-    first_thursday = first_day + timedelta(days=(3 - first_day.weekday()) % 7)
-    
-    # 만약 해당 월의 첫 목요일보다 전이라면 이전 달의 마지막 주차로 편입
-    if date_obj < first_thursday - timedelta(days=3):
-        last_day_of_prev_month = first_day - timedelta(days=1)
-        return get_week_of_month_string(last_day_of_prev_month)
-        
-    # 만약 목요일 기준으로 다음 달 1주차에 해당한다면 다음 달로 편입
-    next_month_first = (date_obj.replace(day=28) + timedelta(days=5)).replace(day=1)
-    next_thursday = next_month_first + timedelta(days=(3 - next_month_first.weekday()) % 7)
-    if date_obj >= next_thursday - timedelta(days=3):
-        return f"{next_month_first.month}월 1주차"
-        
-    # 정상 범위 내 주차 계산
-    week_number = int((date_obj - (first_thursday - timedelta(days=3))).days / 7) + 1
-    return f"{date_obj.month}월 {week_number}주차"
+
+def monday_of(date_obj):
+    """기준 날짜가 속한 주의 월요일 날짜 객체를 반환합니다."""
+    return date_obj - timedelta(days=date_obj.weekday())
 
 
 # ==========================================
@@ -57,8 +42,6 @@ def get_week_of_month_string(date_obj):
 # ==========================================
 
 def expand_days(day_token: str):
-    day_order = ["월", "화", "수", "목", "금", "토", "일"]
-    day_index = {d: i for i, d in enumerate(day_order)}
     days = []
     clean_token = day_token.replace(" ", "").strip()
     for part in [p.strip() for p in clean_token.split(",")]:
@@ -67,12 +50,12 @@ def expand_days(day_token: str):
         if "~" in part:
             try:
                 start, end = [p.strip() for p in part.split("~")]
-                si, ei = day_index[start], day_index[end]
-                days.extend(day_order[si:ei + 1])
+                si, ei = DAY_INDEX[start], DAY_INDEX[end]
+                days.extend(DAY_ORDER[si:ei + 1])
             except KeyError:
                 continue
         else:
-            if part in day_index:
+            if part in DAY_INDEX:
                 days.append(part)
     return days
 
@@ -310,38 +293,40 @@ def fetch_variety(page, max_pages: int = 30):
     return all_programs
 
 
-# ---------- 🎯 핵심 수정: 'X월 X주차.json' 기준 누적 적재 오케스트레이션 ----------
+# ---------- 🎯 핵심 수정: 'YYYY-MM-DD.json' 기준 누적 적재 분배 처리기 ----------
 
-def dispatch_and_merge_by_week_string(out_dir: str, programs: list):
+def dispatch_and_merge_by_matching_week(out_dir: str, programs: list):
     """
-    수집된 프로그램들의 ratingDate를 기반으로 'X월 X주차'를 계산하여
-    해당 주차의 직관적인 명칭을 가진 JSON 파일에 정밀 누적 병합합니다.
+    수집된 각 프로그램들의 ratingDate를 계산하여, 
+    기존 index.html이 요구하는 본연의 월요일 날짜('YYYY-MM-DD.json') 파일에 중복 없이 정밀 누적 머지합니다.
     """
     current_year = datetime.now(KST).year
-    
-    # 1. 수집된 데이터를 실제 속해야 하는 'X월 X주차'별로 그룹화
     buckets = {}
+    
+    # 1. ratingDate 기반 해당 주차의 월요일(YYYY-MM-DD) 명칭 산출 및 버킷 분류
     for p in programs:
         r_date_str = p.get("ratingDate")
         if not r_date_str:
-            week_name = get_week_of_month_string(datetime.now(KST).date())
+            target_monday = monday_of(datetime.now(KST).date())
         else:
             try:
                 month, day = map(int, r_date_str.split('.'))
                 actual_date = datetime(current_year, month, day).date()
-                week_name = get_week_of_month_string(actual_date)
+                target_monday = monday_of(actual_date)
             except Exception:
-                week_name = get_week_of_month_string(datetime.now(KST).date())
+                target_monday = monday_of(datetime.now(KST).date())
                 
-        if week_name not in buckets:
-            buckets[week_name] = []
-        buckets[week_name].append(p)
+        file_name_key = target_monday.isoformat() # 'YYYY-MM-DD'
+        if file_name_key not in buckets:
+            buckets[file_name_key] = []
+        buckets[file_name_key].append(p)
 
-    # 2. 각 주차별 명칭으로 JSON 파일 바인딩 및 정밀 로드 수행
-    for week_name, p_list in buckets.items():
-        file_path = os.path.join(out_dir, f"{week_name}.json")
+    # 2. 산출된 YYYY-MM-DD.json 파일별 복원 및 완전 누적 실행
+    for file_date, p_list in buckets.items():
+        file_path = os.path.join(out_dir, f"{file_date}.json")
+        week_start_date = datetime.fromisoformat(file_date).date()
+        week_end = (week_start_date + timedelta(days=6)).isoformat()
         
-        # 기존 파일이 있으면 복원해서 합칩니다 (누적 보장)
         if os.path.exists(file_path):
             try:
                 with open(file_path, encoding="utf-8") as f:
@@ -352,13 +337,14 @@ def dispatch_and_merge_by_week_string(out_dir: str, programs: list):
         else:
             existing_programs = []
             
-        # ID 기준 고유 맵 빌드를 통한 중복 완벽 제거 누적
+        # 고유 식별자(ID) 맵을 활용해 동일 프로그램 적재 시 완전 중복 제거 및 누적 보장
         by_id = {p["id"]: p for p in existing_programs}
         for p in p_list:
             by_id[p["id"]] = p
             
         merged_payload = {
-            "weekName": week_name,
+            "weekStart": file_date,
+            "weekEnd": week_end,
             "collectedAt": datetime.now(KST).isoformat(),
             "programs": dedupe_programs(list(by_id.values())),
         }
@@ -366,7 +352,7 @@ def dispatch_and_merge_by_week_string(out_dir: str, programs: list):
         with open(file_path, "w", encoding="utf-8") as f:
             json.dump(merged_payload, f, ensure_ascii=False, indent=2)
             
-        print(f"  [Merge Success] {week_name} 파일에 {len(merged_payload['programs'])}개 프로그램 누적 완료 -> {file_path}")
+        print(f"  [Merge Success] {file_date}.json 파일에 {len(merged_payload['programs'])}개 데이터 누적 완료!")
 
 
 def main():
@@ -402,7 +388,7 @@ def main():
         browser.close()
 
     all_raw_programs = drama_programs + variety_programs
-    dispatch_and_merge_by_week_string(final_out_dir, all_raw_programs)
+    dispatch_and_merge_by_matching_week(final_out_dir, all_raw_programs)
 
 
 if __name__ == "__main__":
