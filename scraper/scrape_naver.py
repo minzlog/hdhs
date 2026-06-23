@@ -8,29 +8,6 @@ scrape_naver.py
     python -m playwright install chromium   # 최초 1회, requirements.txt만으론 안 됨
     cd scraper
     python scrape_naver.py --out-dir ../data/dramavariety --debug
-
---debug 옵션을 주면 페이지마다 다음 정보를 자세히 찍어준다:
-  - 현재/전체 페이지 번호 (네이버 페이지네이션 텍스트에서 직접 추출)
-  - 화면에 보이는 카드 수, 그중 시청률 기준 통과한 카드 수
-  - "다음" 버튼 클릭 후 실제로 페이지가 넘어갔는지 여부
-  - 각 카드의 파싱 결과 (제목, 채널, 시청률, 요일, 시간)
-이 로그를 보면 어느 페이지에서/왜 멈췄는지 바로 알 수 있다.
-
-동작 개요:
-  1. 드라마 위젯: 페이지 로드 1회로 전체 카드가 DOM에 포함되어 있음 확인됨
-     (li.info_box 셀렉터로 한 번에 전부 추출 가능, 별도 페이징 불필요).
-  2. 예능 위젯: 페이지가 다수(확인 시점 기준 24p)이며 "다음" 버튼이 AJAX로
-     동작. 페이지 전환 시 이전/다음 페이지 분량이 display:none 상태로 DOM에
-     같이 남아있을 수 있어, 아래 두 가지를 함께 확인해 페이지 전환 여부를
-     판단한다:
-       a) 네이버 자체 페이지네이션 텍스트("현재 N 전체 M")의 N 증가 여부
-          -> 가장 신뢰도 높은 1차 판단 기준
-       b) 화면에 실제로 보이는(visible, offsetParent!==null) 카드 내용 변화
-          -> a)를 못 찾았을 때의 보조 판단 기준
-     클릭 후 한 번에 못 넘어가도 즉시 포기하지 않고 재시도(최대 3회)한다.
-  3. 시청률 기준: 드라마 5% 이상, 예능 1.6% 이상만 필터링.
-  4. 결과를 weekStart(해당 주 월요일, YYYY-MM-DD) 기준 JSON 파일로 저장.
-     기존 파일이 있으면 동일 weekStart 내에서 program id로 병합(merge)한다.
 """
 import argparse
 import json
@@ -71,10 +48,16 @@ def monday_of(date_obj):
 
 # ---------- 페이지 전환 감지 헬퍼 ----------
 
+# 단순히 전체 text를 합치면 요일/시간이 겹칠 때 오작동할 수 있으므로, 
+# 각 카드의 '제목(strong.title)' 리스트를 서명으로 사용합니다.
 VISIBLE_SIG_JS = """
     () => Array.from(document.querySelectorAll('li.info_box'))
         .filter(el => el.offsetParent !== null)
-        .map(el => el.innerText)
+        .map(el => {
+            const titleEl = el.querySelector('strong.title');
+            return titleEl ? titleEl.innerText.trim() : '';
+        })
+        .filter(t => t.length > 0)
         .join('|')
 """
 
@@ -171,7 +154,7 @@ def click_next_and_wait(page, before_paging_text, before_visible_sig, timeout_s=
             return True
 
         after_visible_sig = visible_signature(page)
-        if after_visible_sig and after_visible_sig != before_visible_sig:
+        if after_visible_sig and before_visible_sig and after_visible_sig != before_visible_sig:
             dprint("페이지카운터는 못 읽었지만 화면 카드 내용 변화로 전환 확인")
             return True
 
@@ -189,11 +172,13 @@ def fetch_variety(page, max_pages: int = 30):
     max_retries_per_page = 3
 
     while page_num <= max_pages:
+        # AJAX 로딩 후 DOM 안정화를 위해 잠깐 대기
+        page.wait_for_timeout(500)
+        
         paging_text = read_paging_text(page)
         cur, tot = parse_current_total(paging_text)
         html = page.content()
 
-        # 시청률 무관 전체 카드 수 (풀 자체가 작은지 / 필터링 때문에 적은지 구분용 진단 정보)
         try:
             raw_card_count = len(page.query_selector_all("li.info_box:visible"))
         except Exception:
@@ -207,7 +192,6 @@ def fetch_variety(page, max_pages: int = 30):
             f"전체카드={raw_card_count}개 중 >= {MIN_RATING_VARIETY}%: {len(programs)}건"
         )
 
-        # 네이버 자체 카운터로 마지막 페이지 도달을 알 수 있으면 그걸 우선 신뢰
         if cur is not None and tot is not None and cur >= tot:
             print(f"  [variety] 네이버 페이지카운터 기준 마지막 페이지 도달 ({cur}/{tot})")
             break
@@ -245,7 +229,7 @@ def merge_into_week_file(out_path: str, new_programs: list, week_start: str, wee
 
     by_id = {p["id"]: p for p in existing_programs}
     for p in new_programs:
-        by_id[p["id"]] = p  # 최신 수집 데이터로 덮어쓰기 (시청률 갱신 등)
+        by_id[p["id"]] = p
 
     merged = {
         "weekStart": week_start,
