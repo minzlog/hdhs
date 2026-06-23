@@ -1,0 +1,19 @@
+{
+  "weekName": "6월 2주차",
+  "collectedAt": "2026-06-24T00:45:33.136520+09:00",
+  "programs": [
+    {
+      "id": "variety_슈퍼맨이 돌아왔다_KBS2_수_오후 10:00",
+      "category": "variety",
+      "channel": "KBS2",
+      "title": "슈퍼맨이 돌아왔다",
+      "days": [
+        "수"
+      ],
+      "time": "오후 10:00",
+      "rating": 2.7,
+      "ratingDate": "06.10",
+      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=675566&qvt=0&query=%EC%8A%88%ED%8D%BC%EB%A7%A8%EC%9D%B4%20%EB%8F%8C%EC%95%84%EC%99%94%EB%8B%A4"
+    }
+  ]
+}
