@@ -223,7 +223,6 @@ def click_next_and_wait(page, before_paging_text, before_visible_sig, timeout_s=
 # ---------- '전체' 요일 탭 마우스 제어 함수 ----------
 
 def click_all_days_tab(page, category):
-    """검증된 요일 메뉴 탭 셀렉터를 이용해 '전체' 탭을 강제 클릭합니다."""
     try:
         target_selector = "div.cm_tap_area ul > li > a > span.menu._text"
         page.wait_for_selector(target_selector, timeout=10000)
@@ -258,4 +257,132 @@ def fetch_drama(page):
     return dedupe_programs(programs)
 
 
-def fetch_variety(page
+def fetch_variety(page, max_pages: int = 30):
+    page.goto(VARIETY_URL, wait_until="networkidle", timeout=30000)
+    click_all_days_tab(page, "variety")
+
+    all_programs = []
+    page_num = 1
+    max_retries_per_page = 3
+
+    while page_num <= max_pages:
+        page.wait_for_timeout(800)
+        
+        paging_text = read_paging_text(page)
+        cur, tot = parse_current_total(paging_text)
+        html = page.content()
+
+        try:
+            raw_card_count = len(page.query_selector_all("li.info_box:visible"))
+        except Exception:
+            raw_card_count = "?"
+
+        programs = parse_cards_from_html(html, "variety", min_rating=MIN_RATING_VARIETY, base_url=VARIETY_URL)
+        all_programs.extend(programs)
+
+        print(
+            f"  [variety] page {page_num} (네이버 표시: 현재{cur}/전체{tot}) "
+            f"전체카드={raw_card_count}개 중 >= {MIN_RATING_VARIETY}%: {len(programs)}건"
+        )
+
+        if cur is not None and tot is not None and cur >= tot:
+            print(f"  [variety] 네이버 페이지카운터 기준 마지막 페이지 도달 ({cur}/{tot})")
+            break
+
+        before_paging_text = paging_text
+        before_visible_sig = visible_signature(page)
+
+        advanced = False
+        for attempt in range(1, max_retries_per_page + 1):
+            advanced = click_next_and_wait(page, before_paging_text, before_visible_sig)
+            if advanced:
+                break
+            page.wait_for_timeout(1000)
+
+        if not advanced:
+            print(f"  [variety] page {page_num}에서 수집 종료 혹은 단일 페이지 판정")
+            break
+
+        page_num += 1
+
+    return dedupe_programs(all_programs)
+
+
+# ---------- 저장/병합 ----------
+
+def merge_into_week_file(out_path: str, new_programs: list, week_start: str, week_end: str):
+    if os.path.exists(out_path):
+        with open(out_path, encoding="utf-8") as f:
+            existing = json.load(f)
+        existing_programs = existing.get("programs", [])
+    else:
+        existing_programs = []
+
+    by_id = {p["id"]: p for p in existing_programs}
+    for p in new_programs:
+        by_id[p["id"]] = p
+
+    merged = {
+        "weekStart": week_start,
+        "weekEnd": week_end,
+        "collectedAt": datetime.now(KST).isoformat(),
+        "programs": list(by_id.values()),
+    }
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(merged, f, ensure_ascii=False, indent=2)
+    return merged
+
+
+def main():
+    global DEBUG
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--out-dir", default="../data/dramavariety")
+    parser.add_argument("--max-pages", type=int, default=30, help="예능 위젯 최대 순회 페이지 수")
+    parser.add_argument("--debug", action="store_true", help="진행 상황 출력")
+    parser.add_argument("--headful", action="store_true", help="브라우저 활성화 실행")
+    args = parser.parse_args()
+    DEBUG = args.debug
+
+    CURRENT_FILE_DIR = os.path.dirname(os.path.abspath(__file__))
+    final_out_dir = os.path.isabs(args.out_dir) and args.out_dir or os.path.normpath(os.path.join(CURRENT_FILE_DIR, args.out_dir))
+    os.makedirs(final_out_dir, exist_ok=True)
+
+    today = datetime.now(KST).date()
+    week_start_date = monday_of(today)
+    week_end_date = week_start_date + timedelta(days=6)
+    week_start = week_start_date.isoformat()
+    week_end = week_end_date.isoformat()
+
+    with sync_playwright() as pw:
+        browser = pw.chromium.launch(
+            headless=not args.headful,
+            args=["--disable-dev-shm-usage"],
+        )
+        page = browser.new_page(
+            user_agent=(
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+            ),
+            locale="ko-KR",
+        )
+        page.set_default_timeout(25000)
+
+        print("collecting drama...")
+        drama_programs = fetch_drama(page)
+        print(f"  drama total: {len(drama_programs)} programs >= {MIN_RATING_DRAMA}%")
+
+        print("collecting variety...")
+        variety_programs = fetch_variety(page, max_pages=args.max_pages)
+        print(f"  variety total: {len(variety_programs)} programs >= {MIN_RATING_VARIETY}%")
+
+        browser.close()
+
+    all_programs = drama_programs + variety_programs
+    out_path = os.path.join(final_out_dir, f"{week_start}.json")
+    merged = merge_into_week_file(out_path, all_programs, week_start, week_end)
+
+    print(f"saved {len(merged['programs'])} programs -> {out_path}")
+
+
+if __name__ == "__main__":
+    main()
