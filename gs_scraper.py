@@ -13,6 +13,14 @@ GitHub Actions에서 직접 수집이 불가능하다.
 - price: 0 (프론트엔드에서 0이면 가격 표시를 생략)
 - link: "" (프론트엔드에서 비어있으면 클릭 비활성)
 
+== 브랜드 추출 ==
+라방바 API는 brand 필드를 항상 빈 문자열로 준다(라방바가 브랜드/상품명을
+분리해서 제공하지 않음). HD/LT처럼 화면에 브랜드를 따로 보여주기 위해
+categorize.resolve_display_brand()로 product(hsshow_title) 텍스트에서
+학습 데이터 브랜드 사전과 매칭해 브랜드를 추론한다("LG 통돌이 세탁기..."
+-> brand="LG"). 추론에 실패하면(사전에 없는 브랜드, 진짜 노브랜드 상품)
+brand는 빈 문자열로 남고, 프론트엔드는 빈 브랜드를 표시하지 않는다.
+
 == 저장 구조 (3사와 동일) ==
 homeshopping/
 ├── GS_live/{YYYY-MM}.json   GS SHOP (라이브)
@@ -39,7 +47,7 @@ import json
 import time
 import requests
 from datetime import datetime, timedelta, timezone
-from categorize import classify_batch
+from categorize import classify_batch, resolve_display_brand_batch
 from clean_product import clean_product_name
 
 KST = timezone(timedelta(hours=9))
@@ -71,13 +79,31 @@ def fmt_time(raw: str) -> str:
 
 def add_categories(programs):
     """
-    1) 원본 상품명으로 카테고리 분류 (GS는 브랜드 정보가 없어 상품명만으로 분류)
-    2) 분류가 끝난 뒤 product 필드를 화면 표시용으로 정제
+    1) 브랜드 보강: 라방바는 brand를 항상 빈 문자열로 주므로, HD/LT처럼 화면에
+       브랜드를 분리해서 보여주기 위해 product(hsshow_title)에서 학습 데이터
+       브랜드 사전과 매칭해 추론한다. 추론 실패시(사전에 없는 브랜드, 진짜
+       노브랜드 상품) brand는 그대로 빈 문자열로 남는다.
+    2) 분류: 원본 상품명 + (보강된) 브랜드로 카테고리 예측
+       (분류 모델은 원본 패턴으로 학습됐으므로 정제 전 텍스트를 사용 -
+        브랜드가 채워지면 분류 확신도도 같이 올라간다)
+    3) 분류가 끝난 뒤 product 필드를 화면 표시용으로 정제
     """
     if not programs:
         return programs
-    pairs = [(p["brand"], p["product"]) for p in programs]
-    categories = classify_batch(pairs)
+
+    raw_pairs = [(p["brand"], p["product"]) for p in programs]
+
+    # 1) 화면 표시용 브랜드 보강
+    display_brands = resolve_display_brand_batch(raw_pairs)
+    for p, db in zip(programs, display_brands):
+        if not p["brand"] and db:
+            p["brand"] = db
+
+    # 2) 분류 (보강된 brand + 원본 product)
+    pairs_for_model = [(p["brand"], p["product"]) for p in programs]
+    categories = classify_batch(pairs_for_model)
+
+    # 3) 정제
     for p, cat in zip(programs, categories):
         p["category"] = cat
         p["product"] = clean_product_name(p["product"])

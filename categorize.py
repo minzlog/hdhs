@@ -15,7 +15,7 @@
 1) 명확한 키워드 규칙: 상품명에 "암보험", "치료비", "여행자보험" 등 의심의 여지가
    거의 없는 단어가 있으면 모델 판단 없이 바로 그 카테고리로 확정한다.
    (모델은 통계적 추정이라 이런 명백한 경우도 가끔 헷갈리므로, 규칙이 더 믿을만하다)
-2) 브랜드 보강: 브랜드 필드가 비어있는 입력(GS 등)은 상품명 안에서 학습 데이터의
+2) 브랜드 보강: 브랜드 필드가 비어있는 입력(GS, CJ 등)은 상품명 안에서 학습 데이터의
    브랜드 사전과 매칭되는 토큰("LG", "삼성" 등)을 찾아 브랜드로 채워 넣은 뒤 분류한다.
    브랜드가 핵심 신호인 모델 특성상, 이게 없으면 확신도가 크게 떨어진다.
 3) 모델 분류: 위 두 단계로 못 잡으면 학습 모델이 예측한 세분류를 그룹으로 합쳐서 반환.
@@ -30,6 +30,22 @@
 기타       = 건강식품, 일반식품, 보험, 일반렌탈, 문화/스포츠, GA 등
             (위 그룹에 속하지 않는 나머지는 모델이 예측한 세분류명 그대로 사용)
 
+== 화면 표시용 브랜드 추출 (GS/CJ 전용) ==
+GS(라방바)와 CJ(API brandName 미제공)는 brand 필드가 비어 있어 HD/LT처럼
+화면에 브랜드를 분리해서 보여줄 수 없었다. resolve_display_brand()는 분류에
+쓰는 것과 같은 추론 로직으로 "화면에 보여줄 정제된 브랜드명"을 반환한다.
+
+  from categorize import resolve_display_brand
+
+  resolve_display_brand("", "LG 통돌이 세탁기 T19MX7A 미드 블랙")
+  # -> "LG"  (학습데이터 표기 "LG(엘지)"에서 부기를 뺀 표시용 버전)
+
+  resolve_display_brand("", "[최초가69,900원] 25SS 프렌치 린넨 펄니트 3종")
+  # -> ""  (사전에 없는 브랜드는 추론 불가 - 빈 문자열)
+
+브랜드가 이미 있으면(HD/LT, 또는 CJ가 API로 받아온 값이 있는 경우) 그 값을
+그대로 정제해서 반환하고, 비어 있을 때만 product에서 추론을 시도한다.
+
 == 모델 재학습 ==
 새 학습 데이터(엑셀: 브랜드명/판매상품명/상품중분류명 컬럼)가 생기면
 train_model.py를 다시 실행해 category_model.pkl을 교체한다.
@@ -38,7 +54,7 @@ train_model.py를 다시 실행해 category_model.pkl을 교체한다.
 import os
 import re
 import joblib
-from infer_brand import infer_brand
+from infer_brand import infer_brand, extract_core_brand
 
 MODEL_PATH = os.path.join(os.path.dirname(__file__), "category_model.pkl")
 
@@ -91,6 +107,29 @@ def _predict_with_model(brand: str, product: str) -> str:
     proba = model.predict_proba([text])[0]
     idx = proba.argmax()
     return _to_group(model.classes_[idx])
+
+
+def resolve_display_brand(brand: str, product: str) -> str:
+    """
+    화면에 보여줄 브랜드명을 반환 (GS/CJ처럼 brand가 비어있는 경우 product에서 추론).
+    - brand가 이미 있으면: 괄호 부기를 뺀 핵심 브랜드명으로 정제해서 반환
+      (예: "삼성(SAMSUNG)" -> "삼성")
+    - brand가 없으면: product에서 infer_brand로 추론 시도, 성공하면 마찬가지로 정제해서 반환
+    - 둘 다 실패하면 빈 문자열 (화면에서는 브랜드 영역을 표시하지 않으면 됨)
+    """
+    if brand:
+        return extract_core_brand(brand)
+
+    inferred = infer_brand(product)
+    if inferred:
+        return extract_core_brand(inferred)
+
+    return ""
+
+
+def resolve_display_brand_batch(items: list) -> list:
+    """[(brand, product), ...] 리스트를 일괄 처리. 반환: 표시용 브랜드명 문자열 리스트."""
+    return [resolve_display_brand(brand, product) for brand, product in items]
 
 
 def classify(brand: str, product: str) -> str:

@@ -24,21 +24,25 @@ homeshopping/
 오늘 기준 -1일 ~ +5일(7일)을 매번 수집.
 과거(오늘 이전) 날짜가 이미 기록돼 있으면 다시 안 건드리고 보존, 오늘+미래만 갱신.
 
-== 참고 ==
-CJ는 brandName 필드가 대부분 비어있어, 비어있을 경우 방송 프로그램명(pgmNm)을 대신 사용한다.
+== 브랜드 추출 ==
+CJ API의 brandName은 거의 항상 비어있고(None), 상품 상세페이지(/p/item/{itemCd})는
+JS로 렌더링되는 SPA라 requests로는 브랜드를 가져올 수 없다(별도 상세 REST API 미확인,
+HTML에 데이터 없음 - require.js 로더만 내려옴). 그래서 상세페이지 파싱은 포기하고,
+HD/LT처럼 brand 필드를 화면에 분리해서 보여주기 위해 categorize.resolve_display_brand()로
+상품명(itemNm)에서 학습 데이터 브랜드 사전과 매칭해 브랜드를 추론한다.
+추론에 실패하면(사전에 없는 브랜드, 또는 진짜 노브랜드 상품) brand는 빈 문자열로
+저장되고, 프론트엔드는 빈 브랜드를 표시하지 않는다(HD/LT와 동일 처리 방식).
 
 == 사용법 ==
   pip install requests
   python cj_scraper.py
 """
-# -*- coding: utf-8 -*-
 import os
 import json
 import time
 import requests
-from bs4 import BeautifulSoup
 from datetime import datetime, timedelta, timezone
-from categorize import classify_batch
+from categorize import classify_batch, resolve_display_brand_batch
 from clean_product import clean_product_name
 
 # 설정값
@@ -61,23 +65,30 @@ def parse_price(v):
     try: return int(float(s))
     except ValueError: return 0
 
-def get_brand_from_detail(item_cd, chn_cd):
-    """상세 페이지에 접속하여 브랜드명을 추출"""
-    if not item_cd: return ""
-    url = f"https://display.cjonstyle.com/p/item/{item_cd}?channelCode={chn_cd}"
-    headers = {"User-Agent": UA}
-    try:
-        r = requests.get(url, headers=headers, timeout=5)
-        soup = BeautifulSoup(r.text, 'html.parser')
-        brand_el = soup.select_one("#_itemBrandNameArea")
-        return brand_el.text.strip() if brand_el else ""
-    except:
-        return ""
-
 def add_categories(programs):
+    """
+    1) 브랜드 보강: brand가 비어있으면 product에서 추론해 화면 표시용 brand로 채움
+       (HD/LT처럼 브랜드가 별도로 보이도록 - resolve_display_brand가 추론 실패시
+        빈 문자열을 반환하므로, 추론 안 되는 진짜 노브랜드 상품은 그대로 빈 값 유지)
+    2) 분류: 원본 상품명 + (보강된) 브랜드로 카테고리 예측
+       (분류 모델은 원본 패턴으로 학습됐으므로 정제 전 텍스트를 사용)
+    3) 분류가 끝난 뒤 product 필드를 화면 표시용으로 정제
+    """
     if not programs: return programs
-    pairs = [(p["brand"], p["product"]) for p in programs]
-    categories = classify_batch(pairs)
+
+    raw_pairs = [(p["brand"], p["product"]) for p in programs]
+
+    # 1) 화면 표시용 브랜드 보강 (브랜드 없으면 상품명에서 추론)
+    display_brands = resolve_display_brand_batch(raw_pairs)
+    for p, db in zip(programs, display_brands):
+        if not p["brand"] and db:
+            p["brand"] = db
+
+    # 2) 분류 (보강된 brand + 원본 product 사용 - 추론된 브랜드가 있으면 분류 정확도 향상)
+    pairs_for_model = [(p["brand"], p["product"]) for p in programs]
+    categories = classify_batch(pairs_for_model)
+
+    # 3) 정제
     for p, cat in zip(programs, categories):
         p["category"] = cat
         p["product"] = clean_product_name(p["product"])
@@ -104,16 +115,12 @@ def fetch_cj(date_compact, broad_param):
             first = items[0] if items else {}
             item_cd = first.get("itemCd", "")
             chn_cd = first.get("chnCd", "")
-            
-            # [브랜드 추출 로직]
-            # 1. API 기본값 -> 2. 상세페이지 파싱 -> 3. 프로그램명 -> 4. 상품명
-            brand_name = first.get("brandName")
-            if not brand_name:
-                brand_name = get_brand_from_detail(item_cd, chn_cd)
-            if not brand_name:
-                brand_name = pg.get("pgmNm", "")
-            if not brand_name:
-                brand_name = first.get("itemNm", "상품명 미정")
+
+            # API가 제공하는 brandName이 있으면 그대로 쓰고, 없으면 빈 문자열로 둔다.
+            # (상세페이지는 JS SPA라 requests로 파싱 불가하고, pgmNm/itemNm을
+            #  brand로 대신 쓰면 실제 브랜드가 아닌 값이 들어가 오히려 부정확함.
+            #  빈 문자열로 두면 add_categories()가 상품명에서 브랜드를 추론해 채운다.)
+            brand_name = first.get("brandName") or ""
 
             link = (f"https://display.cjonstyle.com/p/item/{item_cd}?channelCode={chn_cd}"
                     if item_cd else "")
