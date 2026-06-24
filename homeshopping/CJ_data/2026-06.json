@@ -1530,6 +1530,15 @@
         "category": "의류"
       },
       {
+        "start": "04:35",
+        "end": "05:15",
+        "brand": "벨뷰",
+        "product": "25FW 캐시미어 블렌드 조거팬츠",
+        "price": 79900,
+        "link": "https://display.cjonstyle.com/p/item/2071680308?channelCode=30002002",
+        "category": "의류"
+      },
+      {
         "start": "05:15",
         "end": "05:45",
         "brand": "",
@@ -1537,6 +1546,15 @@
         "price": 24900,
         "link": "https://display.cjonstyle.com/p/item/2046647043?channelCode=30002002",
         "category": "일반식품"
+      },
+      {
+        "start": "07:45",
+        "end": "08:45",
+        "brand": "리더스",
+        "product": "PDRN 2% 주름전용 크림",
+        "price": 129000,
+        "link": "https://display.cjonstyle.com/p/item/2079060723?channelCode=30002002",
+        "category": "미용"
       },
       {
         "start": "08:45",
@@ -1811,6 +1829,44 @@
         "price": 258000,
         "link": "https://display.cjonstyle.com/p/item/2076858507?channelCode=30002002",
         "category": "건강식품"
+      }
+    ],
+    "2026-06-30": [
+      {
+        "start": "05:45",
+        "end": "06:45",
+        "brand": "",
+        "product": "플로렌츠 오토네일 손발톱 관리기",
+        "price": 59800,
+        "link": "https://display.cjonstyle.com/p/item/2087120638?channelCode=30002002",
+        "category": "가전"
+      },
+      {
+        "start": "14:45",
+        "end": "15:45",
+        "brand": "신세계푸드",
+        "product": "올반 유황먹인 냉장닭 영양삼계탕 8팩",
+        "price": 60900,
+        "link": "https://display.cjonstyle.com/p/item/2016783619?channelCode=30002002",
+        "category": "일반식품"
+      },
+      {
+        "start": "16:45",
+        "end": "17:45",
+        "brand": "레이델",
+        "product": "폴리코사놀5 30정",
+        "price": 499000,
+        "link": "https://display.cjonstyle.com/p/item/2044146981?channelCode=30002002",
+        "category": "건강식품"
+      },
+      {
+        "start": "17:45",
+        "end": "18:45",
+        "brand": "김하진의집밥한끼",
+        "product": "제주 은갈치 특대 20토막 총 5마리",
+        "price": 59900,
+        "link": "https://display.cjonstyle.com/p/item/2075983562?channelCode=30002002",
+        "category": "일반식품"
       }
     ]
   }

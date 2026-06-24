@@ -939,7 +939,7 @@
         "end": "01:40",
         "brand": "네메르",
         "product": "26SS 코튼 블렌디드 자카드 셔츠",
-        "price": 89000,
+        "price": 79000,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12888190",
         "category": "의류"
       },
@@ -993,7 +993,7 @@
         "end": "05:15",
         "brand": "데렉램 10 크로스비",
         "product": "썸머 크로셰 그물 니트",
-        "price": 51930,
+        "price": 79900,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12844289",
         "category": "의류"
       },
@@ -1018,10 +1018,10 @@
       {
         "start": "07:15",
         "end": "09:25",
-        "brand": "조르쥬 레쉬",
-        "product": "26SS 썸머 코튼 나일론 배럴 팬츠",
-        "price": 59900,
-        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12898799",
+        "brand": "까스텔바작",
+        "product": "까스텔바작 26SS 여성 썸머 프레쉬 쿨링팬츠",
+        "price": 69000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12900439",
         "category": "의류"
       },
       {
@@ -1229,7 +1229,7 @@
         "end": "04:45",
         "brand": "까스텔바작",
         "product": "까스텔바작 26SS 여성 크로쉐 앙상블",
-        "price": 89000,
+        "price": 69000,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12902044",
         "category": "의류"
       },
@@ -1265,7 +1265,7 @@
         "end": "10:25",
         "brand": "사만사타바사",
         "product": "헤이즈 양가죽 토트백",
-        "price": 125800,
+        "price": 148000,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12910340",
         "category": "잡화/주얼리"
       },
@@ -1420,7 +1420,7 @@
         "end": "02:50",
         "brand": "네메르",
         "product": "26SS 코튼 블렌디드 자카드 셔츠",
-        "price": 89000,
+        "price": 79000,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12888190",
         "category": "의류"
       },
@@ -1656,7 +1656,7 @@
         "end": "05:30",
         "brand": "메종비오비(BOB)",
         "product": "BOB 26SS 남성 반팔 카라티셔츠",
-        "price": 119000,
+        "price": 101150,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12897722",
         "category": "의류"
       },
@@ -1975,6 +1975,134 @@
         "product": "웰라쥬 캡슐 앰플 시즌4 vip패키지",
         "price": 279000,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12845832",
+        "category": "미용"
+      }
+    ],
+    "2026-06-30": [
+      {
+        "start": "01:00",
+        "end": "02:00",
+        "brand": "에스까다",
+        "product": "에스까다 더블윙 서포트 브라팬티",
+        "price": 179900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12907670",
+        "category": "언더웨어"
+      },
+      {
+        "start": "02:00",
+        "end": "02:30",
+        "brand": "닥랩",
+        "product": "풀페이스 리프팅 마스크 4BOX 에스떼 더마 수분크림",
+        "price": 99000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12910063",
+        "category": "미용"
+      },
+      {
+        "start": "03:30",
+        "end": "03:50",
+        "brand": "닥터린",
+        "product": "■ 닥터린 콘드로이친 1200 콘레이티 MBP K2",
+        "price": 263200,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12885517",
+        "category": "건강식품"
+      },
+      {
+        "start": "04:20",
+        "end": "04:45",
+        "brand": "까스텔바작",
+        "product": "까스텔바작 26SS 여성 크로쉐 앙상블",
+        "price": 69000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12902044",
+        "category": "의류"
+      },
+      {
+        "start": "04:45",
+        "end": "05:15",
+        "brand": "바이브리짓",
+        "product": "26SS 플라워 아트웍 티셔츠",
+        "price": 79900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12887800",
+        "category": "의류"
+      },
+      {
+        "start": "07:15",
+        "end": "08:15",
+        "brand": "카사베르디",
+        "product": "카사베르디 유기농 레드와인 비니거 6병 2병 전용 용기",
+        "price": 129000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12907231",
+        "category": "건강식품"
+      },
+      {
+        "start": "08:15",
+        "end": "09:25",
+        "brand": "비에날씬",
+        "product": "BNR17 비에날 씬 프로",
+        "price": 300800,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12819768",
+        "category": "건강식품"
+      },
+      {
+        "start": "09:25",
+        "end": "10:25",
+        "brand": "비버리힐스폴로클럽",
+        "product": "■비버리힐스폴로클럽 26SS 여성 코튼 케이블 반팔니트",
+        "price": 76410,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12905604",
+        "category": "의류"
+      },
+      {
+        "start": "15:30",
+        "end": "16:30",
+        "brand": "더프라임넛츠",
+        "product": "■! THE프라임넛츠 견과스프레드 2병",
+        "price": 99900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12910619",
+        "category": "일반식품"
+      },
+      {
+        "start": "18:30",
+        "end": "19:35",
+        "brand": "서일농원",
+        "product": "서분례 명인 콩물 두유 x 60팩",
+        "price": 65550,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12907117",
+        "category": "일반식품"
+      },
+      {
+        "start": "19:35",
+        "end": "20:45",
+        "brand": "가이거골프",
+        "product": "가이거골프 26SS 여성 패턴 후드 반집업",
+        "price": 79000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12908351",
+        "category": "의류"
+      },
+      {
+        "start": "21:45",
+        "end": "22:55",
+        "brand": "테팔",
+        "product": "매직핸즈 세레니티 유칼립투스 풀세트",
+        "price": 139500,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12906554",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "22:55",
+        "end": "23:55",
+        "brand": "리꼼",
+        "product": "르블랑 리꼼 또매진패키지",
+        "price": 168000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12889161",
+        "category": "미용"
+      },
+      {
+        "start": "23:55",
+        "end": "01:00",
+        "brand": "아로마티카",
+        "product": "로즈마리 솔트 스케일링 샴푸 탈모관리패키지",
+        "price": 138000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12906181",
         "category": "미용"
       }
     ]

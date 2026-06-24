@@ -2475,6 +2475,143 @@
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250415965&preview=true",
         "category": "가전"
       }
+    ],
+    "2026-06-30": [
+      {
+        "start": "01:00",
+        "end": "03:55",
+        "brand": "에이스바이옴",
+        "product": "패밀리세트 비에날씬 12BOX 비에날씬프로틴 3BOX",
+        "price": 699000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2201734283&preview=true",
+        "category": "건강식품"
+      },
+      {
+        "start": "03:55",
+        "end": "05:20",
+        "brand": "퓨르토",
+        "product": "퓨르토 메종드 블루베리 퓨레 5 추가구성 140일분",
+        "price": 129000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250943895&preview=true",
+        "category": "건강식품"
+      },
+      {
+        "start": "05:20",
+        "end": "06:00",
+        "brand": "토비콤",
+        "product": "토비콤 루테인지아잔틴",
+        "price": 129000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2213526260&preview=true",
+        "category": "건강식품"
+      },
+      {
+        "start": "06:00",
+        "end": "09:40",
+        "brand": "드시모네",
+        "product": "뉴질랜드 유기농 컬리케일 곱슬케일 100",
+        "price": 198000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250663865&preview=true",
+        "category": "건강식품"
+      },
+      {
+        "start": "09:40",
+        "end": "11:20",
+        "brand": "크린바바",
+        "product": "한번에 싹 버블왕 플러스",
+        "price": 59800,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2244970364&preview=true",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "11:20",
+        "end": "12:20",
+        "brand": "라페어",
+        "product": "라페어 여성 인견 파자마3세트 민소매셋업",
+        "price": 49900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2211497131&preview=true",
+        "category": "언더웨어"
+      },
+      {
+        "start": "12:20",
+        "end": "13:20",
+        "brand": "부케가르니",
+        "product": "비타 콜라겐 바디워시 베스트 패키지",
+        "price": 59900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2217272701&preview=true",
+        "category": "미용"
+      },
+      {
+        "start": "13:20",
+        "end": "14:20",
+        "brand": "로얄카타",
+        "product": "IH 저압냄비 풀세트",
+        "price": 89000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251425585&preview=true",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "14:20",
+        "end": "14:40",
+        "brand": "캄포마르지오",
+        "product": "캄포마르지오 라피나백 파우치 롱스트랩",
+        "price": 39900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250989915&preview=true",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "14:40",
+        "end": "17:20",
+        "brand": "홀라이프",
+        "product": "신정애 원장의 싹빼 다이어트 환 4",
+        "price": 99000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251617346&preview=true",
+        "category": "건강식품"
+      },
+      {
+        "start": "17:20",
+        "end": "18:40",
+        "brand": "제주바람뜰",
+        "product": "제주 우도생땅콩 x 5봉",
+        "price": 59900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251145247&preview=true",
+        "category": "일반식품"
+      },
+      {
+        "start": "18:40",
+        "end": "20:40",
+        "brand": "홈앤아트",
+        "product": "홈앤아트 퓨어 스팀청소기 AMS-200",
+        "price": 214000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250567548&preview=true",
+        "category": "가전"
+      },
+      {
+        "start": "20:40",
+        "end": "22:40",
+        "brand": "온누리투어",
+        "product": "하노이하롱베이 5일 or 푸꾸옥 5일 or 다낭호이안 5일",
+        "price": 765000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251327615&preview=true",
+        "category": "여행"
+      },
+      {
+        "start": "22:40",
+        "end": "23:40",
+        "brand": "베스트넛츠",
+        "product": "프리미엄 견과 100봉",
+        "price": 89900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2238849307&preview=true",
+        "category": "일반식품"
+      },
+      {
+        "start": "23:40",
+        "end": "00:39",
+        "brand": "멜리지 1826",
+        "product": "실크스킨 율무 팩클렌저 5개세트",
+        "price": 49900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2247032471&preview=true",
+        "category": "미용"
+      }
     ]
   }
 }

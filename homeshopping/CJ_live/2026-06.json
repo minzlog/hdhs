@@ -945,17 +945,17 @@
         "start": "06:00",
         "end": "07:15",
         "brand": "라이프밀",
-        "product": "황성주 박사의 라이프 밀 흔들컵1",
-        "price": 249000,
-        "link": "https://display.cjonstyle.com/p/item/2070472670?channelCode=30002002",
+        "product": "황성주 박사의 라이프 밀6 흔들컵2",
+        "price": 298000,
+        "link": "https://display.cjonstyle.com/p/item/2070030642?channelCode=30002002",
         "category": "건강식품"
       },
       {
         "start": "07:15",
         "end": "08:15",
         "brand": "비비안",
-        "product": "스킨핏 아이스 에어홀 브라",
-        "price": 179900,
+        "product": "스킨핏 아이스 에어홀 브라팬티",
+        "price": 139900,
         "link": "https://display.cjonstyle.com/p/item/2081354302?channelCode=30002002",
         "category": "언더웨어"
       },
@@ -964,7 +964,7 @@
         "end": "10:25",
         "brand": "칼라거펠트",
         "product": "25FW FAUX밍크 롱 코트",
-        "price": 239000,
+        "price": 119500,
         "link": "https://display.cjonstyle.com/p/item/2072623811?channelCode=30002002",
         "category": "의류"
       },
@@ -1812,6 +1812,134 @@
         "price": 198000,
         "link": "https://display.cjonstyle.com/p/item/2087064878?channelCode=30002002",
         "category": "미용"
+      }
+    ],
+    "2026-06-30": [
+      {
+        "start": "01:00",
+        "end": "02:00",
+        "brand": "비에날씬",
+        "product": "NEW 프로 다이어트 모유유래 유산균24주",
+        "price": 376000,
+        "link": "https://display.cjonstyle.com/p/item/2037129083?channelCode=30002002",
+        "category": "건강식품"
+      },
+      {
+        "start": "05:00",
+        "end": "06:00",
+        "brand": "신영와코루",
+        "product": "올레이스 보정 브라렛",
+        "price": 159900,
+        "link": "https://display.cjonstyle.com/p/item/2057404389?channelCode=30002002",
+        "category": "언더웨어"
+      },
+      {
+        "start": "06:00",
+        "end": "07:15",
+        "brand": "박술녀",
+        "product": "풍기인견 침구 풀세트SS",
+        "price": 159000,
+        "link": "https://display.cjonstyle.com/p/item/2086473133?channelCode=30002002",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "07:15",
+        "end": "08:15",
+        "brand": "AHC",
+        "product": "마스터즈 아쿠아 리치 선스틱 선크림",
+        "price": 119000,
+        "link": "https://display.cjonstyle.com/p/item/2082090157?channelCode=30002002",
+        "category": "미용"
+      },
+      {
+        "start": "08:15",
+        "end": "09:20",
+        "brand": "리터니티",
+        "product": "율무 스킨클린 팩 대용량 율무토너 스파츌러",
+        "price": 189000,
+        "link": "https://display.cjonstyle.com/p/item/2087073609?channelCode=30002002",
+        "category": "미용"
+      },
+      {
+        "start": "10:25",
+        "end": "11:35",
+        "brand": "대원제약",
+        "product": "콘드로이친 킹",
+        "price": 0,
+        "link": "https://display.cjonstyle.com/p/item/2087330538?channelCode=30002002",
+        "category": "건강식품"
+      },
+      {
+        "start": "11:35",
+        "end": "12:35",
+        "brand": "코이",
+        "product": "단백질관리 고밀도 크림",
+        "price": 369000,
+        "link": "https://display.cjonstyle.com/p/item/2074844600?channelCode=30002002",
+        "category": "미용"
+      },
+      {
+        "start": "14:35",
+        "end": "15:30",
+        "brand": "LG전자",
+        "product": "LG 퓨리케어 AI 오브제 360 공기청정기 M7 35형 무빙휠",
+        "price": 2050000,
+        "link": "https://display.cjonstyle.com/p/item/2082821622?channelCode=30002002",
+        "category": "가전"
+      },
+      {
+        "start": "15:30",
+        "end": "16:30",
+        "brand": "뉴트리원",
+        "product": "164 루테인지아잔틴GR",
+        "price": 209000,
+        "link": "https://display.cjonstyle.com/p/item/2027927538?channelCode=30002002",
+        "category": "건강식품"
+      },
+      {
+        "start": "16:30",
+        "end": "17:30",
+        "brand": "링티",
+        "product": "액티브 프로 보틀2개",
+        "price": 186500,
+        "link": "https://display.cjonstyle.com/p/item/2085065601?channelCode=30002002",
+        "category": "건강식품"
+      },
+      {
+        "start": "17:30",
+        "end": "18:30",
+        "brand": "뮤엘올리바",
+        "product": "스페인 엑스트라버진 올리브오일 5병",
+        "price": 105000,
+        "link": "https://display.cjonstyle.com/p/item/2083808605?channelCode=30002002",
+        "category": "일반식품"
+      },
+      {
+        "start": "19:35",
+        "end": "20:45",
+        "brand": "베라왕",
+        "product": "26SS 라운드 컬러 변색 선글라스_벨라_LIVE",
+        "price": 99000,
+        "link": "https://display.cjonstyle.com/p/item/2079558255?channelCode=30002002",
+        "category": "잡화/주얼리"
+      },
+      {
+        "start": "22:55",
+        "end": "23:55",
+        "brand": "르마스",
+        "product": "쿠르 마스크팩 매니아 구성",
+        "price": 69900,
+        "link": "https://display.cjonstyle.com/p/item/2086995171?channelCode=30002002",
+        "category": "미용"
+      },
+      {
+        "start": "23:55",
+        "end": "01:00",
+        "brand": "센존블루라벨",
+        "product": "3-1 센존 블루라벨 26SS 이태리 큐브백",
+        "price": 389000,
+        "link": "https://display.cjonstyle.com/p/item/2078800374?channelCode=30002002",
+        "category": "잡화/주얼리"
       }
     ]
   }
