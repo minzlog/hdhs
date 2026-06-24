@@ -674,6 +674,20 @@
     padding-bottom: 8px;
   }
 
+  .dv-basis {
+    text-align: center;
+    font-size: 11px;
+    color: var(--ink-soft);
+    padding: 8px 0;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 8px;
+  }
+  .dv-basis strong {
+    color: var(--ink);
+    font-weight: 600;
+  }
+
   .dv-scroll {
     overflow: auto;
     background: var(--paper);
@@ -1072,6 +1086,8 @@
 </div>
 
 <div class="dv-updated" id="dvUpdated"></div>
+
+<div class="dv-basis" id="dvBasis"></div>
 
 <div class="dv-scroll" id="dvGridWrap"></div>
 
@@ -1572,6 +1588,17 @@ function dvRenderUpdated(data) {
   el.textContent = `최종 수집: ${d.getFullYear()}.${pad(d.getMonth()+1)}.${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}`;
 }
 
+function dvRenderBasis() {
+  const el = document.getElementById('dvBasis');
+  if (!el) return;
+  
+  if (dvFilter === "high") {
+    el.innerHTML = '● 고효율 기준: <strong>[드라마]</strong> 시청률 10% 이상 · <strong>[예능]</strong> 시청률 3% 이상';
+  } else {
+    el.innerHTML = '● 크롤링 기준: <strong>[드라마]</strong> 시청률 5% 이상 · <strong>[예능]</strong> 시청률 1% 이상';
+  }
+}
+
 function dvEscapeHtml(s) {
   if (s == null) return '';
   return String(s)
@@ -1622,8 +1649,11 @@ function dvRenderGrid(data) {
         const cellClass = dayPrograms.length ? 'dv-day-cell' : 'dv-day-cell dv-empty-cell';
         html += `<td class="${cellClass}">`;
         for (const p of dayPrograms) {
-          const isHighRating = (p.category === 'drama' && p.rating >= 10) || 
-                               (p.category === 'variety' && p.rating >= 3);
+          // 전체/드라마/예능 탭에서만 노란색 강조, 고효율 탭에서는 강조 안 함
+          const isHighRating = dvFilter !== "high" && (
+            (p.category === 'drama' && p.rating >= 10) || 
+            (p.category === 'variety' && p.rating >= 3)
+          );
           const safeLink = dvEscapeHtml(p.link || '#');
           const cardCls = `dv-card dv-cat-${p.category}${isHighRating ? ' dv-high-rating' : ''}`;
           html += `<a class="${cardCls}" href="${safeLink}" target="_blank" rel="noopener">`;
@@ -1646,6 +1676,7 @@ async function dvRefresh(weekStart) {
   document.getElementById('dvWeekLabel').textContent = dvFormatWeekLabel(weekStart);
   const data = await dvLoadWeek(weekStart);
   dvRenderUpdated(data);
+  dvRenderBasis();
   dvRenderGrid(data);
 }
 
