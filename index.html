@@ -1081,7 +1081,7 @@
     <button class="dv-slicer-btn active" data-filter="all">전체</button>
     <button class="dv-slicer-btn" data-filter="drama">드라마</button>
     <button class="dv-slicer-btn" data-filter="variety">예능</button>
-    <button class="dv-slicer-btn" data-filter="high">고효율</button>
+    <button class="dv-slicer-btn" data-filter="high">고시청률</button>
   </div>
 </div>
 
@@ -1593,7 +1593,7 @@ function dvRenderBasis() {
   if (!el) return;
   
   if (dvFilter === "high") {
-    el.innerHTML = '● 고효율 기준: <strong>[드라마]</strong> 시청률 10% 이상 · <strong>[예능]</strong> 시청률 3% 이상';
+    el.innerHTML = '● 고시청률 기준: <strong>[드라마]</strong> 시청률 10% 이상 · <strong>[예능]</strong> 시청률 3% 이상';
   } else {
     el.innerHTML = '● 크롤링 기준: <strong>[드라마]</strong> 시청률 5% 이상 · <strong>[예능]</strong> 시청률 1% 이상';
   }
@@ -1620,7 +1620,7 @@ function dvRenderGrid(data) {
   } else if (dvFilter === "variety") {
     filteredPrograms = programs.filter(p => p.category === "variety");
   } else if (dvFilter === "high") {
-    // 고효율: 드라마 10%+, 예능 3%+
+    // 고시청률: 드라마 10%+, 예능 3%+
     filteredPrograms = programs.filter(p => 
       (p.category === "drama" && p.rating >= 10) || 
       (p.category === "variety" && p.rating >= 3)
@@ -1628,7 +1628,7 @@ function dvRenderGrid(data) {
   }
 
   const genres = dvFilter === "high" 
-    ? DV_GENRES  // 고효율일 때는 둘 다 보여줌
+    ? DV_GENRES  // 고시청률일 때는 둘 다 보여줌
     : (dvFilter === "all" ? DV_GENRES : DV_GENRES.filter(g => g.key === dvFilter));
 
   let html = '<table class="dv-table"><thead><tr><th class="dv-genre-col"></th>';
