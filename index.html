@@ -717,10 +717,10 @@
 
   table.dv-table td.dv-day-cell {
     border-right: 1px solid var(--rule);
-    border-bottom: 1px solid var(--rule);
+    border-bottom: 2px solid var(--rule);
     vertical-align: top;
     padding: 0;
-    min-width: 146px; /* 1.2배 확장 */
+    min-width: 146px;
     background: var(--paper);
   }
 
@@ -1067,7 +1067,7 @@
     <button class="dv-slicer-btn active" data-filter="all">전체</button>
     <button class="dv-slicer-btn" data-filter="drama">드라마</button>
     <button class="dv-slicer-btn" data-filter="variety">예능</button>
-    <button class="dv-slicer-btn" data-filter="high_eff">고효율</button>
+    <button class="dv-slicer-btn" data-filter="high">고효율</button>
   </div>
 </div>
 
@@ -1272,4 +1272,850 @@ function nowWithinDay(dateStr) {
 }
 
 function renderGrid(data, dateStr) {
-  const wrap = document.getElementById('grid
+  const wrap = document.getElementById('gridWrap');
+  const noData = document.getElementById('noData');
+
+  if (!data) {
+    wrap.innerHTML = '';
+    noData.style.display = 'block';
+    return;
+  }
+  noData.style.display = 'none';
+
+  const nowMin = nowWithinDay(dateStr);
+  const hours = buildHourMarks();
+
+  // 채널별 프로그램을 분 단위로 정렬해두기
+  const channelPrograms = {};
+  CHANNELS.forEach(ch => {
+    const list = (data[ch.key] || []).slice().sort((a,b) => timeToMinutes(a.start) - timeToMinutes(b.start));
+    channelPrograms[ch.key] = list;
+  });
+
+  let html = '<div class="scroll-x"><table class="schedule"><thead><tr>';
+  html += '<th class="time-col">시간</th>';
+  CHANNELS.forEach(ch => {
+    html += `<th class="${ch.group}">${ch.key}<span class="ch-band"></span></th>`;
+  });
+  html += '</tr></thead><tbody>';
+
+  hours.forEach(h => {
+    html += '<tr>';
+    html += `<td class="time-col"><span class="hh">${String(h).padStart(2,'0')}</span>:00</td>`;
+
+    CHANNELS.forEach(ch => {
+      const progs = channelPrograms[ch.key];
+      // 이 시(hour) 안에서 "시작하는" 프로그램만 모음
+      const inThisHour = progs.filter(p => Math.floor(timeToMinutes(p.start) / 60) === h);
+
+      html += '<td class="prog-cell">';
+      if (inThisHour.length === 0) {
+        html += '<div class="prog-block empty">—</div>';
+      } else {
+        inThisHour.forEach(p => {
+          const startMin = timeToMinutes(p.start);
+          const endMin = p.end === '24:00' ? 24*60 : timeToMinutes(p.end);
+          const isNow = nowMin !== null && nowMin >= startMin && nowMin < endMin;
+          html += `<div class="prog-block${isNow ? ' now' : ''}">`;
+          html += `<span class="ptime">${p.start}–${p.end === '24:00' ? '24:00' : p.end}</span>`;
+          html += escapeHtml(p.title);
+          html += '</div>';
+        });
+      }
+      html += '</td>';
+    });
+
+    html += '</tr>';
+  });
+
+  html += '</tbody></table></div>';
+  wrap.innerHTML = html;
+
+  // 오늘 날짜이고 ON-AIR 중인 방송이 있으면 그 시간대로 자동 스크롤
+  if (nowMin !== null) {
+    const nowBlock = wrap.querySelector('.prog-block.now');
+    if (nowBlock) {
+      const scrollContainer = wrap.querySelector('.scroll-x');
+      const row = nowBlock.closest('tr');
+      if (scrollContainer && row) {
+        // 현재 시간대가 화면 위쪽에서 적당히 보이도록 약간 위 여백을 두고 스크롤
+        const offset = row.offsetTop - 40;
+        scrollContainer.scrollTop = Math.max(0, offset);
+      }
+    }
+  }
+}
+
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+async function refresh(dateStr) {
+  document.getElementById('dateText').textContent = formatDateLabel(dateStr);
+  document.getElementById('todayBadge').style.display = isToday(dateStr) ? 'inline-block' : 'none';
+  const data = await getDataForDate(dateStr);
+  renderGrid(data, dateStr);
+
+  const weather = await getWeatherForDate(dateStr);
+  renderWeatherBar(weather);
+}
+
+function shiftDate(dateStr, delta) {
+  const d = new Date(dateStr + 'T00:00:00');
+  d.setDate(d.getDate() + delta);
+  return toLocalDateStr(d);
+}
+
+// ============ 날씨 탭: 월간 달력 ============
+const WEEKDAYS = ['일', '월', '화', '수', '목', '금', '토'];
+
+function todayStr() { return toLocalDateStr(new Date()); }
+
+async function loadMonthData(year, month) {
+  const ym = `${year}-${String(month).padStart(2, '0')}`;
+  const lastYearYm = `${year - 1}-${String(month).padStart(2, '0')}`;
+
+  const [asos, forecast, lastYearAsos] = await Promise.all([
+    fetchJsonSafe(`./weather/asos/${ym}.json`),
+    fetchJsonSafe('./weather/forecast/latest.json'),
+    fetchJsonSafe(`./weather/asos/${lastYearYm}.json`),
+  ]);
+
+  return {
+    asos: asos || {},
+    forecast: forecast || {},
+    lastYearAsos: lastYearAsos || {},
+  };
+}
+
+function getDayData(dateStr, monthData) {
+  if (monthData.forecast[dateStr]) {
+    return { ...monthData.forecast[dateStr], kind: 'forecast' };
+  }
+  if (monthData.asos[dateStr]) {
+    return { ...monthData.asos[dateStr], kind: 'asos' };
+  }
+  return null;
+}
+
+function getLastYearData(dateStr, monthData) {
+  const d = new Date(dateStr + 'T00:00:00');
+  const lyDateStr = `${d.getFullYear() - 1}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+  return monthData.lastYearAsos[lyDateStr] || null;
+}
+
+function renderDayCell(year, month, day, monthData, today) {
+  const dateStr = `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+  const dow = new Date(dateStr + 'T00:00:00').getDay();
+  const isToday = dateStr === today;
+  const isFuture = dateStr > today;
+
+  const cellClasses = ['cal-cell'];
+  if (isToday) cellClasses.push('today-cell');
+  else if (isFuture) cellClasses.push('future-cell');
+
+  const dowClass = dow === 0 ? 'sun' : (dow === 6 ? 'sat' : '');
+
+  const data = getDayData(dateStr, monthData);
+
+  let statsHtml;
+  if (!data) {
+    statsHtml = '<div class="no-data-cell">정보없음</div>';
+  } else {
+    const minStr = (data.minTa === null || data.minTa === undefined) ? '–' : `${data.minTa.toFixed(0)}°`;
+    const maxStr = (data.maxTa === null || data.maxTa === undefined) ? '–' : `${data.maxTa.toFixed(0)}°`;
+
+    let rainStr, hasRain;
+    if (data.kind === 'forecast') {
+      rainStr = `${Math.round(data.pop_max)}%`;
+      hasRain = data.pop_max >= 30;
+    } else {
+      rainStr = `${data.sumRn.toFixed(1)}mm`;
+      hasRain = data.sumRn > 0;
+    }
+
+    let lyHtml = '';
+    const ly = getLastYearData(dateStr, monthData);
+    if (ly && ly.minTa !== null && ly.maxTa !== null) {
+      lyHtml = `<div class="ly">작년 ${ly.minTa.toFixed(0)}°/${ly.maxTa.toFixed(0)}°</div>`;
+    }
+
+    statsHtml =
+      `<div class="day-stats">` +
+      `<div class="row"><span class="min">최저 ${minStr}</span></div>` +
+      `<div class="row"><span class="max">최고 ${maxStr}</span></div>` +
+      `<div class="row"><span class="rain${hasRain ? ' has-rain' : ''}">비 ${rainStr}</span></div>` +
+      lyHtml +
+      `</div>`;
+  }
+
+  return `<td class="${cellClasses.join(' ')}">` +
+         `<div class="day-num ${dowClass}">${day}</div>` +
+         statsHtml +
+         `</td>`;
+}
+
+async function renderMonth(year, month) {
+  const ym = `${year}-${String(month).padStart(2, '0')}`;
+  document.getElementById('monthLabel').textContent = `${year}.${String(month).padStart(2, '0')}`;
+  if (document.getElementById('monthPickerPanel').classList.contains('open')) {
+    renderMonthPickerPanel();
+  }
+
+  const monthData = await loadMonthData(year, month);
+  const today = todayStr();
+
+  const firstDow = new Date(year, month - 1, 1).getDay();
+  const daysInMonth = new Date(year, month, 0).getDate();
+
+  let html = '<table class="calendar"><thead><tr>';
+  WEEKDAYS.forEach((w, i) => {
+    const cls = i === 0 ? 'sun' : (i === 6 ? 'sat' : '');
+    html += `<th class="${cls}">${w}</th>`;
+  });
+  html += '</tr></thead><tbody><tr>';
+
+  for (let i = 0; i < firstDow; i++) html += '<td class="empty"></td>';
+
+  let dow = firstDow;
+  for (let day = 1; day <= daysInMonth; day++) {
+    html += renderDayCell(year, month, day, monthData, today);
+    dow++;
+    if (dow === 7) {
+      html += '</tr><tr>';
+      dow = 0;
+    }
+  }
+  while (dow !== 0 && dow !== 7) {
+    html += '<td class="empty"></td>';
+    dow++;
+  }
+
+  html += '</tr></tbody></table>';
+  document.getElementById('calWrap').innerHTML = html;
+}
+
+// ============ 탭 전환 ============
+let currentYear, currentMonth;
+let pickerPanelYear;
+let _weatherTabLoaded = false;
+let _homeshopTabLoaded = false;
+let _dramaVarietyTabLoaded = false;
+
+// ============ 드라마/예능 탭 ============
+// 데이터 스키마 (주차 단위 스냅샷):
+// {
+//   "weekStart": "2026-06-22", "weekEnd": "2026-06-28",
+//   "collectedAt": "2026-06-22T09:00:00+09:00",
+//   "programs": [
+//     { "id": "...", "category": "drama"|"variety", "channel": "tvN",
+//       "title": "내일도 출근!", "days": ["월","화"], "time": "오후 08:50",
+//       "rating": 4.8, "ratingDate": "2026-06-22",
+//       "link": "https://search.naver.com/..." }
+//   ]
+// }
+let dvWeekStart = "2026-06-22";  // 항상 해당 주의 월요일 날짜
+let dvFilter = "all";            // 'all' | 'drama' | 'variety' | 'high'
+let dvCache = {};                 // weekStart -> data
+const DV_DAYS = ["월", "화", "수", "목", "금", "토", "일"];
+const DV_GENRES = [
+  { key: "drama", label: "드라마" },
+  { key: "variety", label: "예능" }
+];
+
+function dvMondayOf(dateStr) {
+  // dateStr 기준 그 주의 월요일(YYYY-MM-DD)을 구한다
+  const d = new Date(dateStr + "T00:00:00");
+  const dow = d.getDay(); // 0=일 ... 6=토
+  const diff = (dow === 0) ? -6 : (1 - dow);
+  d.setDate(d.getDate() + diff);
+  return toLocalDateStr(d);
+}
+
+function dvShiftWeek(weekStart, deltaWeeks) {
+  const d = new Date(weekStart + "T00:00:00");
+  d.setDate(d.getDate() + deltaWeeks * 7);
+  return toLocalDateStr(d);
+}
+
+function dvWeekEnd(weekStart) {
+  const d = new Date(weekStart + "T00:00:00");
+  d.setDate(d.getDate() + 6);
+  return toLocalDateStr(d);
+}
+
+function dvFormatWeekLabel(weekStart) {
+  const fmt = (s) => s.replace(/-/g, ".");
+  return `${fmt(weekStart)} ~ ${fmt(dvWeekEnd(weekStart))}`;
+}
+
+async function dvLoadWeek(weekStart) {
+  if (dvCache[weekStart]) return dvCache[weekStart];
+  try {
+    const resp = await fetch(`./data/dramavariety/${weekStart}.json`);
+    if (!resp.ok) throw new Error("not found");
+    const data = await resp.json();
+    dvCache[weekStart] = data;
+    return data;
+  } catch (e) {
+    return null;
+  }
+}
+
+function dvRenderUpdated(data) {
+  const el = document.getElementById('dvUpdated');
+  if (!data || !data.collectedAt) { el.textContent = ""; return; }
+  const d = new Date(data.collectedAt);
+  const pad = (n) => String(n).padStart(2, "0");
+  el.textContent = `최종 수집: ${d.getFullYear()}.${pad(d.getMonth()+1)}.${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}`;
+}
+
+function dvEscapeHtml(s) {
+  if (s == null) return '';
+  return String(s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+function dvRenderGrid(data) {
+  const wrap = document.getElementById('dvGridWrap');
+  const programs = (data && data.programs) ? data.programs : [];
+
+  // 필터링 로직
+  let filteredPrograms = programs;
+  if (dvFilter === "drama") {
+    filteredPrograms = programs.filter(p => p.category === "drama");
+  } else if (dvFilter === "variety") {
+    filteredPrograms = programs.filter(p => p.category === "variety");
+  } else if (dvFilter === "high") {
+    // 고효율: 드라마 10%+, 예능 3%+
+    filteredPrograms = programs.filter(p => 
+      (p.category === "drama" && p.rating >= 10) || 
+      (p.category === "variety" && p.rating >= 3)
+    );
+  }
+
+  const genres = dvFilter === "high" 
+    ? DV_GENRES  // 고효율일 때는 둘 다 보여줌
+    : (dvFilter === "all" ? DV_GENRES : DV_GENRES.filter(g => g.key === dvFilter));
+
+  let html = '<table class="dv-table"><thead><tr><th class="dv-genre-col"></th>';
+  for (const day of DV_DAYS) html += `<th>${day}</th>`;
+  html += '</tr></thead><tbody>';
+
+  if (!filteredPrograms.length) {
+    html += `<tr class="dv-empty-row"><td colspan="${DV_DAYS.length + 1}">이 주차의 수집 데이터가 없습니다</td></tr>`;
+  } else {
+    for (const genre of genres) {
+      const genrePrograms = filteredPrograms.filter(p => p.category === genre.key);
+      if (genrePrograms.length === 0 && dvFilter !== "all" && dvFilter !== "high") continue;
+      
+      const genreClass = genre.key === 'drama' ? 'dv-genre-drama' : 'dv-genre-variety';
+      html += `<tr><td class="dv-genre-label ${genreClass}">${genre.label}</td>`;
+      for (const day of DV_DAYS) {
+        const dayPrograms = genrePrograms.filter(p => p.days.includes(day));
+        const cellClass = dayPrograms.length ? 'dv-day-cell' : 'dv-day-cell dv-empty-cell';
+        html += `<td class="${cellClass}">`;
+        for (const p of dayPrograms) {
+          const isHighRating = (p.category === 'drama' && p.rating >= 10) || 
+                               (p.category === 'variety' && p.rating >= 3);
+          const safeLink = dvEscapeHtml(p.link || '#');
+          const cardCls = `dv-card dv-cat-${p.category}${isHighRating ? ' dv-high-rating' : ''}`;
+          html += `<a class="${cardCls}" href="${safeLink}" target="_blank" rel="noopener">`;
+          html += `<span class="dv-title"><span class="dv-channel">[${dvEscapeHtml(p.channel)}]</span> ${dvEscapeHtml(p.title)}</span>`;
+          html += `<span class="dv-meta">(${dvEscapeHtml(p.days.join(', '))}) ${dvEscapeHtml(p.time)}</span>`;
+          html += `<span class="dv-rating">${dvEscapeHtml(p.rating)}%</span> <span class="dv-rating-date">${p.ratingDate ? '(' + dvEscapeHtml(p.ratingDate) + ')' : ''}</span>`;
+          html += `</a>`;
+        }
+        html += `</td>`;
+      }
+      html += `</tr>`;
+    }
+  }
+
+  html += '</tbody></table>';
+  wrap.innerHTML = html;
+}
+
+async function dvRefresh(weekStart) {
+  document.getElementById('dvWeekLabel').textContent = dvFormatWeekLabel(weekStart);
+  const data = await dvLoadWeek(weekStart);
+  dvRenderUpdated(data);
+  dvRenderGrid(data);
+}
+
+// ============ 홈쇼핑 탭 ============
+let hsCurrentDate = "2026-06-21";
+let hsCurrentBc = "live";  // 'live' | 'data'
+let hsCategoryFilter = null;  // null = 전체보기, 문자열 = 해당 카테고리만
+const HS_COMPANIES = [
+  { code: 'HD', name: 'HD', cls: 'hd' },
+  { code: 'GS', name: 'GS', cls: 'gs' },
+  { code: 'CJ', name: 'CJ', cls: 'cj' },
+  { code: 'LT', name: 'LT', cls: 'lt' },
+];
+const _hsCache = {};  // key: "HD_live_2026-06" -> month data
+
+async function hsLoadCompanyDate(code, bc, dateStr) {
+  const ym = dateStr.slice(0, 7);  // 'YYYY-MM'
+  const key = `${code}_${bc}_${ym}`;
+  if (!(key in _hsCache)) {
+    _hsCache[key] = await fetchJsonSafe(`./homeshopping/${code}_${bc}/${ym}.json`);
+  }
+  const monthData = _hsCache[key];
+  if (monthData && monthData.days && monthData.days[dateStr]) {
+    return { programs: monthData.days[dateStr] };
+  }
+  return null;
+}
+
+function hsNowMinutes(dateStr) {
+  const today = toLocalDateStr(new Date());
+  if (dateStr !== today) return null;
+  const now = new Date();
+  return now.getHours() * 60 + now.getMinutes();
+}
+
+function hsTimeToMin(t) {
+  const [h, m] = t.split(':').map(Number);
+  return h * 60 + m;
+}
+
+// 판매가를 한국식 축약 표기로: 39000 -> "39천원", 1200000 -> "120만원"
+function hsFormatPrice(won) {
+  if (!won || won <= 0) return '';
+  if (won >= 1000000) {
+    const man = Math.floor(won / 10000);  // 100만원 이상: 만원 단위 버림
+    return `<span class="hs-price">${man}만<span class="won">원</span></span>`;
+  }
+  if (won >= 1000) {
+    const cheon = Math.floor(won / 1000);  // 100만원 미만: 천원 단위 버림 (89,900원 -> 89천원)
+    return `<span class="hs-price">${cheon}천<span class="won">원</span></span>`;
+  }
+  return `<span class="hs-price">${won}<span class="won">원</span></span>`;
+}
+
+// 카테고리별 좌측 컬러 바 (학습 모델의 22개 클래스 기준)
+const HS_CATEGORY_COLORS = {
+  '의류': '#E07A5F', '잡화/주얼리': '#D88C9A', '언더웨어': '#F4A8B8',
+  '미용': '#C9ADA7', '건강식품': '#84A98C', '일반식품': '#A3B18A',
+  '가전': '#457B9D', '리빙/주방': '#BC6C25', '여행': '#4895EF',
+  '보험': '#6C757D', '일반렌탈': '#8D99AE', '문화/스포츠': '#F3722C',
+};
+function hsCategoryColor(category) {
+  return HS_CATEGORY_COLORS[category] || '#9C9486';  // 매핑 없는 기타 카테고리(GA 등)는 중립색
+}
+
+function hsRenderCategoryLegend() {
+  const el = document.getElementById('hsCatLegend');
+  if (!el) return;
+
+  let html = `<button type="button" class="hs-cat-chip hs-cat-reset${hsCategoryFilter === null ? ' active' : ''}" data-cat="">전체보기</button>`;
+  for (const [cat, color] of Object.entries(HS_CATEGORY_COLORS)) {
+    const active = hsCategoryFilter === cat ? ' active' : '';
+    html += `<button type="button" class="hs-cat-chip${active}" data-cat="${escapeHtml(cat)}">` +
+            `<i style="background:${color};"></i>${escapeHtml(cat)}</button>`;
+  }
+
+  el.innerHTML = html;
+
+  if (!el.dataset.bound) {
+    el.addEventListener('click', (e) => {
+      const btn = e.target.closest('.hs-cat-chip');
+      if (!btn) return;
+      const cat = btn.dataset.cat;
+      hsCategoryFilter = cat === '' ? null : cat;
+      hsRenderCategoryLegend();
+      hsRenderBody();
+    });
+    el.dataset.bound = '1';
+  }
+}
+
+function hsRenderProgram(p, nowMin) {
+  let onair = false;
+  if (nowMin !== null && p.start && p.end) {
+    let s = hsTimeToMin(p.start);
+    let e = hsTimeToMin(p.end);
+    if (e <= s) e += 24 * 60;
+    if (nowMin >= s && nowMin < e) onair = true;
+  }
+
+  // 방송 소요분 계산 (예: 60분 -> "60'")
+  let durationMin = null;
+  if (p.start && p.end) {
+    let s = hsTimeToMin(p.start);
+    let e = hsTimeToMin(p.end);
+    if (e <= s) e += 24 * 60;
+    durationMin = e - s;
+  }
+  const durationStr = durationMin !== null ? ` (${durationMin}')` : '';
+
+  // 브랜드와 상품명을 분리해서 각각 다른 색으로 표시
+  const brandHtml = p.brand ? `<span class="hs-brand">${escapeHtml(p.brand)}</span> ` : '';
+  const productText = p.product || (p.brand ? '' : '(정보 없음)');
+
+  const priceHtml = hsFormatPrice(p.price);
+  const color = hsCategoryColor(p.category);
+  const gotoHtml = p.link
+    ? `<a class="hs-goto" href="${p.link}" target="_blank" rel="noopener">바로가기</a>`
+    : '';
+
+  return `<div class="hs-prog" style="border-left-color:${color};">` +
+         `<div class="hs-time${onair ? ' onair' : ''}">${p.start}–${p.end}${durationStr}` +
+         (onair ? '<span class="hs-onair-badge">방송중</span>' : '') +
+         `</div>` +
+         `<div class="hs-title">${brandHtml}${escapeHtml(productText)}</div>` +
+         `<div class="hs-bottom-row">${priceHtml}${gotoHtml}</div>` +
+         `</div>`;
+}
+
+let _hsLastDatasets = null;  // 최근 로드된 4사 데이터 (필터만 바뀔 때 재사용)
+let _hsLastDateStr = null;
+
+async function hsRefresh(dateStr) {
+  hsRenderCategoryLegend();
+  document.getElementById('hsDateText').textContent = formatDateLabel(dateStr);
+  const wrap = document.getElementById('hsGridWrap');
+  wrap.innerHTML = '<div style="text-align:center;padding:30px;color:var(--ink-soft);font-size:12px;">불러오는 중…</div>';
+
+  // 4사 데이터 동시 로드
+  const datasets = await Promise.all(
+    HS_COMPANIES.map(c => hsLoadCompanyDate(c.code, hsCurrentBc, dateStr))
+  );
+  _hsLastDatasets = datasets;
+  _hsLastDateStr = dateStr;
+
+  hsRenderBody();
+}
+
+function hsMatchesFilter(p) {
+  if (hsCategoryFilter === null) return true;
+  return p.category === hsCategoryFilter;
+}
+
+function hsRenderBody() {
+  const wrap = document.getElementById('hsGridWrap');
+  const datasets = _hsLastDatasets;
+  const dateStr = _hsLastDateStr;
+  if (!datasets) return;
+
+  const nowMin = hsNowMinutes(dateStr);
+  const hasAny = datasets.some(d => d && d.programs && d.programs.length > 0);
+  if (!hasAny) {
+    wrap.innerHTML = '<div style="text-align:center;padding:40px;color:var(--ink-soft);font-size:13px;">이 날짜의 홈쇼핑 편성 데이터가 없습니다.</div>';
+    return;
+  }
+
+  if (hsCategoryFilter === null) {
+    wrap.innerHTML = hsRenderGridView(datasets, nowMin);
+    hsScrollToCurrentHour(wrap, nowMin);
+  } else {
+    wrap.innerHTML = hsRenderListView(datasets, nowMin);
+  }
+}
+
+// 오늘 날짜이고 현재 시각 정보가 있으면, 그 시간대 행으로 자동 스크롤
+function hsScrollToCurrentHour(wrap, nowMin) {
+  if (nowMin === null) return;
+  const hour = Math.floor(nowMin / 60);
+  const rows = wrap.querySelectorAll('table.hs-table tbody tr');
+  const targetRow = rows[hour];
+  const scrollContainer = wrap.querySelector('.hs-scroll');
+  if (targetRow && scrollContainer) {
+    const offset = targetRow.offsetTop - 40;
+    scrollContainer.scrollTop = Math.max(0, offset);
+  }
+}
+
+// 전체보기: 24시간 × 회사 그리드
+function hsRenderGridView(datasets, nowMin) {
+  const buckets = {};
+  for (let h = 0; h < 24; h++) buckets[h] = HS_COMPANIES.map(() => []);
+
+  datasets.forEach((data, ci) => {
+    const programs = (data && data.programs) ? data.programs : [];
+    for (const p of programs) {
+      if (!p.start) continue;
+      const hour = parseInt(p.start.split(':')[0], 10);
+      if (hour >= 0 && hour < 24) buckets[hour][ci].push(p);
+    }
+  });
+
+  let html = '<div class="hs-scroll"><table class="hs-table"><thead><tr>';
+  html += '<th class="hs-time-col">시간</th>';
+  HS_COMPANIES.forEach(c => {
+    html += `<th class="${c.cls}"><span class="hs-co-tag">${c.name}</span></th>`;
+  });
+  html += '</tr></thead><tbody>';
+
+  for (let h = 0; h < 24; h++) {
+    html += '<tr>';
+    html += `<td class="hs-time-cell">${String(h).padStart(2, '0')}시</td>`;
+    HS_COMPANIES.forEach((c, ci) => {
+      const progs = buckets[h][ci];
+      if (progs.length === 0) {
+        html += `<td class="hs-empty-cell hs-co-cell ${c.cls}"></td>`;
+      } else {
+        let cell = `<td class="hs-co-cell ${c.cls}"><div class="hs-cell-inner">`;
+        for (const p of progs) cell += hsRenderProgram(p, nowMin);
+        cell += '</div></td>';
+        html += cell;
+      }
+    });
+    html += '</tr>';
+  }
+
+  html += '</tbody></table></div>';
+  return html;
+}
+
+// 카테고리 필터링: 시간 컬럼 공란, 회사별로 카드만 빈틈없이 쌓기
+function hsRenderListView(datasets, nowMin) {
+  const filtered = HS_COMPANIES.map((c, ci) => {
+    const programs = (datasets[ci] && datasets[ci].programs) ? datasets[ci].programs : [];
+    return programs.filter(hsMatchesFilter);
+  });
+
+  const anyMatch = filtered.some(arr => arr.length > 0);
+  if (!anyMatch) {
+    return '<div style="text-align:center;padding:40px;color:var(--ink-soft);font-size:13px;">해당 카테고리의 편성이 없습니다.</div>';
+  }
+
+  let html = '<div class="hs-scroll"><table class="hs-table hs-table-list"><thead><tr>';
+  html += '<th class="hs-time-col"></th>';
+  HS_COMPANIES.forEach(c => {
+    html += `<th class="${c.cls}"><span class="hs-co-tag">${c.name}</span></th>`;
+  });
+  html += '</tr></thead><tbody><tr>';
+  html += '<td class="hs-time-cell"></td>';
+  HS_COMPANIES.forEach((c, ci) => {
+    const progs = filtered[ci];
+    if (progs.length === 0) {
+      html += `<td class="hs-empty-cell hs-co-cell ${c.cls}"></td>`;
+    } else {
+      let cell = `<td class="hs-co-cell ${c.cls}"><div class="hs-cell-inner hs-cell-list">`;
+      for (const p of progs) cell += hsRenderProgram(p, nowMin);
+      cell += '</div></td>';
+      html += cell;
+    }
+  });
+  html += '</tr></tbody></table></div>';
+  return html;
+}
+
+const MONTH_NAMES = ['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'];
+const DATA_MIN_YEAR = 2023;
+const DATA_MIN_MONTH = 1;
+
+function renderMonthPickerPanel() {
+  document.getElementById('mppYearLabel').textContent = pickerPanelYear;
+
+  const now = new Date();
+  const maxYear = now.getFullYear();
+  const maxMonth = now.getMonth() + 1;
+
+  let html = '';
+  for (let m = 1; m <= 12; m++) {
+    const isFuture = pickerPanelYear > maxYear || (pickerPanelYear === maxYear && m > maxMonth);
+    const isPast = pickerPanelYear < DATA_MIN_YEAR || (pickerPanelYear === DATA_MIN_YEAR && m < DATA_MIN_MONTH);
+    const isCurrent = pickerPanelYear === currentYear && m === currentMonth;
+    html += `<button type="button" class="${isCurrent ? 'current' : ''}" ` +
+            `${(isFuture || isPast) ? 'disabled' : ''} data-month="${m}">${MONTH_NAMES[m - 1]}</button>`;
+  }
+  document.getElementById('mppMonthGrid').innerHTML = html;
+
+  document.getElementById('mppPrevYear').disabled = pickerPanelYear <= DATA_MIN_YEAR;
+  document.getElementById('mppNextYear').disabled = pickerPanelYear >= maxYear;
+
+  document.getElementById('mppMonthGrid').querySelectorAll('button[data-month]').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const m = parseInt(btn.dataset.month, 10);
+      currentYear = pickerPanelYear;
+      currentMonth = m;
+      renderMonth(currentYear, currentMonth);
+      document.getElementById('monthPickerPanel').classList.remove('open');
+    });
+  });
+}
+
+function switchTab(tab) {
+  const panels = { schedule: 'tabSchedule', weather: 'tabWeather', homeshop: 'tabHomeshop', dramavariety: 'tabDramaVariety' };
+  const btns = { schedule: 'tabBtnSchedule', weather: 'tabBtnWeather', homeshop: 'tabBtnHomeshop', dramavariety: 'tabBtnDramaVariety' };
+
+  for (const key in panels) {
+    document.getElementById(panels[key]).classList.toggle('active', key === tab);
+    document.getElementById(btns[key]).classList.toggle('active', key === tab);
+  }
+
+  if (tab === 'weather' && !_weatherTabLoaded) {
+    _weatherTabLoaded = true;
+    renderMonth(currentYear, currentMonth);
+  }
+  if (tab === 'homeshop' && !_homeshopTabLoaded) {
+    _homeshopTabLoaded = true;
+    hsRefresh(hsCurrentDate);
+  }
+  if (tab === 'dramavariety' && !_dramaVarietyTabLoaded) {
+    _dramaVarietyTabLoaded = true;
+    dvRefresh(dvWeekStart);
+  }
+}
+
+// ============ 초기화 ============
+(async function init() {
+  const now = new Date();
+  currentYear = now.getFullYear();
+  currentMonth = now.getMonth() + 1;
+  hsCurrentDate = toLocalDateStr(now);  // 홈쇼핑 탭 초기 날짜 = 오늘
+  dvWeekStart = dvMondayOf(toLocalDateStr(now));  // 드라마/예능 탭 초기 주차
+
+  const picker = document.getElementById('datePicker');
+  picker.value = toLocalDateStr(now); // 초기 표시 날짜 = 오늘
+
+  // 홈쇼핑 탭이 첫 화면이므로 즉시 로드
+  _homeshopTabLoaded = true;
+  await hsRefresh(hsCurrentDate);
+
+  // 최초 1회는 바로 조회
+  await refresh(picker.value);
+
+  // 날짜 입력란 변경 시에는 즉시 조회하지 않음 — "조회" 버튼을 눌러야 반영됨
+  document.getElementById('searchBtn').addEventListener('click', () => {
+    refresh(picker.value);
+  });
+
+  // 이전/다음 화살표는 날짜 이동과 동시에 즉시 조회
+  document.getElementById('prevDay').addEventListener('click', () => {
+    picker.value = shiftDate(picker.value, -1);
+    refresh(picker.value);
+  });
+  document.getElementById('nextDay').addEventListener('click', () => {
+    picker.value = shiftDate(picker.value, 1);
+    refresh(picker.value);
+  });
+
+  // 오늘로 이동도 즉시 조회
+  document.getElementById('gotoToday').addEventListener('click', () => {
+    const today = toLocalDateStr(new Date());
+    picker.value = today;
+    refresh(today);
+  });
+
+  // 엔터키로도 조회 가능하게
+  picker.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') refresh(picker.value);
+  });
+
+  // 탭 버튼
+  document.getElementById('tabBtnSchedule').addEventListener('click', () => switchTab('schedule'));
+  document.getElementById('tabBtnWeather').addEventListener('click', () => switchTab('weather'));
+  document.getElementById('tabBtnHomeshop').addEventListener('click', () => switchTab('homeshop'));
+  document.getElementById('tabBtnDramaVariety').addEventListener('click', () => switchTab('dramavariety'));
+
+  // 홈쇼핑 탭: 날짜 이동
+  const hsPicker = document.getElementById('hsDatePicker');
+  hsPicker.value = hsCurrentDate;
+  document.getElementById('hsPrevDay').addEventListener('click', () => {
+    hsCurrentDate = shiftDate(hsCurrentDate, -1);
+    hsPicker.value = hsCurrentDate;
+    hsRefresh(hsCurrentDate);
+  });
+  document.getElementById('hsNextDay').addEventListener('click', () => {
+    hsCurrentDate = shiftDate(hsCurrentDate, 1);
+    hsPicker.value = hsCurrentDate;
+    hsRefresh(hsCurrentDate);
+  });
+  hsPicker.addEventListener('change', () => {
+    hsCurrentDate = hsPicker.value;
+    hsRefresh(hsCurrentDate);
+  });
+
+  // 홈쇼핑 탭: 라이브/데이터 토글
+  document.querySelectorAll('#hsToggle .hs-toggle-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      hsCurrentBc = btn.dataset.bc;
+      document.querySelectorAll('#hsToggle .hs-toggle-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      hsRefresh(hsCurrentDate);
+    });
+  });
+
+  // 날씨 탭 내 월 이동
+  document.getElementById('prevMonth').addEventListener('click', () => {
+    if (currentYear === DATA_MIN_YEAR && currentMonth === DATA_MIN_MONTH) return; // 하한선
+    currentMonth -= 1;
+    if (currentMonth < 1) { currentMonth = 12; currentYear -= 1; }
+    renderMonth(currentYear, currentMonth);
+  });
+  document.getElementById('nextMonth').addEventListener('click', () => {
+    const now = new Date();
+    if (currentYear === now.getFullYear() && currentMonth === now.getMonth() + 1) return; // 상한선
+    currentMonth += 1;
+    if (currentMonth > 12) { currentMonth = 1; currentYear += 1; }
+    renderMonth(currentYear, currentMonth);
+  });
+
+  // 월 직접 조회: 라벨 클릭 -> 연도별 월 목록 드롭다운 패널 토글
+  document.getElementById('monthLabelWrap').addEventListener('click', (e) => {
+    const panel = document.getElementById('monthPickerPanel');
+    const isOpen = panel.classList.contains('open');
+    if (isOpen) {
+      panel.classList.remove('open');
+    } else {
+      pickerPanelYear = currentYear;
+      renderMonthPickerPanel();
+      panel.classList.add('open');
+    }
+    e.stopPropagation();
+  });
+
+  // 패널 바깥 클릭 시 닫기
+  document.addEventListener('click', (e) => {
+    const wrap = document.getElementById('monthLabelWrap');
+    if (!wrap.contains(e.target)) {
+      document.getElementById('monthPickerPanel').classList.remove('open');
+    }
+  });
+
+  document.getElementById('mppPrevYear').addEventListener('click', (e) => {
+    e.stopPropagation();
+    pickerPanelYear -= 1;
+    renderMonthPickerPanel();
+  });
+  document.getElementById('mppNextYear').addEventListener('click', (e) => {
+    e.stopPropagation();
+    pickerPanelYear += 1;
+    renderMonthPickerPanel();
+  });
+
+  // 드라마/예능 탭: 주차 이동
+  document.getElementById('dvPrevWeek').addEventListener('click', () => {
+    dvWeekStart = dvShiftWeek(dvWeekStart, -1);
+    dvRefresh(dvWeekStart);
+  });
+  document.getElementById('dvNextWeek').addEventListener('click', () => {
+    dvWeekStart = dvShiftWeek(dvWeekStart, 1);
+    dvRefresh(dvWeekStart);
+  });
+
+  // 드라마/예능 탭: 슬라이서 (전체/드라마/예능/고효율)
+  document.querySelectorAll('.dv-slicer-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      dvFilter = btn.dataset.filter;
+      document.querySelectorAll('.dv-slicer-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      dvRenderGrid(dvCache[dvWeekStart]);
+    });
+  });
+})();
+</script>
+
+</body>
+</html>
