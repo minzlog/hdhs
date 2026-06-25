@@ -1203,7 +1203,8 @@ const _weatherCache = { forecast: null, asosMonths: {} };
 
 async function fetchJsonSafe(path) {
   try {
-    const resp = await fetch(path);
+    const sep = path.includes('?') ? '&' : '?';
+    const resp = await fetch(`${path}${sep}t=${Date.now()}`);
     if (resp.ok) return await resp.json();
   } catch (e) { }
   return null;
@@ -1273,7 +1274,7 @@ async function getDataForDate(dateStr) {
 
   if (location.protocol !== 'file:') {
     try {
-      const resp = await fetch(`./data/${dateStr}.json`);
+      const resp = await fetch(`./data/${dateStr}.json?t=${Date.now()}`);
       if (resp.ok) return await resp.json();
     } catch (e) { }
   }
@@ -1556,7 +1557,7 @@ function dvFormatWeekLabel(weekStart) {
 async function dvLoadWeek(weekStart) {
   if (dvCache[weekStart]) return dvCache[weekStart];
   try {
-    const resp = await fetch(`./data/dramavariety/${weekStart}.json`);
+    const resp = await fetch(`./data/dramavariety/${weekStart}.json?t=${Date.now()}`);
     if (!resp.ok) throw new Error("not found");
     const data = await resp.json();
     dvCache[weekStart] = data;
