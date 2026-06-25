@@ -1,0 +1,45 @@
+{
+  "company": "CJ",
+  "broadcast": "data",
+  "month": "2026-07",
+  "days": {
+    "2026-07-01": [
+      {
+        "start": "06:45",
+        "end": "07:45",
+        "brand": "아치나인",
+        "product": "아치나인Arch-9 Flux기능성 슬리퍼_블랙",
+        "price": 79600,
+        "link": "https://display.cjonstyle.com/p/item/2064640263?channelCode=30002002",
+        "category": "잡화/주얼리"
+      },
+      {
+        "start": "07:45",
+        "end": "08:45",
+        "brand": "주영엔에스",
+        "product": "관절엔 콘드로이친1200",
+        "price": 648000,
+        "link": "https://display.cjonstyle.com/p/item/2081328628?channelCode=30002002",
+        "category": "건강식품"
+      },
+      {
+        "start": "16:45",
+        "end": "17:45",
+        "brand": "아디다스 골프",
+        "product": "26SS 썸머 듀얼 남성 팬츠",
+        "price": 159000,
+        "link": "https://display.cjonstyle.com/p/item/2081122947?channelCode=30002002",
+        "category": "의류"
+      },
+      {
+        "start": "23:45",
+        "end": "00:45",
+        "brand": "임성근",
+        "product": "조리기능장의 한끗다른 포기김치",
+        "price": 39900,
+        "link": "https://display.cjonstyle.com/p/item/2082964779?channelCode=30002002",
+        "category": "일반식품"
+      }
+    ]
+  }
+}

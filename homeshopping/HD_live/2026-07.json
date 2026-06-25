@@ -1,0 +1,135 @@
+{
+  "company": "HD",
+  "broadcast": "live",
+  "month": "2026-07",
+  "days": {
+    "2026-07-01": [
+      {
+        "start": "01:00",
+        "end": "02:00",
+        "brand": "라클라우드",
+        "product": "라클라우드 오가르 호텔식 침대 풀패키지",
+        "price": 2290000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2243269449&preview=true",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "02:00",
+        "end": "02:50",
+        "brand": "알레보",
+        "product": "디엣지 플러스 유리 밥용기 1 1세트_",
+        "price": 59800,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2244486431&preview=true",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "02:50",
+        "end": "03:20",
+        "brand": "미세스문",
+        "product": "삶아쓰는 뱀부 100% 포레라 침구 세트 SK",
+        "price": 238000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251423757&preview=true",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "03:20",
+        "end": "04:10",
+        "brand": "안유성명장",
+        "product": "가매 일품 깐새우장 세트",
+        "price": 59900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2239817699&preview=true",
+        "category": "일반식품"
+      },
+      {
+        "start": "04:10",
+        "end": "04:50",
+        "brand": "올라카일리",
+        "product": "26SS parsley 나일론 시어 웨더점퍼1종",
+        "price": 139000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250503852&preview=true",
+        "category": "의류"
+      },
+      {
+        "start": "04:50",
+        "end": "05:20",
+        "brand": "아이릴리",
+        "product": "아이릴리 보타닉가든 인견100 민소매 쿨원피스 가방",
+        "price": 79900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251595686&preview=true",
+        "category": "언더웨어"
+      },
+      {
+        "start": "05:20",
+        "end": "06:15",
+        "brand": "컬럼비아",
+        "product": "컬럼비아 여성 옴니쉐이드 썸머자켓",
+        "price": 89000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250600787&preview=true",
+        "category": "의류"
+      },
+      {
+        "start": "07:15",
+        "end": "08:15",
+        "brand": "AHC",
+        "product": "AHC 마스터즈 아쿠아 리치 선크림 완벽더블구성",
+        "price": 109000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251639941&preview=true",
+        "category": "미용"
+      },
+      {
+        "start": "08:15",
+        "end": "10:25",
+        "brand": "올라카일리",
+        "product": "26SS 코튼120수 이지 블라우스",
+        "price": 79000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250600407&preview=true",
+        "category": "의류"
+      },
+      {
+        "start": "10:25",
+        "end": "12:35",
+        "brand": "머티리얼랩",
+        "product": "머티리얼랩 26SS 피그먼트다잉 빈티지 반팔 티셔츠",
+        "price": 89000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248457477&preview=true",
+        "category": "의류"
+      },
+      {
+        "start": "13:35",
+        "end": "14:35",
+        "brand": "KUMMEL",
+        "product": "쿠멜 IH 디쉬팬 풀세트",
+        "price": 189000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251595761&preview=true",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "16:30",
+        "end": "17:30",
+        "brand": "더함프레시",
+        "product": "굽지않고 바로먹는 국내산 촉촉한 황금오징어 4팩 오징어채 1팩",
+        "price": 79900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251087703&preview=true",
+        "category": "일반식품"
+      },
+      {
+        "start": "21:45",
+        "end": "22:55",
+        "brand": "노르딕슬립",
+        "product": "콜드스토프 쿨매트 SS 슈퍼싱글",
+        "price": 159000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2212789061&preview=true",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "22:55",
+        "end": "23:55",
+        "brand": "스노야",
+        "product": "스노야 26SS 팝컬러 헨리넥 슬리브리스",
+        "price": 99000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251104646&preview=true",
+        "category": "의류"
+      }
+    ]
+  }
+}

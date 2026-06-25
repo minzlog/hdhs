@@ -1,0 +1,162 @@
+{
+  "company": "LT",
+  "broadcast": "live",
+  "month": "2026-07",
+  "days": {
+    "2026-07-01": [
+      {
+        "start": "01:00",
+        "end": "01:30",
+        "brand": "메종비오비(BOB)",
+        "product": "BOB 26SS 여성 반팔 카라티셔츠",
+        "price": 101150,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12897718",
+        "category": "의류"
+      },
+      {
+        "start": "01:30",
+        "end": "02:00",
+        "brand": "메종비오비(BOB)",
+        "product": "BOB 여성 26SS 하프 팬츠",
+        "price": 58650,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12900258",
+        "category": "의류"
+      },
+      {
+        "start": "02:00",
+        "end": "02:30",
+        "brand": "테팔",
+        "product": "매직핸즈 스테인리스 스틸 화이트골드 에디션 8P 세트",
+        "price": 259000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12868650",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "04:00",
+        "end": "04:20",
+        "brand": "아쿠아스큐텀",
+        "product": "아쿠아스큐텀 26SS 여성 프렌치 린넨 깅엄체크 셔츠",
+        "price": 67910,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12901046",
+        "category": "의류"
+      },
+      {
+        "start": "04:20",
+        "end": "04:50",
+        "brand": "키친스토리",
+        "product": "빅마마 부드럽고 담백한 국내산 병어 x10팩",
+        "price": 58900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12901698",
+        "category": "일반식품"
+      },
+      {
+        "start": "04:50",
+        "end": "05:15",
+        "brand": "까스텔바작",
+        "product": "까스텔바작 26SS 여성 크로쉐 앙상블",
+        "price": 89000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12902044",
+        "category": "의류"
+      },
+      {
+        "start": "07:15",
+        "end": "08:15",
+        "brand": "프로폴린스",
+        "product": "가글 오리지널 유자 벚꽃 오리지널 오리지널",
+        "price": 89000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12902323",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "09:25",
+        "end": "10:25",
+        "brand": "루나앤슬립",
+        "product": "기능성 냉감 패드 2장 냉감 베개커버 4장",
+        "price": 79900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12910282",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "10:25",
+        "end": "11:35",
+        "brand": "아비투먼트",
+        "product": "● 빅 포츈백",
+        "price": 49000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911488",
+        "category": "잡화/주얼리"
+      },
+      {
+        "start": "12:35",
+        "end": "13:35",
+        "brand": "나에노",
+        "product": "프리미엄 퓨어머스크향 세탁세제 x 섬유유연제 x",
+        "price": 59800,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12897677",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "13:35",
+        "end": "15:30",
+        "brand": "조르쥬 레쉬",
+        "product": "26SS 튀르키예 오가닉 티셔츠",
+        "price": 49900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12894672",
+        "category": "의류"
+      },
+      {
+        "start": "15:30",
+        "end": "16:30",
+        "brand": "제스프리",
+        "product": "제스프리 유기농 골드키위 자이언트 사이즈 총",
+        "price": 49900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12910891",
+        "category": "일반식품"
+      },
+      {
+        "start": "17:30",
+        "end": "18:30",
+        "brand": "정성곳간",
+        "product": "정성곳간 토종 닭백숙 x 5팩, 누룽지탕 x 5팩",
+        "price": 53910,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12906719",
+        "category": "일반식품"
+      },
+      {
+        "start": "21:45",
+        "end": "22:55",
+        "brand": "골드에이스앤코",
+        "product": "24K 순금 시그니처 볼륨반지 싱글 세트 24K 순금 클로버 골드",
+        "price": 599000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12907480",
+        "category": "잡화/주얼리"
+      },
+      {
+        "start": "22:55",
+        "end": "23:55",
+        "brand": "리꼼",
+        "product": "르블랑 리꼼 또매진패키지",
+        "price": 168000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12889161",
+        "category": "미용"
+      },
+      {
+        "start": "22:55",
+        "end": "23:55",
+        "brand": "오프로드",
+        "product": "오프로드 26SS 여성 썸머 유틸리티 아노락 셔켓",
+        "price": 39900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12901991",
+        "category": "의류"
+      },
+      {
+        "start": "23:55",
+        "end": "01:00",
+        "brand": "아로마티카",
+        "product": "로즈마리 솔트 스케일링 샴푸 탈모관리패키지",
+        "price": 138000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12906181",
+        "category": "미용"
+      }
+    ]
+  }
+}

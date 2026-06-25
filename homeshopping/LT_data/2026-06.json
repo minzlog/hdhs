@@ -1600,15 +1600,6 @@
         "category": "의류"
       },
       {
-        "start": "03:19",
-        "end": "03:24",
-        "brand": "그래비티",
-        "product": "○그래비티 PDRN 헤어리커버리 샴푸",
-        "price": 87000,
-        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12910879",
-        "category": "미용"
-      },
-      {
         "start": "03:24",
         "end": "03:31",
         "brand": "임성근",
@@ -1616,15 +1607,6 @@
         "price": 69900,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12909595",
         "category": "일반식품"
-      },
-      {
-        "start": "03:31",
-        "end": "03:36",
-        "brand": "그래비티",
-        "product": "○그래비티 PDRN 헤어리커버리 샴푸",
-        "price": 87000,
-        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12910881",
-        "category": "미용"
       },
       {
         "start": "03:36",
@@ -1636,15 +1618,6 @@
         "category": "일반식품"
       },
       {
-        "start": "03:41",
-        "end": "03:46",
-        "brand": "그래비티",
-        "product": "○그래비티 PDRN 헤어리커버리 샴푸",
-        "price": 87000,
-        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12910883",
-        "category": "미용"
-      },
-      {
         "start": "03:46",
         "end": "03:51",
         "brand": "임성근",
@@ -1654,15 +1627,6 @@
         "category": "일반식품"
       },
       {
-        "start": "03:51",
-        "end": "03:56",
-        "brand": "그래비티",
-        "product": "○그래비티 PDRN 헤어리커버리 샴푸",
-        "price": 87000,
-        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12910884",
-        "category": "미용"
-      },
-      {
         "start": "03:56",
         "end": "04:01",
         "brand": "임성근",
@@ -1670,15 +1634,6 @@
         "price": 69900,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12909595",
         "category": "일반식품"
-      },
-      {
-        "start": "04:01",
-        "end": "04:06",
-        "brand": "그래비티",
-        "product": "○그래비티 PDRN 헤어리커버리 샴푸",
-        "price": 87000,
-        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12910888",
-        "category": "미용"
       },
       {
         "start": "04:06",
@@ -1793,7 +1748,7 @@
         "end": "06:41",
         "brand": "리가",
         "product": "○풀스킨 밍크 콤비 구스다운",
-        "price": 498000,
+        "price": 398000,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12905025",
         "category": "의류"
       },
@@ -1847,7 +1802,7 @@
         "end": "12:40",
         "brand": "맥스튜어트",
         "product": "O 맥스튜어트 26SS 여성 배럴 커브드핏 데님 팬츠",
-        "price": 53550,
+        "price": 63000,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12893716",
         "category": "의류"
       },
@@ -2281,7 +2236,7 @@
         "end": "18:40",
         "brand": "퍼실",
         "product": "엑스퍼트 실내건조 라벤더 맥스 본품 2.5LX4통 1.8LX3팩 프릴 브레프 퍼울300ML 쿨러백",
-        "price": 60830,
+        "price": 72800,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12909939",
         "category": "리빙/주방"
       },
@@ -2439,6 +2394,15 @@
         "price": 158000,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12903581",
         "category": "잡화/주얼리"
+      },
+      {
+        "start": "11:40",
+        "end": "12:40",
+        "brand": "세르본",
+        "product": "세르본 튜닝 엑스 크림 미스트 모이스처 마스크팩",
+        "price": 199000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911963",
+        "category": "미용"
       },
       {
         "start": "12:40",

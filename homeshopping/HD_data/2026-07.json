@@ -1,0 +1,45 @@
+{
+  "company": "HD",
+  "broadcast": "data",
+  "month": "2026-07",
+  "days": {
+    "2026-07-01": [
+      {
+        "start": "02:20",
+        "end": "03:20",
+        "brand": "삭피엔스",
+        "product": "삭피엔스 맥스쿠션 에어 기능성 양말",
+        "price": 39900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2247827203&preview=true",
+        "category": "잡화/주얼리"
+      },
+      {
+        "start": "03:20",
+        "end": "04:20",
+        "brand": "신영와코루",
+        "product": "2026 로맨틱블룸 레이스 풀커버 브라팬티",
+        "price": 179000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2247625804&preview=true",
+        "category": "언더웨어"
+      },
+      {
+        "start": "04:20",
+        "end": "12:40",
+        "brand": "인테로",
+        "product": "골드 카무트 효소 프리미엄",
+        "price": 99000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251247593&preview=true",
+        "category": "건강식품"
+      },
+      {
+        "start": "12:40",
+        "end": "13:39",
+        "brand": "SAKROOTS",
+        "product": "26SS 삭루츠 우양산",
+        "price": 69900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250191247&preview=true",
+        "category": "잡화/주얼리"
+      }
+    ]
+  }
+}

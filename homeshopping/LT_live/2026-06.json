@@ -1252,6 +1252,15 @@
         "category": "건강식품"
       },
       {
+        "start": "06:15",
+        "end": "07:15",
+        "brand": "뉴트리코어",
+        "product": "○ 뉴트리코어 관절엔 DEM",
+        "price": 648000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12906067",
+        "category": "건강식품"
+      },
+      {
         "start": "07:15",
         "end": "08:15",
         "brand": "리더스",
@@ -1265,7 +1274,7 @@
         "end": "10:25",
         "brand": "사만사타바사",
         "product": "헤이즈 양가죽 토트백",
-        "price": 148000,
+        "price": 138000,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12910340",
         "category": "잡화/주얼리"
       },
@@ -1299,10 +1308,10 @@
       {
         "start": "13:35",
         "end": "14:35",
-        "brand": "팬암",
-        "product": "팬암 26SS 여성 브리더블 자켓",
-        "price": 41650,
-        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12909717",
+        "brand": "3.1 필립림 스튜디오",
+        "product": "26SS NEW 이집션 GIZA 코튼100 여성 티셔츠",
+        "price": 99000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12891062",
         "category": "의류"
       },
       {
@@ -1548,6 +1557,15 @@
         "product": "탐즈 샴푸 샴푸 트리트먼트 헤어 에센스",
         "price": 159000,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911859",
+        "category": "미용"
+      },
+      {
+        "start": "16:25",
+        "end": "17:30",
+        "brand": "씨엘 드 보떼 헤븐",
+        "product": "딥 퓨어 에어앰플 에어앰플 더!",
+        "price": 298000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911432",
         "category": "미용"
       },
       {
@@ -2030,6 +2048,15 @@
         "price": 279000,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12845832",
         "category": "미용"
+      },
+      {
+        "start": "23:55",
+        "end": "01:00",
+        "brand": "에미서리.73 인리칭",
+        "product": "디럭스 스위트 컬렉션",
+        "price": 105000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911448",
+        "category": "미용"
       }
     ],
     "2026-06-30": [
@@ -2193,6 +2220,15 @@
         "product": "르블랑 리꼼 또매진패키지",
         "price": 168000,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12889161",
+        "category": "미용"
+      },
+      {
+        "start": "23:55",
+        "end": "01:00",
+        "brand": "에미서리.73 인리칭",
+        "product": "디럭스 스위트 컬렉션",
+        "price": 105000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911448",
         "category": "미용"
       },
       {

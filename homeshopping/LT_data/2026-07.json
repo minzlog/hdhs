@@ -1,0 +1,90 @@
+{
+  "company": "LT",
+  "broadcast": "data",
+  "month": "2026-07",
+  "days": {
+    "2026-07-01": [
+      {
+        "start": "00:40",
+        "end": "01:20",
+        "brand": "사임당",
+        "product": "사임당 발패치",
+        "price": 59800,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12910812",
+        "category": "미용"
+      },
+      {
+        "start": "03:45",
+        "end": "03:50",
+        "brand": "락앤락",
+        "product": "● 락앤락 비스프리 온더테이블 세척솔",
+        "price": 118000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911521",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "03:50",
+        "end": "03:55",
+        "brand": "락앤락",
+        "product": "○ 락앤락 비스프리 온더테이블 세척솔",
+        "price": 118000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911518",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "03:55",
+        "end": "04:00",
+        "brand": "락앤락",
+        "product": "◎ 락앤락 비스프리 온더테이블 세척솔",
+        "price": 118000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911520",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "04:00",
+        "end": "04:05",
+        "brand": "락앤락",
+        "product": "○ 락앤락 비스프리 온더테이블 세척솔",
+        "price": 118000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911518",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "04:05",
+        "end": "04:10",
+        "brand": "락앤락",
+        "product": "◎ 락앤락 비스프리 온더테이블 세척솔",
+        "price": 118000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911520",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "05:40",
+        "end": "06:40",
+        "brand": "블라우풍트",
+        "product": "블라우풍트 무선 이어폰 보조배터리",
+        "price": 66540,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12871871",
+        "category": "가전"
+      },
+      {
+        "start": "09:40",
+        "end": "10:40",
+        "brand": "타린로즈",
+        "product": "○ 미라클 8 에어 스니커즈",
+        "price": 169000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12906432",
+        "category": "잡화/주얼리"
+      },
+      {
+        "start": "14:40",
+        "end": "15:20",
+        "brand": "리얼닥터",
+        "product": "리얼닥터 멀티비타민123 미네랄",
+        "price": 47900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12877064",
+        "category": "건강식품"
+      }
+    ]
+  }
+}

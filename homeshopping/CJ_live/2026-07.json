@@ -1,0 +1,126 @@
+{
+  "company": "CJ",
+  "broadcast": "live",
+  "month": "2026-07",
+  "days": {
+    "2026-07-01": [
+      {
+        "start": "01:00",
+        "end": "02:00",
+        "brand": "하이원리조트",
+        "product": "하이원 올인클루시브 패키지",
+        "price": 279000,
+        "link": "https://display.cjonstyle.com/p/item/2086587845?channelCode=30002002",
+        "category": "여행"
+      },
+      {
+        "start": "05:00",
+        "end": "06:00",
+        "brand": "대원제약",
+        "product": "아스타루지 오메가3",
+        "price": 396000,
+        "link": "https://display.cjonstyle.com/p/item/2087464228?channelCode=30002002",
+        "category": "건강식품"
+      },
+      {
+        "start": "06:00",
+        "end": "07:15",
+        "brand": "신한라이프",
+        "product": "신한 라이프 케어받는 암보험",
+        "price": 0,
+        "link": "https://display.cjonstyle.com/p/item/2064509744?channelCode=30002002",
+        "category": "보험"
+      },
+      {
+        "start": "07:15",
+        "end": "08:15",
+        "brand": "이알하나",
+        "product": "갱년기엔 이알하나 더",
+        "price": 328000,
+        "link": "https://display.cjonstyle.com/p/item/2073408726?channelCode=30002002",
+        "category": "건강식품"
+      },
+      {
+        "start": "08:15",
+        "end": "09:20",
+        "brand": "에어룸",
+        "product": "라지킹_텐셀모달100 냉감침구 풀패키지",
+        "price": 179900,
+        "link": "https://display.cjonstyle.com/p/item/2083039134?channelCode=30002002",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "11:35",
+        "end": "12:35",
+        "brand": "셀렙샵에디션",
+        "product": "26SS 크로쉐 롱 가디건",
+        "price": 59900,
+        "link": "https://display.cjonstyle.com/p/item/2082982213?channelCode=30002002",
+        "category": "의류"
+      },
+      {
+        "start": "13:35",
+        "end": "14:35",
+        "brand": "그레인온",
+        "product": "카사베르디 유기농 와인비니거 레드6 2병 디스펜서",
+        "price": 129000,
+        "link": "https://display.cjonstyle.com/p/item/2082414390?channelCode=30002002",
+        "category": "건강식품"
+      },
+      {
+        "start": "15:30",
+        "end": "16:30",
+        "brand": "엔알랩",
+        "product": "NR랩 광노화케어 선크림 브러시1 포토리뷰80ml",
+        "price": 129000,
+        "link": "https://display.cjonstyle.com/p/item/2085514790?channelCode=30002002",
+        "category": "미용"
+      },
+      {
+        "start": "17:30",
+        "end": "18:30",
+        "brand": "신세계푸드",
+        "product": "올반 유황먹인 냉장닭 영양삼계탕 8팩",
+        "price": 60900,
+        "link": "https://display.cjonstyle.com/p/item/2016783619?channelCode=30002002",
+        "category": "일반식품"
+      },
+      {
+        "start": "18:30",
+        "end": "19:35",
+        "brand": "슬로기",
+        "product": "26 리프팅 컨트롤 브라팬티",
+        "price": 99900,
+        "link": "https://display.cjonstyle.com/p/item/2076602108?channelCode=30002002",
+        "category": "언더웨어"
+      },
+      {
+        "start": "19:35",
+        "end": "20:45",
+        "brand": "에스더포뮬러",
+        "product": "여에스더 포스파티딜세린 블루베리",
+        "price": 89000,
+        "link": "https://display.cjonstyle.com/p/item/2083734469?channelCode=30002002",
+        "category": "건강식품"
+      },
+      {
+        "start": "20:45",
+        "end": "22:55",
+        "brand": "휘슬러",
+        "product": "루나스톤 프라이팬 풀세트",
+        "price": 329000,
+        "link": "https://display.cjonstyle.com/p/item/2087721306?channelCode=30002002",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "22:55",
+        "end": "23:55",
+        "brand": "",
+        "product": "짐샌더슨 롤앤고 쇼퍼백 L 롤링 토트백 카트 바퀴 쇼핑백",
+        "price": 69900,
+        "link": "https://display.cjonstyle.com/p/item/2082966514?channelCode=30002002",
+        "category": "잡화/주얼리"
+      }
+    ]
+  }
+}
