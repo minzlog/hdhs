@@ -1,0 +1,55 @@
+name: 고정PGM 편성 수집
+
+on:
+  schedule:
+    # 매일 한국시간(KST) 05:00 = UTC 20:00(전날). daily-scrape(06:00 KST)와
+    # 겹치지 않도록 1시간 앞선 가벼운 시간대에 단독으로 실행한다.
+    - cron: "0 20 * * *"
+  workflow_dispatch: {}  # 수동 실행 버튼
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: 체크아웃
+        uses: actions/checkout@v4
+
+      - name: Python 설치
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 의존성 설치
+        run: pip install requests beautifulsoup4
+
+      - name: 고정PGM 스크래퍼 실행 - 현대(HD)
+        continue-on-error: true
+        run: python fixed/hd_fixed_programs.py
+
+      - name: 고정PGM 스크래퍼 실행 - GS
+        continue-on-error: true
+        run: python fixed/gs_fixed_programs.py
+
+      - name: 고정PGM 스크래퍼 실행 - CJ온스타일(CJ)
+        continue-on-error: true
+        run: python fixed/cj_fixed_programs.py
+
+      - name: 고정PGM 스크래퍼 실행 - 롯데(LT)
+        continue-on-error: true
+        run: python fixed/lt_fixed_programs.py
+
+      - name: 고정PGM 데이터 병합
+        continue-on-error: true
+        run: python fixed/build_fixed_pgm.py
+
+      - name: 변경사항 커밋
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add homeshopping/fixed_programs/*.json
+          git diff --cached --quiet || git commit -m "chore: 고정PGM 편성 데이터 갱신 ($(date -u +%Y-%m-%d))"
+          git push
