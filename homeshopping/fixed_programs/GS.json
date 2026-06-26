@@ -1,6 +1,6 @@
 {
   "company": "GS",
-  "collectedAt": "2026-06-26T22:49:22.621845+09:00",
+  "collectedAt": "2026-06-27T06:16:35.870069+09:00",
   "programs": [
     {
       "title": "지금 백지연",
@@ -37,10 +37,10 @@
           "link": "https://m.gsshop.com/prd/prd.gs?prdid=1104929041&mseq=W00618-TV_PRO-1"
         },
         {
-          "name": "DREAME 포켓 초경량 올인원 드라이어 / 프리볼트 시리즈 / 로즈골드",
-          "price": 159000,
-          "image": "https://asset.m-gs.kr/prod/1124354810/1/370",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1124354810&mseq=W00618-TV_PRO-2"
+          "name": "간편한 제주 야채찜 30팩",
+          "price": 129000,
+          "image": "https://asset.m-gs.kr/prod/1126246708/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1126246708&mseq=W00618-TV_PRO-2"
         }
       ]
     },
@@ -52,16 +52,16 @@
       "detail_link": "https://m.gsshop.com/section/broad/specialPgm/13136?mseq=W00618-TV_PRO_BB-3",
       "upcoming_products": [
         {
+          "name": "[방송에서만 천연 원석 세트] 클로리에 실버925 인피니티 체인 목걸이",
+          "price": 199000,
+          "image": "https://asset.m-gs.kr/prod/1127106098/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1127106098&mseq=W00618-TV_PRO-1"
+        },
+        {
           "name": "26SS 콤드코튼 스트라이프 티셔츠 3종 [런칭 가격 79,900원]",
           "price": 49900,
           "image": "https://asset.m-gs.kr/prod/1102770976/1/370",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1102770976&mseq=W00618-TV_PRO-1"
-        },
-        {
-          "name": "더컬패키지 트라넥삼산 최고함량 기미크림 최대용량+중용량 체험분+팩패드",
-          "price": 178000,
-          "image": "https://asset.m-gs.kr/prod/1127278377/1/370",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1127278377&mseq=W00618-TV_PRO-2"
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1102770976&mseq=W00618-TV_PRO-2"
         }
       ]
     },
@@ -116,7 +116,7 @@
       "upcoming_products": [
         {
           "name": "린넨 2pcs 베스트+팬츠[런칭 가격 89,900원]",
-          "price": 69900,
+          "price": 62910,
           "image": "https://asset.m-gs.kr/prod/1104436284/1/370",
           "link": "https://m.gsshop.com/prd/prd.gs?prdid=1104436284&mseq=W00618-TV_PRO-1"
         },
@@ -136,16 +136,16 @@
       "detail_link": "https://m.gsshop.com/section/broad/specialPgm/13435?mseq=W00618-TV_PRO_BB-7",
       "upcoming_products": [
         {
-          "name": "26SS 썸머 펀칭 하프탑 1종 (골프/속건) [런칭 가격 69,900원]",
+          "name": "샤이니 크리즈 캐시미어 풀오버 1종 (런칭 가격 149,900원)",
           "price": 49900,
-          "image": "https://asset.m-gs.kr/prod/1104406819/1/370",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1104406819&mseq=W00618-TV_PRO-1"
+          "image": "https://asset.m-gs.kr/prod/1084192893/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1084192893&mseq=W00618-TV_PRO-1"
         },
         {
-          "name": "26SS 프렌치 린넨 모닐리 카라 니트 2종",
-          "price": 55930,
-          "image": "https://asset.m-gs.kr/prod/1104310161/1/370",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1104310161&mseq=W00618-TV_PRO-2"
+          "name": "26SS 셔링 경량 블라우스 3종[런칭 가격 79,900원]",
+          "price": 59900,
+          "image": "https://asset.m-gs.kr/prod/1102027541/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1102027541&mseq=W00618-TV_PRO-2"
         }
       ]
     },
