@@ -1009,6 +1009,23 @@
 
   td.hs-empty-cell { background: var(--paper-dim); opacity: 0.4; }
 
+  .hs-hitbest {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-height: 44px;
+    padding: 7px 9px;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 600;
+    color: var(--ink-soft);
+    border-left: 4px solid var(--rule);
+    border-bottom: 1px dotted var(--rule);
+    opacity: 0.6;
+  }
+  .hs-hitbest:last-child { border-bottom: none; }
+
   .hs-cat-legend {
     max-width: 1400px;
     margin: 0 auto;
@@ -2246,7 +2263,7 @@ function hsRenderGridView(datasets, nowMin) {
     HS_COMPANIES.forEach((c, ci) => {
       const progs = buckets[h][ci];
       if (progs.length === 0) {
-        html += `<td class="hs-empty-cell hs-co-cell ${c.cls}"></td>`;
+        html += `<td class="hs-empty-cell hs-co-cell ${c.cls}"><div class="hs-hitbest">Hit &amp; Best</div></td>`;
       } else {
         let cell = `<td class="hs-co-cell ${c.cls}"><div class="hs-cell-inner">`;
         for (const p of progs) cell += hsRenderProgram(p, nowMin);
@@ -2282,7 +2299,7 @@ function hsRenderListView(datasets, nowMin) {
   HS_COMPANIES.forEach((c, ci) => {
     const progs = filtered[ci];
     if (progs.length === 0) {
-      html += `<td class="hs-empty-cell hs-co-cell ${c.cls}"></td>`;
+      html += `<td class="hs-empty-cell hs-co-cell ${c.cls}"><div class="hs-hitbest">해당 편성 없음</div></td>`;
     } else {
       let cell = `<td class="hs-co-cell ${c.cls}"><div class="hs-cell-inner hs-cell-list">`;
       for (const p of progs) cell += hsRenderProgram(p, nowMin);
