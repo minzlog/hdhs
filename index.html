@@ -1207,7 +1207,13 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center;
     display: block;
+  }
+  /* HD는 인물 세로컷 썸네일이 많아 16:5로 크롭하면 얼굴이 잘리기 쉬우므로,
+     크롭 기준점을 위쪽(얼굴이 보통 위치하는 지점)으로 둔다. */
+  .fp-card .fp-thumb-wrap.hd img {
+    object-position: top;
   }
   .fp-card .fp-co-badge {
     position: absolute;
@@ -1246,23 +1252,25 @@
     padding: 60px 0;
   }
 
-  /* "전체" 보기: 요일별 섹션을 세로로 나열 */
-  .fp-day-section {
-    margin-bottom: 28px;
+  /* "전체" 보기: 시간대(행) x 요일(열) 그리드. 요일 칸 안에는 그 시간대
+     모든 회사 카드가 가로로 나란히 들어간다 (썸네일 생략, 텍스트만). */
+  table.fp-table-allday thead th {
+    font-size: 13px;
   }
-  .fp-day-section-title {
-    font-family: 'Pretendard', -apple-system, sans-serif;
-    font-size: 14px;
-    font-weight: 800;
-    color: var(--ink);
-    background: var(--paper-dim);
-    border: 1px solid var(--rule);
-    border-radius: 8px;
-    padding: 8px 14px;
-    margin-bottom: 8px;
+  table.fp-table-allday td.fp-co-cell {
+    padding: 6px;
+  }
+  .fp-cell-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .fp-cell-row .fp-card-compact {
+    flex: 1 1 140px;
+    min-width: 120px;
   }
 
-  /* "전체" 보기에서는 썸네일 없이 텍스트만 있는 가벼운 카드 + 더 낮은 행 */
+  /* 회사축 그리드에서도 재사용하는 compact 카드 + 더 낮은 행 */
   table.fp-table-compact td {
     padding: 5px;
   }
@@ -1303,8 +1311,9 @@
     table.fp-table thead th.fp-time-col { width: 40px; font-size: 9.5px; white-space: nowrap; }
     table.fp-table thead th .hs-co-tag { font-size: 11px; padding: 3px 8px; }
     .fp-card .fp-title { font-size: 11.5px; }
-    .fp-day-section-title { font-size: 12.5px; padding: 6px 10px; }
     .fp-card-compact .fp-title { -webkit-line-clamp: 2; }
+    .fp-cell-row { flex-direction: column; }
+    .fp-cell-row .fp-card-compact { flex: none; min-width: 0; }
   }
 </style>
 </head>
@@ -2361,7 +2370,7 @@ function fpRenderCard(slot, compact) {
   const thumbBlock = compact
     ? '' // 전체 보기에서는 공간이 부족하므로 썸네일 영역 자체를 생략한다.
     : (
-        `<div class="fp-thumb-wrap">` +
+        `<div class="fp-thumb-wrap ${co}">` +
           thumb +
           `<span class="fp-co-badge ${co}">${fpEscapeHtml(slot.company)}</span>` +
         `</div>`
@@ -2422,6 +2431,51 @@ function fpBuildTableHtml(daySlots, compact) {
   return html;
 }
 
+function fpBuildAllDaysTableHtml(allSlots) {
+  if (allSlots.length === 0) {
+    return '<div class="fp-empty-note">표시할 고정 프로그램이 없습니다.</div>';
+  }
+
+  // 시간대(행) 목록은 7일 전체를 통틀어 실제 편성이 있는 시각만 동적으로 만든다.
+  const times = [...new Set(allSlots.map(s => s.time))].sort();
+
+  // (time, day) -> [slot, ...] (같은 시간/요일에 여러 회사가 겹치면 배열로 보관)
+  const cellMap = {};
+  for (const s of allSlots) {
+    const key = `${s.time}__${s.day}`;
+    if (!cellMap[key]) cellMap[key] = [];
+    cellMap[key].push(s);
+  }
+
+  let html = '<table class="fp-table fp-table-allday"><thead><tr>';
+  html += '<th class="fp-time-col">시간대</th>';
+  for (const day of FP_DAYS) {
+    html += `<th>${fpEscapeHtml(day)}</th>`;
+  }
+  html += '</tr></thead><tbody>';
+
+  for (const time of times) {
+    html += `<tr><td class="fp-time-cell">${fpEscapeHtml(time)}</td>`;
+    for (const day of FP_DAYS) {
+      const key = `${time}__${day}`;
+      const cellSlots = cellMap[key];
+      if (cellSlots && cellSlots.length) {
+        html += `<td class="fp-co-cell">` +
+          `<div class="fp-cell-row">` +
+          cellSlots.map(s => fpRenderCard(s, true)).join('') +
+          `</div>` +
+          `</td>`;
+      } else {
+        html += `<td class="fp-empty-cell"></td>`;
+      }
+    }
+    html += '</tr>';
+  }
+
+  html += '</tbody></table>';
+  return html;
+}
+
 function fpRenderGrid(data) {
   const wrap = document.getElementById('fpGridWrap');
   if (!wrap) return;
@@ -2432,16 +2486,9 @@ function fpRenderGrid(data) {
   }
 
   if (fpCurrentDay === '전체') {
-    // 월~일 7개 섹션을 세로로 나열, 각 섹션 안에 회사×시간 그리드 (이미지는 생략해 가볍게).
-    let html = '';
-    for (const day of FP_DAYS) {
-      const daySlots = data.slots.filter(s => s.day === day);
-      html += `<div class="fp-day-section">` +
-        `<div class="fp-day-section-title">${fpEscapeHtml(day)}</div>` +
-        fpBuildTableHtml(daySlots, true) +
-        `</div>`;
-    }
-    wrap.innerHTML = html;
+    // 시간대(행) x 요일(열) 그리드. 각 요일 칸 안에 그 시간대 모든 회사
+    // 카드를 가로로 나란히 배치한다 (이미지는 생략해 가볍게).
+    wrap.innerHTML = fpBuildAllDaysTableHtml(data.slots);
     return;
   }
 
