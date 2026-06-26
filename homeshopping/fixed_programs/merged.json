@@ -1,11 +1,35 @@
 {
-  "collectedAt": "2026-06-26T22:43:40.075515+09:00",
+  "collectedAt": "2026-06-26T22:49:48.839457+09:00",
   "companies": [
     "HD",
+    "GS",
     "CJ",
     "LT"
   ],
   "slots": [
+    {
+      "company": "GS",
+      "day": "월",
+      "time": "08:15",
+      "title": "이진아 셀렉션",
+      "schedule_raw": "월요일 오전 8시 15분",
+      "thumbnail": "https://static.m-gs.kr/planprd/banner_NEW_SUB/907015613_01.jpg",
+      "detail_link": "https://m.gsshop.com/section/broad/specialPgm/13435?mseq=W00618-TV_PRO_BB-7",
+      "upcoming_products": [
+        {
+          "name": "26SS 썸머 펀칭 하프탑 1종 (골프/속건) [런칭 가격 69,900원]",
+          "price": 49900,
+          "image": "https://asset.m-gs.kr/prod/1104406819/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1104406819&mseq=W00618-TV_PRO-1"
+        },
+        {
+          "name": "26SS 프렌치 린넨 모닐리 카라 니트 2종",
+          "price": 55930,
+          "image": "https://asset.m-gs.kr/prod/1104310161/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1104310161&mseq=W00618-TV_PRO-2"
+        }
+      ]
+    },
     {
       "company": "CJ",
       "day": "월",
@@ -26,6 +50,29 @@
           "price": 79000,
           "image": "https://itemimage.cjonstyle.net/goods_images/20/341/2083668341L.jpg?timestamp=20260427163507",
           "link": "https://display.cjonstyle.com/m/item/2083668341?channelCode=30002002"
+        }
+      ]
+    },
+    {
+      "company": "GS",
+      "day": "화",
+      "time": "08:15",
+      "title": "스타일나우; 더 김동은",
+      "schedule_raw": "매주 화요일 오전 8시 15분",
+      "thumbnail": "https://static.m-gs.kr/planprd/banner_NEW_SUB/900413935_01.jpg",
+      "detail_link": "https://m.gsshop.com/section/broad/specialPgm/13422?mseq=W00618-TV_PRO_BB-6",
+      "upcoming_products": [
+        {
+          "name": "린넨 2pcs 베스트+팬츠[런칭 가격 89,900원]",
+          "price": 69900,
+          "image": "https://asset.m-gs.kr/prod/1104436284/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1104436284&mseq=W00618-TV_PRO-1"
+        },
+        {
+          "name": "[상시가 129,000원] 세라 26SS 크로세 플랫슈즈",
+          "price": 129000,
+          "image": "https://asset.m-gs.kr/prod/1122058521/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1122058521&mseq=W00618-TV_PRO-2"
         }
       ]
     },
@@ -423,6 +470,29 @@
       ]
     },
     {
+      "company": "GS",
+      "day": "목",
+      "time": "20:45",
+      "title": "지금 백지연",
+      "schedule_raw": "매주 목요일 저녁 8시 45분",
+      "thumbnail": "https://static.m-gs.kr/planprd/banner_NEW_SUB/832708554_01.png",
+      "detail_link": "https://m.gsshop.com/section/broad/specialPgm/13437?mseq=W00618-TV_PRO_BB-1",
+      "upcoming_products": [
+        {
+          "name": "100% 토마토 착즙 주스 72팩 200ml (백지연 PICK)",
+          "price": 69900,
+          "image": "https://asset.m-gs.kr/prod/1087081310/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1087081310&mseq=W00618-TV_PRO-1"
+        },
+        {
+          "name": "엑스쿠첸 통5중 저압냄비 7L",
+          "price": 229000,
+          "image": "https://asset.m-gs.kr/prod/1102774073/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1102774073&mseq=W00618-TV_PRO-2"
+        }
+      ]
+    },
+    {
       "company": "LT",
       "day": "목",
       "time": "20:45",
@@ -624,6 +694,29 @@
       ]
     },
     {
+      "company": "GS",
+      "day": "금",
+      "time": "20:35",
+      "title": "소유진쇼",
+      "schedule_raw": "매주 금요일 저녁 8시 35분",
+      "thumbnail": "https://static.m-gs.kr/planprd/banner_NEW_SUB/907067658_01.jpg",
+      "detail_link": "https://m.gsshop.com/section/broad/specialPgm/13401?mseq=W00618-TV_PRO_BB-2",
+      "upcoming_products": [
+        {
+          "name": "비에날씬 프로 다이어트 유산균(9박스) + 슬림 3박스(30포) + 사은품 냉온장고",
+          "price": 548000,
+          "image": "https://asset.m-gs.kr/prod/1104929041/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1104929041&mseq=W00618-TV_PRO-1"
+        },
+        {
+          "name": "DREAME 포켓 초경량 올인원 드라이어 / 프리볼트 시리즈 / 로즈골드",
+          "price": 159000,
+          "image": "https://asset.m-gs.kr/prod/1124354810/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1124354810&mseq=W00618-TV_PRO-2"
+        }
+      ]
+    },
+    {
       "company": "CJ",
       "day": "금",
       "time": "21:45",
@@ -747,6 +840,29 @@
       ]
     },
     {
+      "company": "GS",
+      "day": "토",
+      "time": "09:20",
+      "title": "더컬렉션",
+      "schedule_raw": "매주 토요일 오전 9시 20분",
+      "thumbnail": "https://static.m-gs.kr/planprd/banner_NEW_SUB/906461584_01.png",
+      "detail_link": "https://m.gsshop.com/section/broad/specialPgm/13136?mseq=W00618-TV_PRO_BB-3",
+      "upcoming_products": [
+        {
+          "name": "26SS 콤드코튼 스트라이프 티셔츠 3종 [런칭 가격 79,900원]",
+          "price": 49900,
+          "image": "https://asset.m-gs.kr/prod/1102770976/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1102770976&mseq=W00618-TV_PRO-1"
+        },
+        {
+          "name": "더컬패키지 트라넥삼산 최고함량 기미크림 최대용량+중용량 체험분+팩패드",
+          "price": 178000,
+          "image": "https://asset.m-gs.kr/prod/1127278377/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1127278377&mseq=W00618-TV_PRO-2"
+        }
+      ]
+    },
+    {
       "company": "CJ",
       "day": "토",
       "time": "10:20",
@@ -811,6 +927,29 @@
       ]
     },
     {
+      "company": "GS",
+      "day": "토",
+      "time": "11:50",
+      "title": "신상뷰티찬스",
+      "schedule_raw": "격주 토요일 낮 11시 50분",
+      "thumbnail": "https://static.m-gs.kr/planprd/banner_NEW_SUB/925186200_01.jpg",
+      "detail_link": "https://m.gsshop.com/section/broad/specialPgm/13428?mseq=W00618-TV_PRO_BB-5",
+      "upcoming_products": [
+        {
+          "name": "[메디큐브] 부스터프로 시즌2 찬스쇼 단독 런칭 (핑크)",
+          "price": 399000,
+          "image": "https://asset.m-gs.kr/prod/1117330943/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1117330943&mseq=W00618-TV_PRO-1"
+        },
+        {
+          "name": "바이오 앰플 찬스패키지",
+          "price": 289000,
+          "image": "https://asset.m-gs.kr/prod/1112262729/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1112262729&mseq=W00618-TV_PRO-2"
+        }
+      ]
+    },
+    {
       "company": "CJ",
       "day": "토",
       "time": "20:45",
@@ -830,6 +969,29 @@
           "price": 159900,
           "image": "https://itemimage.cjonstyle.net/goods_images/20/063/2085134063L.jpg?timestamp=20260521144953",
           "link": "https://display.cjonstyle.com/m/item/2085134063?channelCode=30002002"
+        }
+      ]
+    },
+    {
+      "company": "GS",
+      "day": "토",
+      "time": "21:35",
+      "title": "쇼미더트렌드",
+      "schedule_raw": "매주 토요일 밤 9시 35분",
+      "thumbnail": "https://static.m-gs.kr/planprd/banner_NEW_SUB/907067613_01.jpg",
+      "detail_link": "https://m.gsshop.com/section/broad/specialPgm/11670?mseq=W00618-TV_PRO_BB-4",
+      "upcoming_products": [
+        {
+          "name": "26SS 나이로프트 패커블 레인 점퍼 (여성용)",
+          "price": 62910,
+          "image": "https://asset.m-gs.kr/prod/1104948435/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1104948435&mseq=W00618-TV_PRO-1"
+        },
+        {
+          "name": "[상시가 99,000원] 세라 26SS 크로셰 호보백",
+          "price": 99000,
+          "image": "https://asset.m-gs.kr/prod/1125607358/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1125607358&mseq=W00618-TV_PRO-2"
         }
       ]
     },
@@ -1008,6 +1170,11 @@
   ],
   "unscheduled": [
     {
+      "company": "GS",
+      "title": "지금 여행",
+      "schedule_raw": "매주 일요일 저녁"
+    },
+    {
       "company": "CJ",
       "title": "탑쇼",
       "schedule_raw": "TOP상품!  TOP혜택!"
@@ -1029,11 +1196,6 @@
     },
     {
       "company": "LT",
-      "title": "섭PD의 어섭쇼!",
-      "schedule_raw": ""
-    },
-    {
-      "company": "LT",
       "title": "뷰티패스",
       "schedule_raw": ""
     },
@@ -1041,11 +1203,6 @@
       "company": "LT",
       "title": "미숙씨 X 가전 LIVE",
       "schedule_raw": ""
-    },
-    {
-      "company": "LT",
-      "title": "가전패스",
-      "schedule_raw": "6월 매주 목요일"
     },
     {
       "company": "LT",
@@ -1059,8 +1216,18 @@
     },
     {
       "company": "LT",
+      "title": "섭PD의 어섭쇼!",
+      "schedule_raw": ""
+    },
+    {
+      "company": "LT",
       "title": "태윤맘과 맘심톡톡!",
       "schedule_raw": ""
+    },
+    {
+      "company": "LT",
+      "title": "가전패스",
+      "schedule_raw": "6월 매주 목요일"
     }
   ]
 }
