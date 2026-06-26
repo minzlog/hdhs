@@ -67,6 +67,80 @@
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250191247&preview=true",
         "category": "잡화/주얼리"
       }
+    ],
+    "2026-07-02": [
+      {
+        "start": "00:00",
+        "end": "07:20",
+        "brand": "알레보",
+        "product": "디엣지 플러스 유리 밥용기 1 1세트_",
+        "price": 59800,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250158734&preview=true",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "07:20",
+        "end": "11:20",
+        "brand": "셰퍼",
+        "product": "스팀싹 스팀다리미",
+        "price": 39800,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248869228&preview=true",
+        "category": "가전"
+      },
+      {
+        "start": "11:20",
+        "end": "12:00",
+        "brand": "발렌티노",
+        "product": "투트 라 브이 실크 넥스카프",
+        "price": 350000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251357068&preview=true",
+        "category": "잡화/주얼리"
+      },
+      {
+        "start": "12:00",
+        "end": "12:40",
+        "brand": "로라애슐리",
+        "product": "암막 양우산 세트",
+        "price": 69900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250717611&preview=true",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "12:40",
+        "end": "15:00",
+        "brand": "준우젬",
+        "product": "24K 천연석 트리플링 팔찌 24K 순금볼 리얼 담수 진주 팔찌",
+        "price": 149000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251004000&preview=true",
+        "category": "잡화/주얼리"
+      },
+      {
+        "start": "15:00",
+        "end": "17:20",
+        "brand": "코웨이",
+        "product": "코웨이 아이콘3/얼음정수기 렌탈",
+        "price": 2725200,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250862374&preview=true",
+        "category": "일반렌탈"
+      },
+      {
+        "start": "17:20",
+        "end": "22:40",
+        "brand": "이종임 농산가공",
+        "product": "이종임 포기김치",
+        "price": 39900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251252354&preview=true",
+        "category": "일반식품"
+      },
+      {
+        "start": "22:40",
+        "end": "23:39",
+        "brand": "하이원리조트",
+        "product": "하이원리조트 썸머 99 패키지",
+        "price": 259000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249946259&preview=true",
+        "category": "여행"
+      }
     ]
   }
 }

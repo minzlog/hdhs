@@ -153,7 +153,7 @@
         "end": "10:40",
         "brand": "타린로즈",
         "product": "○ 미라클 8 에어 스니커즈",
-        "price": 139000,
+        "price": 169000,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12906432",
         "category": "잡화/주얼리"
       },
@@ -183,15 +183,6 @@
         "price": 0,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12870662",
         "category": "일반렌탈"
-      },
-      {
-        "start": "23:40",
-        "end": "00:40",
-        "brand": "바이브리짓",
-        "product": "○ 26SS 시퀸 니트 뷔스티에",
-        "price": 49900,
-        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12892880",
-        "category": "의류"
       },
       {
         "start": "23:40",
@@ -257,15 +248,6 @@
         "price": 59900,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12905971",
         "category": "일반식품"
-      },
-      {
-        "start": "23:40",
-        "end": "00:40",
-        "brand": "힐링버드",
-        "product": "힐링버드 티트리 샴푸 두피 스케일러 휴대용 샴푸",
-        "price": 79000,
-        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12906229",
-        "category": "미용"
       }
     ]
   }

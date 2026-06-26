@@ -193,6 +193,134 @@
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2232380752&preview=true",
         "category": "보험"
       }
+    ],
+    "2026-07-02": [
+      {
+        "start": "03:10",
+        "end": "03:50",
+        "brand": "알레보",
+        "product": "브리앙 스텐304 대용량 밀폐용기 담금패키지",
+        "price": 149000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249505990&preview=true",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "03:50",
+        "end": "04:40",
+        "brand": "울시",
+        "product": "울시 여성 썸머 가디건",
+        "price": 79900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251088287&preview=true",
+        "category": "의류"
+      },
+      {
+        "start": "04:40",
+        "end": "05:20",
+        "brand": "제이시글램",
+        "product": "26SS 몸매커버 쉬폰 베스트",
+        "price": 39900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248265305&preview=true",
+        "category": "의류"
+      },
+      {
+        "start": "06:15",
+        "end": "08:15",
+        "brand": "크레송",
+        "product": "에르 블라우스",
+        "price": 49900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2236193767&preview=true",
+        "category": "의류"
+      },
+      {
+        "start": "06:15",
+        "end": "08:15",
+        "brand": "이상봉",
+        "product": "에디션 26SS 보니타 위빙백 라지",
+        "price": 129000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250945121&preview=true",
+        "category": "잡화/주얼리"
+      },
+      {
+        "start": "08:15",
+        "end": "10:25",
+        "brand": "그리팅",
+        "product": "밸런스식 뷰티핏 든든여름나기 패키지",
+        "price": 89900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251546228&preview=true",
+        "category": "일반식품"
+      },
+      {
+        "start": "08:15",
+        "end": "10:25",
+        "brand": "그리팅",
+        "product": "치킨마녀스프 5팩",
+        "price": 24900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248492732&preview=true",
+        "category": "일반식품"
+      },
+      {
+        "start": "08:15",
+        "end": "10:25",
+        "brand": "완도전복주식회사",
+        "product": "자이언트 왕특대 손질 자숙전복 13미 전복내장 13팩",
+        "price": 69900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251226826&preview=true",
+        "category": "일반식품"
+      },
+      {
+        "start": "10:25",
+        "end": "11:35",
+        "brand": "에이스바이옴",
+        "product": "패밀리세트 비에날씬 프로 프로틴 2주 플러스",
+        "price": 699000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250960059&preview=true",
+        "category": "건강식품"
+      },
+      {
+        "start": "13:25",
+        "end": "14:05",
+        "brand": "현대해상",
+        "product": "두배받는암보험",
+        "price": 1426314,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2206929114&preview=true",
+        "category": "보험"
+      },
+      {
+        "start": "15:45",
+        "end": "16:35",
+        "brand": "바이아우어",
+        "product": "바이아우어 아로마 바디워시",
+        "price": 59900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251231868&preview=true",
+        "category": "미용"
+      },
+      {
+        "start": "17:30",
+        "end": "18:30",
+        "brand": "동양생명",
+        "product": "우리WON하는실속플러스하나로암보험",
+        "price": 1044000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250744876&preview=true",
+        "category": "보험"
+      },
+      {
+        "start": "19:35",
+        "end": "20:45",
+        "brand": "종근당건강",
+        "product": "종근당건강 락토핏 코어맥스 총",
+        "price": 99000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251585984&preview=true",
+        "category": "건강식품"
+      },
+      {
+        "start": "23:55",
+        "end": "01:00",
+        "brand": "르부르낙산",
+        "product": "르부르낙산 역대 최저가 패키지 4인",
+        "price": 268000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251665285&preview=true",
+        "category": "여행"
+      }
     ]
   }
 }
