@@ -1367,8 +1367,8 @@
   <div class="main-tabs">
     <button id="tabBtnHomeshop" class="active">홈쇼핑</button>
     <button id="tabBtnFixedPgm">고정PGM</button>
-    <button id="tabBtnSchedule">편성표</button>
-    <button id="tabBtnDramaVariety">드라마/예능</button>
+    <button id="tabBtnSchedule">지상파·종편</button>
+    <button id="tabBtnDramaVariety">드라마·예능</button>
     <button id="tabBtnWeather">날씨</button>
   </div>
 </header>
@@ -2259,8 +2259,8 @@ function hsBuildTimelineWithGaps(programs) {
   const timeline = [];
   let cursor = null; // 지금까지 채워진 시각(분), null이면 아직 시작 전
   for (const item of items) {
-    if (cursor !== null && item.s > cursor) {
-      // cursor ~ item.s 사이가 진짜 빈 시간(Hit & Best 구간)
+    if (cursor !== null && item.s - cursor >= 2) {
+      // cursor ~ item.s 사이가 진짜 빈 시간(Hit & Best 구간). 2분 미만 차이는 없는 걸로 친다.
       timeline.push({ isGap: true, s: cursor, e: item.s });
     }
     timeline.push({ isGap: false, s: item.s, e: item.e, p: item.p });
@@ -2277,12 +2277,11 @@ function hsRenderGridView(datasets, nowMin) {
     const programs = (data && data.programs) ? data.programs : [];
     const timeline = hsBuildTimelineWithGaps(programs);
     for (const item of timeline) {
-      // item.s ~ item.e 구간이 걸쳐 있는 모든 hour 줄에 같은 항목을 넣는다
-      // (방송이든 갭이든, 24시 이후로 넘어가는 부분은 그 날짜 그리드에선 보여줄 곳이 없으므로 잘라낸다)
+      // item은 시작 시각이 속한 hour 줄에만 한 번 표시한다 (중복 표시 방지).
+      // 24시 이후로 시작하는 항목은 그 날짜 그리드에선 보여줄 곳이 없으므로 잘라낸다.
       const startHour = Math.floor(item.s / 60);
-      const endHourExclusive = Math.ceil(item.e / 60);
-      for (let h = Math.max(0, startHour); h < Math.min(24, endHourExclusive); h++) {
-        buckets[h][ci].push(item);
+      if (startHour >= 0 && startHour < 24) {
+        buckets[startHour][ci].push(item);
       }
     }
   });
