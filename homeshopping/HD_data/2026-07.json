@@ -141,6 +141,53 @@
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249946259&preview=true",
         "category": "여행"
       }
+    ],
+    "2026-07-03": [
+      {
+        "start": "03:40",
+        "end": "06:00",
+        "brand": "데일리아이디어",
+        "product": "데일리아이디어 혁명티슈 .",
+        "price": 59900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250722177&preview=true",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "06:00",
+        "end": "15:40",
+        "brand": "",
+        "product": "바로인 낫소 여성 핸즈프리 다이얼 워킹화",
+        "price": 69000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251228455&preview=true",
+        "category": "잡화/주얼리"
+      },
+      {
+        "start": "15:40",
+        "end": "16:00",
+        "brand": "제주농협",
+        "product": "햇 미니 단호박",
+        "price": 29900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251354391&preview=true",
+        "category": "일반식품"
+      },
+      {
+        "start": "16:00",
+        "end": "22:40",
+        "brand": "서대문 평양옥",
+        "product": "토종닭으로만든 토종백숙삼계탕 1.1kgX6팩",
+        "price": 69900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251120214&preview=true",
+        "category": "일반식품"
+      },
+      {
+        "start": "22:40",
+        "end": "23:39",
+        "brand": "한샘",
+        "product": "스타일에디션 상담예약",
+        "price": 40602179,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2227334680&preview=true",
+        "category": "일반렌탈"
+      }
     ]
   }
 }

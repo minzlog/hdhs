@@ -1569,6 +1569,15 @@
         "category": "일반식품"
       },
       {
+        "start": "05:00",
+        "end": "06:00",
+        "brand": "보랄",
+        "product": "날개없는 BLDC 선풍기 BR-L270DC 퍼플",
+        "price": 149000,
+        "link": "https://display.cjonstyle.com/p/item/2087499146?channelCode=30002002",
+        "category": "가전"
+      },
+      {
         "start": "06:00",
         "end": "06:50",
         "brand": "오스템",
@@ -1751,6 +1760,15 @@
         "category": "의류"
       },
       {
+        "start": "02:00",
+        "end": "02:30",
+        "brand": "락포트",
+        "product": "토탈모션 무스탕 100% 천연양모 부츠",
+        "price": 239000,
+        "link": "https://display.cjonstyle.com/p/item/2042222082?channelCode=30002002",
+        "category": "잡화/주얼리"
+      },
+      {
         "start": "02:30",
         "end": "02:45",
         "brand": "지스튜디오",
@@ -1834,10 +1852,10 @@
       {
         "start": "08:15",
         "end": "09:20",
-        "brand": "AGE20'S",
-        "product": "에이지투웨니스 다이아물광샷",
-        "price": 99000,
-        "link": "https://display.cjonstyle.com/p/item/2085502631?channelCode=30002002",
+        "brand": "로에비타",
+        "product": "로에비타 동결건조 비타민C 기미앰플 에센스 기본 패키지",
+        "price": 109000,
+        "link": "https://display.cjonstyle.com/p/item/2087627491?channelCode=30002002",
         "category": "미용"
       },
       {
@@ -2021,6 +2039,15 @@
         "price": 99900,
         "link": "https://display.cjonstyle.com/p/item/2083256778?channelCode=30002002",
         "category": "언더웨어"
+      },
+      {
+        "start": "04:00",
+        "end": "04:30",
+        "brand": "락포트",
+        "product": "발볼부자 PICK 토탈모션 아몬드토 기모 램스킨 부츠",
+        "price": 219000,
+        "link": "https://display.cjonstyle.com/p/item/2070373019?channelCode=30002002",
+        "category": "잡화/주얼리"
       },
       {
         "start": "04:30",

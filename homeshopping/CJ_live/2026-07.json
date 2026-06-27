@@ -41,6 +41,15 @@
         "category": "의류"
       },
       {
+        "start": "04:00",
+        "end": "04:30",
+        "brand": "락포트",
+        "product": "토탈모션 360도 100% 천연양털 로퍼",
+        "price": 189000,
+        "link": "https://display.cjonstyle.com/p/item/2073111940?channelCode=30002002",
+        "category": "잡화/주얼리"
+      },
+      {
         "start": "05:00",
         "end": "06:00",
         "brand": "대원제약",
@@ -75,6 +84,15 @@
         "price": 179900,
         "link": "https://display.cjonstyle.com/p/item/2083039134?channelCode=30002002",
         "category": "리빙/주방"
+      },
+      {
+        "start": "09:20",
+        "end": "10:25",
+        "brand": "지스튜디오",
+        "product": "26SS 아트 다잉 티셔츠",
+        "price": 119900,
+        "link": "https://display.cjonstyle.com/p/item/2081631329?channelCode=30002002",
+        "category": "의류"
       },
       {
         "start": "11:35",
@@ -284,6 +302,116 @@
         "price": 164000,
         "link": "https://display.cjonstyle.com/p/item/2086207196?channelCode=30002002",
         "category": "리빙/주방"
+      }
+    ],
+    "2026-07-03": [
+      {
+        "start": "06:00",
+        "end": "06:10",
+        "brand": "햇살바람",
+        "product": "제주농협 특등급 햇 미니 단호박",
+        "price": 29800,
+        "link": "https://display.cjonstyle.com/p/item/2087318883?channelCode=30002002",
+        "category": "일반식품"
+      },
+      {
+        "start": "06:10",
+        "end": "07:15",
+        "brand": "그레인온",
+        "product": "카사베르디 유기농 와인비니거 레드6 2병 디스펜서",
+        "price": 129000,
+        "link": "https://display.cjonstyle.com/p/item/2082414390?channelCode=30002002",
+        "category": "건강식품"
+      },
+      {
+        "start": "07:15",
+        "end": "08:15",
+        "brand": "AHC",
+        "product": "풀리프트 아이크림 포페이스 대 중3통 리얼골드2종",
+        "price": 169000,
+        "link": "https://display.cjonstyle.com/p/item/2087627292?channelCode=30002002",
+        "category": "미용"
+      },
+      {
+        "start": "08:15",
+        "end": "09:20",
+        "brand": "엑소머",
+        "product": "셀리노바 인터벤션 듀오",
+        "price": 398000,
+        "link": "https://display.cjonstyle.com/p/item/2080554871?channelCode=30002002",
+        "category": "미용"
+      },
+      {
+        "start": "11:35",
+        "end": "13:25",
+        "brand": "바니스뉴욕",
+        "product": "마르쉐백",
+        "price": 399000,
+        "link": "https://display.cjonstyle.com/p/item/2055764585?channelCode=30002002",
+        "category": "잡화/주얼리"
+      },
+      {
+        "start": "13:25",
+        "end": "13:35",
+        "brand": "바니스뉴욕",
+        "product": "26SS 헤일리 드레이프 티블라우스",
+        "price": 59000,
+        "link": "https://display.cjonstyle.com/p/item/2081350867?channelCode=30002002",
+        "category": "의류"
+      },
+      {
+        "start": "14:35",
+        "end": "15:30",
+        "brand": "델쥬아",
+        "product": "델쥬아 고단백 닭가슴살면 5팩 동치미맛 육수 5팩",
+        "price": 32900,
+        "link": "https://display.cjonstyle.com/p/item/2083861256?channelCode=30002002",
+        "category": "일반식품"
+      },
+      {
+        "start": "15:30",
+        "end": "16:30",
+        "brand": "라이나생명",
+        "product": "라이나 생명 The건강한치아보험V",
+        "price": 0,
+        "link": "https://display.cjonstyle.com/p/item/2064991861?channelCode=30002002",
+        "category": "보험"
+      },
+      {
+        "start": "17:30",
+        "end": "18:30",
+        "brand": "AHC",
+        "product": "풀리프트 아이크림 포페이스 대 중3통 리얼골드2종",
+        "price": 169000,
+        "link": "https://display.cjonstyle.com/p/item/2087627292?channelCode=30002002",
+        "category": "미용"
+      },
+      {
+        "start": "18:30",
+        "end": "19:35",
+        "brand": "",
+        "product": "925실버 이태리 아이스체인 2줄 목걸이",
+        "price": 279000,
+        "link": "https://display.cjonstyle.com/p/item/2084111608?channelCode=30002002",
+        "category": "잡화/주얼리"
+      },
+      {
+        "start": "21:45",
+        "end": "22:45",
+        "brand": "브이티",
+        "product": "크라이오 아이스 마스크",
+        "price": 31900,
+        "link": "https://display.cjonstyle.com/p/item/2086285259?channelCode=30002002",
+        "category": "미용"
+      },
+      {
+        "start": "23:55",
+        "end": "01:10",
+        "brand": "썽봉",
+        "product": "프랑스직수입 니치 향수_베티버 아이리스",
+        "price": 132000,
+        "link": "https://display.cjonstyle.com/p/item/2056576927?channelCode=30002002",
+        "category": "미용"
       }
     ]
   }

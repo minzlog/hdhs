@@ -321,6 +321,80 @@
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251665285&preview=true",
         "category": "여행"
       }
+    ],
+    "2026-07-03": [
+      {
+        "start": "06:15",
+        "end": "07:15",
+        "brand": "바네사리찌",
+        "product": "아트 티블라우스5종",
+        "price": 39900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249984173&preview=true",
+        "category": "의류"
+      },
+      {
+        "start": "07:15",
+        "end": "08:15",
+        "brand": "에이스바이옴",
+        "product": "패밀리세트 비에날씬 프로 비에날퀸 비에날씬 플러스",
+        "price": 699000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248968602&preview=true",
+        "category": "건강식품"
+      },
+      {
+        "start": "08:15",
+        "end": "10:25",
+        "brand": "머티리얼랩",
+        "product": "머티리얼랩 26SS 다이이치오리모노 Cubetex® 레인코트",
+        "price": 189000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248763709&preview=true",
+        "category": "의류"
+      },
+      {
+        "start": "08:15",
+        "end": "10:25",
+        "brand": "머티리얼랩",
+        "product": "26SS 핀턱 슬리브리스 블라우스",
+        "price": 69000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248969404&preview=true",
+        "category": "의류"
+      },
+      {
+        "start": "12:35",
+        "end": "13:35",
+        "brand": "흥국화재",
+        "product": "흥Good 든든한 3N5 간편종합보험",
+        "price": 1281500,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248871590&preview=true",
+        "category": "보험"
+      },
+      {
+        "start": "15:30",
+        "end": "16:30",
+        "brand": "삼성",
+        "product": "삼성 비스포크 AI 콤보 세탁건조기 그레이지",
+        "price": 3270000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250751836&preview=true",
+        "category": "가전"
+      },
+      {
+        "start": "17:30",
+        "end": "18:30",
+        "brand": "흥국생명",
+        "product": "첫날부터 평생보장 1인실간병플랜 흥국생명 오튼튼5.10.5 건강보험",
+        "price": 1549100,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250983486&preview=true",
+        "category": "보험"
+      },
+      {
+        "start": "22:40",
+        "end": "01:10",
+        "brand": "에스카다 스포츠",
+        "product": "에스카다 스포츠 26SS 와이드 버킷햇",
+        "price": 149000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250177500&preview=true",
+        "category": "의류"
+      }
     ]
   }
 }

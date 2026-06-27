@@ -123,6 +123,35 @@
         "link": "https://display.cjonstyle.com/p/item/2052347104?channelCode=30002002",
         "category": "보험"
       }
+    ],
+    "2026-07-03": [
+      {
+        "start": "00:45",
+        "end": "01:45",
+        "brand": "다니엘크레뮤",
+        "product": "26SS 워셔블 수피마 코튼 100% 카라 니트",
+        "price": 79000,
+        "link": "https://display.cjonstyle.com/p/item/2081130196?channelCode=30002002",
+        "category": "의류"
+      },
+      {
+        "start": "14:45",
+        "end": "15:15",
+        "brand": "",
+        "product": "한미사이언스 완전두유 더진한 서리태 무가당 99.9 190㎖ 80팩",
+        "price": 49900,
+        "link": "https://display.cjonstyle.com/p/item/2055353739?channelCode=30002002",
+        "category": "일반식품"
+      },
+      {
+        "start": "19:45",
+        "end": "20:45",
+        "brand": "에어룸",
+        "product": "라지킹_아이스Max 쿨드론 냉감패드 풀패키지T",
+        "price": 159900,
+        "link": "https://display.cjonstyle.com/p/item/2085134063?channelCode=30002002",
+        "category": "리빙/주방"
+      }
     ]
   }
 }

@@ -249,6 +249,89 @@
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12905971",
         "category": "일반식품"
       }
+    ],
+    "2026-07-03": [
+      {
+        "start": "02:20",
+        "end": "02:40",
+        "brand": "안국약품",
+        "product": "☆토비콤 루테인지아잔틴 아스타잔틴",
+        "price": 298000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12860684",
+        "category": "건강식품"
+      },
+      {
+        "start": "03:55",
+        "end": "04:00",
+        "brand": "한화손해보험",
+        "product": "한화손보 시그니처 여성암보험_One1",
+        "price": 0,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12910022",
+        "category": "보험"
+      },
+      {
+        "start": "04:25",
+        "end": "04:30",
+        "brand": "한화손해보험",
+        "product": "한화손보 시그니처 여성암보험_One4",
+        "price": 0,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12910037",
+        "category": "보험"
+      },
+      {
+        "start": "04:40",
+        "end": "05:00",
+        "brand": "에치와이",
+        "product": "에치와이 바이오리브 100억 유산균",
+        "price": 288000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12897688",
+        "category": "건강식품"
+      },
+      {
+        "start": "05:00",
+        "end": "05:40",
+        "brand": "폴앤조",
+        "product": "○ 25SS 에센셜 니트 슬리브리스",
+        "price": 39900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12839834",
+        "category": "의류"
+      },
+      {
+        "start": "10:40",
+        "end": "11:40",
+        "brand": "스케쳐스",
+        "product": "○ 스케쳐스 26SS 여성 고워크 플렉스 슬립인스 샌들",
+        "price": 99000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12907883",
+        "category": "잡화/주얼리"
+      },
+      {
+        "start": "12:40",
+        "end": "13:40",
+        "brand": "흥국화재",
+        "product": "흥Good 든든한 3N5 간편종합보험_ONE",
+        "price": 0,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12898848",
+        "category": "보험"
+      },
+      {
+        "start": "16:00",
+        "end": "16:40",
+        "brand": "순수식품",
+        "product": "오가닉 퓨어 블루베리즙",
+        "price": 69900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12905266",
+        "category": "건강식품"
+      },
+      {
+        "start": "18:40",
+        "end": "19:40",
+        "brand": "한복선",
+        "product": "한복선 프리미엄 꽃갈빗살 총 8팩",
+        "price": 59900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12903742",
+        "category": "일반식품"
+      }
     ]
   }
 }

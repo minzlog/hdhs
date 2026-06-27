@@ -63,7 +63,7 @@
         "end": "05:15",
         "brand": "까스텔바작",
         "product": "까스텔바작 26SS 여성 크로쉐 앙상블",
-        "price": 89000,
+        "price": 71200,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12902044",
         "category": "의류"
       },
@@ -245,7 +245,7 @@
         "end": "03:45",
         "brand": "바이브리짓",
         "product": "26SS 썸머 와이드 스트링 데님팬츠",
-        "price": 55920,
+        "price": 69900,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12907173",
         "category": "의류"
       },
@@ -356,6 +356,134 @@
         "price": 59900,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12888349",
         "category": "의류"
+      }
+    ],
+    "2026-07-03": [
+      {
+        "start": "01:00",
+        "end": "02:00",
+        "brand": "에스까다",
+        "product": "ESCADA 26SS 여성 크로쉐 풀오버 나시 니트",
+        "price": 199000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12901779",
+        "category": "의류"
+      },
+      {
+        "start": "02:00",
+        "end": "02:30",
+        "brand": "아쿠아스큐텀",
+        "product": "아쿠아스큐텀 26SS 여성 플라워프린트 원피스",
+        "price": 84910,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12904626",
+        "category": "의류"
+      },
+      {
+        "start": "02:30",
+        "end": "03:00",
+        "brand": "라오메뜨",
+        "product": "전설의 패치 프리미엄 BEST 패키지",
+        "price": 99900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12888210",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "04:00",
+        "end": "04:30",
+        "brand": "자이글온",
+        "product": "□ 네스트 통증완화 고주파 의료기기 렌탈",
+        "price": 0,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12791652",
+        "category": "일반렌탈"
+      },
+      {
+        "start": "04:30",
+        "end": "05:15",
+        "brand": "까스텔바작",
+        "product": "까스텔바작 26SS 여성 메종 헤리티지 카라 니트",
+        "price": 67150,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12902056",
+        "category": "의류"
+      },
+      {
+        "start": "05:15",
+        "end": "06:15",
+        "brand": "닥터린",
+        "product": "☆! 닥터린 파비플로라X알파CD",
+        "price": 259000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12875214",
+        "category": "건강식품"
+      },
+      {
+        "start": "06:15",
+        "end": "07:15",
+        "brand": "닥터린",
+        "product": "○닥터린 하이퍼셀 대마종자유",
+        "price": 298000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12881357",
+        "category": "건강식품"
+      },
+      {
+        "start": "08:15",
+        "end": "10:25",
+        "brand": "베네통",
+        "product": "샤인스톤 쥬얼 샌들",
+        "price": 71100,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12906155",
+        "category": "잡화/주얼리"
+      },
+      {
+        "start": "11:35",
+        "end": "12:35",
+        "brand": "루나앤슬립",
+        "product": "기능성 냉감 메쉬 소파패드 2장",
+        "price": 69900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911573",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "12:35",
+        "end": "13:35",
+        "brand": "테팔",
+        "product": "테팔 와이드 플랜차 전기그릴 보관가방",
+        "price": 109000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911439",
+        "category": "가전"
+      },
+      {
+        "start": "16:30",
+        "end": "17:30",
+        "brand": "프리메로",
+        "product": "프리메로 블루베리 리얼 100",
+        "price": 129000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12894651",
+        "category": "건강식품"
+      },
+      {
+        "start": "18:30",
+        "end": "19:35",
+        "brand": "삼성전자",
+        "product": "삼성 비스포크 AI 냉장고 4도어",
+        "price": 2040000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12900105",
+        "category": "가전"
+      },
+      {
+        "start": "20:40",
+        "end": "21:40",
+        "brand": "가이거",
+        "product": "플리세 플리츠백",
+        "price": 150450,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12897777",
+        "category": "잡화/주얼리"
+      },
+      {
+        "start": "22:40",
+        "end": "23:50",
+        "brand": "글루타넥스",
+        "product": "글루타넥스 글로우 랩핑팩 글로우 부스터 크림",
+        "price": 298000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12906140",
+        "category": "미용"
       }
     ]
   }
