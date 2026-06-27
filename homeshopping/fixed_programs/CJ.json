@@ -1,28 +1,7 @@
 {
   "company": "CJ",
-  "collectedAt": "2026-06-27T06:16:36.798408+09:00",
+  "collectedAt": "2026-06-28T06:00:41.279118+09:00",
   "programs": [
-    {
-      "pgm_cd": "563049",
-      "title": "동가게",
-      "schedule_raw": "목20:45 / 토10:20",
-      "thumbnail": "https://image.cjonstyle.net/public/confirm/assets/tdp_cate_cont/202303/15/5549814/4e4dc31abd2c744307eda7f579c43b9b1bfba453.png",
-      "pgmshop_link": "https://display.cjonstyle.com/m/pgmShop/563049",
-      "upcoming_products": [
-        {
-          "name": "[동가게 PICK] 리파니 파비올라 숄더백",
-          "price": 369000,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/780/2084733780L.jpg?timestamp=20260520175056",
-          "link": "https://display.cjonstyle.com/m/item/2084733780?channelCode=30002002"
-        },
-        {
-          "name": "26SS 썸머 버킷햇_리조트 EDITION",
-          "price": 69000,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/352/2082529352L.jpg?timestamp=20260423174952",
-          "link": "https://display.cjonstyle.com/m/item/2082529352?channelCode=30002002"
-        }
-      ]
-    },
     {
       "pgm_cd": "563735",
       "title": "T더 지완스 1부",
@@ -31,100 +10,16 @@
       "pgmshop_link": "https://display.cjonstyle.com/m/pgmShop/563735",
       "upcoming_products": [
         {
-          "name": "더지완스 26SS 최신상 프리미엄 뱀부코튼 타올 스폐셜 12종세트_멀티",
-          "price": 129000,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/329/2085597329L.jpg?timestamp=20260618101751",
-          "link": "https://display.cjonstyle.com/m/item/2085597329?channelCode=30002002"
-        },
-        {
           "name": "100% NFC 착즙 멀베리주스 200ml x 48팩",
           "price": 99000,
           "image": "https://itemimage.cjonstyle.net/goods_images/20/903/2086618903L.jpg?timestamp=20260610225229",
           "link": "https://display.cjonstyle.com/m/item/2086618903?channelCode=30002002"
-        }
-      ]
-    },
-    {
-      "pgm_cd": "563677",
-      "title": "탑쇼",
-      "schedule_raw": "TOP상품!  TOP혜택!",
-      "thumbnail": "https://image.cjonstyle.net/public/confirm/assets/tdp_cate_cont/202404/01/6492448/f4106c51351576725601bddc03d7d0b0362edaf4.png",
-      "pgmshop_link": "https://display.cjonstyle.com/m/exhibition/exhibitionDetail?plnExhbId=202403265646",
-      "upcoming_products": [
-        {
-          "name": "[CJ단독]천혜당 하이드레이션 ORS 8+4+전해질포도당캔디100정",
-          "price": 240000,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/255/2086735255L.jpg?timestamp=20260612104310",
-          "link": "https://display.cjonstyle.com/m/item/2086735255?channelCode=30002002"
         },
         {
-          "name": "[공식正品] SS 듀라론-쿨100% 민트라벨 최고사양 냉감패드 2종세트",
-          "price": 139000,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/401/2084637401L.jpg?timestamp=20260604235925",
-          "link": "https://display.cjonstyle.com/m/item/2084637401?channelCode=30002002"
-        }
-      ]
-    },
-    {
-      "pgm_cd": "563794",
-      "title": "조윤주가 사는 세상",
-      "schedule_raw": "매주 일요일 22시 40분",
-      "thumbnail": "https://image.cjonstyle.net/public/confirm/assets/tdp_cate_cont/202603/20/6726976/23d6c33bd374dd8b3d949dd77036759e5e997bee.png",
-      "pgmshop_link": "https://display.cjonstyle.com/m/pgmShop/563794?infl_cd=I4218",
-      "upcoming_products": [
-        {
-          "name": "[주사세 패키지] 바이오 콜라겐 리얼 딥 마스크 104매(체험분 1매 포함)+콜라겐 세럼 2개",
-          "price": 278000,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/318/2087119318L.jpg?timestamp=20260617131614",
-          "link": "https://display.cjonstyle.com/m/item/2087119318?channelCode=30002002"
-        },
-        {
-          "name": "2번 싱글)비노퍼펙트세럼 세럼 세트(무료체험없음)",
-          "price": 169000,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/655/2079050655L.jpg?timestamp=20260224105905",
-          "link": "https://display.cjonstyle.com/m/item/2079050655?channelCode=30002002"
-        }
-      ]
-    },
-    {
-      "pgm_cd": "563883",
-      "title": "T이승연쇼 1부",
-      "schedule_raw": "매주 토 20시45분",
-      "thumbnail": "https://image.cjonstyle.net/public/confirm/assets/tdp_cate_cont/202508/21/6943541/e6b0461dd764c6ea12890a6ea6d322019d2ecf6b.png",
-      "pgmshop_link": "https://display.cjonstyle.com/m/pgmShop/563883",
-      "upcoming_products": [
-        {
-          "name": "[이승연쇼 단독혜택] BEREX 침대&케어서비스",
-          "price": 0,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/767/2087115767L.jpg?timestamp=20260617101640",
-          "link": "https://display.cjonstyle.com/m/item/2087115767?channelCode=30002002"
-        },
-        {
-          "name": "라지킹_아이스Max 쿨드론 냉감패드 7종 풀패키지T",
-          "price": 159900,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/063/2085134063L.jpg?timestamp=20260521144953",
-          "link": "https://display.cjonstyle.com/m/item/2085134063?channelCode=30002002"
-        }
-      ]
-    },
-    {
-      "pgm_cd": "562953",
-      "title": "HIT THE STYLE",
-      "schedule_raw": "토 22:30",
-      "thumbnail": "https://image.cjonstyle.net/public/confirm/assets/tdp_cate_cont/202403/06/5549817/6c72120e3864f6895caf990f7248d396339a5a5c.png",
-      "pgmshop_link": "https://display.cjonstyle.com/m/pgmShop/562953",
-      "upcoming_products": [
-        {
-          "name": "26SS RAW NY 바비 스키니 브라렛 SET",
-          "price": 159000,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/471/2084417471L.jpg?timestamp=20260529110244",
-          "link": "https://display.cjonstyle.com/m/item/2084417471?channelCode=30002002"
-        },
-        {
-          "name": "26SS 아세테이트 글로우 티블라우스 2종",
-          "price": 69900,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/657/2082192657L.jpg?timestamp=20260413164026",
-          "link": "https://display.cjonstyle.com/m/item/2082192657?channelCode=30002002"
+          "name": "NFC 100% 착즙 토마토주스 (200ml x 72팩)",
+          "price": 75900,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/332/2055758332L.jpg?timestamp=20251205100928",
+          "link": "https://display.cjonstyle.com/m/item/2055758332?channelCode=30002002"
         }
       ]
     },
@@ -221,6 +116,48 @@
       ]
     },
     {
+      "pgm_cd": "563049",
+      "title": "동가게",
+      "schedule_raw": "목20:45 / 토10:20",
+      "thumbnail": "https://image.cjonstyle.net/public/confirm/assets/tdp_cate_cont/202303/15/5549814/4e4dc31abd2c744307eda7f579c43b9b1bfba453.png",
+      "pgmshop_link": "https://display.cjonstyle.com/m/pgmShop/563049",
+      "upcoming_products": [
+        {
+          "name": "925실버 파베볼 목걸이",
+          "price": 139900,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/943/2082265943L.jpg?timestamp=20260620132754",
+          "link": "https://display.cjonstyle.com/m/item/2082265943?channelCode=30002002"
+        },
+        {
+          "name": "[동지현 PICK] 스킨핏 초경량 에센셜 누디패키지 5세트",
+          "price": 179900,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/799/2083255799L.jpg?timestamp=20260622095136",
+          "link": "https://display.cjonstyle.com/m/item/2083255799?channelCode=30002002"
+        }
+      ]
+    },
+    {
+      "pgm_cd": "563883",
+      "title": "T이승연쇼 1부",
+      "schedule_raw": "매주 토 20시45분",
+      "thumbnail": "https://image.cjonstyle.net/public/confirm/assets/tdp_cate_cont/202508/21/6943541/e6b0461dd764c6ea12890a6ea6d322019d2ecf6b.png",
+      "pgmshop_link": "https://display.cjonstyle.com/m/pgmShop/563883",
+      "upcoming_products": [
+        {
+          "name": "라지킹_아이스Max 쿨드론 냉감패드 7종 풀패키지T",
+          "price": 159900,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/063/2085134063L.jpg?timestamp=20260521144953",
+          "link": "https://display.cjonstyle.com/m/item/2085134063?channelCode=30002002"
+        },
+        {
+          "name": "라지킹_아이스Max 쿨드론 냉감패드 7종 풀패키지",
+          "price": 159900,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/126/2082966126L.jpg?timestamp=20260504090741",
+          "link": "https://display.cjonstyle.com/m/item/2082966126?channelCode=30002002"
+        }
+      ]
+    },
+    {
       "pgm_cd": "563823",
       "title": "소이현의 겟잇스타일",
       "schedule_raw": "격주 금요일 21시 45분",
@@ -242,6 +179,48 @@
       ]
     },
     {
+      "pgm_cd": "563794",
+      "title": "조윤주가 사는 세상",
+      "schedule_raw": "매주 일요일 22시 40분",
+      "thumbnail": "https://image.cjonstyle.net/public/confirm/assets/tdp_cate_cont/202603/20/6726976/23d6c33bd374dd8b3d949dd77036759e5e997bee.png",
+      "pgmshop_link": "https://display.cjonstyle.com/m/pgmShop/563794?infl_cd=I4218",
+      "upcoming_products": [
+        {
+          "name": "2번 싱글)비노퍼펙트세럼 세럼 세트(무료체험없음)",
+          "price": 169000,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/655/2079050655L.jpg?timestamp=20260224105905",
+          "link": "https://display.cjonstyle.com/m/item/2079050655?channelCode=30002002"
+        },
+        {
+          "name": "헐리우드 48시간 8병 + 전용보틀 + 가이드북",
+          "price": 159000,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/320/2055769320L.jpg?timestamp=20260619155921",
+          "link": "https://display.cjonstyle.com/m/item/2055769320?channelCode=30002002"
+        }
+      ]
+    },
+    {
+      "pgm_cd": "562953",
+      "title": "HIT THE STYLE",
+      "schedule_raw": "토 22:30",
+      "thumbnail": "https://image.cjonstyle.net/public/confirm/assets/tdp_cate_cont/202403/06/5549817/6c72120e3864f6895caf990f7248d396339a5a5c.png",
+      "pgmshop_link": "https://display.cjonstyle.com/m/pgmShop/562953",
+      "upcoming_products": [
+        {
+          "name": "25FW 리버시블 후드 숏 무스탕",
+          "price": 1190000,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/119/2073791119L.jpg?timestamp=20251218112203",
+          "link": "https://display.cjonstyle.com/m/item/2073791119?channelCode=30002002"
+        },
+        {
+          "name": "[공식수입정품] 그라시에 레더 피셔맨 샌들",
+          "price": 229000,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/877/2085509877L.jpg?timestamp=20260601143846",
+          "link": "https://display.cjonstyle.com/m/item/2085509877?channelCode=30002002"
+        }
+      ]
+    },
+    {
       "pgm_cd": "563740",
       "title": "건강이 오네",
       "schedule_raw": "토요일 오전",
@@ -253,12 +232,27 @@
           "price": 209000,
           "image": "https://itemimage.cjonstyle.net/goods_images/20/634/2086075634L.jpg?timestamp=20260605140929",
           "link": "https://display.cjonstyle.com/m/item/2086075634?channelCode=30002002"
+        }
+      ]
+    },
+    {
+      "pgm_cd": "563677",
+      "title": "탑쇼",
+      "schedule_raw": "TOP상품!  TOP혜택!",
+      "thumbnail": "https://image.cjonstyle.net/public/confirm/assets/tdp_cate_cont/202404/01/6492448/f4106c51351576725601bddc03d7d0b0362edaf4.png",
+      "pgmshop_link": "https://display.cjonstyle.com/m/exhibition/exhibitionDetail?plnExhbId=202403265646",
+      "upcoming_products": [
+        {
+          "name": "[공식正品] SS 듀라론-쿨100% 민트라벨 최고사양 냉감패드 2종세트",
+          "price": 139000,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/401/2084637401L.jpg?timestamp=20260604235925",
+          "link": "https://display.cjonstyle.com/m/item/2084637401?channelCode=30002002"
         },
         {
-          "name": "[방송에서만 세일]시서스 필 다이어트 6박스 (168정/24주분)",
-          "price": 199000,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/336/2076080336L.jpg?timestamp=20251209105707",
-          "link": "https://display.cjonstyle.com/m/item/2076080336?channelCode=30002002"
+          "name": "[공식正品] SK/LK 듀라론-쿨100% 민트라벨 최고사양 냉감패드 2종세트",
+          "price": 189000,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/849/2084633849L.jpg?timestamp=20260604235310",
+          "link": "https://display.cjonstyle.com/m/item/2084633849?channelCode=30002002"
         }
       ]
     }

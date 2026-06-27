@@ -1,6 +1,6 @@
 {
   "company": "HD",
-  "collectedAt": "2026-06-27T06:16:33.769400+09:00",
+  "collectedAt": "2026-06-28T06:00:38.766280+09:00",
   "programs": [
     {
       "title": "왕영은의 톡투게더",
@@ -13,16 +13,16 @@
       "detail_link": "https://www.hmall.com/md/dpa/pgmComm?sectId=2683513",
       "upcoming_products": [
         {
-          "name": "[왕톡단독] 폴바셋 프리미엄 아이스크림 NEW 패키지 총 24개",
-          "price": 69900,
-          "image": "https://image.hmall.com/2236429018_0.jpg",
-          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2236429018"
+          "name": "(품절대란템)샤크 프리미엄선풍기 터보블레이드팬(TF200SKR)",
+          "price": 299900,
+          "image": "https://image.hmall.com/2250317899_0.jpg",
+          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250317899"
         },
         {
-          "name": "오넬리아 엑스트라버진 올리브오일 세트 (500ml  3병 + 100ml 3병)",
-          "price": 179000,
-          "image": "https://image.hmall.com/2211010877_0.png",
-          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2211010877"
+          "name": "조선호텔 한우사골 眞 삼계탕 8팩",
+          "price": 79900,
+          "image": "https://image.hmall.com/2236376059_0.jpg",
+          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2236376059"
         }
       ]
     },
@@ -37,16 +37,16 @@
       "detail_link": "https://www.hmall.com/md/dpa/pgmComm?sectId=2718248",
       "upcoming_products": [
         {
-          "name": "멜라밀라 셀리 보닛햇",
-          "price": 49900,
-          "image": "https://image.hmall.com/2250071771_0.jpg",
-          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250071771"
+          "name": "버버리 런던 체크 미디엄 토트백",
+          "price": 1199000,
+          "image": "https://image.hmall.com/2251149426_0.jpg",
+          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251149426"
         },
         {
-          "name": "프라다 포코노 버킷백(1BH038)",
-          "price": 2649000,
-          "image": "https://image.hmall.com/2243695791_0.jpg",
-          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2243695791"
+          "name": "프라다 트라이앵글 로고 숄더백(1N204PR)",
+          "price": 1780000,
+          "image": "https://image.hmall.com/2251233656_0.jpg",
+          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251233656"
         }
       ]
     },
