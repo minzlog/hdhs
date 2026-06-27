@@ -825,6 +825,15 @@
     --lt: #DA291C;
     --cj: #4B286D;
     --gs: #1AA663;
+    /* 기타 7개사(+NS 샵플러스) 색상 - 기존 4사와 톤이 겹치지 않도록 구분 */
+    --public: #0E7C7B;
+    --hns: #E8590C;
+    --ktalpha: #5C3D99;
+    --shinsegae: #C8102E;
+    --ns: #1F6FEB;
+    --nsplus: #6CA0F2;
+    --shoppingnt: #B8860B;
+    --skstoa: #2E8B57;
     font-family: 'Pretendard', -apple-system, sans-serif;
   }
 
@@ -925,6 +934,14 @@
   table.hs-table thead th.lt .hs-co-tag { background: var(--lt); }
   table.hs-table thead th.cj .hs-co-tag { background: var(--cj); }
   table.hs-table thead th.gs .hs-co-tag { background: var(--gs); }
+  table.hs-table thead th.public .hs-co-tag { background: var(--public); }
+  table.hs-table thead th.hns .hs-co-tag { background: var(--hns); }
+  table.hs-table thead th.ktalpha .hs-co-tag { background: var(--ktalpha); }
+  table.hs-table thead th.shinsegae .hs-co-tag { background: var(--shinsegae); }
+  table.hs-table thead th.ns .hs-co-tag { background: var(--ns); }
+  table.hs-table thead th.nsplus .hs-co-tag { background: var(--nsplus); }
+  table.hs-table thead th.shoppingnt .hs-co-tag { background: var(--shoppingnt); }
+  table.hs-table thead th.skstoa .hs-co-tag { background: var(--skstoa); }
 
   table.hs-table td {
     border: 1px solid var(--rule);
@@ -947,6 +964,14 @@
   table.hs-table td.hs-co-cell.lt { background: color-mix(in srgb, var(--lt) 4%, white); }
   table.hs-table td.hs-co-cell.cj { background: color-mix(in srgb, var(--cj) 4%, white); }
   table.hs-table td.hs-co-cell.gs { background: color-mix(in srgb, var(--gs) 4%, white); }
+  table.hs-table td.hs-co-cell.public { background: color-mix(in srgb, var(--public) 4%, white); }
+  table.hs-table td.hs-co-cell.hns { background: color-mix(in srgb, var(--hns) 4%, white); }
+  table.hs-table td.hs-co-cell.ktalpha { background: color-mix(in srgb, var(--ktalpha) 4%, white); }
+  table.hs-table td.hs-co-cell.shinsegae { background: color-mix(in srgb, var(--shinsegae) 4%, white); }
+  table.hs-table td.hs-co-cell.ns { background: color-mix(in srgb, var(--ns) 4%, white); }
+  table.hs-table td.hs-co-cell.nsplus { background: color-mix(in srgb, var(--nsplus) 4%, white); }
+  table.hs-table td.hs-co-cell.shoppingnt { background: color-mix(in srgb, var(--shoppingnt) 4%, white); }
+  table.hs-table td.hs-co-cell.skstoa { background: color-mix(in srgb, var(--skstoa) 4%, white); }
 
   .hs-cell-inner { display: flex; flex-direction: column; }
 
@@ -1489,6 +1514,7 @@
     <div class="hs-toggle" id="hsToggle">
       <button class="hs-toggle-btn active" data-bc="live">라이브방송</button>
       <button class="hs-toggle-btn" data-bc="data">데이터방송</button>
+      <button class="hs-toggle-btn" data-bc="etc">기타</button>
     </div>
 
     <div class="hs-toggle" id="hsTimeToggle">
@@ -2054,12 +2080,30 @@ function hsHourMatchesTimeFilter(hour) {
   if (hsTimeFilter === 'night') return hsIsNightHour(hour);
   return !hsIsNightHour(hour); // normal
 }
-const HS_COMPANIES = [
-  { code: 'HD', name: 'HD', cls: 'hd' },
-  { code: 'GS', name: 'GS', cls: 'gs' },
-  { code: 'CJ', name: 'CJ', cls: 'cj' },
-  { code: 'LT', name: 'LT', cls: 'lt' },
+const HS_COMPANIES_MAIN = [
+  { code: 'HD', name: 'HD', cls: 'hd', bc: null },
+  { code: 'GS', name: 'GS', cls: 'gs', bc: null },
+  { code: 'CJ', name: 'CJ', cls: 'cj', bc: null },
+  { code: 'LT', name: 'LT', cls: 'lt', bc: null },
 ];
+// 기타 7개사 (NS는 라이브 본채널/샵플러스 두 서브채널을 각각 별도 열로 표시).
+// bc를 명시한 항목은 hsCurrentBc(라이브/데이터 토글)와 무관하게 항상 그
+// broadcast 값으로 로드한다 - 기타 채널은 라이브/데이터 구분이 없어
+// etc_scraper.py가 항상 "live"로만 저장하기 때문.
+const HS_COMPANIES_ETC = [
+  { code: 'PUBLIC',     name: '공영',     cls: 'public',     bc: 'live' },
+  { code: 'HNS',        name: '홈앤',     cls: 'hns',         bc: 'live' },
+  { code: 'KTALPHA',    name: 'K쇼핑',    cls: 'ktalpha',     bc: 'live' },
+  { code: 'SHINSEGAE',  name: '신세계',   cls: 'shinsegae',   bc: 'live' },
+  { code: 'NS',         name: 'NS',       cls: 'ns',          bc: 'live' },
+  { code: 'NS',         name: 'NS+',      cls: 'nsplus',      bc: 'plus' },
+  { code: 'SHOPPINGNT', name: '쇼핑엔티', cls: 'shoppingnt',  bc: 'live' },
+  { code: 'SKSTOA',     name: 'SK스토아', cls: 'skstoa',      bc: 'live' },
+];
+
+function hsActiveCompanies() {
+  return hsCurrentBc === 'etc' ? HS_COMPANIES_ETC : HS_COMPANIES_MAIN;
+}
 const _hsCache = {};
 
 async function hsLoadCompanyDate(code, bc, dateStr) {
@@ -2192,8 +2236,9 @@ async function hsRefresh(dateStr) {
   const wrap = document.getElementById('hsGridWrap');
   wrap.innerHTML = '<div style="text-align:center;padding:30px;color:var(--ink-soft);font-size:12px;">불러오는 중…</div>';
 
+  const companies = hsActiveCompanies();
   const datasets = await Promise.all(
-    HS_COMPANIES.map(c => hsLoadCompanyDate(c.code, hsCurrentBc, dateStr))
+    companies.map(c => hsLoadCompanyDate(c.code, c.bc || hsCurrentBc, dateStr))
   );
   _hsLastDatasets = datasets;
   _hsLastDateStr = dateStr;
@@ -2270,26 +2315,28 @@ function hsBuildTimelineWithGaps(programs) {
 }
 
 function hsRenderGridView(datasets, nowMin) {
+  const companies = hsActiveCompanies();
   const buckets = {};
-  for (let h = 0; h < 24; h++) buckets[h] = HS_COMPANIES.map(() => []);
+  for (let h = 0; h < 24; h++) buckets[h] = companies.map(() => []);
 
   datasets.forEach((data, ci) => {
     const programs = (data && data.programs) ? data.programs : [];
     const timeline = hsBuildTimelineWithGaps(programs);
     for (const item of timeline) {
-      // item.s ~ item.e 구간이 걸쳐 있는 모든 hour 줄에 같은 항목을 넣는다
-      // (방송이든 갭이든, 24시 이후로 넘어가는 부분은 그 날짜 그리드에선 보여줄 곳이 없으므로 잘라낸다)
+      // 방송/갭 항목은 "시작 시각이 속한 hour 행"에만 1번 넣는다.
+      // (예: 22:45~23:50 방송을 22시·23시 두 줄 모두에 넣으면 같은
+      //  카드가 중복으로 보인다 - 카드 안에 시작~종료 시각이 이미
+      //  표시되므로, 시작 시각 행에서만 보여주는 것으로 충분하다.)
       const startHour = Math.floor(item.s / 60);
-      const endHourExclusive = Math.ceil(item.e / 60);
-      for (let h = Math.max(0, startHour); h < Math.min(24, endHourExclusive); h++) {
-        buckets[h][ci].push(item);
+      if (startHour >= 0 && startHour < 24) {
+        buckets[startHour][ci].push(item);
       }
     }
   });
 
   let html = '<div class="hs-scroll"><table class="hs-table"><thead><tr>';
   html += '<th class="hs-time-col">시간</th>';
-  HS_COMPANIES.forEach(c => {
+  companies.forEach(c => {
     html += `<th class="${c.cls}"><span class="hs-co-tag">${c.name}</span></th>`;
   });
   html += '</tr></thead><tbody>';
@@ -2298,7 +2345,7 @@ function hsRenderGridView(datasets, nowMin) {
     if (!hsHourMatchesTimeFilter(h)) continue;
     html += '<tr>';
     html += `<td class="hs-time-cell">${String(h).padStart(2, '0')}시</td>`;
-    HS_COMPANIES.forEach((c, ci) => {
+    companies.forEach((c, ci) => {
       const items = buckets[h][ci];
       if (items.length === 0) {
         // 그 시간대에 데이터 자체가 전혀 없는 경우(타임라인이 비어있어 gap도 못 만든 경우,
@@ -2321,7 +2368,8 @@ function hsRenderGridView(datasets, nowMin) {
 }
 
 function hsRenderListView(datasets, nowMin) {
-  const filtered = HS_COMPANIES.map((c, ci) => {
+  const companies = hsActiveCompanies();
+  const filtered = companies.map((c, ci) => {
     const programs = (datasets[ci] && datasets[ci].programs) ? datasets[ci].programs : [];
     return programs.filter(hsMatchesFilter);
   });
@@ -2333,12 +2381,12 @@ function hsRenderListView(datasets, nowMin) {
 
   let html = '<div class="hs-scroll"><table class="hs-table hs-table-list"><thead><tr>';
   html += '<th class="hs-time-col"></th>';
-  HS_COMPANIES.forEach(c => {
+  companies.forEach(c => {
     html += `<th class="${c.cls}"><span class="hs-co-tag">${c.name}</span></th>`;
   });
   html += '</tr></thead><tbody><tr>';
   html += '<td class="hs-time-cell"></td>';
-  HS_COMPANIES.forEach((c, ci) => {
+  companies.forEach((c, ci) => {
     const progs = filtered[ci];
     if (progs.length === 0) {
       html += `<td class="hs-empty-cell hs-co-cell ${c.cls}"><div class="hs-hitbest">해당 편성 없음</div></td>`;
