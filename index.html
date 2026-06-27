@@ -825,14 +825,6 @@
     --lt: #DA291C;
     --cj: #4B286D;
     --gs: #1AA663;
-    --public: #0B7285;
-    --hns: #2F9E44;
-    --ktalpha: #5C3D99;
-    --shinsegae: #C2255C;
-    --ns: #B5651D;
-    --nsplus: #D9844A;
-    --shoppingnt: #1864AB;
-    --skstoa: #862E9C;
     font-family: 'Pretendard', -apple-system, sans-serif;
   }
 
@@ -933,14 +925,6 @@
   table.hs-table thead th.lt .hs-co-tag { background: var(--lt); }
   table.hs-table thead th.cj .hs-co-tag { background: var(--cj); }
   table.hs-table thead th.gs .hs-co-tag { background: var(--gs); }
-  table.hs-table thead th.public .hs-co-tag { background: var(--public); }
-  table.hs-table thead th.hns .hs-co-tag { background: var(--hns); }
-  table.hs-table thead th.ktalpha .hs-co-tag { background: var(--ktalpha); }
-  table.hs-table thead th.shinsegae .hs-co-tag { background: var(--shinsegae); }
-  table.hs-table thead th.ns .hs-co-tag { background: var(--ns); }
-  table.hs-table thead th.nsplus .hs-co-tag { background: var(--nsplus); }
-  table.hs-table thead th.shoppingnt .hs-co-tag { background: var(--shoppingnt); }
-  table.hs-table thead th.skstoa .hs-co-tag { background: var(--skstoa); }
 
   table.hs-table td {
     border: 1px solid var(--rule);
@@ -963,14 +947,6 @@
   table.hs-table td.hs-co-cell.lt { background: color-mix(in srgb, var(--lt) 4%, white); }
   table.hs-table td.hs-co-cell.cj { background: color-mix(in srgb, var(--cj) 4%, white); }
   table.hs-table td.hs-co-cell.gs { background: color-mix(in srgb, var(--gs) 4%, white); }
-  table.hs-table td.hs-co-cell.public { background: color-mix(in srgb, var(--public) 4%, white); }
-  table.hs-table td.hs-co-cell.hns { background: color-mix(in srgb, var(--hns) 4%, white); }
-  table.hs-table td.hs-co-cell.ktalpha { background: color-mix(in srgb, var(--ktalpha) 4%, white); }
-  table.hs-table td.hs-co-cell.shinsegae { background: color-mix(in srgb, var(--shinsegae) 4%, white); }
-  table.hs-table td.hs-co-cell.ns { background: color-mix(in srgb, var(--ns) 4%, white); }
-  table.hs-table td.hs-co-cell.nsplus { background: color-mix(in srgb, var(--nsplus) 4%, white); }
-  table.hs-table td.hs-co-cell.shoppingnt { background: color-mix(in srgb, var(--shoppingnt) 4%, white); }
-  table.hs-table td.hs-co-cell.skstoa { background: color-mix(in srgb, var(--skstoa) 4%, white); }
 
   .hs-cell-inner { display: flex; flex-direction: column; }
 
@@ -1317,131 +1293,51 @@
     padding: 60px 0;
   }
 
-  /* "전체" 보기: 행=시간대, 큰열=요일, 작은열=회사(HD-GS-CJ-LT) 4개인
-     하나의 큰 지도형 테이블. 텍스트는 회전 없이 가로로 정상 표기.
-     컬럼이 많아 폭이 길어지므로 자체 가로 스크롤을 둔다.
-     헤더는 thead에 직접 position:sticky를 걸어 고정한다 (헤더/본문을
-     별도 테이블로 분리하던 이전 방식은 가로 스크롤 컨테이너 안에서
-     sticky 기준이 어긋나 헤더가 본문과 겹쳐 보이는 버그가 있었다). */
-  .fp-allday-scroll {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-  }
-  table.fp-table-allday {
-    table-layout: fixed;
-  }
+  /* "전체" 보기: 시간대(행) x 요일(열) 그리드. 요일 칸 안에는 그 시간대
+     모든 회사 카드가 가로로 나란히 들어간다 (썸네일 생략, 텍스트만). */
   table.fp-table-allday thead th {
-    position: sticky;
-    z-index: 4;
-    background: var(--paper);
+    font-size: 13px;
   }
-  table.fp-table-allday thead tr:first-child th {
-    top: 110px;
+  table.fp-table-allday td.fp-co-cell {
+    padding: 6px;
   }
-  table.fp-table-allday thead tr:last-child th {
-    top: 142px;
-  }
-  table.fp-table-allday col.fp-time-col-g { width: 30px; }
-  table.fp-table-allday col { width: 48px; }
-  table.fp-table-allday thead th.fp-time-col {
-    width: 30px;
-    font-size: 9px;
-    white-space: nowrap;
-  }
-  table.fp-table-allday thead th.fp-day-group-head {
-    font-size: 12.5px;
-    font-weight: 800;
-    border-left: 2px solid var(--rule);
-    border-bottom: 1px solid var(--rule);
-    padding: 6px 2px;
-  }
-  table.fp-table-allday thead th.fp-co-subhead {
-    padding: 4px 1px 6px;
-    border-bottom: 1px solid var(--rule);
-  }
-  table.fp-table-allday thead th.fp-co-subhead:first-child {
-    border-left: 2px solid var(--rule);
-  }
-  table.fp-table-allday thead th.fp-co-subhead .hs-co-tag {
-    font-size: 8.5px;
-    padding: 1px 5px;
-  }
-  table.fp-table-allday td.fp-co-cell,
-  table.fp-table-allday td.fp-empty-cell {
-    min-width: 0;
-    padding: 3px;
-  }
-  .fp-cell-stack {
+  .fp-cell-row {
     display: flex;
-    flex-direction: column;
-    gap: 3px;
+    flex-wrap: wrap;
+    gap: 6px;
   }
-  table.fp-table-allday td.fp-co-cell:first-child,
-  table.fp-table-allday td.fp-empty-cell:first-child {
-    border-left: 2px solid var(--rule);
-  }
-  /* 일반(개별 요일) 탭의 시간대 컬럼 폭(60px)을 전체 탭에서는 좁게 덮어쓴다 */
-  table.fp-table-allday td.fp-time-cell {
-    width: 30px;
-    font-size: 9.5px;
-    padding: 3px 2px;
-  }
-  /* 요일 그룹 사이 구분을 위해 각 요일의 첫 회사(HD) 칸 왼쪽에 굵은 경계선 */
-  table.fp-table-allday tr td:nth-child(4n + 2) {
-    border-left: 2px solid var(--rule);
+  .fp-cell-row .fp-card-compact {
+    flex: 1 1 140px;
+    min-width: 120px;
   }
 
-  .fp-card-vert {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1px;
-    background: #fff;
-    border: 1px solid var(--rule);
-    border-radius: 5px;
-    padding: 3px 4px 4px;
-    text-decoration: none;
-    color: var(--ink);
-    box-shadow: var(--shadow-sm);
-    transition: transform 0.12s, box-shadow 0.12s;
-    overflow: hidden;
-    /* 세로로 길쭘한 카드 모양이지만 내부 텍스트는 항상 가로 방향 그대로 */
-    writing-mode: horizontal-tb;
+  /* 회사축 그리드에서도 재사용하는 compact 카드 + 더 낮은 행 */
+  table.fp-table-compact td {
+    padding: 5px;
   }
-  .fp-card-vert:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-md);
+  td.fp-time-cell.fp-time-cell-compact,
+  table.fp-table-compact td.fp-time-cell {
+    font-size: 11px;
   }
-  .fp-card-vert.hd { border-left: 3px solid var(--hd); }
-  .fp-card-vert.lt { border-left: 3px solid var(--lt); }
-  .fp-card-vert.cj { border-left: 3px solid var(--cj); }
-  .fp-card-vert.gs { border-left: 3px solid var(--gs); }
-  .fp-vert-title {
-    font-size: 10px;
-    font-weight: 700;
-    line-height: 1.25;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    width: 100%;
-    word-break: keep-all;
+  .fp-card-compact {
+    padding: 6px 8px;
   }
-  .fp-vert-time {
-    font-size: 8.5px;
-    color: var(--ink-soft);
-    white-space: nowrap;
+  .fp-card-compact .fp-body { padding: 0; }
+  .fp-card-compact .fp-title {
+    font-size: 11.5px;
+    -webkit-line-clamp: 1;
+    margin-bottom: 2px;
   }
-
+  .fp-card-compact .fp-schedule { font-size: 10px; }
   .fp-co-badge-inline {
     display: inline-block;
-    font-size: 7.5px;
+    font-size: 9px;
     font-weight: 800;
     color: #fff;
-    padding: 0px 4px;
+    padding: 1px 6px;
     border-radius: 20px;
     vertical-align: middle;
-    margin-bottom: 1px;
+    margin-bottom: 2px;
   }
   .fp-co-badge-inline.hd { background: var(--hd); }
   .fp-co-badge-inline.lt { background: var(--lt); }
@@ -1458,11 +1354,9 @@
     td.fp-time-cell { width: 40px; }
     table.fp-table thead th .hs-co-tag { font-size: 11px; padding: 3px 8px; }
     .fp-card .fp-title { font-size: 11.5px; }
-    table.fp-table-allday col.fp-time-col-g { width: 26px; }
-    table.fp-table-allday col { width: 40px; }
-    table.fp-table-allday thead th.fp-time-col { width: 26px; font-size: 8px; }
-    table.fp-table-allday td.fp-time-cell { width: 26px; font-size: 8px; }
-    .fp-vert-title { font-size: 9.5px; }
+    .fp-card-compact .fp-title { -webkit-line-clamp: 2; }
+    .fp-cell-row { flex-direction: column; }
+    .fp-cell-row .fp-card-compact { flex: none; min-width: 0; }
   }
 </style>
 </head>
@@ -1473,8 +1367,8 @@
   <div class="main-tabs">
     <button id="tabBtnHomeshop" class="active">홈쇼핑</button>
     <button id="tabBtnFixedPgm">고정PGM</button>
-    <button id="tabBtnSchedule">지상파·종편</button>
-    <button id="tabBtnDramaVariety">드라마·예능</button>
+    <button id="tabBtnSchedule">편성표</button>
+    <button id="tabBtnDramaVariety">드라마/예능</button>
     <button id="tabBtnWeather">날씨</button>
   </div>
 </header>
@@ -1595,7 +1489,6 @@
     <div class="hs-toggle" id="hsToggle">
       <button class="hs-toggle-btn active" data-bc="live">라이브방송</button>
       <button class="hs-toggle-btn" data-bc="data">데이터방송</button>
-      <button class="hs-toggle-btn" data-bc="etc">기타</button>
     </div>
 
     <div class="hs-toggle" id="hsTimeToggle">
@@ -2161,28 +2054,12 @@ function hsHourMatchesTimeFilter(hour) {
   if (hsTimeFilter === 'night') return hsIsNightHour(hour);
   return !hsIsNightHour(hour); // normal
 }
-const HS_COMPANIES_MAIN = [
-  { code: 'HD', name: 'HD', cls: 'hd', bc: null },
-  { code: 'GS', name: 'GS', cls: 'gs', bc: null },
-  { code: 'CJ', name: 'CJ', cls: 'cj', bc: null },
-  { code: 'LT', name: 'LT', cls: 'lt', bc: null },
+const HS_COMPANIES = [
+  { code: 'HD', name: 'HD', cls: 'hd' },
+  { code: 'GS', name: 'GS', cls: 'gs' },
+  { code: 'CJ', name: 'CJ', cls: 'cj' },
+  { code: 'LT', name: 'LT', cls: 'lt' },
 ];
-// 기타 7개사 (NS는 라이브 본채널/샵플러스 두 서브채널을 각각 별도 열로 표시)
-// bc를 명시한 항목은 hsCurrentBc(라이브/데이터 토글)와 무관하게 항상 그 broadcast 값으로 로드한다.
-const HS_COMPANIES_ETC = [
-  { code: 'PUBLIC',     name: '공영',     cls: 'public',     bc: 'live' },
-  { code: 'HNS',        name: '홈앤',     cls: 'hns',         bc: 'live' },
-  { code: 'KTALPHA',    name: 'K쇼핑',    cls: 'ktalpha',     bc: 'live' },
-  { code: 'SHINSEGAE',  name: '신세계',   cls: 'shinsegae',   bc: 'live' },
-  { code: 'NS',         name: 'NS',       cls: 'ns',          bc: 'live' },
-  { code: 'NS',         name: 'NS+',      cls: 'nsplus',      bc: 'plus' },
-  { code: 'SHOPPINGNT', name: '쇼핑엔티', cls: 'shoppingnt',  bc: 'live' },
-  { code: 'SKSTOA',     name: 'SK스토아', cls: 'skstoa',      bc: 'live' },
-];
-
-function hsActiveCompanies() {
-  return hsCurrentBc === 'etc' ? HS_COMPANIES_ETC : HS_COMPANIES_MAIN;
-}
 const _hsCache = {};
 
 async function hsLoadCompanyDate(code, bc, dateStr) {
@@ -2315,9 +2192,8 @@ async function hsRefresh(dateStr) {
   const wrap = document.getElementById('hsGridWrap');
   wrap.innerHTML = '<div style="text-align:center;padding:30px;color:var(--ink-soft);font-size:12px;">불러오는 중…</div>';
 
-  const companies = hsActiveCompanies();
   const datasets = await Promise.all(
-    companies.map(c => hsLoadCompanyDate(c.code, c.bc || hsCurrentBc, dateStr))
+    HS_COMPANIES.map(c => hsLoadCompanyDate(c.code, hsCurrentBc, dateStr))
   );
   _hsLastDatasets = datasets;
   _hsLastDateStr = dateStr;
@@ -2383,8 +2259,8 @@ function hsBuildTimelineWithGaps(programs) {
   const timeline = [];
   let cursor = null; // 지금까지 채워진 시각(분), null이면 아직 시작 전
   for (const item of items) {
-    if (cursor !== null && item.s - cursor >= 2) {
-      // cursor ~ item.s 사이가 진짜 빈 시간(Hit & Best 구간). 2분 미만 차이는 없는 걸로 친다.
+    if (cursor !== null && item.s > cursor) {
+      // cursor ~ item.s 사이가 진짜 빈 시간(Hit & Best 구간)
       timeline.push({ isGap: true, s: cursor, e: item.s });
     }
     timeline.push({ isGap: false, s: item.s, e: item.e, p: item.p });
@@ -2394,26 +2270,26 @@ function hsBuildTimelineWithGaps(programs) {
 }
 
 function hsRenderGridView(datasets, nowMin) {
-  const companies = hsActiveCompanies();
   const buckets = {};
-  for (let h = 0; h < 24; h++) buckets[h] = companies.map(() => []);
+  for (let h = 0; h < 24; h++) buckets[h] = HS_COMPANIES.map(() => []);
 
   datasets.forEach((data, ci) => {
     const programs = (data && data.programs) ? data.programs : [];
     const timeline = hsBuildTimelineWithGaps(programs);
     for (const item of timeline) {
-      // item은 시작 시각이 속한 hour 줄에만 한 번 표시한다 (중복 표시 방지).
-      // 24시 이후로 시작하는 항목은 그 날짜 그리드에선 보여줄 곳이 없으므로 잘라낸다.
+      // item.s ~ item.e 구간이 걸쳐 있는 모든 hour 줄에 같은 항목을 넣는다
+      // (방송이든 갭이든, 24시 이후로 넘어가는 부분은 그 날짜 그리드에선 보여줄 곳이 없으므로 잘라낸다)
       const startHour = Math.floor(item.s / 60);
-      if (startHour >= 0 && startHour < 24) {
-        buckets[startHour][ci].push(item);
+      const endHourExclusive = Math.ceil(item.e / 60);
+      for (let h = Math.max(0, startHour); h < Math.min(24, endHourExclusive); h++) {
+        buckets[h][ci].push(item);
       }
     }
   });
 
   let html = '<div class="hs-scroll"><table class="hs-table"><thead><tr>';
   html += '<th class="hs-time-col">시간</th>';
-  companies.forEach(c => {
+  HS_COMPANIES.forEach(c => {
     html += `<th class="${c.cls}"><span class="hs-co-tag">${c.name}</span></th>`;
   });
   html += '</tr></thead><tbody>';
@@ -2422,7 +2298,7 @@ function hsRenderGridView(datasets, nowMin) {
     if (!hsHourMatchesTimeFilter(h)) continue;
     html += '<tr>';
     html += `<td class="hs-time-cell">${String(h).padStart(2, '0')}시</td>`;
-    companies.forEach((c, ci) => {
+    HS_COMPANIES.forEach((c, ci) => {
       const items = buckets[h][ci];
       if (items.length === 0) {
         // 그 시간대에 데이터 자체가 전혀 없는 경우(타임라인이 비어있어 gap도 못 만든 경우,
@@ -2445,8 +2321,7 @@ function hsRenderGridView(datasets, nowMin) {
 }
 
 function hsRenderListView(datasets, nowMin) {
-  const companies = hsActiveCompanies();
-  const filtered = companies.map((c, ci) => {
+  const filtered = HS_COMPANIES.map((c, ci) => {
     const programs = (datasets[ci] && datasets[ci].programs) ? datasets[ci].programs : [];
     return programs.filter(hsMatchesFilter);
   });
@@ -2458,12 +2333,12 @@ function hsRenderListView(datasets, nowMin) {
 
   let html = '<div class="hs-scroll"><table class="hs-table hs-table-list"><thead><tr>';
   html += '<th class="hs-time-col"></th>';
-  companies.forEach(c => {
+  HS_COMPANIES.forEach(c => {
     html += `<th class="${c.cls}"><span class="hs-co-tag">${c.name}</span></th>`;
   });
   html += '</tr></thead><tbody><tr>';
   html += '<td class="hs-time-cell"></td>';
-  companies.forEach((c, ci) => {
+  HS_COMPANIES.forEach((c, ci) => {
     const progs = filtered[ci];
     if (progs.length === 0) {
       html += `<td class="hs-empty-cell hs-co-cell ${c.cls}"><div class="hs-hitbest">해당 편성 없음</div></td>`;
@@ -2655,132 +2530,50 @@ function fpBuildTableHtml(daySlots, compact) {
   return `<div class="fp-sticky-head">${headerHtml}</div>${bodyHtml}`;
 }
 
-// 전체 보기에서 열 너비가 좁아 제목이 잘리기 쉬운 프로그램들을
-// 짧은 약어로 표시한다. 정확히 일치하는 제목만 치환하고, 일치하지
-// 않으면 원래 제목을 그대로 둔다(잘못된 부분 치환을 막기 위함).
-const FP_TITLE_ABBR = {
-  "요즘 쇼핑 유리네": "유리네",
-  "클럽 노블레스": "클노",
-  "GET SHOW": "겟쇼",
-  "김나운의 라라쇼": "김나운",
-  "이진아 셀렉션": "이진아",
-  "스타일나우; 더 김동은": "김동은",
-  "스타일나우 더 김동은": "김동은",
-  "스타일나우": "김동은",
-  "서아랑의 쇼핑라이브": "서아랑",
-  "T이승연쇼 1부": "이승연",
-  "L.SHOW": "엘쇼",
-  "왕영은의 톡투게더": "왕톡",
-  "더퍼스트 유난희": "유난희",
-  "THE 김동은": "김동은",
-};
-
-function fpAbbrTitle(title) {
-  if (!title) return title;
-  return FP_TITLE_ABBR[title] || title;
-}
-
-function fpRenderCardVertical(slot) {
-  const co = slot.company.toLowerCase();
-  const link = slot.detail_link || '#';
-  // "월 08:15" 형식의 짧은 시간 라벨 (day + time 조합)
-  const shortLabel = `${fpEscapeHtml(slot.day)} ${fpEscapeHtml(slot.time)}`;
-  const displayTitle = fpAbbrTitle(slot.title);
-
-  return (
-    `<a class="fp-card-vert ${co}" href="${fpEscapeHtml(link)}" target="_blank" rel="noopener" title="${fpEscapeHtml(slot.title)}">` +
-      `<span class="fp-co-badge-inline ${co}">${fpEscapeHtml(slot.company)}</span>` +
-      `<div class="fp-vert-title">${fpEscapeHtml(displayTitle)}</div>` +
-      `<div class="fp-vert-time">${shortLabel}</div>` +
-    `</a>`
-  );
-}
-
 function fpBuildAllDaysTableHtml(allSlots) {
   if (allSlots.length === 0) {
     return '<div class="fp-empty-note">표시할 고정 프로그램이 없습니다.</div>';
   }
 
-  // 행(시간대)은 7일 전체를 통틀어 실제 편성이 있는 시각만 동적으로 만든다.
+  // 시간대(행) 목록은 7일 전체를 통틀어 실제 편성이 있는 시각만 동적으로 만든다.
   const times = [...new Set(allSlots.map(s => s.time))].sort();
 
-  // (time, day, company) -> [slot, ...] (같은 시간/요일/회사에 겹치는 경우도 배열로 보관)
+  // (time, day) -> [slot, ...] (같은 시간/요일에 여러 회사가 겹치면 배열로 보관)
   const cellMap = {};
   for (const s of allSlots) {
-    const key = `${s.time}__${s.day}__${s.company}`;
+    const key = `${s.time}__${s.day}`;
     if (!cellMap[key]) cellMap[key] = [];
     cellMap[key].push(s);
   }
 
-  // 헤더(thead)와 본문(tbody)을 하나의 <table> 안에 두고, thead에 직접
-  // position:sticky를 건다. 이전에는 헤더/본문을 별도 <table>로 분리해
-  // sticky wrapper로 감쌌었는데, 그 wrapper가 가로 스크롤 컨테이너
-  // (.fp-allday-scroll, overflow-x:auto) 안에 있다 보니 sticky의 기준이
-  // 페이지가 아니라 그 컨테이너가 되어버려 헤더가 본문 위에 겹쳐 보이는
-  // 버그가 있었다. 단일 테이블 + thead sticky는 같은 스크롤 컨테이너
-  // 안에서도 표준적으로 잘 동작해 이 문제를 피한다.
-  let colgroupHtml = `<colgroup><col class="fp-time-col-g">`;
-  for (let i = 0; i < FP_DAYS.length * FP_COMPANIES.length; i++) {
-    colgroupHtml += `<col>`;
-  }
-  colgroupHtml += `</colgroup>`;
-
-  let html = `<table class="fp-table fp-table-allday">${colgroupHtml}<thead>`;
-  html += '<tr><th class="fp-time-col" rowspan="2">시간대</th>';
+  let headerHtml = '<table class="fp-table fp-table-allday"><thead><tr>';
+  headerHtml += '<th class="fp-time-col">시간대</th>';
   for (const day of FP_DAYS) {
-    html += `<th class="fp-day-group-head" colspan="${FP_COMPANIES.length}">${fpEscapeHtml(day)}</th>`;
+    headerHtml += `<th>${fpEscapeHtml(day)}</th>`;
   }
-  html += '</tr><tr>';
-  for (const day of FP_DAYS) {
-    for (const co of FP_COMPANIES) {
-      html += `<th class="fp-co-subhead ${co.toLowerCase()}"><span class="hs-co-tag" style="background:var(--${co.toLowerCase()})">${co}</span></th>`;
-    }
-  }
-  html += '</tr></thead>';
+  headerHtml += '</tr></thead></table>';
 
-  // 본문: 시간대마다 한 행, 각 요일×회사 칸에 세로카드.
-  html += '<tbody>';
+  let bodyHtml = '<table class="fp-table fp-table-allday"><tbody>';
   for (const time of times) {
-    html += `<tr><td class="fp-time-cell">${fpEscapeHtml(time)}</td>`;
+    bodyHtml += `<tr><td class="fp-time-cell">${fpEscapeHtml(time)}</td>`;
     for (const day of FP_DAYS) {
-      for (const co of FP_COMPANIES) {
-        const key = `${time}__${day}__${co}`;
-        const cellSlots = cellMap[key];
-        if (cellSlots && cellSlots.length) {
-          html += `<td class="fp-co-cell ${co.toLowerCase()}">` +
-            `<div class="fp-cell-stack">` +
-            cellSlots.map(s => fpRenderCardVertical(s)).join('') +
-            `</div>` +
-            `</td>`;
-        } else {
-          html += `<td class="fp-empty-cell"></td>`;
-        }
+      const key = `${time}__${day}`;
+      const cellSlots = cellMap[key];
+      if (cellSlots && cellSlots.length) {
+        bodyHtml += `<td class="fp-co-cell">` +
+          `<div class="fp-cell-row">` +
+          cellSlots.map(s => fpRenderCard(s, true)).join('') +
+          `</div>` +
+          `</td>`;
+      } else {
+        bodyHtml += `<td class="fp-empty-cell"></td>`;
       }
     }
-    html += '</tr>';
+    bodyHtml += '</tr>';
   }
-  html += '</tbody></table>';
+  bodyHtml += '</tbody></table>';
 
-  return `<div class="fp-allday-scroll">${html}</div>`;
-}
-
-function fpSyncAllDayStickyTop() {
-  // thead 1행(요일 큰그룹)의 실제 렌더링 높이를 측정해, 2행(회사 4개)이
-  // 그 바로 아래에 정확히 붙도록 top 값을 동적으로 맞춘다. CSS에 고정
-  // px로 추정값을 박아두면 폰트/패딩이 바뀔 때마다 어긋나기 쉽다.
-  const table = document.querySelector('#fpGridWrap table.fp-table-allday');
-  if (!table) return;
-  const firstRow = table.querySelector('thead tr:first-child');
-  const secondRowCells = table.querySelectorAll('thead tr:last-child th');
-  if (!firstRow || !secondRowCells.length) return;
-
-  const firstRowTh = firstRow.querySelector('th');
-  const firstRowTop = parseFloat(getComputedStyle(firstRowTh).top) || 0;
-  const firstRowHeight = firstRow.getBoundingClientRect().height;
-  const secondRowTop = firstRowTop + firstRowHeight;
-  secondRowCells.forEach(th => {
-    th.style.top = `${secondRowTop}px`;
-  });
+  return `<div class="fp-sticky-head">${headerHtml}</div>${bodyHtml}`;
 }
 
 function fpRenderGrid(data) {
@@ -2793,10 +2586,9 @@ function fpRenderGrid(data) {
   }
 
   if (fpCurrentDay === '전체') {
-    // 행=시간대, 큰열=요일, 작은열=회사(HD-GS-CJ-LT) 4개. 실제 편성이
-    // 있는 시각만 행으로 동적 생성해 큰 지도 형태로 한눈에 보여준다.
+    // 시간대(행) x 요일(열) 그리드. 각 요일 칸 안에 그 시간대 모든 회사
+    // 카드를 가로로 나란히 배치한다 (이미지는 생략해 가볍게).
     wrap.innerHTML = fpBuildAllDaysTableHtml(data.slots);
-    fpSyncAllDayStickyTop();
     return;
   }
 
@@ -2830,10 +2622,6 @@ document.querySelectorAll('.fp-day-btn').forEach(btn => {
     btn.classList.add('active');
     fpRenderGrid(fpData);
   });
-});
-
-window.addEventListener('resize', () => {
-  if (fpCurrentDay === '전체') fpSyncAllDayStickyTop();
 });
 
 (async function init() {
@@ -2909,9 +2697,7 @@ window.addEventListener('resize', () => {
 
   document.querySelectorAll('#hsToggle .hs-toggle-btn').forEach(btn => {
     btn.addEventListener('click', () => {
-      if (hsCurrentBc === btn.dataset.bc) return;
       hsCurrentBc = btn.dataset.bc;
-      hsCategoryFilters.clear(); // 회사군이 바뀌면 이전 카테고리 선택은 초기화
       document.querySelectorAll('#hsToggle .hs-toggle-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       hsRefresh(hsCurrentDate);
