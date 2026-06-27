@@ -669,6 +669,16 @@
         "lavangba_category": "화장품/미용"
       },
       {
+        "start": "20:30",
+        "end": "21:35",
+        "brand": "",
+        "product": "1등매장 / 수면냉감 쿨드론 냉감패드",
+        "price": 159900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81091502",
+        "category": "리빙/주방",
+        "lavangba_category": "가구/인테리어"
+      },
+      {
         "start": "21:35",
         "end": "22:45",
         "brand": "롯데관광",
@@ -1175,10 +1185,10 @@
       {
         "start": "23:55",
         "end": "01:00",
-        "brand": "",
-        "product": "26SS 프렌치린넨 블렌디드 라탄 돌먼 니트",
-        "price": 44000,
-        "link": "http://www.hnsmall.com/display/goods.do?goods_code=72955602",
+        "brand": "데일리블루",
+        "product": "26SS 볼레로 원피스 셋업",
+        "price": 55000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=77807607",
         "category": "의류",
         "lavangba_category": "패션의류"
       }

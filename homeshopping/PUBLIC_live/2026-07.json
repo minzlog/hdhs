@@ -416,6 +416,218 @@
         "category": "일반식품",
         "lavangba_category": "식품"
       }
+    ],
+    "2026-07-03": [
+      {
+        "start": "01:00",
+        "end": "02:00",
+        "brand": "",
+        "product": "한돈 앞다리 순살 족발 8팩 별미 양념꼬리 2팩",
+        "price": 39900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11936106",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "02:00",
+        "end": "02:50",
+        "brand": "",
+        "product": "국내 자연산 중하새우 / x 10팩",
+        "price": 39900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11944113",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "02:50",
+        "end": "03:20",
+        "brand": "스칸디노티아",
+        "product": "시그니처 IH스텐냄비 세트",
+        "price": 89000,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11932987",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "03:20",
+        "end": "03:50",
+        "brand": "",
+        "product": "트리플 콘드로이친 1200 MBP",
+        "price": 159000,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11932011",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "04:10",
+        "end": "05:00",
+        "brand": "",
+        "product": "녹우원 소모둠 맑은탕 x 10팩",
+        "price": 39900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11941225",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "05:00",
+        "end": "06:00",
+        "brand": "",
+        "product": "세탁세제 2.5리터 X 섬유 유연제 2.5리터",
+        "price": 29900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11798245",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "06:00",
+        "end": "07:15",
+        "brand": "마담엘레강스",
+        "product": "에나레이스 앙상블",
+        "price": 79900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11941703",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "07:15",
+        "end": "08:20",
+        "brand": "",
+        "product": "진짜 제대로 만든 러닝화 레브토 쿠셔닝 여성 러닝화",
+        "price": 39800,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11932804",
+        "category": "잡화/주얼리",
+        "lavangba_category": "패션잡화"
+      },
+      {
+        "start": "08:20",
+        "end": "09:20",
+        "brand": "",
+        "product": "국내산 반건조 우럭 ×10마리",
+        "price": 49900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11945858",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "09:20",
+        "end": "10:25",
+        "brand": "",
+        "product": "시그니처 인견 셔츠 블라우스",
+        "price": 49900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11943958",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "10:25",
+        "end": "11:35",
+        "brand": "",
+        "product": "트루마리 순수휴지 30미터 90롤",
+        "price": 31900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11946763",
+        "category": "일반식품",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "12:40",
+        "end": "13:30",
+        "brand": "",
+        "product": "제주 미니 밤단호박",
+        "price": 29900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11945510",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "14:20",
+        "end": "15:10",
+        "brand": "",
+        "product": "부글리 일회용 세제수세미 25매입 x / 총",
+        "price": 39900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11933366",
+        "category": "일반식품",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "15:10",
+        "end": "16:00",
+        "brand": "",
+        "product": "국내산 초벌 민물장어 초벌 후",
+        "price": 59900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11943970",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "16:00",
+        "end": "16:50",
+        "brand": "",
+        "product": "공룡별미 시금치 쌀국수 멸치맛",
+        "price": 49900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11944687",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "16:50",
+        "end": "17:40",
+        "brand": "",
+        "product": "고삼숙의 세번숙성 삼숙 어간장 7병",
+        "price": 39900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11945506",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "18:40",
+        "end": "19:40",
+        "brand": "",
+        "product": "블루밍비데 방수플러스 JG2000T",
+        "price": 139000,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11765869",
+        "category": "건강식품",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "19:40",
+        "end": "20:40",
+        "brand": "",
+        "product": "김규흔명장의 시그니처 영양바 오란다",
+        "price": 59900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11948370",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "20:40",
+        "end": "21:45",
+        "brand": "",
+        "product": "26년 햇 정담 성주참외",
+        "price": 31900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11943574",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "21:45",
+        "end": "22:50",
+        "brand": "",
+        "product": "한우 1 스테이크 9팩",
+        "price": 69900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11933743",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "23:50",
+        "end": "01:00",
+        "brand": "",
+        "product": "저세상 직화 무뼈닭발5팩 귀한 특수부위 닭목살1팩",
+        "price": 28900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11887884",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      }
     ]
   }
 }

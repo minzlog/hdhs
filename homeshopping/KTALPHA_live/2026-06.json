@@ -500,7 +500,7 @@
     "2026-06-28": [
       {
         "start": "00:34",
-        "end": "01:34",
+        "end": "01:38",
         "brand": "르부르낙산",
         "product": "르부르낙산_호텔숙박권",
         "price": 99000,
@@ -510,7 +510,7 @@
       },
       {
         "start": "01:34",
-        "end": "02:34",
+        "end": "02:38",
         "brand": "",
         "product": "라끄베르_알로에기초세트",
         "price": 69000,
@@ -520,7 +520,7 @@
       },
       {
         "start": "02:34",
-        "end": "03:34",
+        "end": "03:38",
         "brand": "",
         "product": "르투아_슬리브리스 썸머팬츠",
         "price": 59000,
@@ -530,7 +530,7 @@
       },
       {
         "start": "03:35",
-        "end": "04:35",
+        "end": "04:38",
         "brand": "란체티",
         "product": "란체티_카라티셔츠",
         "price": 79900,
@@ -540,17 +540,17 @@
       },
       {
         "start": "04:36",
-        "end": "05:36",
+        "end": "05:38",
         "brand": "",
         "product": "쏜데이_워터건",
-        "price": 129000,
-        "link": "https://m.kshop.co.kr/display/product/9592417",
+        "price": 39900,
+        "link": "https://m.kshop.co.kr/display/product/9537672",
         "category": "일반식품",
         "lavangba_category": "생활/건강"
       },
       {
         "start": "05:36",
-        "end": "06:56",
+        "end": "06:58",
         "brand": "비너지",
         "product": "비너지_대마종자유",
         "price": 134000,
@@ -560,7 +560,7 @@
       },
       {
         "start": "06:56",
-        "end": "07:36",
+        "end": "07:38",
         "brand": "비너지",
         "product": "비너지_대마종자유",
         "price": 134000,
@@ -653,8 +653,8 @@
         "end": "16:38",
         "brand": "",
         "product": "몽크로스_바디서큘레이터",
-        "price": 49800,
-        "link": "https://m.kshop.co.kr/display/product/9056648",
+        "price": 29900,
+        "link": "https://m.kshop.co.kr/display/product/9056649",
         "category": "가전",
         "lavangba_category": "디지털/가전"
       },
@@ -703,8 +703,8 @@
         "end": "21:39",
         "brand": "레드닥터",
         "product": "레드닥터_의료기기",
-        "price": 29800,
-        "link": "https://m.kshop.co.kr/display/product/7975191",
+        "price": 69800,
+        "link": "https://m.kshop.co.kr/display/product/7975183",
         "category": "문화/스포츠",
         "lavangba_category": "패션잡화"
       },
@@ -755,8 +755,8 @@
         "end": "02:40",
         "brand": "신세계푸드",
         "product": "신세계푸드_삼계탕",
-        "price": 65900,
-        "link": "https://m.kshop.co.kr/display/product/9076046",
+        "price": 35900,
+        "link": "https://m.kshop.co.kr/display/product/7916812",
         "category": "일반식품",
         "lavangba_category": "식품"
       },
@@ -815,8 +815,8 @@
         "end": "07:35",
         "brand": "비에날씬",
         "product": "비에날씬_다이어트유산균",
-        "price": 376000,
-        "link": "https://m.kshop.co.kr/display/product/8525873",
+        "price": 198000,
+        "link": "https://m.kshop.co.kr/display/product/8525874",
         "category": "건강식품",
         "lavangba_category": "식품"
       },
@@ -885,8 +885,8 @@
         "end": "13:37",
         "brand": "유한양행",
         "product": "유한양행_해피홈에어트랩",
-        "price": 142000,
-        "link": "https://m.kshop.co.kr/display/product/9574221",
+        "price": 184900,
+        "link": "https://m.kshop.co.kr/display/product/9574220",
         "category": "건강식품",
         "lavangba_category": "디지털/가전"
       },
@@ -935,8 +935,8 @@
         "end": "18:38",
         "brand": "",
         "product": "산방포유_대마종자유",
-        "price": 158000,
-        "link": "https://m.kshop.co.kr/display/product/8621343",
+        "price": 84000,
+        "link": "https://m.kshop.co.kr/display/product/8621344",
         "category": "건강식품",
         "lavangba_category": "식품"
       },
@@ -946,7 +946,7 @@
         "brand": "RCBPC",
         "product": "RCBPC_자켓 팬츠",
         "price": 59900,
-        "link": "https://m.kshop.co.kr/display/product/9125373",
+        "link": "https://m.kshop.co.kr/display/product/9125382",
         "category": "의류",
         "lavangba_category": "패션의류"
       },
@@ -955,8 +955,8 @@
         "end": "20:38",
         "brand": "",
         "product": "신미사_족저근막지지슬리퍼",
-        "price": 39000,
-        "link": "https://m.kshop.co.kr/display/product/8916981",
+        "price": 139000,
+        "link": "https://m.kshop.co.kr/display/product/8503394",
         "category": "잡화/주얼리",
         "lavangba_category": "생활/건강"
       },
@@ -985,8 +985,8 @@
         "end": "23:38",
         "brand": "",
         "product": "쏜데이_워터건",
-        "price": 129000,
-        "link": "https://m.kshop.co.kr/display/product/8909135",
+        "price": 45000,
+        "link": "https://m.kshop.co.kr/display/product/9108152",
         "category": "일반식품",
         "lavangba_category": "생활/건강"
       },
@@ -1097,8 +1097,8 @@
         "end": "23:37",
         "brand": "카무트",
         "product": "카무트_견과바",
-        "price": 69900,
-        "link": "https://m.kshop.co.kr/display/product/7803284",
+        "price": 59900,
+        "link": "https://m.kshop.co.kr/display/product/7916836",
         "category": "건강식품",
         "lavangba_category": "식품"
       },
@@ -1107,8 +1107,8 @@
         "end": "00:37",
         "brand": "이지듀",
         "product": "이지듀_기미쿠션",
-        "price": 99000,
-        "link": "https://m.kshop.co.kr/display/product/8873032",
+        "price": 49800,
+        "link": "https://m.kshop.co.kr/display/product/4766583",
         "category": "미용",
         "lavangba_category": "화장품/미용"
       }

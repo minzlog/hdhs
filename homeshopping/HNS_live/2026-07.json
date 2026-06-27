@@ -396,6 +396,138 @@
         "category": "건강식품",
         "lavangba_category": "식품"
       }
+    ],
+    "2026-07-03": [
+      {
+        "start": "01:00",
+        "end": "02:00",
+        "brand": "라사본느리드니옹",
+        "product": "라 사본느리 드 니옹 클렌징바 당나귀우유 쇼핑백",
+        "price": 119000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80493530",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "02:00",
+        "end": "03:10",
+        "brand": "슬로기",
+        "product": "썸머 쿨 터치 제로필 브라팬티",
+        "price": 89000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80784493",
+        "category": "언더웨어",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "03:10",
+        "end": "04:15",
+        "brand": "",
+        "product": "프로 엑소볼륨 스칼프 두피 앰플 세트 포토상품평시 앰플 더",
+        "price": 99000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80523613",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "04:15",
+        "end": "04:50",
+        "brand": "골드라벨",
+        "product": "일품 왕 갈비탕 x 8팩",
+        "price": 76900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=74062256",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "04:50",
+        "end": "06:00",
+        "brand": "AK앤클라인",
+        "product": "26SS 크리즈 풀셋업",
+        "price": 69900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=74534036",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "08:15",
+        "end": "09:25",
+        "brand": "",
+        "product": "26SS Authentic Flax 린넨 블렌딩 썸머 셔츠 블라우스",
+        "price": 77000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=78234256",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "10:25",
+        "end": "11:35",
+        "brand": "레드닥터",
+        "product": "레드닥터 벤업 라이프 시리즈 양말형 압박밴드",
+        "price": 69800,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=75926546",
+        "category": "문화/스포츠",
+        "lavangba_category": "스포츠/레저"
+      },
+      {
+        "start": "13:30",
+        "end": "14:20",
+        "brand": "퓨레어",
+        "product": "퓨레어 퍼퓸 탈취제",
+        "price": 89800,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=73996620",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "14:20",
+        "end": "15:10",
+        "brand": "",
+        "product": "예다함 다함 1호",
+        "price": 0,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=71424445",
+        "category": "일반렌탈",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "16:50",
+        "end": "17:40",
+        "brand": "삼육두유",
+        "product": "검은콩과볶은귀리48팩 검은콩호두아몬드32팩 검은콩흑임자32팩",
+        "price": 61900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80461937",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "18:40",
+        "end": "19:35",
+        "brand": "로보락",
+        "product": "로보락 F25 ACE 습건식 무선 청소기 로보락전용클리너",
+        "price": 599000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=64261575",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "20:40",
+        "end": "21:40",
+        "brand": "",
+        "product": "여에스더 PS 포스파티딜세린 블루베리 스틱",
+        "price": 89000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=79167044",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "23:50",
+        "end": "01:00",
+        "brand": "인디고랩",
+        "product": "26SS 여성 여름 하프 데님팬츠",
+        "price": 35000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81040557",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      }
     ]
   }
 }

@@ -296,6 +296,98 @@
         "category": "보험",
         "lavangba_category": "여가/생활편의"
       }
+    ],
+    "2026-07-03": [
+      {
+        "start": "00:55",
+        "end": "01:00",
+        "brand": "",
+        "product": "보험 5부",
+        "price": 0,
+        "link": "https://m.nsmall.com/goods/35902086",
+        "category": "보험",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "05:40",
+        "end": "06:30",
+        "brand": "",
+        "product": "관절연골엔보스웰리아",
+        "price": 199000,
+        "link": "https://m.nsmall.com/goods/36005551",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "06:30",
+        "end": "07:30",
+        "brand": "",
+        "product": "두뇌엔닥터PS",
+        "price": 198000,
+        "link": "https://m.nsmall.com/goods/35903309",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "10:35",
+        "end": "11:35",
+        "brand": "임성근",
+        "product": "임성근염소탕",
+        "price": 62900,
+        "link": "https://m.nsmall.com/goods/35272597",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "11:35",
+        "end": "12:35",
+        "brand": "비에날씬",
+        "product": "비에날씬프로",
+        "price": 376000,
+        "link": "https://m.nsmall.com/goods/35803115",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "13:35",
+        "end": "14:35",
+        "brand": "",
+        "product": "유기농야생빌베리",
+        "price": 29000,
+        "link": "https://m.nsmall.com/goods/36013225",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "19:35",
+        "end": "20:40",
+        "brand": "폴리코사놀",
+        "product": "폴리코사놀",
+        "price": 262500,
+        "link": "https://m.nsmall.com/goods/35964958",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "20:40",
+        "end": "21:45",
+        "brand": "오한진",
+        "product": "오한진백세알부민",
+        "price": 129000,
+        "link": "https://m.nsmall.com/goods/35750971",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "22:45",
+        "end": "23:55",
+        "brand": "블랑로더",
+        "product": "블랑로더립타투",
+        "price": 48000,
+        "link": "https://m.nsmall.com/goods/35950461",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      }
     ]
   }
 }

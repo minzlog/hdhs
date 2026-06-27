@@ -3,7 +3,39 @@
   "broadcast": "live",
   "month": "2026-07",
   "days": {
-    "2026-07-01": [],
-    "2026-07-02": []
+    "2026-07-01": [
+      {
+        "start": "09:30",
+        "end": "10:30",
+        "brand": "라라츄",
+        "product": "라라츄_헤어커버",
+        "price": 79900,
+        "link": "https://m.kshop.co.kr/display/product/8759756",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "18:33",
+        "end": "19:12",
+        "brand": "",
+        "product": "체르니바이PAT_면팬츠",
+        "price": 59900,
+        "link": "https://m.kshop.co.kr/display/product/9309857",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "20:33",
+        "end": "21:33",
+        "brand": "동국제약",
+        "product": "동국제약_마데카크림",
+        "price": 99900,
+        "link": "https://m.kshop.co.kr/display/product/9340945",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      }
+    ],
+    "2026-07-02": [],
+    "2026-07-03": []
   }
 }
