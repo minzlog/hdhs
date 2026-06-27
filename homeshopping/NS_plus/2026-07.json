@@ -1,0 +1,151 @@
+{
+  "company": "NS",
+  "broadcast": "plus",
+  "month": "2026-07",
+  "days": {
+    "2026-07-01": [
+      {
+        "start": "00:40",
+        "end": "01:40",
+        "brand": "",
+        "product": "보람상조4",
+        "price": 0,
+        "link": "https://m.nsmall.com/goods/35670727",
+        "category": "가전",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "01:40",
+        "end": "02:00",
+        "brand": "",
+        "product": "제주밤호박1",
+        "price": 29900,
+        "link": "https://m.nsmall.com/goods/35961545",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "02:00",
+        "end": "02:40",
+        "brand": "",
+        "product": "제주밤호박2",
+        "price": 29900,
+        "link": "https://m.nsmall.com/goods/35961545",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "02:40",
+        "end": "03:40",
+        "brand": "",
+        "product": "BNS구름방석1",
+        "price": 29900,
+        "link": "https://m.nsmall.com/goods/36005162",
+        "category": "잡화/주얼리",
+        "lavangba_category": "가구/인테리어"
+      },
+      {
+        "start": "03:40",
+        "end": "04:40",
+        "brand": "뉴케어",
+        "product": "대상 뉴케어1",
+        "price": 179000,
+        "link": "https://m.nsmall.com/goods/35955026",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "04:40",
+        "end": "05:40",
+        "brand": "",
+        "product": "도티1",
+        "price": 49900,
+        "link": "https://m.nsmall.com/goods/36005139",
+        "category": "일반식품",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "05:40",
+        "end": "06:40",
+        "brand": "아델로",
+        "product": "아델로1",
+        "price": 59900,
+        "link": "https://m.nsmall.com/goods/35958523",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "12:40",
+        "end": "13:40",
+        "brand": "스타일리스",
+        "product": "스타일리스팬1",
+        "price": 64800,
+        "link": "https://m.nsmall.com/goods/35864538",
+        "category": "미용",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "14:40",
+        "end": "15:40",
+        "brand": "",
+        "product": "한국금자산1",
+        "price": 3190000,
+        "link": "https://m.nsmall.com/goods/36018750",
+        "category": "일반식품",
+        "lavangba_category": "패션잡화"
+      },
+      {
+        "start": "18:40",
+        "end": "19:40",
+        "brand": "",
+        "product": "명란1",
+        "price": 57900,
+        "link": "https://m.nsmall.com/goods/36024462",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "20:40",
+        "end": "21:40",
+        "brand": "",
+        "product": "마른오징어1",
+        "price": 71900,
+        "link": "https://m.nsmall.com/goods/35966321",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "22:40",
+        "end": "23:40",
+        "brand": "라코스테",
+        "product": "라코스테1",
+        "price": 89000,
+        "link": "https://m.nsmall.com/goods/35772596",
+        "category": "언더웨어",
+        "lavangba_category": "패션의류"
+      }
+    ],
+    "2026-07-02": [
+      {
+        "start": "00:40",
+        "end": "01:40",
+        "brand": "임성근",
+        "product": "임성근내장탕1",
+        "price": 39900,
+        "link": "https://m.nsmall.com/goods/36000241",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "01:40",
+        "end": "02:00",
+        "brand": "",
+        "product": "오뗄닭다리살스테이크1",
+        "price": 39900,
+        "link": "https://m.nsmall.com/goods/35561982",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      }
+    ]
+  }
+}

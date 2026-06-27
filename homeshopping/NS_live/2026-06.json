@@ -1,0 +1,1327 @@
+{
+  "company": "NS",
+  "broadcast": "live",
+  "month": "2026-06",
+  "days": {
+    "2026-06-26": [
+      {
+        "start": "00:15",
+        "end": "00:36",
+        "brand": "",
+        "product": "보험 2부",
+        "price": 0,
+        "link": "https://m.nsmall.com/goods/35969892",
+        "category": "보험",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "00:35",
+        "end": "00:56",
+        "brand": "",
+        "product": "보험 3부",
+        "price": 0,
+        "link": "https://m.nsmall.com/goods/35969892",
+        "category": "보험",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "00:55",
+        "end": "01:01",
+        "brand": "",
+        "product": "보험 4부",
+        "price": 0,
+        "link": "https://m.nsmall.com/goods/35902086",
+        "category": "보험",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "01:00",
+        "end": "02:01",
+        "brand": "",
+        "product": "히트상품 앵콜방송1부",
+        "price": 389000,
+        "link": "https://m.nsmall.com/goods/36001957",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "02:00",
+        "end": "03:02",
+        "brand": "",
+        "product": "히트상품 앵콜방송 2부",
+        "price": 34900,
+        "link": "https://m.nsmall.com/goods/35667368",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "03:00",
+        "end": "04:01",
+        "brand": "",
+        "product": "히트상품 앵콜방송3부",
+        "price": 1399000,
+        "link": "https://m.nsmall.com/goods/36000441",
+        "category": "일반식품",
+        "lavangba_category": "가구/인테리어"
+      },
+      {
+        "start": "04:00",
+        "end": "05:01",
+        "brand": "",
+        "product": "히트상품 앵콜방송4부",
+        "price": 30900,
+        "link": "https://m.nsmall.com/goods/35786896",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "05:00",
+        "end": "05:41",
+        "brand": "",
+        "product": "르까프슈즈",
+        "price": 39800,
+        "link": "https://m.nsmall.com/goods/36008891",
+        "category": "잡화/주얼리",
+        "lavangba_category": "패션잡화"
+      },
+      {
+        "start": "05:40",
+        "end": "06:31",
+        "brand": "",
+        "product": "지리산칡즙",
+        "price": 89900,
+        "link": "https://m.nsmall.com/goods/36023067",
+        "category": "건강식품",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "06:30",
+        "end": "07:26",
+        "brand": "",
+        "product": "두뇌엔닥터PS",
+        "price": 514000,
+        "link": "https://m.nsmall.com/goods/35903228",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "07:25",
+        "end": "08:26",
+        "brand": "스타일리스",
+        "product": "스타일리스마그넷팬",
+        "price": 59600,
+        "link": "https://m.nsmall.com/goods/36000195",
+        "category": "미용",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "08:25",
+        "end": "09:26",
+        "brand": "하루틴",
+        "product": "하루틴리포좀비타민",
+        "price": 209000,
+        "link": "https://m.nsmall.com/goods/35997222",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "09:25",
+        "end": "10:31",
+        "brand": "",
+        "product": "두뇌엔닥터PS 2부",
+        "price": 514000,
+        "link": "https://m.nsmall.com/goods/35903228",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "10:30",
+        "end": "11:31",
+        "brand": "",
+        "product": "한국금거래센터실버",
+        "price": 358000,
+        "link": "https://m.nsmall.com/goods/36023356",
+        "category": "잡화/주얼리",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "11:30",
+        "end": "12:31",
+        "brand": "",
+        "product": "이롬황성주생식",
+        "price": 249000,
+        "link": "https://m.nsmall.com/goods/35863994",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "12:30",
+        "end": "13:31",
+        "brand": "완도활전복",
+        "product": "완도활전복",
+        "price": 59900,
+        "link": "https://m.nsmall.com/goods/36024167",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "13:30",
+        "end": "14:31",
+        "brand": "이경제",
+        "product": "이경제통녹용사슴진액",
+        "price": 399000,
+        "link": "https://m.nsmall.com/goods/35124026",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "14:30",
+        "end": "15:31",
+        "brand": "오한진",
+        "product": "오한진백세알부민",
+        "price": 258000,
+        "link": "https://m.nsmall.com/goods/35920660",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "15:30",
+        "end": "16:31",
+        "brand": "정성곳간",
+        "product": "정성곳간갈비탕",
+        "price": 50900,
+        "link": "https://m.nsmall.com/goods/35519660",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "16:30",
+        "end": "17:11",
+        "brand": "",
+        "product": "못난이사과",
+        "price": 39900,
+        "link": "https://m.nsmall.com/goods/36021703",
+        "category": "일반식품",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "17:10",
+        "end": "17:51",
+        "brand": "",
+        "product": "고향집흑염소탕",
+        "price": 59900,
+        "link": "https://m.nsmall.com/goods/36017450",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "17:50",
+        "end": "18:31",
+        "brand": "",
+        "product": "하림리얼마늘훈제치킨",
+        "price": 62900,
+        "link": "https://m.nsmall.com/goods/36018928",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "18:30",
+        "end": "19:31",
+        "brand": "",
+        "product": "쿠쿠압력밥솥",
+        "price": 298000,
+        "link": "https://m.nsmall.com/goods/36023662",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "19:30",
+        "end": "20:36",
+        "brand": "렌지프로",
+        "product": "렌지프로그릴앤팟",
+        "price": 109000,
+        "link": "https://m.nsmall.com/goods/35769756",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "20:35",
+        "end": "21:41",
+        "brand": "관절엔 콘드로이친",
+        "product": "관절엔콘드로이친",
+        "price": 99000,
+        "link": "https://m.nsmall.com/goods/35817392",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "21:40",
+        "end": "22:41",
+        "brand": "비에날씬",
+        "product": "비에날씬프로",
+        "price": 376000,
+        "link": "https://m.nsmall.com/goods/35803115",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "22:40",
+        "end": "23:51",
+        "brand": "",
+        "product": "한일이동식에어컨",
+        "price": 39900,
+        "link": "https://m.nsmall.com/goods/35958823",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "23:50",
+        "end": "00:11",
+        "brand": "",
+        "product": "보험",
+        "price": 0,
+        "link": "https://m.nsmall.com/goods/36005829",
+        "category": "보험",
+        "lavangba_category": "여가/생활편의"
+      }
+    ],
+    "2026-06-27": [
+      {
+        "start": "00:10",
+        "end": "00:31",
+        "brand": "",
+        "product": "보험 2부",
+        "price": 0,
+        "link": "https://m.nsmall.com/goods/36005829",
+        "category": "보험",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "00:30",
+        "end": "00:51",
+        "brand": "",
+        "product": "보험 3부",
+        "price": 0,
+        "link": "https://m.nsmall.com/goods/36005829",
+        "category": "보험",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "00:50",
+        "end": "00:56",
+        "brand": "",
+        "product": "보험 4부",
+        "price": 0,
+        "link": "https://m.nsmall.com/goods/35920702",
+        "category": "보험",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "00:55",
+        "end": "01:01",
+        "brand": "",
+        "product": "보험 5부",
+        "price": 0,
+        "link": "https://m.nsmall.com/goods/35920702",
+        "category": "보험",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "01:00",
+        "end": "02:01",
+        "brand": "",
+        "product": "히트상품 앵콜방송1부",
+        "price": 376000,
+        "link": "https://m.nsmall.com/goods/35797506",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "02:00",
+        "end": "03:01",
+        "brand": "",
+        "product": "히트상품 앵콜방송 2부",
+        "price": 89900,
+        "link": "https://m.nsmall.com/goods/35658748",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "03:00",
+        "end": "04:01",
+        "brand": "",
+        "product": "히트상품 앵콜방송3부",
+        "price": 49900,
+        "link": "https://m.nsmall.com/goods/35914947",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "04:00",
+        "end": "05:01",
+        "brand": "",
+        "product": "히트상품 앵콜방송4부",
+        "price": 49900,
+        "link": "https://m.nsmall.com/goods/35491808",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "05:00",
+        "end": "05:41",
+        "brand": "아스타",
+        "product": "안국아스타잔틴",
+        "price": 149000,
+        "link": "https://m.nsmall.com/goods/35937523",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "05:40",
+        "end": "06:31",
+        "brand": "",
+        "product": "상황버섯쌀",
+        "price": 109000,
+        "link": "https://m.nsmall.com/goods/35669185",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "06:30",
+        "end": "07:21",
+        "brand": "뉴트리코어",
+        "product": "뉴트리코어난각막DEM",
+        "price": 648000,
+        "link": "https://m.nsmall.com/goods/35988707",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "07:20",
+        "end": "08:21",
+        "brand": "대원제약",
+        "product": "대원제약모발콜라겐3X",
+        "price": 288000,
+        "link": "https://m.nsmall.com/goods/36017758",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "08:20",
+        "end": "09:21",
+        "brand": "",
+        "product": "두뇌엔닥터PS",
+        "price": 729000,
+        "link": "https://m.nsmall.com/goods/35903224",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "09:20",
+        "end": "10:21",
+        "brand": "이시형",
+        "product": "이시형알부민",
+        "price": 198000,
+        "link": "https://m.nsmall.com/goods/35962573",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "10:20",
+        "end": "11:21",
+        "brand": "",
+        "product": "골드파로효소",
+        "price": 209000,
+        "link": "https://m.nsmall.com/goods/35928458",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "11:20",
+        "end": "12:21",
+        "brand": "",
+        "product": "삼성로봇청소기",
+        "price": 1860000,
+        "link": "https://m.nsmall.com/goods/36002930",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "12:20",
+        "end": "13:21",
+        "brand": "블루필",
+        "product": "블루필넥쿨러",
+        "price": 59900,
+        "link": "https://m.nsmall.com/goods/36002293",
+        "category": "가전",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "13:20",
+        "end": "14:20",
+        "brand": "바이아우어",
+        "product": "바이아우어염색제",
+        "price": 109800,
+        "link": "https://m.nsmall.com/goods/36016544",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "14:20",
+        "end": "15:20",
+        "brand": "",
+        "product": "삼성에어컨",
+        "price": 2299000,
+        "link": "https://m.nsmall.com/goods/35987939",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "15:20",
+        "end": "16:20",
+        "brand": "임성근",
+        "product": "임성근키로갈비탕",
+        "price": 59900,
+        "link": "https://m.nsmall.com/goods/35997429",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "16:20",
+        "end": "17:15",
+        "brand": "",
+        "product": "손질갑오징어",
+        "price": 49900,
+        "link": "https://m.nsmall.com/goods/36020135",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "17:15",
+        "end": "18:15",
+        "brand": "보넬드",
+        "product": "보넬드당근주스",
+        "price": 99000,
+        "link": "https://m.nsmall.com/goods/35966467",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "18:15",
+        "end": "19:15",
+        "brand": "",
+        "product": "쿠쿠싱크볼",
+        "price": 0,
+        "link": "https://m.nsmall.com/goods/36023169",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "19:35",
+        "end": "20:40",
+        "brand": "",
+        "product": "침향오일",
+        "price": 300000,
+        "link": "https://m.nsmall.com/goods/35965839",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "20:40",
+        "end": "21:45",
+        "brand": "니카사",
+        "product": "니카사다리미",
+        "price": 198000,
+        "link": "https://m.nsmall.com/goods/35842775",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "21:45",
+        "end": "22:50",
+        "brand": "필립스",
+        "product": "필립스면도기",
+        "price": 169000,
+        "link": "https://m.nsmall.com/goods/33956097",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "22:50",
+        "end": "23:55",
+        "brand": "",
+        "product": "여행상품",
+        "price": 0,
+        "link": "https://m.nsmall.com/goods/36024750",
+        "category": "여행",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "23:55",
+        "end": "01:00",
+        "brand": "베이커",
+        "product": "베이커텀블러에스프레소머신",
+        "price": 159000,
+        "link": "https://m.nsmall.com/goods/36020508",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      }
+    ],
+    "2026-06-28": [
+      {
+        "start": "01:00",
+        "end": "02:00",
+        "brand": "",
+        "product": "히트상품 앵콜방송1부",
+        "price": 59000,
+        "link": "https://m.nsmall.com/goods/36016221",
+        "category": "일반식품",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "02:00",
+        "end": "03:00",
+        "brand": "",
+        "product": "히트상품 앵콜방송 2부",
+        "price": 49900,
+        "link": "https://m.nsmall.com/goods/35836211",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "03:00",
+        "end": "04:00",
+        "brand": "",
+        "product": "히트상품 앵콜방송3부",
+        "price": 140000,
+        "link": "https://m.nsmall.com/goods/35928478",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "04:00",
+        "end": "05:00",
+        "brand": "",
+        "product": "히트상품 앵콜방송4부",
+        "price": 31900,
+        "link": "https://m.nsmall.com/goods/35264971",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "05:00",
+        "end": "06:35",
+        "brand": "",
+        "product": "미백순수세포포르테",
+        "price": 69900,
+        "link": "https://m.nsmall.com/goods/35990136",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "06:35",
+        "end": "07:45",
+        "brand": "비너지",
+        "product": "비너지대마종자유",
+        "price": 159000,
+        "link": "https://m.nsmall.com/goods/34452540",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "07:45",
+        "end": "08:50",
+        "brand": "매스틱",
+        "product": "위건강엔매스틱",
+        "price": 499000,
+        "link": "https://m.nsmall.com/goods/35994035",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "08:50",
+        "end": "09:55",
+        "brand": "닥터파이토",
+        "product": "닥터파이토파이토블락",
+        "price": 189000,
+        "link": "https://m.nsmall.com/goods/35962576",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "09:55",
+        "end": "11:00",
+        "brand": "",
+        "product": "뉴밋올리브오일",
+        "price": 198000,
+        "link": "https://m.nsmall.com/goods/35848689",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "11:00",
+        "end": "12:05",
+        "brand": "",
+        "product": "알래스버샴푸",
+        "price": 45000,
+        "link": "https://m.nsmall.com/goods/35916746",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "12:05",
+        "end": "13:10",
+        "brand": "",
+        "product": "삼성에어컨",
+        "price": 2299000,
+        "link": "https://m.nsmall.com/goods/35987939",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "13:10",
+        "end": "14:10",
+        "brand": "",
+        "product": "못난이사과",
+        "price": 39900,
+        "link": "https://m.nsmall.com/goods/36027340",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "14:10",
+        "end": "15:10",
+        "brand": "",
+        "product": "국내산오징어",
+        "price": 49900,
+        "link": "https://m.nsmall.com/goods/35712946",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "15:10",
+        "end": "16:10",
+        "brand": "알렉스",
+        "product": "알렉스우삼겹구이",
+        "price": 59900,
+        "link": "https://m.nsmall.com/goods/35608993",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "16:10",
+        "end": "17:15",
+        "brand": "스타일리스",
+        "product": "스타일리스미니제트팬",
+        "price": 29800,
+        "link": "https://m.nsmall.com/goods/35922129",
+        "category": "미용",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "17:15",
+        "end": "18:20",
+        "brand": "",
+        "product": "여행상품",
+        "price": 0,
+        "link": "https://m.nsmall.com/goods/36024669",
+        "category": "여행",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "18:20",
+        "end": "19:25",
+        "brand": "",
+        "product": "쿠쿠정수기",
+        "price": 0,
+        "link": "https://m.nsmall.com/goods/35841795",
+        "category": "일반렌탈",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "19:25",
+        "end": "20:30",
+        "brand": "블랑로더",
+        "product": "블랑로더립타투",
+        "price": 48000,
+        "link": "https://m.nsmall.com/goods/35950461",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "20:30",
+        "end": "21:30",
+        "brand": "",
+        "product": "침향오일",
+        "price": 300000,
+        "link": "https://m.nsmall.com/goods/35965839",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "21:30",
+        "end": "22:35",
+        "brand": "",
+        "product": "한일이동식에어컨",
+        "price": 39900,
+        "link": "https://m.nsmall.com/goods/35958823",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "22:35",
+        "end": "23:40",
+        "brand": "지극진성",
+        "product": "지극진성스지도가니탕",
+        "price": 49900,
+        "link": "https://m.nsmall.com/goods/35606763",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "23:40",
+        "end": "00:00",
+        "brand": "",
+        "product": "보험",
+        "price": 0,
+        "link": "https://m.nsmall.com/goods/36019263",
+        "category": "보험",
+        "lavangba_category": "생활/건강"
+      }
+    ],
+    "2026-06-29": [
+      {
+        "start": "00:00",
+        "end": "00:20",
+        "brand": "",
+        "product": "보험 2부",
+        "price": 0,
+        "link": "https://m.nsmall.com/goods/36019263",
+        "category": "보험",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "00:20",
+        "end": "00:40",
+        "brand": "",
+        "product": "보험 3부",
+        "price": 0,
+        "link": "https://m.nsmall.com/goods/36019263",
+        "category": "보험",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "00:40",
+        "end": "01:00",
+        "brand": "",
+        "product": "보험 4부",
+        "price": 0,
+        "link": "https://m.nsmall.com/goods/36019263",
+        "category": "보험",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "01:00",
+        "end": "02:00",
+        "brand": "",
+        "product": "히트상품 앵콜방송1부",
+        "price": 28900,
+        "link": "https://m.nsmall.com/goods/35999134",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "02:00",
+        "end": "02:40",
+        "brand": "",
+        "product": "히트상품 앵콜방송 2부",
+        "price": 29900,
+        "link": "https://m.nsmall.com/goods/35873056",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "03:20",
+        "end": "04:00",
+        "brand": "",
+        "product": "히트상품 앵콜방송3부",
+        "price": 238000,
+        "link": "https://m.nsmall.com/goods/36016545",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "04:00",
+        "end": "05:00",
+        "brand": "",
+        "product": "히트상품 앵콜방송4부",
+        "price": 39900,
+        "link": "https://m.nsmall.com/goods/35757896",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "05:00",
+        "end": "05:40",
+        "brand": "",
+        "product": "와사비다이어트",
+        "price": 140000,
+        "link": "https://m.nsmall.com/goods/35928478",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "05:40",
+        "end": "06:35",
+        "brand": "홀베리",
+        "product": "홀베리아사이베리",
+        "price": 198000,
+        "link": "https://m.nsmall.com/goods/35848547",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "06:35",
+        "end": "07:30",
+        "brand": "",
+        "product": "뼈엔MBP",
+        "price": 69000,
+        "link": "https://m.nsmall.com/goods/35841359",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "07:30",
+        "end": "08:30",
+        "brand": "",
+        "product": "제주농장양배추브로콜리즙",
+        "price": 79900,
+        "link": "https://m.nsmall.com/goods/35956164",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "08:30",
+        "end": "09:30",
+        "brand": "꼼빠니아",
+        "product": "꼼빠니아상의",
+        "price": 69900,
+        "link": "https://m.nsmall.com/goods/36016505",
+        "category": "일반식품",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "09:30",
+        "end": "10:35",
+        "brand": "블라우풍트",
+        "product": "블라우풍트스마트워치",
+        "price": 79800,
+        "link": "https://m.nsmall.com/goods/36020229",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "10:35",
+        "end": "11:35",
+        "brand": "목우촌",
+        "product": "목우촌한우소머리곰탕",
+        "price": 39900,
+        "link": "https://m.nsmall.com/goods/35958804",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "11:35",
+        "end": "12:35",
+        "brand": "",
+        "product": "뉴밋하스카프",
+        "price": 198000,
+        "link": "https://m.nsmall.com/goods/35765160",
+        "category": "잡화/주얼리",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "12:35",
+        "end": "13:35",
+        "brand": "",
+        "product": "순수염색제",
+        "price": 40900,
+        "link": "https://m.nsmall.com/goods/35491138",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "13:35",
+        "end": "14:30",
+        "brand": "아치솔",
+        "product": "아치솔기능성슬리퍼",
+        "price": 39900,
+        "link": "https://m.nsmall.com/goods/36020304",
+        "category": "잡화/주얼리",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "14:30",
+        "end": "15:30",
+        "brand": "",
+        "product": "와사비다이어트 2부",
+        "price": 140000,
+        "link": "https://m.nsmall.com/goods/35928478",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "15:30",
+        "end": "16:10",
+        "brand": "",
+        "product": "단호박",
+        "price": 29900,
+        "link": "https://m.nsmall.com/goods/36025718",
+        "category": "일반식품",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "16:10",
+        "end": "16:50",
+        "brand": "",
+        "product": "고등어",
+        "price": 39900,
+        "link": "https://m.nsmall.com/goods/36024103",
+        "category": "일반식품",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "16:50",
+        "end": "17:30",
+        "brand": "도미솔김치",
+        "product": "도미솔김치",
+        "price": 59900,
+        "link": "https://m.nsmall.com/goods/35086566",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "17:30",
+        "end": "18:30",
+        "brand": "빅마마",
+        "product": "빅마마닭백숙",
+        "price": 59900,
+        "link": "https://m.nsmall.com/goods/36022517",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "18:30",
+        "end": "19:30",
+        "brand": "",
+        "product": "삼성에어컨",
+        "price": 2299000,
+        "link": "https://m.nsmall.com/goods/35987939",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "19:30",
+        "end": "20:35",
+        "brand": "오한진",
+        "product": "오한진백세알부민",
+        "price": 129000,
+        "link": "https://m.nsmall.com/goods/35750971",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "20:35",
+        "end": "21:40",
+        "brand": "카사베르디",
+        "product": "카사베르디와인비니거",
+        "price": 89000,
+        "link": "https://m.nsmall.com/goods/35948826",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "21:40",
+        "end": "22:45",
+        "brand": "스타일리스",
+        "product": "스타일리스마그넷팬",
+        "price": 34800,
+        "link": "https://m.nsmall.com/goods/36027912",
+        "category": "미용",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "22:45",
+        "end": "23:55",
+        "brand": "",
+        "product": "국내산오징어",
+        "price": 49900,
+        "link": "https://m.nsmall.com/goods/35745674",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "23:55",
+        "end": "01:00",
+        "brand": "",
+        "product": "와사비다이어트 3부",
+        "price": 140000,
+        "link": "https://m.nsmall.com/goods/35928478",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      }
+    ],
+    "2026-06-30": [
+      {
+        "start": "01:00",
+        "end": "02:00",
+        "brand": "",
+        "product": "히트상품 앵콜방송1부",
+        "price": 29900,
+        "link": "https://m.nsmall.com/goods/35927662",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "02:00",
+        "end": "02:40",
+        "brand": "",
+        "product": "히트상품 앵콜방송 2부",
+        "price": 79900,
+        "link": "https://m.nsmall.com/goods/35836608",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "03:20",
+        "end": "04:00",
+        "brand": "",
+        "product": "히트상품 앵콜방송3부",
+        "price": 396000,
+        "link": "https://m.nsmall.com/goods/35593729",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "04:00",
+        "end": "05:00",
+        "brand": "",
+        "product": "히트상품 앵콜방송4부",
+        "price": 49900,
+        "link": "https://m.nsmall.com/goods/35491808",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "05:00",
+        "end": "05:40",
+        "brand": "",
+        "product": "올라이브올리브오일",
+        "price": 99000,
+        "link": "https://m.nsmall.com/goods/36012786",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "05:40",
+        "end": "06:30",
+        "brand": "",
+        "product": "미쁨블루베리콜라겐",
+        "price": 129000,
+        "link": "https://m.nsmall.com/goods/35771720",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "06:30",
+        "end": "07:30",
+        "brand": "일동후디스",
+        "product": "일동후디스프로틴",
+        "price": 169000,
+        "link": "https://m.nsmall.com/goods/35941165",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "07:30",
+        "end": "08:30",
+        "brand": "",
+        "product": "램프쿡누름팬",
+        "price": 89000,
+        "link": "https://m.nsmall.com/goods/35744770",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "08:30",
+        "end": "09:30",
+        "brand": "",
+        "product": "샤론느팬티",
+        "price": 59900,
+        "link": "https://m.nsmall.com/goods/35957690",
+        "category": "언더웨어",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "09:30",
+        "end": "10:30",
+        "brand": "임성근",
+        "product": "임성근키로도가니탕",
+        "price": 59900,
+        "link": "https://m.nsmall.com/goods/35752557",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "10:30",
+        "end": "11:30",
+        "brand": "목우촌",
+        "product": "목우촌훈제오리",
+        "price": 59900,
+        "link": "https://m.nsmall.com/goods/33902682",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "11:30",
+        "end": "12:10",
+        "brand": "",
+        "product": "완도손질전복",
+        "price": 59900,
+        "link": "https://m.nsmall.com/goods/36024185",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "12:10",
+        "end": "13:30",
+        "brand": "",
+        "product": "삼성에어컨",
+        "price": 2299000,
+        "link": "https://m.nsmall.com/goods/35987939",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "13:30",
+        "end": "14:30",
+        "brand": "관절엔 콘드로이친",
+        "product": "관절엔콘드로이친",
+        "price": 99000,
+        "link": "https://m.nsmall.com/goods/35817392",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "14:30",
+        "end": "15:30",
+        "brand": "어바웃코지",
+        "product": "어바웃코지냉감침구",
+        "price": 139900,
+        "link": "https://m.nsmall.com/goods/35931943",
+        "category": "리빙/주방",
+        "lavangba_category": "가구/인테리어"
+      },
+      {
+        "start": "15:30",
+        "end": "16:30",
+        "brand": "보넬드",
+        "product": "보넬드당근주스",
+        "price": 99000,
+        "link": "https://m.nsmall.com/goods/35966467",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "16:30",
+        "end": "17:10",
+        "brand": "",
+        "product": "동강깐다슬기",
+        "price": 39900,
+        "link": "https://m.nsmall.com/goods/36020337",
+        "category": "가전",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "17:10",
+        "end": "17:50",
+        "brand": "",
+        "product": "광양식투쁠한우구이",
+        "price": 59900,
+        "link": "https://m.nsmall.com/goods/36024264",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "17:50",
+        "end": "18:30",
+        "brand": "",
+        "product": "이봉원순살조기",
+        "price": 39900,
+        "link": "https://m.nsmall.com/goods/36025111",
+        "category": "가전",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "18:30",
+        "end": "19:30",
+        "brand": "",
+        "product": "해통령육수명장",
+        "price": 59900,
+        "link": "https://m.nsmall.com/goods/35325536",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "19:30",
+        "end": "20:35",
+        "brand": "홀베리",
+        "product": "홀베리레몬즙",
+        "price": 198000,
+        "link": "https://m.nsmall.com/goods/35857236",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "20:35",
+        "end": "21:40",
+        "brand": "블랑로더",
+        "product": "블랑로더글로우비비",
+        "price": 58000,
+        "link": "https://m.nsmall.com/goods/36011909",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "21:40",
+        "end": "22:45",
+        "brand": "",
+        "product": "am저압냄비",
+        "price": 79900,
+        "link": "https://m.nsmall.com/goods/35873184",
+        "category": "리빙/주방",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "22:45",
+        "end": "23:55",
+        "brand": "",
+        "product": "삼성TV",
+        "price": 3340000,
+        "link": "https://m.nsmall.com/goods/35951487",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "23:55",
+        "end": "00:15",
+        "brand": "",
+        "product": "보험",
+        "price": 0,
+        "link": "https://m.nsmall.com/goods/35735246",
+        "category": "보험",
+        "lavangba_category": "여가/생활편의"
+      }
+    ]
+  }
+}

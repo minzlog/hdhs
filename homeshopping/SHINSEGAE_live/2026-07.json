@@ -1,0 +1,80 @@
+{
+  "company": "SHINSEGAE",
+  "broadcast": "live",
+  "month": "2026-07",
+  "days": {
+    "2026-07-01": [
+      {
+        "start": "00:37",
+        "end": "01:38",
+        "brand": "",
+        "product": "블루핏 26SS 에어로 팬츠",
+        "price": 59900,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20071384",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "01:38",
+        "end": "02:38",
+        "brand": "",
+        "product": "엘라코닉 썸머 코튼 플리츠 풀오버",
+        "price": 59000,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20071338",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "02:38",
+        "end": "03:39",
+        "brand": "아이다",
+        "product": "아이다 파워리프팅 마스크 더",
+        "price": 179000,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/1002332489",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "03:39",
+        "end": "03:59",
+        "brand": "",
+        "product": "비어랩 맥주효모 비오틴 플러스",
+        "price": 256000,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20068795",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "03:59",
+        "end": "04:19",
+        "brand": "하루틴",
+        "product": "하루틴 리포좀 멀티비타민 미네랄 액티브",
+        "price": 288000,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/1001879760",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "04:19",
+        "end": "04:30",
+        "brand": "보리담은",
+        "product": "보리담은 아이스 찰보리빵 총100개, 오리지널 쑥아이스 유자아이스20개",
+        "price": 39900,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20066544",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "13:33",
+        "end": "14:33",
+        "brand": "리즐온",
+        "product": "리즐온 아보카도 엑스트라버진 오일 9 1, 10병",
+        "price": 89000,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/1000570999",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      }
+    ],
+    "2026-07-02": []
+  }
+}

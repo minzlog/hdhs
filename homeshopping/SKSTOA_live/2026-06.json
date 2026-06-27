@@ -1,0 +1,1737 @@
+{
+  "company": "SKSTOA",
+  "broadcast": "live",
+  "month": "2026-06",
+  "days": {
+    "2026-06-26": [
+      {
+        "start": "00:31",
+        "end": "01:31",
+        "brand": "",
+        "product": "율무팩 스파출라",
+        "price": 69800,
+        "link": "https://www.skstoa.com/display/goods/65491481",
+        "category": "건강식품",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "01:31",
+        "end": "02:11",
+        "brand": "",
+        "product": "샤인 후드 집업 점퍼",
+        "price": 59900,
+        "link": "https://www.skstoa.com/display/goods/45267017",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "02:11",
+        "end": "02:52",
+        "brand": "울시",
+        "product": "울시 스트레치 여름 롱팬츠",
+        "price": 59000,
+        "link": "https://www.skstoa.com/display/goods/46361623",
+        "category": "의류",
+        "lavangba_category": "스포츠/레저"
+      },
+      {
+        "start": "04:11",
+        "end": "04:51",
+        "brand": "",
+        "product": "26년 햇 지리산 산청 씻어나온 버블 오디 | 원산지 : 상품정보 참조",
+        "price": 39900,
+        "link": "https://www.skstoa.com/display/goods/65539289",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "04:51",
+        "end": "05:31",
+        "brand": "",
+        "product": "멜라즈노 톤업 선크림",
+        "price": 49900,
+        "link": "https://www.skstoa.com/display/goods/61001133",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "05:31",
+        "end": "06:31",
+        "brand": "아스타",
+        "product": "아스타루지 | 원산지 : 상품정보 참조",
+        "price": 138000,
+        "link": "https://www.skstoa.com/display/goods/62727904",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "06:31",
+        "end": "07:31",
+        "brand": "이시형",
+        "product": "이시형 박사의 인생 마그네슘 영양제 / | 원산지 : 상품정보 참조",
+        "price": 279000,
+        "link": "https://www.skstoa.com/display/goods/65113297",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "07:31",
+        "end": "08:31",
+        "brand": "2026",
+        "product": "더 블랙 프리미어 기초 완벽",
+        "price": 59900,
+        "link": "https://www.skstoa.com/display/goods/64377097",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "08:31",
+        "end": "09:31",
+        "brand": "하루틴",
+        "product": "하루틴 리포좀 비타민C 프로 비타민C스틱 10포 | 원산지 : 상품정보 참조",
+        "price": 209000,
+        "link": "https://www.skstoa.com/display/goods/64805094",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "09:31",
+        "end": "10:31",
+        "brand": "",
+        "product": "정말편한속옷 인견 브라팬티 패키지",
+        "price": 59900,
+        "link": "https://www.skstoa.com/display/goods/64812503",
+        "category": "언더웨어",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "09:31",
+        "end": "10:31",
+        "brand": "",
+        "product": "아놀드파마 남성 냉감 이지웨어 셋업",
+        "price": 49900,
+        "link": "https://www.skstoa.com/display/goods/64811755",
+        "category": "언더웨어",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "10:31",
+        "end": "11:31",
+        "brand": "에코센스",
+        "product": "에코센스 히트락 올트라이탄 밀폐용기",
+        "price": 79800,
+        "link": "https://www.skstoa.com/display/goods/62653698",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "10:31",
+        "end": "11:31",
+        "brand": "",
+        "product": "26SS 여성 썸머 린넨 에어리 니트",
+        "price": 49900,
+        "link": "https://www.skstoa.com/display/goods/57848631",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "11:31",
+        "end": "12:31",
+        "brand": "AK앤클라인",
+        "product": "26SS 크리즈 풀셋업 4PCS",
+        "price": 69900,
+        "link": "https://www.skstoa.com/display/goods/60176266",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "12:31",
+        "end": "13:31",
+        "brand": "김소형",
+        "product": "김소형 본초순백 비단쌀 안색 선크림 더",
+        "price": 58400,
+        "link": "https://www.skstoa.com/display/goods/64593053",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "12:31",
+        "end": "13:31",
+        "brand": "삼성",
+        "product": "삼성 AI Q9000 홈멀티 에어컨 19 6형 AF60F19D11GRT 써큘레이터",
+        "price": 2349000,
+        "link": "https://www.skstoa.com/display/goods/65087567",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "13:31",
+        "end": "14:31",
+        "brand": "아스타",
+        "product": "아이클리어 루테인지아잔틴 아스타잔틴 미니 | 원산지 : 상품정보 참조",
+        "price": 119000,
+        "link": "https://www.skstoa.com/display/goods/63470282",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "14:31",
+        "end": "15:31",
+        "brand": "",
+        "product": "O또걸려도또받는 간편한암보험",
+        "price": 0,
+        "link": "https://www.skstoa.com/display/goods/63114976",
+        "category": "보험",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "14:31",
+        "end": "15:31",
+        "brand": "",
+        "product": "에어로레디 테크핏 브라탑 패키지",
+        "price": 79000,
+        "link": "https://www.skstoa.com/display/goods/46450817",
+        "category": "언더웨어",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "15:31",
+        "end": "16:31",
+        "brand": "휴롬",
+        "product": "휴롬 원액기 H420",
+        "price": 499000,
+        "link": "https://www.skstoa.com/display/goods/63511390",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "16:31",
+        "end": "17:31",
+        "brand": "종가",
+        "product": "아삭한포기김치 2봉 / 총 | 원산지 : 상품정보 참조",
+        "price": 68900,
+        "link": "https://www.skstoa.com/display/goods/64717116",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "16:31",
+        "end": "17:31",
+        "brand": "정호영셰프",
+        "product": "정호영셰프의 신선담은 손질왕낙지 x 11팩 비법담은 볶음소스 x 11팩 | 원산지 : 상품정보 참조",
+        "price": 52900,
+        "link": "https://www.skstoa.com/display/goods/62437650",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "17:31",
+        "end": "18:31",
+        "brand": "",
+        "product": "26년 햇 지리산 산청 씻어나온 버블 오디 | 원산지 : 상품정보 참조",
+        "price": 39900,
+        "link": "https://www.skstoa.com/display/goods/65539289",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "17:31",
+        "end": "18:31",
+        "brand": "",
+        "product": "바로먹는 실온 닭가슴살 21팩 혼합 19팩 2팩 | 원산지 : 상품정보 참조",
+        "price": 40900,
+        "link": "https://www.skstoa.com/display/goods/45886766",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "18:31",
+        "end": "19:31",
+        "brand": "",
+        "product": "26SS 남성 무브팬츠",
+        "price": 59000,
+        "link": "https://www.skstoa.com/display/goods/59277618",
+        "category": "의류",
+        "lavangba_category": "스포츠/레저"
+      },
+      {
+        "start": "18:31",
+        "end": "19:31",
+        "brand": "",
+        "product": "26SS 남성 퍼포먼스 시어서커 셋업",
+        "price": 59000,
+        "link": "https://www.skstoa.com/display/goods/65577970",
+        "category": "의류",
+        "lavangba_category": "스포츠/레저"
+      },
+      {
+        "start": "19:31",
+        "end": "20:31",
+        "brand": "홀베리",
+        "product": "홀베리 1일1레몬 유기농 레몬즙 유기농 레몬 자몽즙 | 원산지 : 상품정보 참조",
+        "price": 99900,
+        "link": "https://www.skstoa.com/display/goods/65180100",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "20:31",
+        "end": "21:31",
+        "brand": "",
+        "product": "참좋은운전자 한문철변호사플랜",
+        "price": 0,
+        "link": "https://www.skstoa.com/display/goods/63238589",
+        "category": "가전",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "21:31",
+        "end": "22:31",
+        "brand": "",
+        "product": "아이스파 팟 냉온 눈 마사지기 R-G009",
+        "price": 139000,
+        "link": "https://www.skstoa.com/display/goods/65457769",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "22:31",
+        "end": "23:31",
+        "brand": "",
+        "product": "또걸려도또받는 간편한암보험",
+        "price": 0,
+        "link": "https://www.skstoa.com/display/goods/63114973",
+        "category": "보험",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "23:31",
+        "end": "00:00",
+        "brand": "",
+        "product": "오키나와 3/4일",
+        "price": 0,
+        "link": "https://www.skstoa.com/display/goods/65178599",
+        "category": "건강식품",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "23:31",
+        "end": "00:00",
+        "brand": "",
+        "product": "○참좋은운전자 한문철변호사플랜",
+        "price": 0,
+        "link": "https://www.skstoa.com/display/goods/65113801",
+        "category": "가전",
+        "lavangba_category": "여가/생활편의"
+      }
+    ],
+    "2026-06-27": [
+      {
+        "start": "00:31",
+        "end": "01:31",
+        "brand": "삼원가든",
+        "product": "삼원가든 얼큰 육개장 13팩 | 원산지 : 상품정보 참조",
+        "price": 37900,
+        "link": "https://www.skstoa.com/display/goods/43412370",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "00:31",
+        "end": "01:31",
+        "brand": "워커힐",
+        "product": "워커힐 고메 아이스크림 20팩 | 원산지 : 상품정보 참조",
+        "price": 64900,
+        "link": "https://www.skstoa.com/display/goods/57559562",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "01:31",
+        "end": "02:11",
+        "brand": "",
+        "product": "남성 뉴 시그니처핏 썸머 에어 수트",
+        "price": 75000,
+        "link": "https://www.skstoa.com/display/goods/45017554",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "02:11",
+        "end": "02:51",
+        "brand": "",
+        "product": "1초쿨 선풍기조끼",
+        "price": 79000,
+        "link": "https://www.skstoa.com/display/goods/65030551",
+        "category": "가전",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "04:01",
+        "end": "04:41",
+        "brand": "렌지프로",
+        "product": "렌지프로 세라믹 히팅 그릴팟 풀세트",
+        "price": 109000,
+        "link": "https://www.skstoa.com/display/goods/61021506",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "04:41",
+        "end": "05:21",
+        "brand": "",
+        "product": "헬스브릿지 국내산 생들기름 스틱 | 원산지 : 상품정보 참조",
+        "price": 99000,
+        "link": "https://www.skstoa.com/display/goods/62295547",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "05:21",
+        "end": "06:21",
+        "brand": "",
+        "product": "멜라즈노 톤업 선크림",
+        "price": 49900,
+        "link": "https://www.skstoa.com/display/goods/61001133",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "06:21",
+        "end": "07:21",
+        "brand": "",
+        "product": "전설의 패치 프리미엄 준대형 그립90매 미니180매",
+        "price": 79900,
+        "link": "https://www.skstoa.com/display/goods/65458938",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "07:21",
+        "end": "08:21",
+        "brand": "",
+        "product": "▲골드 파로효소 캡슐레이션 무선 텀블러 블렌더▲ | 원산지 : 상품정보 참조",
+        "price": 209000,
+        "link": "https://www.skstoa.com/display/goods/65118808",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "08:21",
+        "end": "09:21",
+        "brand": "",
+        "product": "▲골드 파로효소 캡슐레이션 무선 텀블러 블렌더▲ | 원산지 : 상품정보 참조",
+        "price": 209000,
+        "link": "https://www.skstoa.com/display/goods/65118808",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "09:21",
+        "end": "10:21",
+        "brand": "아치솔",
+        "product": "특허받은 아치솔 족저근막 슬리퍼",
+        "price": 39900,
+        "link": "https://www.skstoa.com/display/goods/64858047",
+        "category": "잡화/주얼리",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "10:21",
+        "end": "11:21",
+        "brand": "하티브",
+        "product": "뷰노 하티브 심전도 측정기 P30 전용케이스 혈압계",
+        "price": 169000,
+        "link": "https://www.skstoa.com/display/goods/65509962",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "11:21",
+        "end": "12:21",
+        "brand": "홀베리",
+        "product": "홀베리 1일1레몬 유기농 레몬즙 홀베리 레몬 에너지부스터 | 원산지 : 상품정보 참조",
+        "price": 99900,
+        "link": "https://www.skstoa.com/display/goods/65549041",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "12:21",
+        "end": "13:21",
+        "brand": "",
+        "product": "26SS 신상 썸머 트레킹 샌들 남성",
+        "price": 39800,
+        "link": "https://www.skstoa.com/display/goods/65504322",
+        "category": "잡화/주얼리",
+        "lavangba_category": "스포츠/레저"
+      },
+      {
+        "start": "13:21",
+        "end": "14:21",
+        "brand": "캘빈클라인",
+        "product": "26SS 캘빈클라인 핫썸머 쿨링 드로즈 패키지",
+        "price": 139900,
+        "link": "https://www.skstoa.com/display/goods/64922266",
+        "category": "언더웨어",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "13:21",
+        "end": "14:21",
+        "brand": "FILA",
+        "product": "FILA 에센셜 퍼포먼스 7부 팬츠",
+        "price": 69900,
+        "link": "https://www.skstoa.com/display/goods/59998560",
+        "category": "잡화/주얼리",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "14:21",
+        "end": "15:21",
+        "brand": "",
+        "product": "무선 바디 서큘레이터",
+        "price": 69600,
+        "link": "https://www.skstoa.com/display/goods/65503818",
+        "category": "가전",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "14:21",
+        "end": "15:21",
+        "brand": "",
+        "product": "무선 바디 서큘레이터",
+        "price": 39800,
+        "link": "https://www.skstoa.com/display/goods/65501796",
+        "category": "가전",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "15:21",
+        "end": "16:21",
+        "brand": "",
+        "product": "26SS 신상 스트레치 쿨링 팬츠 남성",
+        "price": 59900,
+        "link": "https://www.skstoa.com/display/goods/65543163",
+        "category": "의류",
+        "lavangba_category": "스포츠/레저"
+      },
+      {
+        "start": "15:21",
+        "end": "16:21",
+        "brand": "",
+        "product": "26SS 신상 스트레치 쿨링 팬츠 남성",
+        "price": 59900,
+        "link": "https://www.skstoa.com/display/goods/65543164",
+        "category": "의류",
+        "lavangba_category": "스포츠/레저"
+      },
+      {
+        "start": "16:21",
+        "end": "17:21",
+        "brand": "아디다스",
+        "product": "26SS 아디다스 정품 쿨메쉬 제로 브라팬티 패키지",
+        "price": 59000,
+        "link": "https://www.skstoa.com/display/goods/63239301",
+        "category": "언더웨어",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "16:21",
+        "end": "17:21",
+        "brand": "삼성",
+        "product": "삼성 인버터 제습기 AY70H23100GTD 우양산2P",
+        "price": 629000,
+        "link": "https://www.skstoa.com/display/goods/64609423",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "16:21",
+        "end": "17:21",
+        "brand": "아디다스",
+        "product": "26SS 아디다스 정품 쿨메쉬 제로 브라팬티 패키지",
+        "price": 119000,
+        "link": "https://www.skstoa.com/display/goods/63122094",
+        "category": "언더웨어",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "16:21",
+        "end": "17:21",
+        "brand": "삼성",
+        "product": "삼성 인버터 제습기 AY70H23100GTD 우양산2P",
+        "price": 679000,
+        "link": "https://www.skstoa.com/display/goods/64608920",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "17:21",
+        "end": "18:21",
+        "brand": "",
+        "product": "○참좋은운전자 한문철변호사플랜",
+        "price": 0,
+        "link": "https://www.skstoa.com/display/goods/63238590",
+        "category": "가전",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "17:21",
+        "end": "18:21",
+        "brand": "스타일리스",
+        "product": "스타일리스 미니 에어젯 휴대용 선풍기",
+        "price": 29800,
+        "link": "https://www.skstoa.com/display/goods/65580840",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "17:21",
+        "end": "18:21",
+        "brand": "스타일리스",
+        "product": "스타일리스 미니 에어젯 휴대용 선풍기",
+        "price": 64800,
+        "link": "https://www.skstoa.com/display/goods/65503317",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "18:21",
+        "end": "19:21",
+        "brand": "프라이",
+        "product": "○AIA원스톱프리미엄암보험",
+        "price": 0,
+        "link": "https://www.skstoa.com/display/goods/63033533",
+        "category": "보험",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "18:21",
+        "end": "19:21",
+        "brand": "",
+        "product": "오키나와 3/4일",
+        "price": 0,
+        "link": "https://www.skstoa.com/display/goods/65178599",
+        "category": "건강식품",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "19:21",
+        "end": "20:21",
+        "brand": "코지마",
+        "product": "코지마 안마의자 데코르 CMC-A35 전용러그",
+        "price": 1980000,
+        "link": "https://www.skstoa.com/display/goods/63518688",
+        "category": "가전",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "20:21",
+        "end": "21:21",
+        "brand": "삼성",
+        "product": "삼성 Mini LED TV KU85MH80AFXKR 삼성사운드바,쿠첸전자레인지,고속블렌더",
+        "price": 3340000,
+        "link": "https://www.skstoa.com/display/goods/65087909",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "20:21",
+        "end": "21:21",
+        "brand": "존알",
+        "product": "존알 로봇청소기 X1 MAX",
+        "price": 799000,
+        "link": "https://www.skstoa.com/display/goods/65509963",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "20:21",
+        "end": "21:21",
+        "brand": "삼성",
+        "product": "삼성 Mini LED TV KU85MH80AFXKR 삼성사운드바,쿠첸전자레인지,고속블렌더",
+        "price": 2140000,
+        "link": "https://www.skstoa.com/display/goods/65088096",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "20:21",
+        "end": "21:21",
+        "brand": "삼성",
+        "product": "삼성 Mini LED TV KU85MH80AFXKR 삼성사운드바,쿠첸전자레인지,고속블렌더",
+        "price": 2540000,
+        "link": "https://www.skstoa.com/display/goods/65088075",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "20:21",
+        "end": "21:21",
+        "brand": "삼성",
+        "product": "삼성 Mini LED TV KU85MH80AFXKR 삼성사운드바,쿠첸전자레인지,고속블렌더",
+        "price": 1540000,
+        "link": "https://www.skstoa.com/display/goods/65088097",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "21:21",
+        "end": "22:01",
+        "brand": "",
+        "product": "BENETTON 샤인스톤 쥬얼 샌들",
+        "price": 79000,
+        "link": "https://www.skstoa.com/display/goods/65161532",
+        "category": "잡화/주얼리",
+        "lavangba_category": "패션잡화"
+      },
+      {
+        "start": "22:01",
+        "end": "22:31",
+        "brand": "",
+        "product": "26 SS 시원한 찰랑 팬츠",
+        "price": 49900,
+        "link": "https://www.skstoa.com/display/goods/61683666",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "22:31",
+        "end": "23:01",
+        "brand": "",
+        "product": "방송중에만1종 더! 썸머 인견 블라우스",
+        "price": 49900,
+        "link": "https://www.skstoa.com/display/goods/65025602",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "23:01",
+        "end": "23:21",
+        "brand": "",
+        "product": "양가죽 메리제인 펀칭 로퍼 최종가",
+        "price": 49900,
+        "link": "https://www.skstoa.com/display/goods/64490515",
+        "category": "잡화/주얼리",
+        "lavangba_category": "패션잡화"
+      },
+      {
+        "start": "23:01",
+        "end": "23:21",
+        "brand": "",
+        "product": "양가죽 메리제인 펀칭 로퍼 최종가",
+        "price": 39900,
+        "link": "https://www.skstoa.com/display/goods/64490516",
+        "category": "잡화/주얼리",
+        "lavangba_category": "패션잡화"
+      },
+      {
+        "start": "23:21",
+        "end": "00:21",
+        "brand": "",
+        "product": "라치오 이태리 슈렁큰 통가죽소파 3인용",
+        "price": 1238000,
+        "link": "https://www.skstoa.com/display/goods/61769302",
+        "category": "리빙/주방",
+        "lavangba_category": "가구/인테리어"
+      },
+      {
+        "start": "23:21",
+        "end": "00:21",
+        "brand": "",
+        "product": "라치오 이태리 슈렁큰 통가죽소파 3인용",
+        "price": 1348000,
+        "link": "https://www.skstoa.com/display/goods/61769303",
+        "category": "리빙/주방",
+        "lavangba_category": "가구/인테리어"
+      },
+      {
+        "start": "23:21",
+        "end": "00:21",
+        "brand": "",
+        "product": "○참좋은운전자 한문철변호사플랜",
+        "price": 0,
+        "link": "https://www.skstoa.com/display/goods/65113801",
+        "category": "가전",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "23:21",
+        "end": "00:21",
+        "brand": "",
+        "product": "라치오 이태리 슈렁큰 통가죽소파 3인용",
+        "price": 1548000,
+        "link": "https://www.skstoa.com/display/goods/61769304",
+        "category": "리빙/주방",
+        "lavangba_category": "가구/인테리어"
+      },
+      {
+        "start": "23:31",
+        "end": "00:31",
+        "brand": "",
+        "product": "○참좋은운전자 한문철변호사플랜",
+        "price": 0,
+        "link": "https://www.skstoa.com/display/goods/65113801",
+        "category": "가전",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "23:31",
+        "end": "00:31",
+        "brand": "",
+        "product": "오키나와 3/4일",
+        "price": 0,
+        "link": "https://www.skstoa.com/display/goods/65178599",
+        "category": "건강식품",
+        "lavangba_category": "여가/생활편의"
+      }
+    ],
+    "2026-06-28": [
+      {
+        "start": "00:21",
+        "end": "01:21",
+        "brand": "",
+        "product": "O또걸려도또받는 간편한암보험",
+        "price": 0,
+        "link": "https://www.skstoa.com/display/goods/63114976",
+        "category": "보험",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "01:21",
+        "end": "02:01",
+        "brand": "",
+        "product": "샤인 후드 집업 점퍼",
+        "price": 59900,
+        "link": "https://www.skstoa.com/display/goods/45267017",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "02:01",
+        "end": "02:41",
+        "brand": "울시",
+        "product": "울시 스트레치 여름 롱팬츠",
+        "price": 59000,
+        "link": "https://www.skstoa.com/display/goods/46361623",
+        "category": "의류",
+        "lavangba_category": "스포츠/레저"
+      },
+      {
+        "start": "03:21",
+        "end": "03:41",
+        "brand": "에코센스",
+        "product": "에코센스 히트락 올트라이탄 밀폐용기",
+        "price": 79800,
+        "link": "https://www.skstoa.com/display/goods/61030162",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "03:41",
+        "end": "04:01",
+        "brand": "델리원",
+        "product": "델리원 젤리팝 밀폐 실리콘백 풀세트",
+        "price": 158000,
+        "link": "https://www.skstoa.com/display/goods/62626645",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "03:41",
+        "end": "04:01",
+        "brand": "코지마",
+        "product": "코지마 목어깨마사지기 컴포넥 맥스 CMN-850WL",
+        "price": 198000,
+        "link": "https://www.skstoa.com/display/goods/61772530",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "04:01",
+        "end": "04:41",
+        "brand": "",
+        "product": "소옥 암막 자외선차단 양우산",
+        "price": 69900,
+        "link": "https://www.skstoa.com/display/goods/61034056",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "04:41",
+        "end": "05:21",
+        "brand": "",
+        "product": "제주 특대 은갈치 5줄 / 총 20토막 | 원산지 : 상품정보 참조",
+        "price": 59900,
+        "link": "https://www.skstoa.com/display/goods/62545396",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "05:21",
+        "end": "06:21",
+        "brand": "",
+        "product": "26SS 썸머 코튼 플라워 가디건 민소매 셋업!",
+        "price": 49900,
+        "link": "https://www.skstoa.com/display/goods/65542667",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "06:21",
+        "end": "07:21",
+        "brand": "",
+        "product": "시그니처 케어 칫솔",
+        "price": 99000,
+        "link": "https://www.skstoa.com/display/goods/65592898",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "07:21",
+        "end": "08:21",
+        "brand": "",
+        "product": "26SS 남성 트리코트 스트레치 7부팬츠",
+        "price": 69000,
+        "link": "https://www.skstoa.com/display/goods/64862776",
+        "category": "의류",
+        "lavangba_category": "스포츠/레저"
+      },
+      {
+        "start": "08:21",
+        "end": "09:21",
+        "brand": "마이어",
+        "product": "NEW 마이어 무선 텀블렌더",
+        "price": 69900,
+        "link": "https://www.skstoa.com/display/goods/64492852",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "09:21",
+        "end": "10:21",
+        "brand": "신영와코루",
+        "product": "신영와코루 로맨틱블룸 인견 구름 파자마 패키지",
+        "price": 49900,
+        "link": "https://www.skstoa.com/display/goods/63079622",
+        "category": "언더웨어",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "09:21",
+        "end": "10:21",
+        "brand": "라코스테",
+        "product": "26SS 라코스테 정품 핫썸머 드로즈 패키지",
+        "price": 89000,
+        "link": "https://www.skstoa.com/display/goods/65090084",
+        "category": "언더웨어",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "10:21",
+        "end": "11:21",
+        "brand": "쿠진",
+        "product": "쿠진 마하 라이트 무선청소기",
+        "price": 149000,
+        "link": "https://www.skstoa.com/display/goods/65538788",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "11:21",
+        "end": "12:21",
+        "brand": "",
+        "product": "LACO 다용도 멀티 클리너 더블세트",
+        "price": 59000,
+        "link": "https://www.skstoa.com/display/goods/65114427",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "12:21",
+        "end": "13:21",
+        "brand": "한경희",
+        "product": "한경희 무선 BLDC 에어 폴더블 서큘레이터 폴딩팬 HC-120F",
+        "price": 248000,
+        "link": "https://www.skstoa.com/display/goods/65545756",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "13:21",
+        "end": "14:21",
+        "brand": "",
+        "product": "양가죽 메리제인 펀칭 로퍼 최종가",
+        "price": 49900,
+        "link": "https://www.skstoa.com/display/goods/64490515",
+        "category": "잡화/주얼리",
+        "lavangba_category": "패션잡화"
+      },
+      {
+        "start": "13:21",
+        "end": "14:21",
+        "brand": "알타핏",
+        "product": "알타핏 프리미엄 족저근막 기능성 스트랩 샌들",
+        "price": 49800,
+        "link": "https://www.skstoa.com/display/goods/62577831",
+        "category": "잡화/주얼리",
+        "lavangba_category": "스포츠/레저"
+      },
+      {
+        "start": "14:21",
+        "end": "15:21",
+        "brand": "라포레",
+        "product": "라포레 글라스팝 용기 풀세트",
+        "price": 59800,
+        "link": "https://www.skstoa.com/display/goods/65509429",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "15:21",
+        "end": "16:21",
+        "brand": "로보락",
+        "product": "로보락 로봇청소기 Qrevo C Pro 리뷰이벤트",
+        "price": 1290000,
+        "link": "https://www.skstoa.com/display/goods/65510233",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "16:21",
+        "end": "17:21",
+        "brand": "에코센스",
+        "product": "에코센스 히트락 올트라이탄 밀폐용기",
+        "price": 79800,
+        "link": "https://www.skstoa.com/display/goods/65080127",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "17:21",
+        "end": "18:21",
+        "brand": "",
+        "product": "26SS 여성 시어서커 에어리 셋업",
+        "price": 39900,
+        "link": "https://www.skstoa.com/display/goods/58392837",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "17:21",
+        "end": "18:21",
+        "brand": "",
+        "product": "알토란 포기김치 보리열무물김치 파김치 / 총8kg | 원산지 : 상품정보 참조",
+        "price": 48900,
+        "link": "https://www.skstoa.com/display/goods/65547058",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "18:21",
+        "end": "19:21",
+        "brand": "나에게맞춘플러스간편건강보험",
+        "product": "나에게맞춘플러스간편건강보험",
+        "price": 0,
+        "link": "https://www.skstoa.com/display/goods/61394975",
+        "category": "보험",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "19:21",
+        "end": "20:21",
+        "brand": "미리 크루즈",
+        "product": "럭셔리 크루즈 여행 발코니 객실 up ★상품권 100만원 추첨",
+        "price": 0,
+        "link": "https://www.skstoa.com/display/goods/65114426",
+        "category": "여행",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "20:21",
+        "end": "21:21",
+        "brand": "",
+        "product": "참좋은운전자 한문철변호사플랜",
+        "price": 0,
+        "link": "https://www.skstoa.com/display/goods/63238589",
+        "category": "가전",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "21:21",
+        "end": "22:21",
+        "brand": "",
+        "product": "중국 서안/진시황릉/병마용/화청지 4일 여행",
+        "price": 0,
+        "link": "https://www.skstoa.com/display/goods/65171564",
+        "category": "여행",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "21:21",
+        "end": "22:21",
+        "brand": "",
+        "product": "O또걸려도또받는 간편한암보험",
+        "price": 0,
+        "link": "https://www.skstoa.com/display/goods/64377096",
+        "category": "보험",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "22:21",
+        "end": "23:21",
+        "brand": "",
+        "product": "1초쿨 선풍기조끼",
+        "price": 79000,
+        "link": "https://www.skstoa.com/display/goods/63454715",
+        "category": "가전",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "23:21",
+        "end": "00:21",
+        "brand": "",
+        "product": "라치오 이태리 슈렁큰 통가죽소파 3인용",
+        "price": 1238000,
+        "link": "https://www.skstoa.com/display/goods/61769302",
+        "category": "리빙/주방",
+        "lavangba_category": "가구/인테리어"
+      },
+      {
+        "start": "23:21",
+        "end": "00:21",
+        "brand": "",
+        "product": "에코아워시 폼 페미닌티슈 라이트",
+        "price": 69900,
+        "link": "https://www.skstoa.com/display/goods/65465172",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "23:21",
+        "end": "00:21",
+        "brand": "",
+        "product": "○참좋은운전자 한문철변호사플랜",
+        "price": 0,
+        "link": "https://www.skstoa.com/display/goods/65113801",
+        "category": "가전",
+        "lavangba_category": "여가/생활편의"
+      }
+    ],
+    "2026-06-29": [
+      {
+        "start": "00:21",
+        "end": "01:21",
+        "brand": "",
+        "product": "O또걸려도또받는 간편한암보험",
+        "price": 0,
+        "link": "https://www.skstoa.com/display/goods/63114974",
+        "category": "보험",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "00:21",
+        "end": "01:21",
+        "brand": "울시",
+        "product": "울시 스트레치 여름 롱팬츠",
+        "price": 59000,
+        "link": "https://www.skstoa.com/display/goods/46361623",
+        "category": "의류",
+        "lavangba_category": "스포츠/레저"
+      },
+      {
+        "start": "01:21",
+        "end": "02:01",
+        "brand": "하루틴",
+        "product": "하루틴 리포좀 비타민C 프로 비타민C스틱 10포 | 원산지 : 상품정보 참조",
+        "price": 209000,
+        "link": "https://www.skstoa.com/display/goods/65502813",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "02:01",
+        "end": "02:41",
+        "brand": "마이어",
+        "product": "NEW 마이어 무선 텀블렌더",
+        "price": 69900,
+        "link": "https://www.skstoa.com/display/goods/62288431",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "03:51",
+        "end": "04:11",
+        "brand": "",
+        "product": "혈당파이터 | 원산지 : 상품정보 참조",
+        "price": 198000,
+        "link": "https://www.skstoa.com/display/goods/65114212",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "04:11",
+        "end": "04:51",
+        "brand": "",
+        "product": "넥센타이어_상담예약",
+        "price": 0,
+        "link": "https://www.skstoa.com/display/goods/62797397",
+        "category": "일반렌탈",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "04:51",
+        "end": "05:31",
+        "brand": "",
+        "product": "남성 뉴 시그니처핏 썸머 에어 수트",
+        "price": 75000,
+        "link": "https://www.skstoa.com/display/goods/45017554",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "05:31",
+        "end": "06:31",
+        "brand": "",
+        "product": "하이퍼셀 코엔자임Q10 맥스 코큐텐 | 원산지 : 상품정보 참조",
+        "price": 169000,
+        "link": "https://www.skstoa.com/display/goods/55851982",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "06:31",
+        "end": "07:31",
+        "brand": "",
+        "product": "흑염소진액 진 8 | 원산지 : 상품정보 참조",
+        "price": 179000,
+        "link": "https://www.skstoa.com/display/goods/45804311",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "07:31",
+        "end": "08:31",
+        "brand": "헤드스파7",
+        "product": "헤드스파7 헤어 볼륨스타일러 레드 에디션 더블 패키지 헤어마스카라",
+        "price": 99000,
+        "link": "https://www.skstoa.com/display/goods/65250654",
+        "category": "가전",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "08:31",
+        "end": "09:31",
+        "brand": "플레이텍스",
+        "product": "플레이텍스 아이디얼포스쳐 브라팬티 패키지",
+        "price": 139900,
+        "link": "https://www.skstoa.com/display/goods/64096137",
+        "category": "언더웨어",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "09:31",
+        "end": "10:31",
+        "brand": "코지마",
+        "product": "코지마 복부허리관리기 코지코어엑스 CMT-E105WL",
+        "price": 149000,
+        "link": "https://www.skstoa.com/display/goods/65596395",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "10:31",
+        "end": "11:31",
+        "brand": "",
+        "product": "퍼펙트핏 밀착 거들팬티 패키지",
+        "price": 69900,
+        "link": "https://www.skstoa.com/display/goods/46286923",
+        "category": "언더웨어",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "10:31",
+        "end": "11:31",
+        "brand": "",
+        "product": "◇SK단독! 60만원",
+        "price": 0,
+        "link": "https://www.skstoa.com/display/goods/65029630",
+        "category": "일반렌탈",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "11:31",
+        "end": "12:31",
+        "brand": "울시",
+        "product": "울시 스트레치 여름 롱팬츠",
+        "price": 59000,
+        "link": "https://www.skstoa.com/display/goods/46361623",
+        "category": "의류",
+        "lavangba_category": "스포츠/레저"
+      },
+      {
+        "start": "11:31",
+        "end": "12:31",
+        "brand": "",
+        "product": "26SS 여성 썸머 린넨 에어리 니트",
+        "price": 49900,
+        "link": "https://www.skstoa.com/display/goods/57848631",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "12:31",
+        "end": "13:31",
+        "brand": "스타일리스",
+        "product": "스타일리스 마그넷 에어젯 무선 선풍기 SMF-E5100",
+        "price": 59600,
+        "link": "https://www.skstoa.com/display/goods/65537247",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "13:31",
+        "end": "14:31",
+        "brand": "",
+        "product": "소옥 암막 자외선차단 양우산",
+        "price": 69900,
+        "link": "https://www.skstoa.com/display/goods/61034056",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "13:31",
+        "end": "14:31",
+        "brand": "김소형",
+        "product": "김소형 본초진액 염색고 대용량 4병 염색도구3종",
+        "price": 58400,
+        "link": "https://www.skstoa.com/display/goods/53718150",
+        "category": "건강식품",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "14:31",
+        "end": "15:31",
+        "brand": "",
+        "product": "듀얼 아이브로우 쿠션 에센스 파운데이션",
+        "price": 69900,
+        "link": "https://www.skstoa.com/display/goods/64908853",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "14:31",
+        "end": "15:31",
+        "brand": "",
+        "product": "26SS 여성 썸머 라이트 스트레치 데님",
+        "price": 59900,
+        "link": "https://www.skstoa.com/display/goods/57848750",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "15:31",
+        "end": "16:31",
+        "brand": "푸마",
+        "product": "푸마 모션드라이 데일리 기능성 티셔츠",
+        "price": 59900,
+        "link": "https://www.skstoa.com/display/goods/64093030",
+        "category": "언더웨어",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "16:31",
+        "end": "17:31",
+        "brand": "",
+        "product": "시원한 인견 팬츠 !",
+        "price": 39900,
+        "link": "https://www.skstoa.com/display/goods/65580285",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "17:31",
+        "end": "18:31",
+        "brand": "스타일리스",
+        "product": "스타일리스 BLDC 무선 폴딩팬 1",
+        "price": 178000,
+        "link": "https://www.skstoa.com/display/goods/65537251",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "18:31",
+        "end": "19:31",
+        "brand": "",
+        "product": "26SS 여성 립스판 스판 썸머셋업 !",
+        "price": 59900,
+        "link": "https://www.skstoa.com/display/goods/65578435",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "18:31",
+        "end": "19:31",
+        "brand": "",
+        "product": "○참좋은운전자 한문철변호사플랜",
+        "price": 0,
+        "link": "https://www.skstoa.com/display/goods/63238590",
+        "category": "가전",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "19:31",
+        "end": "20:31",
+        "brand": "",
+        "product": "남성 반팔 카라티",
+        "price": 79000,
+        "link": "https://www.skstoa.com/display/goods/49237822",
+        "category": "의류",
+        "lavangba_category": "스포츠/레저"
+      },
+      {
+        "start": "19:31",
+        "end": "20:31",
+        "brand": "",
+        "product": "26SS 라렌느 인견 쿨링 와이드 팬츠",
+        "price": 59900,
+        "link": "https://www.skstoa.com/display/goods/63526684",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "20:31",
+        "end": "21:31",
+        "brand": "",
+        "product": "참좋은운전자 한문철변호사플랜",
+        "price": 0,
+        "link": "https://www.skstoa.com/display/goods/63238589",
+        "category": "가전",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "21:31",
+        "end": "22:31",
+        "brand": "렌지프로",
+        "product": "렌지프로 세라믹 히팅 그릴팟 풀세트",
+        "price": 109000,
+        "link": "https://www.skstoa.com/display/goods/65503819",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "22:31",
+        "end": "23:31",
+        "brand": "",
+        "product": "1초쿨 선풍기조끼",
+        "price": 79000,
+        "link": "https://www.skstoa.com/display/goods/65593201",
+        "category": "가전",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "23:21",
+        "end": "00:21",
+        "brand": "",
+        "product": "에코아워시 폼 페미닌티슈 라이트",
+        "price": 69900,
+        "link": "https://www.skstoa.com/display/goods/65465172",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "23:31",
+        "end": "00:31",
+        "brand": "엠베스트",
+        "product": "압도적 중등 1위, 엠베스트",
+        "price": 0,
+        "link": "https://www.skstoa.com/display/goods/62560294",
+        "category": "일반렌탈",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "23:31",
+        "end": "00:31",
+        "brand": "",
+        "product": "O또걸려도또받는 간편한암보험",
+        "price": 0,
+        "link": "https://www.skstoa.com/display/goods/63587555",
+        "category": "보험",
+        "lavangba_category": "여가/생활편의"
+      }
+    ],
+    "2026-06-30": [
+      {
+        "start": "00:31",
+        "end": "01:31",
+        "brand": "",
+        "product": "옥과맛있는 배추포기김치 | 원산지 : 상품정보 참조",
+        "price": 38900,
+        "link": "https://www.skstoa.com/display/goods/65539946",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "00:31",
+        "end": "01:31",
+        "brand": "",
+        "product": "프리미엄 어묵 소스1종 | 원산지 : 상품정보 참조",
+        "price": 40900,
+        "link": "https://www.skstoa.com/display/goods/58105732",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "01:31",
+        "end": "02:11",
+        "brand": "",
+        "product": "26SS 시스루 에어리 메쉬 점퍼1종",
+        "price": 49900,
+        "link": "https://www.skstoa.com/display/goods/58155582",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "03:31",
+        "end": "03:51",
+        "brand": "신영와코루",
+        "product": "신영와코루 로맨틱블룸 인견 레이스 쉐이퍼 패키지",
+        "price": 179900,
+        "link": "https://www.skstoa.com/display/goods/58699716",
+        "category": "언더웨어",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "03:51",
+        "end": "04:11",
+        "brand": "",
+        "product": "콘드로이친 콘레이티 MBP | 원산지 : 상품정보 참조",
+        "price": 199000,
+        "link": "https://www.skstoa.com/display/goods/35737181",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "04:11",
+        "end": "04:51",
+        "brand": "이자녹스",
+        "product": "!이자녹스 듀얼 기미 커버쿠션 기획 특가 패키지",
+        "price": 40000,
+        "link": "https://www.skstoa.com/display/goods/57903241",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "04:11",
+        "end": "04:51",
+        "brand": "",
+        "product": "비건 모닝젤 클렌저 4병 페미닌티슈 라이트",
+        "price": 59900,
+        "link": "https://www.skstoa.com/display/goods/65464595",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "04:51",
+        "end": "05:31",
+        "brand": "",
+        "product": "소옥 암막 자외선차단 양우산",
+        "price": 69900,
+        "link": "https://www.skstoa.com/display/goods/61034056",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "06:31",
+        "end": "07:31",
+        "brand": "",
+        "product": "균열보수키트 1",
+        "price": 49800,
+        "link": "https://www.skstoa.com/display/goods/65582778",
+        "category": "가전",
+        "lavangba_category": "스포츠/레저"
+      },
+      {
+        "start": "08:31",
+        "end": "09:31",
+        "brand": "",
+        "product": "다이어트 유산균 프로틴 14포 텀블러1개 클라메딕 갈바닉 뷰티디바이스 | 원산지 : 상품정보 참조",
+        "price": 198000,
+        "link": "https://www.skstoa.com/display/goods/46953273",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "09:31",
+        "end": "10:31",
+        "brand": "에코센스",
+        "product": "에코센스 히트락 올트라이탄 밀폐용기",
+        "price": 79800,
+        "link": "https://www.skstoa.com/display/goods/65080127",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "10:31",
+        "end": "11:31",
+        "brand": "AK앤클라인",
+        "product": "26SS 인견블라우스 !",
+        "price": 79900,
+        "link": "https://www.skstoa.com/display/goods/65580637",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "11:31",
+        "end": "12:31",
+        "brand": "",
+        "product": "관절엔 DEM 디이엠 난각막 | 원산지 : 상품정보 참조",
+        "price": 648000,
+        "link": "https://www.skstoa.com/display/goods/64383437",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "12:31",
+        "end": "13:31",
+        "brand": "",
+        "product": "클립형 경량 바디 서큘레이터",
+        "price": 49800,
+        "link": "https://www.skstoa.com/display/goods/65537253",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "13:31",
+        "end": "14:31",
+        "brand": "",
+        "product": "O또걸려도또받는 간편한암보험",
+        "price": 0,
+        "link": "https://www.skstoa.com/display/goods/63114974",
+        "category": "보험",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "14:31",
+        "end": "15:31",
+        "brand": "",
+        "product": "26SS 신상 스트레치 쿨링 팬츠 남성",
+        "price": 59900,
+        "link": "https://www.skstoa.com/display/goods/65543164",
+        "category": "의류",
+        "lavangba_category": "스포츠/레저"
+      },
+      {
+        "start": "15:31",
+        "end": "16:31",
+        "brand": "",
+        "product": "26S 여성 썸머 데님 셋업 !",
+        "price": 59900,
+        "link": "https://www.skstoa.com/display/goods/65576123",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "15:31",
+        "end": "16:31",
+        "brand": "삼성",
+        "product": "삼성 AI Q9000 홈멀티 에어컨 19 6형 AF60F19D11GRT 써큘레이터",
+        "price": 1949000,
+        "link": "https://www.skstoa.com/display/goods/65087572",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "16:31",
+        "end": "17:31",
+        "brand": "",
+        "product": "보스티나 더 플러스! 본품 앰플 빗",
+        "price": 79900,
+        "link": "https://www.skstoa.com/display/goods/65584689",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "17:31",
+        "end": "18:31",
+        "brand": "",
+        "product": "O다사랑암보험",
+        "price": 0,
+        "link": "https://www.skstoa.com/display/goods/65087275",
+        "category": "보험",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "18:31",
+        "end": "19:31",
+        "brand": "",
+        "product": "26SS 남성 트리코트 스트레치 7부팬츠",
+        "price": 69000,
+        "link": "https://www.skstoa.com/display/goods/64862815",
+        "category": "의류",
+        "lavangba_category": "스포츠/레저"
+      },
+      {
+        "start": "19:31",
+        "end": "20:31",
+        "brand": "",
+        "product": "유기농 레몬즙 20 | 원산지 : 상품정보 참조",
+        "price": 198000,
+        "link": "https://www.skstoa.com/display/goods/62693567",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "20:31",
+        "end": "21:31",
+        "brand": "",
+        "product": "◆황성주 박사의 1일1생식 라이프밀 흔들컵2개◆ | 원산지 : 상품정보 참조",
+        "price": 100000,
+        "link": "https://www.skstoa.com/display/goods/64395812",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "22:31",
+        "end": "23:31",
+        "brand": "",
+        "product": "참좋은운전자 한문철변호사플랜",
+        "price": 0,
+        "link": "https://www.skstoa.com/display/goods/63238589",
+        "category": "가전",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "23:31",
+        "end": "00:31",
+        "brand": "",
+        "product": "O또걸려도또받는 간편한암보험",
+        "price": 0,
+        "link": "https://www.skstoa.com/display/goods/63587555",
+        "category": "보험",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "23:31",
+        "end": "00:31",
+        "brand": "",
+        "product": "◆SK단독조건!상품권12만5천원찬스!◆휴렉 음식물처리기_오늘 결제0원",
+        "price": 0,
+        "link": "https://www.skstoa.com/display/goods/64816893",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "23:31",
+        "end": "00:31",
+        "brand": "엠베스트",
+        "product": "압도적 중등 1위, 엠베스트",
+        "price": 0,
+        "link": "https://www.skstoa.com/display/goods/62560294",
+        "category": "일반렌탈",
+        "lavangba_category": "여가/생활편의"
+      }
+    ]
+  }
+}

@@ -1,0 +1,401 @@
+{
+  "company": "HNS",
+  "broadcast": "live",
+  "month": "2026-07",
+  "days": {
+    "2026-07-01": [
+      {
+        "start": "02:00",
+        "end": "02:50",
+        "brand": "",
+        "product": "26SS 이집트 GIZA 코튼 티셔츠",
+        "price": 49900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=75563581",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "02:50",
+        "end": "03:45",
+        "brand": "오모떼",
+        "product": "26SS 프론트스냅 썸머 똑딱브라 패키지",
+        "price": 99900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=77190776",
+        "category": "언더웨어",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "03:45",
+        "end": "04:50",
+        "brand": "",
+        "product": "보람상조피플 스마트299",
+        "price": 0,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=79188644",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "04:50",
+        "end": "06:00",
+        "brand": "",
+        "product": "닥터 투라 셀톡스 리페어 앰플 완벽더블 패키지",
+        "price": 138000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=75591471",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "06:00",
+        "end": "07:15",
+        "brand": "자이글온",
+        "product": "자이글온 고주파 의료기기",
+        "price": 0,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=60553584",
+        "category": "일반렌탈",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "07:15",
+        "end": "08:15",
+        "brand": "",
+        "product": "컬러딥 메이크업이레이져 옐로우 로즈 에디션 기본세트",
+        "price": 69900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=61841338",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "08:15",
+        "end": "09:25",
+        "brand": "",
+        "product": "뷰티피플 철벽녀-에이징리커버리 컨실러픽서쿠션 리필5개",
+        "price": 138000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=75596125",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "09:25",
+        "end": "10:25",
+        "brand": "AK앤클라인",
+        "product": "26SS 썸머 크리즈 자켓",
+        "price": 69900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=79660502",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "10:25",
+        "end": "11:35",
+        "brand": "",
+        "product": "실버 콤비클립 목걸이 팔찌 세트",
+        "price": 395000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80792964",
+        "category": "잡화/주얼리",
+        "lavangba_category": "패션잡화"
+      },
+      {
+        "start": "11:35",
+        "end": "12:40",
+        "brand": "타파웨어",
+        "product": "2026 NEW 타파웨어 빅 T 텀블러 세트",
+        "price": 129000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80951326",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "12:40",
+        "end": "13:30",
+        "brand": "꼼빠니아",
+        "product": "블랙에디션 민소매 티블라우스 메쉬 가디건",
+        "price": 44000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80578328",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "13:30",
+        "end": "14:20",
+        "brand": "",
+        "product": "26SS 썸머 릴렉스 링클프리 쿨 팬츠",
+        "price": 66000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80459260",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "14:20",
+        "end": "15:10",
+        "brand": "",
+        "product": "소온하루 기미 집중 관리 완벽 더블 패키지",
+        "price": 99000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=77002835",
+        "category": "미용",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "15:10",
+        "end": "16:00",
+        "brand": "",
+        "product": "고기몽땅 폭립 x 3팩",
+        "price": 49500,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80944459",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "16:00",
+        "end": "16:50",
+        "brand": "순수식품",
+        "product": "유기농 양배추 케일즙",
+        "price": 68900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81139615",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "16:50",
+        "end": "17:40",
+        "brand": "",
+        "product": "100% 제주산 메밀순면세트",
+        "price": 59900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80565613",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "17:40",
+        "end": "18:40",
+        "brand": "",
+        "product": "최초공개!단독",
+        "price": 0,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=78733221",
+        "category": "일반렌탈",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "20:45",
+        "end": "21:45",
+        "brand": "매스틱",
+        "product": "위엔 매스틱 24주분",
+        "price": 599000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80223447",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "21:45",
+        "end": "22:55",
+        "brand": "",
+        "product": "소온하루 기미 긴급 관리 기본 패키지",
+        "price": 79000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=77012083",
+        "category": "미용",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "22:55",
+        "end": "23:55",
+        "brand": "",
+        "product": "팽현숙의 옛날왕족발 세트",
+        "price": 54900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=77902558",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "23:55",
+        "end": "01:00",
+        "brand": "",
+        "product": "시즌7 스퀘어 엣지 아이라이너 쉐도우스틱1종 미니백1종",
+        "price": 69900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=76200041",
+        "category": "가전",
+        "lavangba_category": "화장품/미용"
+      }
+    ],
+    "2026-07-02": [
+      {
+        "start": "01:00",
+        "end": "02:00",
+        "brand": "에어룸",
+        "product": "1등매장/ 26년형 에어룸 수면냉감 쿨드론 기능성",
+        "price": 159900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80461852",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "02:00",
+        "end": "03:00",
+        "brand": "",
+        "product": "디마떼오 피자 /20팩",
+        "price": 60900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=72014008",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "03:00",
+        "end": "04:00",
+        "brand": "부케가르니",
+        "product": "부케가르니 바디클렌저 풀세트",
+        "price": 59900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=66414886",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "04:00",
+        "end": "04:50",
+        "brand": "",
+        "product": "26년 수확 햇 제주 보우짱 미니밤단호박",
+        "price": 29900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80494536",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "04:50",
+        "end": "06:00",
+        "brand": "PMD",
+        "product": "PMD 근육 자극 V업 풀페이스 탄력 기기 콜라겐 앰플2종",
+        "price": 238000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=78911360",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "06:00",
+        "end": "07:15",
+        "brand": "매스틱",
+        "product": "위엔 매스틱 24주분",
+        "price": 599000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80825694",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "07:15",
+        "end": "08:15",
+        "brand": "청담스타일",
+        "product": "청담스타일 포레스트 블랙체인지 염색샴푸 시그니처 더블 구성",
+        "price": 109800,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81139481",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "08:15",
+        "end": "09:25",
+        "brand": "피지",
+        "product": "피지 모락셀라 쉰내 냄새제거 캡슐세제 20입x6팩 5개입x1팩 더블구성",
+        "price": 89900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=76534593",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "09:25",
+        "end": "10:25",
+        "brand": "",
+        "product": "티니올 크리미 팩트 시즌2 트리니티 에디션",
+        "price": 89900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=75392607",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "10:25",
+        "end": "11:35",
+        "brand": "",
+        "product": "LINOIR 26SS 프렌치 린넨 블렌디드 가디건",
+        "price": 69900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=78654918",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "11:35",
+        "end": "12:40",
+        "brand": "홀베리",
+        "product": "홀베리 유기농 레몬즙",
+        "price": 99900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=79962619",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "12:40",
+        "end": "13:30",
+        "brand": "실크테라피",
+        "product": "실크테라피 본드앤리페어 헤어에센스",
+        "price": 129000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80222171",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "14:20",
+        "end": "15:10",
+        "brand": "르꽁뜨",
+        "product": "에어 쿨링 펌 고데기 헤어 볼륨 에센스",
+        "price": 79900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81065250",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "15:10",
+        "end": "16:00",
+        "brand": "",
+        "product": "참푸드 춘천 양념 닭갈비 x 4팩 간장 닭목살 x 2팩 닭갈비소스",
+        "price": 29900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80542026",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "16:50",
+        "end": "17:40",
+        "brand": "",
+        "product": "사랑채포기김치5kg 열무김치2kg 오이통김치1kg 왕자총각김치2kg 파김치1Kg",
+        "price": 59900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80539617",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "17:40",
+        "end": "18:40",
+        "brand": "보넬드",
+        "product": "NFC 착즙 보넬드 아이엠 토마토 12병",
+        "price": 64900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=68066170",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "21:45",
+        "end": "22:55",
+        "brand": "",
+        "product": "26 SUMMER 오픈카라 벨티드 원피스1종",
+        "price": 69900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80577168",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "23:55",
+        "end": "01:00",
+        "brand": "",
+        "product": "레몬버베나 다이어트 애사비",
+        "price": 199900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=79573055",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      }
+    ]
+  }
+}
