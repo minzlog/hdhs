@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-06-29T16:55:10.934175+09:00",
+  "collectedAt": "2026-06-30T06:10:02.215540+09:00",
   "companies": [
     "HD",
     "GS",
@@ -7,29 +7,6 @@
     "LT"
   ],
   "slots": [
-    {
-      "company": "GS",
-      "day": "월",
-      "time": "08:15",
-      "title": "이진아 셀렉션",
-      "schedule_raw": "월요일 오전 8시 15분",
-      "thumbnail": "https://static.m-gs.kr/planprd/banner_NEW_SUB/907015613_01.jpg",
-      "detail_link": "https://m.gsshop.com/section/broad/specialPgm/13435?mseq=W00618-TV_PRO_BB-7",
-      "upcoming_products": [
-        {
-          "name": "25FW 무스탕 하프코트 1종",
-          "price": 1399000,
-          "image": "https://asset.m-gs.kr/prod/1093853850/1/370",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1093853850&mseq=W00618-TV_PRO-1"
-        },
-        {
-          "name": "26SS 셔링 경량 블라우스 3종[런칭 가격 79,900원]",
-          "price": 59900,
-          "image": "https://asset.m-gs.kr/prod/1102027541/1/370",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1102027541&mseq=W00618-TV_PRO-2"
-        }
-      ]
-    },
     {
       "company": "CJ",
       "day": "월",
@@ -40,7 +17,7 @@
       "detail_link": "https://display.cjonstyle.com/m/pgmShop/100021",
       "upcoming_products": [
         {
-          "name": "3-1 센존 블루라벨  26SS 이태리 큐브백",
+          "name": "1-1 센존 블루라벨  26SS 이태리 큐브백",
           "price": 389000,
           "image": "https://itemimage.cjonstyle.net/goods_images/20/374/2078800374L.jpg?timestamp=20260212175535",
           "link": "https://display.cjonstyle.com/m/item/2078800374?channelCode=30002002"
@@ -63,39 +40,16 @@
       "detail_link": "https://display.cjonstyle.com/m/pgmShop/100009",
       "upcoming_products": [
         {
-          "name": "의성眞 햇 신비복숭아 1.5kgX2팩 총 3kg",
-          "price": 29900,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/208/2086953208L.jpg?timestamp=20260615180522",
-          "link": "https://display.cjonstyle.com/m/item/2086953208?channelCode=30002002"
+          "name": "[4인조풀세트/이가격단한번] 프랑스직수입 베르사유 컬렉션 총 22P",
+          "price": 239000,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/641/2087724641L.jpg?timestamp=20260625105445",
+          "link": "https://display.cjonstyle.com/m/item/2087724641?channelCode=30002002"
         },
         {
-          "name": "[굿라이프 TV쇼핑] 스팀에어프라이어오븐 CSO-500KR",
-          "price": 389000,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/196/2086015196L.jpg?timestamp=20260601180700",
-          "link": "https://display.cjonstyle.com/m/item/2086015196?channelCode=30002002"
-        }
-      ]
-    },
-    {
-      "company": "GS",
-      "day": "화",
-      "time": "08:15",
-      "title": "스타일나우; 더 김동은",
-      "schedule_raw": "매주 화요일 오전 8시 15분",
-      "thumbnail": "https://static.m-gs.kr/planprd/banner_NEW_SUB/900413935_01.jpg",
-      "detail_link": "https://m.gsshop.com/section/broad/specialPgm/13422?mseq=W00618-TV_PRO_BB-6",
-      "upcoming_products": [
-        {
-          "name": "린넨 2pcs 베스트+팬츠[런칭 가격 89,900원]",
-          "price": 69900,
-          "image": "https://asset.m-gs.kr/prod/1104436284/1/370",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1104436284&mseq=W00618-TV_PRO-1"
-        },
-        {
-          "name": "[상시가 129,000원] 세라 26SS 크로세 플랫슈즈",
-          "price": 90300,
-          "image": "https://asset.m-gs.kr/prod/1122058521/1/370",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1122058521&mseq=W00618-TV_PRO-2"
+          "name": "[굿라이프] 그랑베리 캐나다 야생블루베리 100% 12박스",
+          "price": 258000,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/507/2076858507L.jpg?timestamp=20260112201900",
+          "link": "https://display.cjonstyle.com/m/item/2076858507?channelCode=30002002"
         }
       ]
     },
@@ -175,16 +129,16 @@
       "detail_link": "https://www.hmall.com/md/dpa/pgmComm?sectId=2718248",
       "upcoming_products": [
         {
-          "name": "버버리 런던 체크 미디엄 토트백",
-          "price": 1199000,
-          "image": "https://image.hmall.com/2251149426_0.jpg",
-          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251149426"
+          "name": "[빅히트 재입고] 아이그너 26SS 심볼 프린트 티셔츠",
+          "price": 99000,
+          "image": "https://image.hmall.com/2249206353_0.jpg",
+          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249206353"
         },
         {
-          "name": "프라다 트라이앵글 로고 숄더백(1N204PR)",
-          "price": 1780000,
-          "image": "https://image.hmall.com/2251233656_0.jpg",
-          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251233656"
+          "name": "아이그너 26SS 심볼 플리츠 배색 슬리브리스 탑",
+          "price": 99000,
+          "image": "https://image.hmall.com/2249665580_0.jpg",
+          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249665580"
         }
       ]
     },
@@ -311,7 +265,7 @@
         },
         {
           "name": "[베네통] 쿨에어 메리제인 스니커즈",
-          "price": 99000,
+          "price": 79200,
           "image": "https://image2.lotteimall.com/goods/30/39/90/12903930_1.jpg/dims/resizemc/640x360/optimize",
           "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12903930"
         },
@@ -387,7 +341,7 @@
       "upcoming_products": [
         {
           "name": "24K 클로버 볼 더블 반지",
-          "price": 445000,
+          "price": 499000,
           "image": "https://itemimage.cjonstyle.net/goods_images/20/221/2083437221L.jpg?timestamp=20260508152550",
           "link": "https://display.cjonstyle.com/m/item/2083437221?channelCode=30002002"
         },
@@ -430,7 +384,14 @@
       "schedule_raw": "매주 목요일 오전 9시",
       "thumbnail": "https://image.lotteimall.com/upload/display/conts_tmpl/base/1299_11_20260528134157.png/dims/resizemc/1200x430/cropcenter/1200x430/optimize",
       "detail_link": "https://www.lotteimall.com/contstmpl/viewContsTmplDetail.lotte?conts_no=1299",
-      "upcoming_products": []
+      "upcoming_products": [
+        {
+          "name": "[바이브리짓] (26SS) 인견 혼방 슬리브리스 브라탑 3종(헨리넥1종+라운드넥2종)",
+          "price": 59410,
+          "image": "https://image2.lotteimall.com/goods/80/86/90/12908680_1.jpg/dims/resizemc/550x550/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12908680"
+        }
+      ]
     },
     {
       "company": "LT",
@@ -440,7 +401,26 @@
       "schedule_raw": "매주 목요일 오전 09시25분",
       "thumbnail": "https://image.lotteimall.com/upload/display/conts_tmpl/base/1149_11_20260223183610.jpg/dims/resizemc/1200x430/cropcenter/1200x430/optimize",
       "detail_link": "https://www.lotteimall.com/contstmpl/viewContsTmplDetail.lotte?conts_no=1149",
-      "upcoming_products": []
+      "upcoming_products": [
+        {
+          "name": "[유난희쇼 단독패키지] 모아도 제습제 300G 9입 + 600G 2입",
+          "price": 79900,
+          "image": "https://image2.lotteimall.com/goods/10/13/91/12911310_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911310"
+        },
+        {
+          "name": "[대용량 패키지] 모아도 제습제 600G 8입",
+          "price": 99000,
+          "image": "https://image2.lotteimall.com/goods/78/19/91/12911978_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911978"
+        },
+        {
+          "name": "[기본 패키지] 모아도 제습제 300G 4입 + 600G 2입",
+          "price": 59900,
+          "image": "https://image2.lotteimall.com/goods/11/13/91/12911311_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911311"
+        }
+      ]
     },
     {
       "company": "LT",
@@ -507,29 +487,6 @@
           "price": 139900,
           "image": "https://itemimage.cjonstyle.net/goods_images/20/943/2082265943L.jpg?timestamp=20260620132754",
           "link": "https://display.cjonstyle.com/m/item/2082265943?channelCode=30002002"
-        }
-      ]
-    },
-    {
-      "company": "GS",
-      "day": "목",
-      "time": "20:45",
-      "title": "지금 백지연",
-      "schedule_raw": "매주 목요일 저녁 8시 45분",
-      "thumbnail": "https://static.m-gs.kr/planprd/banner_NEW_SUB/832708554_01.png",
-      "detail_link": "https://m.gsshop.com/section/broad/specialPgm/13437?mseq=W00618-TV_PRO_BB-1",
-      "upcoming_products": [
-        {
-          "name": "100% 토마토 착즙 주스 72팩 200ml (백지연 PICK)",
-          "price": 70900,
-          "image": "https://asset.m-gs.kr/prod/1087081310/1/370",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1087081310&mseq=W00618-TV_PRO-1"
-        },
-        {
-          "name": "시그니처 플러스 샤워기 1개+시그니처 샤워기1개+탄소리필필터 3팩(바디 9개+ 헤드9개)+여행용 세트 + 리필필터 1팩(바디2개+헤드2개)",
-          "price": 104000,
-          "image": "https://asset.m-gs.kr/prod/1127930263/1/370",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1127930263&mseq=W00618-TV_PRO-2"
         }
       ]
     },
@@ -692,7 +649,7 @@
         },
         {
           "name": "[베네통] 쿨에어 메리제인 스니커즈",
-          "price": 99000,
+          "price": 79200,
           "image": "https://image2.lotteimall.com/goods/30/39/90/12903930_1.jpg/dims/resizemc/640x360/optimize",
           "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12903930"
         },
@@ -719,29 +676,6 @@
           "price": 70000,
           "image": "https://image2.lotteimall.com/goods/05/56/90/12905605_1.jpg/dims/resizemc/640x360/optimize",
           "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12905605"
-        }
-      ]
-    },
-    {
-      "company": "GS",
-      "day": "금",
-      "time": "20:35",
-      "title": "소유진쇼",
-      "schedule_raw": "매주 금요일 저녁 8시 35분",
-      "thumbnail": "https://static.m-gs.kr/planprd/banner_NEW_SUB/907067658_01.jpg",
-      "detail_link": "https://m.gsshop.com/section/broad/specialPgm/13401?mseq=W00618-TV_PRO_BB-2",
-      "upcoming_products": [
-        {
-          "name": "죽염담은 녹두삼계탕 1.2kg*7팩 + 인산가 4회 구운 죽염 150g*1통",
-          "price": 69900,
-          "image": "https://asset.m-gs.kr/prod/1127946797/1/370",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1127946797&mseq=W00618-TV_PRO-1"
-        },
-        {
-          "name": "간편한 제주 야채찜 30팩",
-          "price": 129000,
-          "image": "https://asset.m-gs.kr/prod/1126246708/1/370",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1126246708&mseq=W00618-TV_PRO-2"
         }
       ]
     },
@@ -857,29 +791,6 @@
       ]
     },
     {
-      "company": "GS",
-      "day": "토",
-      "time": "09:20",
-      "title": "더컬렉션",
-      "schedule_raw": "매주 토요일 오전 9시 20분",
-      "thumbnail": "https://static.m-gs.kr/planprd/banner_NEW_SUB/906461584_01.png",
-      "detail_link": "https://m.gsshop.com/section/broad/specialPgm/13136?mseq=W00618-TV_PRO_BB-3",
-      "upcoming_products": [
-        {
-          "name": "SAERA 26SS 최신상 여성 퓨어 코튼 아일렛 자수 블라우스 3종 세트",
-          "price": 79900,
-          "image": "https://asset.m-gs.kr/prod/1113085017/1/370",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1113085017&mseq=W00618-TV_PRO-1"
-        },
-        {
-          "name": "26S/S 린넨 시어 가디건 3종",
-          "price": 79900,
-          "image": "https://asset.m-gs.kr/prod/1110710978/1/370",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1110710978&mseq=W00618-TV_PRO-2"
-        }
-      ]
-    },
-    {
       "company": "CJ",
       "day": "토",
       "time": "10:20",
@@ -912,16 +823,16 @@
       "detail_link": "https://www.hmall.com/md/dpa/pgmComm?sectId=2718248",
       "upcoming_products": [
         {
-          "name": "버버리 런던 체크 미디엄 토트백",
-          "price": 1199000,
-          "image": "https://image.hmall.com/2251149426_0.jpg",
-          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251149426"
+          "name": "[빅히트 재입고] 아이그너 26SS 심볼 프린트 티셔츠",
+          "price": 99000,
+          "image": "https://image.hmall.com/2249206353_0.jpg",
+          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249206353"
         },
         {
-          "name": "프라다 트라이앵글 로고 숄더백(1N204PR)",
-          "price": 1780000,
-          "image": "https://image.hmall.com/2251233656_0.jpg",
-          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251233656"
+          "name": "아이그너 26SS 심볼 플리츠 배색 슬리브리스 탑",
+          "price": 99000,
+          "image": "https://image.hmall.com/2249665580_0.jpg",
+          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249665580"
         }
       ]
     },
@@ -936,29 +847,6 @@
       "upcoming_products": []
     },
     {
-      "company": "GS",
-      "day": "토",
-      "time": "11:50",
-      "title": "신상뷰티찬스",
-      "schedule_raw": "격주 토요일 낮 11시 50분",
-      "thumbnail": "https://static.m-gs.kr/planprd/banner_NEW_SUB/925186200_01.jpg",
-      "detail_link": "https://m.gsshop.com/section/broad/specialPgm/13428?mseq=W00618-TV_PRO_BB-5",
-      "upcoming_products": [
-        {
-          "name": "[메디큐브] 부스터프로 시즌2 찬스쇼 단독 런칭 (핑크)",
-          "price": 399000,
-          "image": "https://asset.m-gs.kr/prod/1117330943/1/370",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1117330943&mseq=W00618-TV_PRO-1"
-        },
-        {
-          "name": "바이오 앰플 찬스패키지",
-          "price": 289000,
-          "image": "https://asset.m-gs.kr/prod/1112262729/1/370",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1112262729&mseq=W00618-TV_PRO-2"
-        }
-      ]
-    },
-    {
       "company": "CJ",
       "day": "토",
       "time": "20:45",
@@ -968,39 +856,16 @@
       "detail_link": "https://display.cjonstyle.com/m/pgmShop/563883",
       "upcoming_products": [
         {
+          "name": "선일금고 메타셀 메타알레 밀크 40L MC-40",
+          "price": 1048000,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/002/2082524002L.jpg?timestamp=20260407112951",
+          "link": "https://display.cjonstyle.com/m/item/2082524002?channelCode=30002002"
+        },
+        {
           "name": "라지킹_아이스Max 쿨드론 냉감패드 7종 풀패키지",
           "price": 159900,
           "image": "https://itemimage.cjonstyle.net/goods_images/20/126/2082966126L.jpg?timestamp=20260504090741",
           "link": "https://display.cjonstyle.com/m/item/2082966126?channelCode=30002002"
-        },
-        {
-          "name": "퀸_아이스Max 쿨드론 냉감패드 7종풀패키지",
-          "price": 119900,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/057/2082976057L.jpg?timestamp=20260504090547",
-          "link": "https://display.cjonstyle.com/m/item/2082976057?channelCode=30002002"
-        }
-      ]
-    },
-    {
-      "company": "GS",
-      "day": "토",
-      "time": "21:35",
-      "title": "쇼미더트렌드",
-      "schedule_raw": "매주 토요일 밤 9시 35분",
-      "thumbnail": "https://static.m-gs.kr/planprd/banner_NEW_SUB/907067613_01.jpg",
-      "detail_link": "https://m.gsshop.com/section/broad/specialPgm/11670?mseq=W00618-TV_PRO_BB-4",
-      "upcoming_products": [
-        {
-          "name": "26SS크리즈 셋업 3PCS (재킷+팬츠+원피스) [런칭 가격 79,900원]",
-          "price": 59900,
-          "image": "https://asset.m-gs.kr/prod/1107884161/1/370",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1107884161&mseq=W00618-TV_PRO-1"
-        },
-        {
-          "name": "26SS 나이로프트 패커블 레인 점퍼 (여성용)",
-          "price": 69900,
-          "image": "https://asset.m-gs.kr/prod/1104948435/1/370",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1104948435&mseq=W00618-TV_PRO-2"
         }
       ]
     },
@@ -1074,14 +939,7 @@
       "schedule_raw": "매주 일요일 10시",
       "thumbnail": "https://image.lotteimall.com/upload/display/conts_tmpl/base/1148_11_20260129090959.jpg/dims/resizemc/1200x430/cropcenter/1200x430/optimize",
       "detail_link": "https://www.lotteimall.com/contstmpl/viewContsTmplDetail.lotte?conts_no=1148",
-      "upcoming_products": [
-        {
-          "name": "[헌터] 폴더블 선글라스 HTC34 + 에그케이스",
-          "price": 139000,
-          "image": "https://image2.lotteimall.com/goods/02/15/91/12911502_1.jpg/dims/resizemc/640x360/optimize",
-          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911502"
-        }
-      ]
+      "upcoming_products": []
     },
     {
       "company": "LT",
@@ -1142,11 +1000,6 @@
   ],
   "unscheduled": [
     {
-      "company": "GS",
-      "title": "지금 여행",
-      "schedule_raw": "매주 일요일 저녁"
-    },
-    {
       "company": "CJ",
       "title": "건강 슈퍼히어로",
       "schedule_raw": "일요일 오전"
@@ -1168,7 +1021,12 @@
     },
     {
       "company": "LT",
-      "title": "태윤맘과 맘심톡톡!",
+      "title": "섭PD의 어섭쇼!",
+      "schedule_raw": ""
+    },
+    {
+      "company": "LT",
+      "title": "Sell love",
       "schedule_raw": ""
     },
     {
@@ -1178,7 +1036,12 @@
     },
     {
       "company": "LT",
-      "title": "섭PD의 어섭쇼!",
+      "title": "미숙씨 X 가전 LIVE",
+      "schedule_raw": ""
+    },
+    {
+      "company": "LT",
+      "title": "태윤맘과 맘심톡톡!",
       "schedule_raw": ""
     },
     {
@@ -1188,18 +1051,8 @@
     },
     {
       "company": "LT",
-      "title": "미숙씨 X 가전 LIVE",
-      "schedule_raw": ""
-    },
-    {
-      "company": "LT",
       "title": "엘라이브 가구단지",
       "schedule_raw": "엘단지로 완성하는 우리집 스타일링"
-    },
-    {
-      "company": "LT",
-      "title": "Sell love",
-      "schedule_raw": ""
     }
   ]
 }

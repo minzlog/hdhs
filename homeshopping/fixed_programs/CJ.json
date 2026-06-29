@@ -1,28 +1,7 @@
 {
   "company": "CJ",
-  "collectedAt": "2026-06-29T16:54:46.909148+09:00",
+  "collectedAt": "2026-06-30T06:09:39.587320+09:00",
   "programs": [
-    {
-      "pgm_cd": "563068",
-      "title": "굿 라이프",
-      "schedule_raw": "월요일 오후 19시35분",
-      "thumbnail": "https://image.cjonstyle.net/public/confirm/assets/tdp_cate_cont/202606/29/5549816/0c47b0ad954e30ae15fac9800554611ff7775a30.png",
-      "pgmshop_link": "https://display.cjonstyle.com/m/pgmShop/100009",
-      "upcoming_products": [
-        {
-          "name": "의성眞 햇 신비복숭아 1.5kgX2팩 총 3kg",
-          "price": 29900,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/208/2086953208L.jpg?timestamp=20260615180522",
-          "link": "https://display.cjonstyle.com/m/item/2086953208?channelCode=30002002"
-        },
-        {
-          "name": "[굿라이프 TV쇼핑] 스팀에어프라이어오븐 CSO-500KR",
-          "price": 389000,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/196/2086015196L.jpg?timestamp=20260601180700",
-          "link": "https://display.cjonstyle.com/m/item/2086015196?channelCode=30002002"
-        }
-      ]
-    },
     {
       "pgm_cd": "563703",
       "title": "건강 슈퍼히어로",
@@ -52,7 +31,7 @@
       "pgmshop_link": "https://display.cjonstyle.com/m/pgmShop/100021",
       "upcoming_products": [
         {
-          "name": "3-1 센존 블루라벨  26SS 이태리 큐브백",
+          "name": "1-1 센존 블루라벨  26SS 이태리 큐브백",
           "price": 389000,
           "image": "https://itemimage.cjonstyle.net/goods_images/20/374/2078800374L.jpg?timestamp=20260212175535",
           "link": "https://display.cjonstyle.com/m/item/2078800374?channelCode=30002002"
@@ -95,7 +74,7 @@
       "upcoming_products": [
         {
           "name": "24K 클로버 볼 더블 반지",
-          "price": 445000,
+          "price": 499000,
           "image": "https://itemimage.cjonstyle.net/goods_images/20/221/2083437221L.jpg?timestamp=20260508152550",
           "link": "https://display.cjonstyle.com/m/item/2083437221?channelCode=30002002"
         },
@@ -136,16 +115,16 @@
       "pgmshop_link": "https://display.cjonstyle.com/m/pgmShop/563883",
       "upcoming_products": [
         {
+          "name": "선일금고 메타셀 메타알레 밀크 40L MC-40",
+          "price": 1048000,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/002/2082524002L.jpg?timestamp=20260407112951",
+          "link": "https://display.cjonstyle.com/m/item/2082524002?channelCode=30002002"
+        },
+        {
           "name": "라지킹_아이스Max 쿨드론 냉감패드 7종 풀패키지",
           "price": 159900,
           "image": "https://itemimage.cjonstyle.net/goods_images/20/126/2082966126L.jpg?timestamp=20260504090741",
           "link": "https://display.cjonstyle.com/m/item/2082966126?channelCode=30002002"
-        },
-        {
-          "name": "퀸_아이스Max 쿨드론 냉감패드 7종풀패키지",
-          "price": 119900,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/057/2082976057L.jpg?timestamp=20260504090547",
-          "link": "https://display.cjonstyle.com/m/item/2082976057?channelCode=30002002"
         }
       ]
     },
@@ -276,6 +255,27 @@
       "thumbnail": "https://image.cjonstyle.net/public/confirm/assets/tdp_cate_cont/202404/11/5582871/fffb2f809280f6e87008e452e35bf51a6b317100.png",
       "pgmshop_link": "https://display.cjonstyle.com/m/pgmShop/562503",
       "upcoming_products": []
+    },
+    {
+      "pgm_cd": "563068",
+      "title": "굿 라이프",
+      "schedule_raw": "월요일 오후 19시35분",
+      "thumbnail": "https://image.cjonstyle.net/public/confirm/assets/tdp_cate_cont/202606/29/5549816/0c47b0ad954e30ae15fac9800554611ff7775a30.png",
+      "pgmshop_link": "https://display.cjonstyle.com/m/pgmShop/100009",
+      "upcoming_products": [
+        {
+          "name": "[4인조풀세트/이가격단한번] 프랑스직수입 베르사유 컬렉션 총 22P",
+          "price": 239000,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/641/2087724641L.jpg?timestamp=20260625105445",
+          "link": "https://display.cjonstyle.com/m/item/2087724641?channelCode=30002002"
+        },
+        {
+          "name": "[굿라이프] 그랑베리 캐나다 야생블루베리 100% 12박스",
+          "price": 258000,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/507/2076858507L.jpg?timestamp=20260112201900",
+          "link": "https://display.cjonstyle.com/m/item/2076858507?channelCode=30002002"
+        }
+      ]
     }
   ]
 }

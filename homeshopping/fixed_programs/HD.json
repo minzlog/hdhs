@@ -1,6 +1,6 @@
 {
   "company": "HD",
-  "collectedAt": "2026-06-29T16:54:44.054804+09:00",
+  "collectedAt": "2026-06-30T06:09:37.785114+09:00",
   "programs": [
     {
       "title": "왕영은의 톡투게더",
@@ -28,7 +28,7 @@
     },
     {
       "title": "클럽 노블레스",
-      "broadcast_title": "Club Noblesse",
+      "broadcast_title": "클럽노블레스 메종",
       "schedule_raw": "매주 수요일 19시 30분 | 토요일 11시 20분",
       "day": "수",
       "time": "19:30",
@@ -37,16 +37,16 @@
       "detail_link": "https://www.hmall.com/md/dpa/pgmComm?sectId=2718248",
       "upcoming_products": [
         {
-          "name": "버버리 런던 체크 미디엄 토트백",
-          "price": 1199000,
-          "image": "https://image.hmall.com/2251149426_0.jpg",
-          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251149426"
+          "name": "[빅히트 재입고] 아이그너 26SS 심볼 프린트 티셔츠",
+          "price": 99000,
+          "image": "https://image.hmall.com/2249206353_0.jpg",
+          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249206353"
         },
         {
-          "name": "프라다 트라이앵글 로고 숄더백(1N204PR)",
-          "price": 1780000,
-          "image": "https://image.hmall.com/2251233656_0.jpg",
-          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251233656"
+          "name": "아이그너 26SS 심볼 플리츠 배색 슬리브리스 탑",
+          "price": 99000,
+          "image": "https://image.hmall.com/2249665580_0.jpg",
+          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249665580"
         }
       ]
     },
