@@ -2,8 +2,9 @@ name: 홈쇼핑 편성 수집 (HD/LT/CJ/GS)
 
 on:
   schedule:
-    # 매일 한국시간(KST) 06:20 = UTC 21:20 (전날). 편성표·날씨와 겹치지 않도록 뒤에 배치.
-    - cron: "20 21 * * *"
+    # 하루 2회: KST 05:50 = UTC 20:50 (전날), KST 12:20 = UTC 03:20
+    - cron: "50 20 * * *"
+    - cron: "20 3 * * *"
   workflow_dispatch: {}  # 수동 실행 버튼
 
 permissions:
