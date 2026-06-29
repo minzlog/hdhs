@@ -2805,8 +2805,17 @@
         "category": "의류"
       },
       {
-        "start": "02:40",
-        "end": "02:45",
+        "start": "02:00",
+        "end": "02:39",
+        "brand": "메종비오비(BOB)",
+        "product": "○ BOB 26SS 남성 반팔 카라티셔츠",
+        "price": 119000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12897947",
+        "category": "의류"
+      },
+      {
+        "start": "02:39",
+        "end": "02:44",
         "brand": "설아래",
         "product": "설아래 문경 오미자차 90mlx14포x4박스, 총56포",
         "price": 79900,
@@ -2814,8 +2823,8 @@
         "category": "일반식품"
       },
       {
-        "start": "02:45",
-        "end": "02:50",
+        "start": "02:44",
+        "end": "02:49",
         "brand": "하나손해보험",
         "product": "하나더퍼스트 암생활비 보험_One1",
         "price": 0,
@@ -2823,8 +2832,8 @@
         "category": "보험"
       },
       {
-        "start": "02:50",
-        "end": "02:55",
+        "start": "02:49",
+        "end": "02:54",
         "brand": "설아래",
         "product": "설아래 문경 오미자차 90mlx14포x4박스, 총56포",
         "price": 79900,
@@ -2832,8 +2841,8 @@
         "category": "일반식품"
       },
       {
-        "start": "02:55",
-        "end": "03:00",
+        "start": "02:54",
+        "end": "03:01",
         "brand": "하나손해보험",
         "product": "하나더퍼스트 암생활비 보험_One2",
         "price": 0,
@@ -2841,8 +2850,8 @@
         "category": "보험"
       },
       {
-        "start": "03:00",
-        "end": "03:05",
+        "start": "03:01",
+        "end": "03:06",
         "brand": "설아래",
         "product": "설아래 문경 오미자차 90mlx14포x4박스, 총56포",
         "price": 79900,
@@ -2850,8 +2859,8 @@
         "category": "일반식품"
       },
       {
-        "start": "03:05",
-        "end": "03:10",
+        "start": "03:06",
+        "end": "03:11",
         "brand": "하나손해보험",
         "product": "하나더퍼스트 암생활비 보험_One3",
         "price": 0,
@@ -2859,8 +2868,8 @@
         "category": "보험"
       },
       {
-        "start": "03:10",
-        "end": "03:15",
+        "start": "03:11",
+        "end": "03:16",
         "brand": "설아래",
         "product": "설아래 문경 오미자차 90mlx14포x4박스, 총56포",
         "price": 79900,
@@ -2868,8 +2877,8 @@
         "category": "일반식품"
       },
       {
-        "start": "03:15",
-        "end": "03:20",
+        "start": "03:16",
+        "end": "03:21",
         "brand": "하나손해보험",
         "product": "하나더퍼스트 암생활비 보험_One4",
         "price": 0,
@@ -2877,8 +2886,8 @@
         "category": "보험"
       },
       {
-        "start": "03:20",
-        "end": "03:25",
+        "start": "03:21",
+        "end": "03:26",
         "brand": "설아래",
         "product": "설아래 문경 오미자차 90mlx14포x4박스, 총56포",
         "price": 79900,
@@ -2886,8 +2895,8 @@
         "category": "일반식품"
       },
       {
-        "start": "03:25",
-        "end": "03:30",
+        "start": "03:26",
+        "end": "03:31",
         "brand": "하나손해보험",
         "product": "하나더퍼스트 암생활비 보험_One5",
         "price": 0,
@@ -2895,8 +2904,8 @@
         "category": "보험"
       },
       {
-        "start": "03:30",
-        "end": "03:50",
+        "start": "03:31",
+        "end": "03:51",
         "brand": "올타",
         "product": "유기농 리얼 당당 레몬즙 총 150포",
         "price": 165000,
@@ -2904,17 +2913,26 @@
         "category": "건강식품"
       },
       {
-        "start": "03:50",
-        "end": "04:30",
+        "start": "03:51",
+        "end": "04:31",
         "brand": "샤크닌자",
         "product": "닌자 디텍트 파워 블렌더 프로 키친 시스템",
         "price": 499000,
-        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12909475",
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12912301",
         "category": "가전"
       },
       {
-        "start": "04:50",
-        "end": "05:30",
+        "start": "04:31",
+        "end": "04:51",
+        "brand": "브이존",
+        "product": "○ 브이존 사계절 양말 12 12켤레",
+        "price": 39900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12901230",
+        "category": "잡화/주얼리"
+      },
+      {
+        "start": "04:51",
+        "end": "05:31",
         "brand": "LBL",
         "product": "○26SS 린넨블렌디드 크로셰 가디건 니트 SET",
         "price": 99000,
@@ -2922,8 +2940,8 @@
         "category": "의류"
       },
       {
-        "start": "05:30",
-        "end": "06:30",
+        "start": "05:31",
+        "end": "06:31",
         "brand": "사임당",
         "product": "사임당 발패치",
         "price": 59800,
@@ -2931,7 +2949,16 @@
         "category": "미용"
       },
       {
-        "start": "07:30",
+        "start": "06:31",
+        "end": "07:31",
+        "brand": "락앤락",
+        "product": "락앤락 머스트픽 트라이탄 밀폐용기",
+        "price": 59000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12906594",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "07:31",
         "end": "08:30",
         "brand": "힐데스 그레인",
         "product": "힐데스 그레인 스펠트 20 5봉",
@@ -2941,7 +2968,7 @@
       },
       {
         "start": "08:30",
-        "end": "08:35",
+        "end": "08:36",
         "brand": "자연향기",
         "product": "하동녹차 명란김 6gx60봉, 권여사 명란자반 70gx2봉",
         "price": 29900,
@@ -2949,8 +2976,17 @@
         "category": "일반식품"
       },
       {
-        "start": "09:35",
-        "end": "10:35",
+        "start": "08:36",
+        "end": "09:36",
+        "brand": "게스 언더웨어",
+        "product": "게스 쿨 라이크라® 헴팬티",
+        "price": 59900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12908253",
+        "category": "언더웨어"
+      },
+      {
+        "start": "09:36",
+        "end": "10:36",
         "brand": "블라우풍트",
         "product": "블라우풍트 무선 이어폰 보조배터리",
         "price": 66540,
@@ -2958,11 +2994,11 @@
         "category": "가전"
       },
       {
-        "start": "10:35",
+        "start": "10:36",
         "end": "11:35",
         "brand": "지지피엑스",
         "product": "○ 26SS NEW 아트웍 폰테 티셔츠",
-        "price": 49600,
+        "price": 49500,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12892838",
         "category": "의류"
       },
@@ -2977,7 +3013,7 @@
       },
       {
         "start": "12:35",
-        "end": "12:40",
+        "end": "12:41",
         "brand": "태현",
         "product": "알뜰 못난이 보조개 부사사과",
         "price": 19900,
@@ -2985,8 +3021,8 @@
         "category": "일반식품"
       },
       {
-        "start": "12:40",
-        "end": "13:40",
+        "start": "12:41",
+        "end": "13:41",
         "brand": "디비손보",
         "product": "DB손해보험 나에게맞춘 플러스 간편건강보험_ONE",
         "price": 0,
@@ -2994,8 +3030,17 @@
         "category": "보험"
       },
       {
-        "start": "14:20",
-        "end": "15:00",
+        "start": "13:41",
+        "end": "14:21",
+        "brand": "까스텔바작",
+        "product": "○ 까스텔바작 26SS 여성 크로쉐 앙상블",
+        "price": 89000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12902991",
+        "category": "의류"
+      },
+      {
+        "start": "14:21",
+        "end": "15:01",
         "brand": "직화구이 닭발",
         "product": "직화구이 무뼈 닭발 8팩",
         "price": 37900,
@@ -3003,8 +3048,8 @@
         "category": "일반식품"
       },
       {
-        "start": "15:00",
-        "end": "15:40",
+        "start": "15:01",
+        "end": "15:41",
         "brand": "이롬",
         "product": "♡황성주 박사의 닥터샐러드 푸룬 식이섬유 젤리",
         "price": 198000,
@@ -3012,8 +3057,8 @@
         "category": "건강식품"
       },
       {
-        "start": "15:40",
-        "end": "16:40",
+        "start": "15:41",
+        "end": "16:41",
         "brand": "메리츠화재",
         "product": "메리츠화재 받고 또 받는 암보험_ONE",
         "price": 0,
@@ -3021,20 +3066,29 @@
         "category": "보험"
       },
       {
-        "start": "16:40",
-        "end": "17:40",
+        "start": "16:41",
+        "end": "17:41",
         "brand": "비비고",
         "product": "왕교자 6봉 김치왕교자 3봉 진한고기만두 3봉 샤오롱바오 2봉 새우하가우 2봉 총16봉",
-        "price": 54620,
+        "price": 56900,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12889836",
         "category": "일반식품"
+      },
+      {
+        "start": "17:41",
+        "end": "18:40",
+        "brand": "LG전자",
+        "product": "LG 오브제 워시콤보 미니워시",
+        "price": 4790000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12912146",
+        "category": "가전"
       },
       {
         "start": "18:40",
         "end": "19:40",
         "brand": "잭니클라우스",
         "product": "○ 26SS 남성 스트레이트 썸머 팬츠",
-        "price": 92650,
+        "price": 109000,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12896971",
         "category": "의류"
       },
@@ -3064,6 +3118,15 @@
         "price": 2149000,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12899817",
         "category": "가전"
+      },
+      {
+        "start": "22:40",
+        "end": "23:40",
+        "brand": "비비안 슬림핏",
+        "product": "비비안 SLIMFIT 풀레이스 브라팬티",
+        "price": 179900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12895367",
+        "category": "언더웨어"
       },
       {
         "start": "23:40",

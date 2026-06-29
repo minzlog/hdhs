@@ -2775,7 +2775,7 @@
     "2026-06-30": [
       {
         "start": "00:38",
-        "end": "01:38",
+        "end": "01:39",
         "brand": "브이티",
         "product": "브이티 PDRN 진동 아이크림 더블구성 본품8 리필8 PDRN 토너",
         "price": 148000,
@@ -2814,8 +2814,18 @@
         "lavangba_category": "패션의류"
       },
       {
+        "start": "02:05",
+        "end": "02:10",
+        "brand": "뉴트리코어",
+        "product": "뉴트리코어 하이퍼셀 PDRN 젤 크림 패키지",
+        "price": 189000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126784324&brddate=20260701020500&pgmID=6737&ordChannel=WE&tveshop=Y",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
         "start": "02:10",
-        "end": "02:30",
+        "end": "02:31",
         "brand": "",
         "product": "D_미녀의 석류 콜라겐 총 200포",
         "price": 241000,
@@ -2829,9 +2839,39 @@
         "brand": "더클래식",
         "product": "순수 2025 NEW 더클래식 염색약 샴푸",
         "price": 89900,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1097083536&brddate=20260630023100&pgmID=6737&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1097083536&brddate=20260705143700&pgmID=6737&ordChannel=WE&tveshop=Y",
         "category": "문화/스포츠",
         "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "02:51",
+        "end": "02:56",
+        "brand": "루네라",
+        "product": "루네라 냉감 방수 소파패드 4인용 2장",
+        "price": 69900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1127972929&brddate=20260630025100&pgmID=6740&ordChannel=WE&tveshop=Y",
+        "category": "리빙/주방",
+        "lavangba_category": "가구/인테리어"
+      },
+      {
+        "start": "02:56",
+        "end": "03:01",
+        "brand": "아쿠아리모네",
+        "product": "아쿠아리모네 26SS 미들 데님 숏츠",
+        "price": 49900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1120861328&brddate=20260630025600&pgmID=12557&ordChannel=WE&tveshop=Y",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "03:01",
+        "end": "03:12",
+        "brand": "밀라",
+        "product": "밀라 26SS 여성 썸머 팬츠",
+        "price": 49900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1120849235&brddate=20260630030100&pgmID=12557&ordChannel=WE&tveshop=Y",
+        "category": "의류",
+        "lavangba_category": "패션의류"
       },
       {
         "start": "03:12",
@@ -2864,8 +2904,38 @@
         "lavangba_category": "패션의류"
       },
       {
+        "start": "03:27",
+        "end": "03:32",
+        "brand": "뉴트리코어",
+        "product": "뉴트리코어 하이퍼셀 PDRN 젤 크림 패키지",
+        "price": 189000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126784324&brddate=20260701020500&pgmID=6737&ordChannel=WE&tveshop=Y",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "03:32",
+        "end": "03:53",
+        "brand": "",
+        "product": "피트인 레이스 매-끈 누디 팬티",
+        "price": 59900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1083093763&brddate=20260630033200&pgmID=6753&ordChannel=WE&tveshop=Y",
+        "category": "언더웨어",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "03:53",
+        "end": "04:13",
+        "brand": "살림백서",
+        "product": "대용량 디퓨저 500nl 차량용 디퓨저",
+        "price": 39900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1097062513&brddate=20260704023100&pgmID=6742&ordChannel=WE&tveshop=Y",
+        "category": "리빙/주방",
+        "lavangba_category": "가구/인테리어"
+      },
+      {
         "start": "04:13",
-        "end": "04:33",
+        "end": "04:34",
         "brand": "",
         "product": "26SS 루시헨느 썸머 란쥬",
         "price": 59900,
@@ -2904,6 +2974,16 @@
         "lavangba_category": "패션의류"
       },
       {
+        "start": "04:49",
+        "end": "04:55",
+        "brand": "뉴트리코어",
+        "product": "뉴트리코어 하이퍼셀 PDRN 젤 크림 패키지",
+        "price": 189000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126784324&brddate=20260701020500&pgmID=6737&ordChannel=WE&tveshop=Y",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
         "start": "04:55",
         "end": "05:15",
         "brand": "라코스테",
@@ -2914,8 +2994,18 @@
         "lavangba_category": "패션의류"
       },
       {
+        "start": "05:15",
+        "end": "05:55",
+        "brand": "질경이",
+        "product": "질경이 비건 여성청결제 모닝 폼 워시 GS 특별세트",
+        "price": 63900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1113512049&brddate=20260630051500&pgmID=6737&ordChannel=WE&tveshop=Y",
+        "category": "리빙/주방",
+        "lavangba_category": "화장품/미용"
+      },
+      {
         "start": "05:55",
-        "end": "06:35",
+        "end": "06:36",
         "brand": "닥터큐먼",
         "product": "닥터큐먼 Type1 콜라겐100 크림팩 프리미엄 더블구성",
         "price": 178000,
@@ -2959,9 +3049,19 @@
         "brand": "브루마스",
         "product": "브루마스 26SS 천연소가죽 스트랩 통굽샌들",
         "price": 59800,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1127925682&brddate=20260701203800&pgmID=6736&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1127925682&brddate=20260630093600&pgmID=6736&ordChannel=WE&tveshop=Y",
         "category": "잡화/주얼리",
         "lavangba_category": "패션잡화"
+      },
+      {
+        "start": "10:36",
+        "end": "11:36",
+        "brand": "",
+        "product": "26SS 인견 95% 냉감 브라팬티",
+        "price": 59900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1118445726&brddate=20260630103600&pgmID=6753&ordChannel=WE&tveshop=Y",
+        "category": "언더웨어",
+        "lavangba_category": "패션의류"
       },
       {
         "start": "11:36",
@@ -3039,7 +3139,7 @@
         "brand": "습기제로",
         "product": "NEW 대용량 제습제",
         "price": 39900,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1053837358&brddate=20260630173800&pgmID=6742&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1053837358&brddate=20260701055500&pgmID=6742&ordChannel=WE&tveshop=Y",
         "category": "리빙/주방",
         "lavangba_category": "생활/건강"
       },
@@ -3052,6 +3152,16 @@
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1116722398&brddate=20260630183800&pgmID=872&ordChannel=WE&tveshop=Y",
         "category": "가전",
         "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "19:38",
+        "end": "20:38",
+        "brand": "스케쳐스",
+        "product": "스케쳐스 26SS 여성용 아치핏 샌들",
+        "price": 99000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1097917343&brddate=20260630193800&pgmID=12502&ordChannel=WE&tveshop=Y",
+        "category": "잡화/주얼리",
+        "lavangba_category": "스포츠/레저"
       },
       {
         "start": "20:38",

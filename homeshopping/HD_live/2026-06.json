@@ -2115,6 +2115,15 @@
         "category": "리빙/주방"
       },
       {
+        "start": "01:00",
+        "end": "02:00",
+        "brand": "FARRO",
+        "product": "그레인온 캡슐레이션 효소",
+        "price": 418000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251667615&preview=true",
+        "category": "건강식품"
+      },
+      {
         "start": "02:00",
         "end": "02:50",
         "brand": "신한생명",
@@ -2163,9 +2172,9 @@
         "start": "05:20",
         "end": "06:15",
         "brand": "립밤",
-        "product": "립밤 시그니처 쿨 원피스",
-        "price": 59000,
-        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2234098286&preview=true",
+        "product": "립밤 리조트 쿨팬츠",
+        "price": 49000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2235221376&preview=true",
         "category": "의류"
       },
       {
@@ -2176,6 +2185,15 @@
         "price": 699000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248968602&preview=true",
         "category": "건강식품"
+      },
+      {
+        "start": "07:15",
+        "end": "08:15",
+        "brand": "USPA",
+        "product": "USPA 26SS 여성 코튼 썸머 가디건",
+        "price": 69000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250135365&preview=true",
+        "category": "의류"
       },
       {
         "start": "08:15",
@@ -2190,9 +2208,9 @@
         "start": "09:25",
         "end": "10:25",
         "brand": "한국중앙금거래소",
-        "product": "99.9 24K 순금 볼륨 체인 쌍지 트리플링 24K 순금 찬스",
-        "price": 798000,
-        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251504816&preview=true",
+        "product": "99.9 24K 순금 샤인 볼 팔찌 24K 순금 찬스",
+        "price": 1200000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251504962&preview=true",
         "category": "잡화/주얼리"
       },
       {
@@ -2271,7 +2289,7 @@
         "start": "18:30",
         "end": "19:30",
         "brand": "스타일리스",
-        "product": "미니 에어젯 핸디팬 트리플 구성",
+        "product": "미니 에어젯 핸디팬 4개구성",
         "price": 79800,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251672801&preview=true",
         "category": "미용"

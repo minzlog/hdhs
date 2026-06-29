@@ -3055,12 +3055,39 @@
       },
       {
         "start": "06:00",
-        "end": "09:40",
+        "end": "06:40",
         "brand": "드시모네",
         "product": "뉴질랜드 유기농 컬리케일 곱슬케일 100",
         "price": 198000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250663865&preview=true",
         "category": "건강식품"
+      },
+      {
+        "start": "06:40",
+        "end": "07:40",
+        "brand": "닥터오기덤",
+        "product": "닥터오기덤 마스크팩 구매 가능 구성",
+        "price": 49900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250428030&preview=true",
+        "category": "미용"
+      },
+      {
+        "start": "07:40",
+        "end": "08:40",
+        "brand": "욕실의여왕",
+        "product": "탈취제 더블세트",
+        "price": 89800,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2244811912&preview=true",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "08:40",
+        "end": "09:40",
+        "brand": "진짜편한속옷",
+        "product": "진짜편한속옷 360무빙 쿨링 인견 컴포트브라팬티",
+        "price": 59900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250824758&preview=true",
+        "category": "언더웨어"
       },
       {
         "start": "09:40",
@@ -3127,12 +3154,21 @@
       },
       {
         "start": "15:20",
-        "end": "16:40",
+        "end": "16:00",
         "brand": "도띠",
         "product": "도티 26SS 썸머 나일론 스판 7부 팬츠",
         "price": 59900,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250996193&preview=true",
         "category": "의류"
+      },
+      {
+        "start": "16:00",
+        "end": "16:40",
+        "brand": "팔레오",
+        "product": "팔레오 슈퍼클리어 눈건강 루테인지아잔틴",
+        "price": 99000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251713644&preview=true",
+        "category": "건강식품"
       },
       {
         "start": "16:40",

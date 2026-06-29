@@ -1981,9 +1981,9 @@
         "start": "01:00",
         "end": "02:00",
         "brand": "비에날씬",
-        "product": "NEW 프로 다이어트 모유유래 유산균24주",
-        "price": 376000,
-        "link": "https://display.cjonstyle.com/p/item/2037129083?channelCode=30002002",
+        "product": "프로 다이어트 유산균",
+        "price": 0,
+        "link": "https://display.cjonstyle.com/p/item/2081410949?channelCode=30002002",
         "category": "건강식품"
       },
       {
@@ -2063,7 +2063,7 @@
         "end": "06:00",
         "brand": "신영와코루",
         "product": "올레이스 보정 브라렛",
-        "price": 159900,
+        "price": 79950,
         "link": "https://display.cjonstyle.com/p/item/2057404389?channelCode=30002002",
         "category": "언더웨어"
       },
@@ -2071,9 +2071,9 @@
         "start": "06:00",
         "end": "07:15",
         "brand": "박술녀",
-        "product": "풍기인견 침구 풀세트SS",
-        "price": 159000,
-        "link": "https://display.cjonstyle.com/p/item/2086473133?channelCode=30002002",
+        "product": "풍기인견 침구 풀세트K",
+        "price": 209000,
+        "link": "https://display.cjonstyle.com/p/item/2086531330?channelCode=30002002",
         "category": "리빙/주방"
       },
       {
@@ -2116,10 +2116,19 @@
         "start": "11:35",
         "end": "12:35",
         "brand": "코이",
-        "product": "단백질관리 고밀도 크림50ml 3",
-        "price": 129000,
-        "link": "https://display.cjonstyle.com/p/item/2087638744?channelCode=30002002",
+        "product": "단백질크림6 중용량2 파우더워시2 마사저",
+        "price": 199000,
+        "link": "https://display.cjonstyle.com/p/item/2087553731?channelCode=30002002",
         "category": "미용"
+      },
+      {
+        "start": "12:35",
+        "end": "13:35",
+        "brand": "까사리빙",
+        "product": "SK_아이스맥스 냉감 풀세트",
+        "price": 149900,
+        "link": "https://display.cjonstyle.com/p/item/2085004717?channelCode=30002002",
+        "category": "리빙/주방"
       },
       {
         "start": "13:35",
@@ -2170,9 +2179,9 @@
         "start": "18:30",
         "end": "19:35",
         "brand": "한일전기",
-        "product": "BLDC 무선 듀오에어 팬 CFDU-1100R",
-        "price": 177000,
-        "link": "https://display.cjonstyle.com/p/item/2087492868?channelCode=30002002",
+        "product": "2026 NEW BLDC팬 보관가방2개",
+        "price": 178000,
+        "link": "https://display.cjonstyle.com/p/item/2085741678?channelCode=30002002",
         "category": "가전"
       },
       {
@@ -2183,6 +2192,15 @@
         "price": 99000,
         "link": "https://display.cjonstyle.com/p/item/2079558255?channelCode=30002002",
         "category": "잡화/주얼리"
+      },
+      {
+        "start": "21:45",
+        "end": "22:55",
+        "brand": "더말로지카",
+        "product": "데일리 마이크로폴리언트 대용량 중용량 멀티비타민 파워마스크 볼 붓",
+        "price": 159000,
+        "link": "https://display.cjonstyle.com/p/item/2087752753?channelCode=30002002",
+        "category": "미용"
       },
       {
         "start": "22:55",
@@ -2197,7 +2215,7 @@
         "start": "23:55",
         "end": "01:00",
         "brand": "센존블루라벨",
-        "product": "3-1 센존 블루라벨 26SS 이태리 큐브백",
+        "product": "1-1 센존 블루라벨 26SS 이태리 큐브백",
         "price": 389000,
         "link": "https://display.cjonstyle.com/p/item/2078800374?channelCode=30002002",
         "category": "잡화/주얼리"

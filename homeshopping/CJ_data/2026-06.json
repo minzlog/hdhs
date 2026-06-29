@@ -2411,10 +2411,19 @@
       {
         "start": "00:45",
         "end": "01:45",
-        "brand": "아디다스 골프",
-        "product": "26SS 썸머 에어로닷 남성 팬츠",
-        "price": 169000,
-        "link": "https://display.cjonstyle.com/p/item/2081758930?channelCode=30002002",
+        "brand": "유에스피에이",
+        "product": "26SS 라이크라® 반팔 카라티 남성",
+        "price": 89000,
+        "link": "https://display.cjonstyle.com/p/item/2079047994?channelCode=30002002",
+        "category": "의류"
+      },
+      {
+        "start": "01:45",
+        "end": "02:00",
+        "brand": "애드아보아",
+        "product": "26SS 프렌치린넨 블렌디드 썸머 커버업 니트",
+        "price": 79900,
+        "link": "https://display.cjonstyle.com/p/item/2083414285?channelCode=30002002",
         "category": "의류"
       },
       {
@@ -2562,6 +2571,51 @@
         "category": "건강식품"
       },
       {
+        "start": "07:45",
+        "end": "08:45",
+        "brand": "라비오라",
+        "product": "배종옥 레몬꿀팩 레몬허니워시오프팩 타올1매",
+        "price": 99000,
+        "link": "https://display.cjonstyle.com/p/item/2070029628?channelCode=30002002",
+        "category": "미용"
+      },
+      {
+        "start": "08:45",
+        "end": "09:15",
+        "brand": "셀렙샵에디션",
+        "product": "26SS 링클프리 쿨 찰랑팬츠2종",
+        "price": 79900,
+        "link": "https://display.cjonstyle.com/p/item/2080930938?channelCode=30002002",
+        "category": "의류"
+      },
+      {
+        "start": "09:45",
+        "end": "10:45",
+        "brand": "M12",
+        "product": "26SS 썸머 크로셰 이지포멀 가디건",
+        "price": 79900,
+        "link": "https://display.cjonstyle.com/p/item/2081410050?channelCode=30002002",
+        "category": "의류"
+      },
+      {
+        "start": "10:45",
+        "end": "11:45",
+        "brand": "르네디피",
+        "product": "26SS 투웨이 슬리브리스 블라우스 팬츠",
+        "price": 129900,
+        "link": "https://display.cjonstyle.com/p/item/2081050759?channelCode=30002002",
+        "category": "의류"
+      },
+      {
+        "start": "11:45",
+        "end": "12:45",
+        "brand": "도엘",
+        "product": "도엘 썬쿠션 본품으로만 최대용량27g 초슬림22mm",
+        "price": 89800,
+        "link": "https://display.cjonstyle.com/p/item/2052036655?channelCode=30002002",
+        "category": "미용"
+      },
+      {
         "start": "12:45",
         "end": "13:45",
         "brand": "단스킨",
@@ -2589,6 +2643,15 @@
         "category": "일반식품"
       },
       {
+        "start": "15:45",
+        "end": "16:45",
+        "brand": "까사리빙",
+        "product": "SK 광목 피그먼트 워싱스프레드2종",
+        "price": 129900,
+        "link": "https://display.cjonstyle.com/p/item/2077000645?channelCode=30002002",
+        "category": "리빙/주방"
+      },
+      {
         "start": "16:45",
         "end": "17:45",
         "brand": "레이델",
@@ -2607,6 +2670,24 @@
         "category": "일반식품"
       },
       {
+        "start": "18:45",
+        "end": "19:45",
+        "brand": "세컨스킨",
+        "product": "에어홀 아이스 브라팬티",
+        "price": 109900,
+        "link": "https://display.cjonstyle.com/p/item/2083420703?channelCode=30002002",
+        "category": "언더웨어"
+      },
+      {
+        "start": "19:45",
+        "end": "20:45",
+        "brand": "센텔리안24",
+        "product": "동국 마데카크림 대용량 특집구성",
+        "price": 109000,
+        "link": "https://display.cjonstyle.com/p/item/2084472925?channelCode=30002002",
+        "category": "미용"
+      },
+      {
         "start": "20:45",
         "end": "21:45",
         "brand": "그레인온",
@@ -2614,6 +2695,33 @@
         "price": 129000,
         "link": "https://display.cjonstyle.com/p/item/2082414390?channelCode=30002002",
         "category": "건강식품"
+      },
+      {
+        "start": "21:45",
+        "end": "22:45",
+        "brand": "비비안",
+        "product": "압도적 가벼움, 스킨핏 최초 한줌 브라렛 4",
+        "price": 119900,
+        "link": "https://display.cjonstyle.com/p/item/2082185528?channelCode=30002002",
+        "category": "언더웨어"
+      },
+      {
+        "start": "22:45",
+        "end": "23:45",
+        "brand": "AGE20'S",
+        "product": "CJ 최초공개 / 2026 에이지투웨니스 멜라닌 커버쿠션 방송중구성",
+        "price": 99000,
+        "link": "https://display.cjonstyle.com/p/item/2081410190?channelCode=30002002",
+        "category": "미용"
+      },
+      {
+        "start": "23:45",
+        "end": "00:45",
+        "brand": "미스터앤미세스",
+        "product": "지지 본품 니키 본품",
+        "price": 58000,
+        "link": "https://display.cjonstyle.com/p/item/2079572904?channelCode=30002002",
+        "category": "리빙/주방"
       }
     ]
   }
