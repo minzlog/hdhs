@@ -10,7 +10,7 @@ import json
 import os
 import re
 import sys
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, date as date_cls, timedelta, timezone
 from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
@@ -30,6 +30,37 @@ DEBUG = False
 
 def monday_of(date_obj):
     return date_obj - timedelta(days=date_obj.weekday())
+
+
+def resolve_rating_date(rating_date_str: str, today):
+    """네이버가 주는 ratingDate("6.27" 형태, 연도 없음)를 실제 date로 추정한다.
+    오늘(today) 기준으로 같은 해/작년 두 후보를 만들어, 오늘보다 미래가 아니면서
+    가장 가까운(=가장 최근) 과거 날짜를 채택한다. 연말연초 경계(예: 1월에 12월
+    데이터가 들어오는 경우)를 안전하게 처리하기 위함이다.
+    파싱에 실패하면 None을 반환하고, 호출 쪽에서 오늘 날짜로 폴백한다."""
+    if not rating_date_str:
+        return None
+    m = re.match(r'^(\d{1,2})\.(\d{1,2})$', rating_date_str.strip())
+    if not m:
+        return None
+    month, day = int(m.group(1)), int(m.group(2))
+
+    candidates = []
+    for year in (today.year, today.year - 1):
+        try:
+            candidates.append(date_cls(year, month, day))
+        except ValueError:
+            continue
+
+    # 오늘보다 미래인 후보는 제외 (시청률은 과거 방송 기준이므로 미래일 수 없음)
+    past_candidates = [d for d in candidates if d <= today]
+    if not past_candidates:
+        # 전부 미래로 계산되면(예: 시계 오차) 그래도 가장 가까운 후보를 채택
+        if not candidates:
+            return None
+        return min(candidates, key=lambda d: abs((d - today).days))
+
+    return max(past_candidates)
 
 
 # ==========================================
@@ -407,16 +438,15 @@ def fetch_variety(page, max_pages: int = 30):
     return dedupe_programs(all_programs)
 
 
-# ---------- 저장 로직 (무조건 이번 주 파일에 덮어쓰기) ----------
+# ---------- 저장 로직 (ratingDate 기준으로 해당 주차 파일에 분배) ----------
 
-def dispatch_to_current_week(out_dir: str, programs: list):
-    today = datetime.now(KST).date()
-    current_monday = monday_of(today)
-    
-    file_date = current_monday.isoformat()
-    week_end = (current_monday + timedelta(days=6)).isoformat()
+def _merge_programs_into_file(out_dir: str, monday_date, programs: list):
+    """programs를 monday_date가 속한 주차 파일에 머지 저장한다.
+    (기존 dispatch_to_current_week의 병합 로직을 그대로 사용, 대상 주차만 인자로 받음)"""
+    file_date = monday_date.isoformat()
+    week_end = (monday_date + timedelta(days=6)).isoformat()
     file_path = os.path.join(out_dir, f"{file_date}.json")
-    
+
     if os.path.exists(file_path):
         try:
             with open(file_path, encoding="utf-8") as f:
@@ -426,7 +456,7 @@ def dispatch_to_current_week(out_dir: str, programs: list):
             existing_programs = []
     else:
         existing_programs = []
-        
+
     by_id = {p["id"]: p for p in existing_programs}
     for p in programs:
         if p["id"] in by_id:
@@ -456,11 +486,44 @@ def dispatch_to_current_week(out_dir: str, programs: list):
         "collectedAt": datetime.now(KST).isoformat(),
         "programs": list(by_id.values()),
     }
-    
+
     with open(file_path, "w", encoding="utf-8") as f:
         json.dump(merged_payload, f, ensure_ascii=False, indent=2)
-        
-    print(f"  [Merge Success] {file_date}.json (이번 주 편성표)에 {len(merged_payload['programs'])}개 데이터 안착 완료!")
+
+    print(f"  [Merge Success] {file_date}.json 에 {len(merged_payload['programs'])}개 데이터 안착 완료!")
+
+
+def dispatch_by_rating_date(out_dir: str, programs: list):
+    """각 program을 ratingDate(실제 방송/시청률 측정 날짜) 기준으로
+    소속 주차를 계산해 그 주차 파일에 분배 저장한다.
+
+    배경: 토/일(주말) 시청률은 네이버 집계가 며칠 늦게 올라온다. 기존에는
+    스크래핑 '실행 시점'(오늘)의 주차 파일에 무조건 몰아넣었기 때문에,
+    예를 들어 6/29(월)에 수집된 6/27,28(토,일) 데이터가 6/22 주차가 아니라
+    6/29 주차 파일로 잘못 들어가서:
+      - 6/22 주차 파일은 토일 데이터가 영구히 비어 보임(직전 주 값이 잔류)
+      - 6/29 주차 파일에는 아직 끝나지 않은 이번 주에 지난주 토일 데이터가 섞임
+    이 문제가 있었다.
+
+    수정 후에는 ratingDate를 파싱해 실제 방송 날짜를 구하고, 그 날짜가 속한
+    주의 월요일 파일에 정확히 귀속시킨다. ratingDate가 없거나 파싱 실패하면
+    안전하게 '오늘' 기준 주차로 폴백한다.
+    """
+    today = datetime.now(KST).date()
+    today_monday = monday_of(today)
+
+    buckets = {}  # monday_date -> [program, ...]
+    for p in programs:
+        resolved = resolve_rating_date(p.get("ratingDate"), today)
+        target_monday = monday_of(resolved) if resolved else today_monday
+        buckets.setdefault(target_monday, []).append(p)
+
+    for target_monday, bucket_programs in sorted(buckets.items()):
+        tag = "이번 주" if target_monday == today_monday else "과거 주차(소급 반영)"
+        print(f"  [{tag}] {target_monday.isoformat()} 주차에 {len(bucket_programs)}개 분배")
+        _merge_programs_into_file(out_dir, target_monday, bucket_programs)
+
+
 
 
 def main():
@@ -494,7 +557,7 @@ def main():
         browser.close()
 
     all_raw_programs = drama_programs + variety_programs
-    dispatch_to_current_week(final_out_dir, all_raw_programs)
+    dispatch_by_rating_date(final_out_dir, all_raw_programs)
 
 
 if __name__ == "__main__":
