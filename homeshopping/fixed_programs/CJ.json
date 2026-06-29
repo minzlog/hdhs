@@ -1,25 +1,25 @@
 {
   "company": "CJ",
-  "collectedAt": "2026-06-29T05:59:04.116296+09:00",
+  "collectedAt": "2026-06-29T16:54:46.909148+09:00",
   "programs": [
     {
-      "pgm_cd": "563680",
-      "title": "스튜디오B",
-      "schedule_raw": "매주 월요일 09:20",
-      "thumbnail": "https://image.cjonstyle.net/public/confirm/assets/tdp_cate_cont/202602/26/5672094/fd49157b5d13c22e65570118c9ace7ecf937f3fb.png",
-      "pgmshop_link": "https://display.cjonstyle.com/m/pgmShop/100021",
+      "pgm_cd": "563068",
+      "title": "굿 라이프",
+      "schedule_raw": "월요일 오후 19시35분",
+      "thumbnail": "https://image.cjonstyle.net/public/confirm/assets/tdp_cate_cont/202606/29/5549816/0c47b0ad954e30ae15fac9800554611ff7775a30.png",
+      "pgmshop_link": "https://display.cjonstyle.com/m/pgmShop/100009",
       "upcoming_products": [
         {
-          "name": "[백화점동일] 26SS 썸머 아트웍 티셔츠 4종 여성",
-          "price": 79000,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/942/2084168942L.jpg?timestamp=20260522115130",
-          "link": "https://display.cjonstyle.com/m/item/2084168942?channelCode=30002002"
+          "name": "의성眞 햇 신비복숭아 1.5kgX2팩 총 3kg",
+          "price": 29900,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/208/2086953208L.jpg?timestamp=20260615180522",
+          "link": "https://display.cjonstyle.com/m/item/2086953208?channelCode=30002002"
         },
         {
-          "name": "[백화점동일] 26SS 썸머 라이트 데님 2종 503",
-          "price": 79000,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/341/2083668341L.jpg?timestamp=20260427163507",
-          "link": "https://display.cjonstyle.com/m/item/2083668341?channelCode=30002002"
+          "name": "[굿라이프 TV쇼핑] 스팀에어프라이어오븐 CSO-500KR",
+          "price": 389000,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/196/2086015196L.jpg?timestamp=20260601180700",
+          "link": "https://display.cjonstyle.com/m/item/2086015196?channelCode=30002002"
         }
       ]
     },
@@ -41,6 +41,27 @@
           "price": 429000,
           "image": "https://itemimage.cjonstyle.net/goods_images/20/840/2069765840L.jpg?timestamp=20260510085802",
           "link": "https://display.cjonstyle.com/m/item/2069765840?channelCode=30002002"
+        }
+      ]
+    },
+    {
+      "pgm_cd": "563680",
+      "title": "스튜디오B",
+      "schedule_raw": "매주 월요일 09:20",
+      "thumbnail": "https://image.cjonstyle.net/public/confirm/assets/tdp_cate_cont/202602/26/5672094/fd49157b5d13c22e65570118c9ace7ecf937f3fb.png",
+      "pgmshop_link": "https://display.cjonstyle.com/m/pgmShop/100021",
+      "upcoming_products": [
+        {
+          "name": "3-1 센존 블루라벨  26SS 이태리 큐브백",
+          "price": 389000,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/374/2078800374L.jpg?timestamp=20260212175535",
+          "link": "https://display.cjonstyle.com/m/item/2078800374?channelCode=30002002"
+        },
+        {
+          "name": "고칼슘 서리태 맷돌 두유 4박스 80팩",
+          "price": 80900,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/724/2072099724L.jpg?timestamp=20260331140719",
+          "link": "https://display.cjonstyle.com/m/item/2072099724?channelCode=30002002"
         }
       ]
     },
@@ -94,16 +115,16 @@
       "pgmshop_link": "https://display.cjonstyle.com/m/pgmShop/563049",
       "upcoming_products": [
         {
+          "name": "핀란드 야생빌베리 NFC 100 12박스",
+          "price": 169000,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/472/2087737472L.jpg?timestamp=20260629132055",
+          "link": "https://display.cjonstyle.com/m/item/2087737472?channelCode=30002002"
+        },
+        {
           "name": "925실버 파베볼 목걸이",
           "price": 139900,
           "image": "https://itemimage.cjonstyle.net/goods_images/20/943/2082265943L.jpg?timestamp=20260620132754",
           "link": "https://display.cjonstyle.com/m/item/2082265943?channelCode=30002002"
-        },
-        {
-          "name": "[동지현 PICK] 스킨핏 초경량 에센셜 누디패키지 5세트",
-          "price": 179900,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/799/2083255799L.jpg?timestamp=20260622095136",
-          "link": "https://display.cjonstyle.com/m/item/2083255799?channelCode=30002002"
         }
       ]
     },
@@ -115,16 +136,16 @@
       "pgmshop_link": "https://display.cjonstyle.com/m/pgmShop/563883",
       "upcoming_products": [
         {
-          "name": "라지킹_아이스Max 쿨드론 냉감패드 7종 풀패키지T",
-          "price": 159900,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/063/2085134063L.jpg?timestamp=20260521144953",
-          "link": "https://display.cjonstyle.com/m/item/2085134063?channelCode=30002002"
-        },
-        {
           "name": "라지킹_아이스Max 쿨드론 냉감패드 7종 풀패키지",
           "price": 159900,
           "image": "https://itemimage.cjonstyle.net/goods_images/20/126/2082966126L.jpg?timestamp=20260504090741",
           "link": "https://display.cjonstyle.com/m/item/2082966126?channelCode=30002002"
+        },
+        {
+          "name": "퀸_아이스Max 쿨드론 냉감패드 7종풀패키지",
+          "price": 119900,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/057/2082976057L.jpg?timestamp=20260504090547",
+          "link": "https://display.cjonstyle.com/m/item/2082976057?channelCode=30002002"
         }
       ]
     },
@@ -178,16 +199,16 @@
       "pgmshop_link": "https://display.cjonstyle.com/m/pgmShop/562953",
       "upcoming_products": [
         {
-          "name": "[최초가79,900원]26SS 루즈핏 멀티 스트라이프 아사셔츠 2종",
-          "price": 69900,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/114/2082077114L.jpg?timestamp=20260416174121",
-          "link": "https://item.cjonstyle.com/celebshop/item/2082077114?channelCode=30002002"
-        },
-        {
           "name": "25FW 리버시블 후드 숏 무스탕",
           "price": 1190000,
           "image": "https://itemimage.cjonstyle.net/goods_images/20/119/2073791119L.jpg?timestamp=20251218112203",
           "link": "https://display.cjonstyle.com/m/item/2073791119?channelCode=30002002"
+        },
+        {
+          "name": "25FW 캐시미어 100 양면 머플러",
+          "price": 69900,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/692/2068291692L.jpg?timestamp=20250915131518",
+          "link": "https://display.cjonstyle.com/m/item/2068291692?channelCode=30002002"
         }
       ]
     },
@@ -237,13 +258,13 @@
         {
           "name": "NFC 100% 착즙 토마토 주스 200ml x 144팩",
           "price": 145800,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/161/2073729161L.jpg?timestamp=20251128174304",
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/161/2073729161L.jpg?timestamp=20260629134618",
           "link": "https://display.cjonstyle.com/m/item/2073729161?channelCode=30002002"
         },
         {
           "name": "NFC 100% 착즙 토마토주스 (200ml x 72팩)",
           "price": 75900,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/332/2055758332L.jpg?timestamp=20251205100928",
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/332/2055758332L.jpg?timestamp=20260629135628",
           "link": "https://display.cjonstyle.com/m/item/2055758332?channelCode=30002002"
         }
       ]

@@ -1,6 +1,6 @@
 {
   "company": "HD",
-  "collectedAt": "2026-06-29T05:59:00.796670+09:00",
+  "collectedAt": "2026-06-29T16:54:44.054804+09:00",
   "programs": [
     {
       "title": "왕영은의 톡투게더",
@@ -61,16 +61,16 @@
       "detail_link": "https://www.hmall.com/md/dpa/pgmComm?sectId=2718261",
       "upcoming_products": [
         {
-          "name": "올라카일리 26SS 코튼120수 이지 블라우스 1종",
-          "price": 79000,
-          "image": "https://image.hmall.com/2250600407_0.jpg",
-          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250600407"
+          "name": "프리마클라쎄 GEO 프린트 셔츠 1종",
+          "price": 109000,
+          "image": "https://image.hmall.com/2250581411_0.jpg",
+          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250581411"
         },
         {
-          "name": "올라카일리 26SS 코튼100수 프린팅 팬츠 1종",
-          "price": 99000,
-          "image": "https://image.hmall.com/2250601336_0.jpg",
-          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250601336"
+          "name": "프리마클라쎄 플루이드 이지 팬츠 1종",
+          "price": 109000,
+          "image": "https://image.hmall.com/2248732910_0.jpg",
+          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248732910"
         }
       ]
     },
