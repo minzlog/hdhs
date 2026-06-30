@@ -326,7 +326,7 @@
         "end": "08:15",
         "brand": "로라파커",
         "product": "26SS 넥카프팔토시 팔토시1종",
-        "price": 39900,
+        "price": 29900,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250246543&preview=true",
         "category": "의류"
       },
@@ -394,15 +394,6 @@
         "category": "보험"
       },
       {
-        "start": "14:05",
-        "end": "15:45",
-        "brand": "삼성",
-        "product": "삼성 비스포크 AI 냉장고 4도어",
-        "price": 2090000,
-        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2232860509&preview=true",
-        "category": "가전"
-      },
-      {
         "start": "15:45",
         "end": "16:35",
         "brand": "바이아우어",
@@ -442,9 +433,9 @@
         "start": "20:45",
         "end": "21:45",
         "brand": "이지듀",
-        "product": "0단계 강력효과 NEW EGFx 96% 퍼스트 시그널 에센스 기본패키지",
+        "product": "0단계 강력효과 NEW EGFx 96% 퍼스트 시그널 에센스 매니아패키지",
         "price": 348000,
-        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251077904&preview=true",
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251737020&preview=true",
         "category": "미용"
       },
       {
@@ -511,6 +502,15 @@
         "price": 59800,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2244486431&preview=true",
         "category": "리빙/주방"
+      },
+      {
+        "start": "05:20",
+        "end": "06:15",
+        "brand": "프로월드컵",
+        "product": "PWX 바로인 X밴드 스니커즈",
+        "price": 69000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250264394&preview=true",
+        "category": "잡화/주얼리"
       },
       {
         "start": "06:15",
@@ -621,6 +621,24 @@
         "category": "보험"
       },
       {
+        "start": "20:45",
+        "end": "21:40",
+        "brand": "알바레즈고메즈",
+        "product": "알바레즈고메즈 스페인 향수",
+        "price": 138000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2237389257&preview=true",
+        "category": "미용"
+      },
+      {
+        "start": "21:40",
+        "end": "22:40",
+        "brand": "니카사",
+        "product": "진공흡착 스팀다리미 시즌2",
+        "price": 198000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249071607&preview=true",
+        "category": "가전"
+      },
+      {
         "start": "22:40",
         "end": "01:10",
         "brand": "에스카다 스포츠",
@@ -641,6 +659,15 @@
     ],
     "2026-07-04": [
       {
+        "start": "01:10",
+        "end": "02:10",
+        "brand": "리오벨",
+        "product": "리오벨 26 풀스킨 렉스퍼 리버서블 야상 자켓",
+        "price": 599000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251579563&preview=true",
+        "category": "의류"
+      },
+      {
         "start": "02:10",
         "end": "03:00",
         "brand": "올라카일리",
@@ -648,6 +675,15 @@
         "price": 159000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250460338&preview=true",
         "category": "의류"
+      },
+      {
+        "start": "03:00",
+        "end": "03:50",
+        "brand": "프로월드컵",
+        "product": "PWX 바로인 X밴드 스니커즈",
+        "price": 69000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250264394&preview=true",
+        "category": "잡화/주얼리"
       },
       {
         "start": "03:50",

@@ -8,9 +8,9 @@
         "start": "00:38",
         "end": "01:38",
         "brand": "하퍼스바자",
-        "product": "하퍼스바자 멜라토닝 글로우크림 본품 1병",
-        "price": 80000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1111864562&brddate=20260701003800&pgmID=6737&ordChannel=WE&tveshop=Y",
+        "product": "하퍼스바자 멜라토닝 글로우크림 기본구성",
+        "price": 109000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1111945917&brddate=20260701003800&pgmID=6737&ordChannel=WE&tveshop=Y",
         "category": "미용",
         "lavangba_category": "화장품/미용"
       },
@@ -30,7 +30,7 @@
         "brand": "",
         "product": "르까프 26SS 남성 썸머 이지 조거팬츠",
         "price": 59000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126814121&brddate=20260701033700&pgmID=12502&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126814121&brddate=20260701015500&pgmID=12502&ordChannel=WE&tveshop=Y",
         "category": "의류",
         "lavangba_category": "패션의류"
       },
@@ -110,7 +110,7 @@
         "brand": "",
         "product": "르까프 26SS 남성 썸머 이지 조거팬츠",
         "price": 59000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126814121&brddate=20260701033700&pgmID=12502&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126814121&brddate=20260701015500&pgmID=12502&ordChannel=WE&tveshop=Y",
         "category": "의류",
         "lavangba_category": "패션의류"
       },
@@ -133,6 +133,16 @@
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126784324&brddate=20260701020500&pgmID=6737&ordChannel=WE&tveshop=Y",
         "category": "미용",
         "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "03:58",
+        "end": "04:13",
+        "brand": "모르간",
+        "product": "모르간 26SS 플루이드 밴딩팬츠",
+        "price": 89900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1105961989&brddate=20260701021500&pgmID=13307&ordChannel=WE&tveshop=Y",
+        "category": "의류",
+        "lavangba_category": "패션의류"
       },
       {
         "start": "04:13",
@@ -300,7 +310,7 @@
         "brand": "게스 언더웨어",
         "product": "26SS 게스 언더웨어 에센셜 썸머 코튼셋업",
         "price": 69900,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1115688948&brddate=20260701161800&pgmID=6753&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1115688948&brddate=20260701161800&pgmID=13454&ordChannel=WE&tveshop=Y",
         "category": "언더웨어",
         "lavangba_category": "패션의류"
       },
@@ -403,6 +413,16 @@
         "product": "라뽐므 이불압축 파우치",
         "price": 153000,
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1098383529&brddate=20260702031200&pgmID=6742&ordChannel=WE&tveshop=Y",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "03:53",
+        "end": "03:58",
+        "brand": "PN풍년",
+        "product": "PN풍년 베르투P 압력솥3. 곰솥",
+        "price": 149000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1074006011&brddate=20260702035300&pgmID=6995&ordChannel=WE&tveshop=Y",
         "category": "리빙/주방",
         "lavangba_category": "생활/건강"
       },
@@ -530,21 +550,41 @@
         "start": "19:38",
         "end": "20:38",
         "brand": "센텔리안",
-        "product": "센텔리안24 마데카 리프팅특화크림 한정판 특대용량에디션",
-        "price": 99900,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1116575724&brddate=20260702193800&pgmID=6737&ordChannel=WE&tveshop=Y",
+        "product": "센텔리안24 마데카 리프팅특화크림 최대용량",
+        "price": 99000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1125035623&brddate=20260702193800&pgmID=6737&ordChannel=WE&tveshop=Y",
         "category": "미용",
         "lavangba_category": "화장품/미용"
       },
       {
+        "start": "20:38",
+        "end": "21:38",
+        "brand": "라삐아프",
+        "product": "라삐아프 26SS 에어리 코튼혼방 레이어드 티셔츠",
+        "price": 69900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1103486689&brddate=20260702203800&pgmID=13307&ordChannel=WE&tveshop=Y",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "21:38",
+        "end": "22:38",
+        "brand": "리가",
+        "product": "리가 밍크콤비 구스다운",
+        "price": 398000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1096457048&brddate=20260702213800&pgmID=12557&ordChannel=WE&tveshop=Y",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
         "start": "22:38",
         "end": "23:38",
-        "brand": "리브이셀",
-        "product": "리브이셀 랩핑마스크 재구매 혼합패키지",
-        "price": 275000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1127897812&brddate=20260702223800&pgmID=13189&ordChannel=WE&tveshop=Y",
-        "category": "미용",
-        "lavangba_category": "화장품/미용"
+        "brand": "라오메뜨",
+        "product": "라오메뜨 전설의 패치 프리미엄",
+        "price": 79900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1083630431&brddate=20260702223800&pgmID=6742&ordChannel=WE&tveshop=Y",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
       }
     ],
     "2026-07-03": [
@@ -637,6 +677,16 @@
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1121479079&brddate=20260703073600&pgmID=6742&ordChannel=WE&tveshop=Y",
         "category": "리빙/주방",
         "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "08:36",
+        "end": "09:36",
+        "brand": "",
+        "product": "RYN 26SS 쿨워킹화 슬리퍼 여성용",
+        "price": 59000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1120708650&brddate=20260703083600&pgmID=12502&ordChannel=WE&tveshop=Y",
+        "category": "잡화/주얼리",
+        "lavangba_category": "스포츠/레저"
       },
       {
         "start": "10:36",
@@ -781,6 +831,16 @@
         "lavangba_category": "생활/건강"
       },
       {
+        "start": "01:50",
+        "end": "02:10",
+        "brand": "",
+        "product": "발로쓱 실내화 2족 청소포 200장",
+        "price": 42000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1061094530&brddate=20260704015000&pgmID=6742&ordChannel=WE&tveshop=Y",
+        "category": "일반식품",
+        "lavangba_category": "생활/건강"
+      },
+      {
         "start": "02:31",
         "end": "02:36",
         "brand": "살림백서",
@@ -864,8 +924,8 @@
         "start": "12:36",
         "end": "13:36",
         "brand": "스튜디오디페",
-        "product": "스튜디오디페 26SS 레이스 니트",
-        "price": 59900,
+        "product": "스튜디오디페 26SS 레이스 썸머니트",
+        "price": 49900,
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1102039017&brddate=20260704123600&pgmID=13307&ordChannel=WE&tveshop=Y",
         "category": "의류",
         "lavangba_category": "패션의류"
@@ -928,7 +988,7 @@
         "brand": "기절베개",
         "product": "아이스텍 더냉감 싱글세트",
         "price": 69900,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126718455&brddate=20260705025100&pgmID=6740&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126718455&brddate=20260705013900&pgmID=6740&ordChannel=WE&tveshop=Y",
         "category": "리빙/주방",
         "lavangba_category": "가구/인테리어"
       },
@@ -948,7 +1008,7 @@
         "brand": "기절베개",
         "product": "아이스텍 더냉감 싱글세트",
         "price": 69900,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126718455&brddate=20260705025100&pgmID=6740&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126718455&brddate=20260705013900&pgmID=6740&ordChannel=WE&tveshop=Y",
         "category": "리빙/주방",
         "lavangba_category": "가구/인테리어"
       },
@@ -999,6 +1059,16 @@
         "product": "제이슨우 26SS NEW Vera 썸머 브리즈 에센셜 재킷",
         "price": 79900,
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1101559555&brddate=20260705103600&pgmID=13307&ordChannel=WE&tveshop=Y",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "11:36",
+        "end": "12:36",
+        "brand": "",
+        "product": "조이너스 26SS 썸머 가디건",
+        "price": 59900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1110905449&brddate=20260705113600&pgmID=12557&ordChannel=WE&tveshop=Y",
         "category": "의류",
         "lavangba_category": "패션의류"
       },

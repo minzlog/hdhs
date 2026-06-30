@@ -99,7 +99,7 @@
         "end": "09:25",
         "brand": "RCBPC",
         "product": "■ RCB POLO CLUB 26SS 여성 시어서커 블라우스",
-        "price": 59900,
+        "price": 50910,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12910457",
         "category": "의류"
       },
@@ -151,10 +151,10 @@
       {
         "start": "13:35",
         "end": "15:30",
-        "brand": "테이트",
-        "product": "26SS 남녀 오가닉 튜블러 티셔츠",
-        "price": 39900,
-        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12912513",
+        "brand": "텐업",
+        "product": "26SS 슈퍼텐션 블라우스",
+        "price": 59900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12897806",
         "category": "의류"
       },
       {
@@ -324,20 +324,29 @@
       {
         "start": "07:15",
         "end": "09:25",
-        "brand": "트루릴리전",
-        "product": "트루릴리전 26SS 여성 데님 하프 셋업",
-        "price": 58650,
-        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12905945",
+        "brand": "조르쥬 레쉬",
+        "product": "26SS 코튼 블렌딩 헨리넥 캡슬리브 탑",
+        "price": 69900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12907741",
         "category": "의류"
       },
       {
         "start": "09:25",
         "end": "10:25",
-        "brand": "모아도",
-        "product": "반영구 제습제 모아도 9입 2입",
-        "price": 79900,
-        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911310",
-        "category": "일반식품"
+        "brand": "온다숲",
+        "product": "우롱차향 힐링 고체탈취제 무화과 샤쉐",
+        "price": 99000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12909828",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "10:25",
+        "end": "11:35",
+        "brand": "에버봄",
+        "product": "더! 에버봄 노르딕 빌베리 퓨레 6",
+        "price": 175000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12912433",
+        "category": "건강식품"
       },
       {
         "start": "11:35",
@@ -522,6 +531,15 @@
         "category": "건강식품"
       },
       {
+        "start": "07:15",
+        "end": "08:15",
+        "brand": "메종비오비(BOB)",
+        "product": "BOB 여성 26SS 에어 채널 자켓",
+        "price": 41650,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12899775",
+        "category": "의류"
+      },
+      {
         "start": "08:15",
         "end": "10:25",
         "brand": "지지피엑스",
@@ -529,6 +547,15 @@
         "price": 42410,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12905797",
         "category": "의류"
+      },
+      {
+        "start": "10:25",
+        "end": "11:35",
+        "brand": "대원제약",
+        "product": "●대원헬스 모발콜라겐3X 48주분",
+        "price": 288000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12910245",
+        "category": "건강식품"
       },
       {
         "start": "11:35",
@@ -668,6 +695,15 @@
         "category": "언더웨어"
       },
       {
+        "start": "06:15",
+        "end": "07:20",
+        "brand": "대원제약",
+        "product": "●대원제약 콘드로이친 킹 1200 셰퍼 날개없는 선풍기",
+        "price": 474000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12910459",
+        "category": "건강식품"
+      },
+      {
         "start": "07:20",
         "end": "08:20",
         "brand": "에버콜라겐",
@@ -690,7 +726,7 @@
         "end": "11:40",
         "brand": "나인웨스트",
         "product": "9X9 양가죽 인트레치아토 뮬",
-        "price": 97750,
+        "price": 80750,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12908058",
         "category": "잡화/주얼리"
       },

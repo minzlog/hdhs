@@ -194,6 +194,15 @@
         "category": "언더웨어"
       },
       {
+        "start": "09:45",
+        "end": "10:15",
+        "brand": "셀렙샵에디션",
+        "product": "요이츠 26SS 로맨틱플리츠 원피스",
+        "price": 79000,
+        "link": "https://display.cjonstyle.com/p/item/2082074973?channelCode=30002002",
+        "category": "의류"
+      },
+      {
         "start": "10:45",
         "end": "11:45",
         "brand": "뉴트리원",
@@ -201,6 +210,15 @@
         "price": 209000,
         "link": "https://display.cjonstyle.com/p/item/2042388936?channelCode=30002002",
         "category": "건강식품"
+      },
+      {
+        "start": "11:45",
+        "end": "12:45",
+        "brand": "M12",
+        "product": "26SS 버뮤다 썸머 데님 팬츠",
+        "price": 49900,
+        "link": "https://display.cjonstyle.com/p/item/2081114434?channelCode=30002002",
+        "category": "의류"
       },
       {
         "start": "12:45",
@@ -237,6 +255,24 @@
         "price": 59900,
         "link": "https://display.cjonstyle.com/p/item/2082822646?channelCode=30002002",
         "category": "의류"
+      },
+      {
+        "start": "16:45",
+        "end": "17:45",
+        "brand": "오하루 자연가득",
+        "product": "에브리데이 견과",
+        "price": 109900,
+        "link": "https://display.cjonstyle.com/p/item/2076466111?channelCode=30002002",
+        "category": "일반식품"
+      },
+      {
+        "start": "17:45",
+        "end": "18:45",
+        "brand": "",
+        "product": "한미사이언스 완전두유 더진한 서리태 무가당 99.9 190㎖ 80팩",
+        "price": 49900,
+        "link": "https://display.cjonstyle.com/p/item/2055353739?channelCode=30002002",
+        "category": "일반식품"
       },
       {
         "start": "18:45",
@@ -466,6 +502,15 @@
         "category": "잡화/주얼리"
       },
       {
+        "start": "05:45",
+        "end": "06:45",
+        "brand": "센텔리안24",
+        "product": "동국 마데카크림 대용량 특집구성",
+        "price": 109000,
+        "link": "https://display.cjonstyle.com/p/item/2084472925?channelCode=30002002",
+        "category": "미용"
+      },
+      {
         "start": "06:45",
         "end": "07:45",
         "brand": "주영엔에스",
@@ -482,6 +527,15 @@
         "price": 394000,
         "link": "https://display.cjonstyle.com/p/item/2085756814?channelCode=30002002",
         "category": "건강식품"
+      },
+      {
+        "start": "08:45",
+        "end": "09:45",
+        "brand": "바이오핏",
+        "product": "바이오핏 토니 슬리퍼_토니블랙",
+        "price": 39900,
+        "link": "https://display.cjonstyle.com/p/item/2062034853?channelCode=30002002",
+        "category": "잡화/주얼리"
       },
       {
         "start": "09:45",
@@ -511,6 +565,24 @@
         "category": "의류"
       },
       {
+        "start": "12:15",
+        "end": "12:45",
+        "brand": "더엣지",
+        "product": "26SS 올데이코어 린넨 코튼 티셔츠",
+        "price": 39900,
+        "link": "https://display.cjonstyle.com/p/item/2082671153?channelCode=30002002",
+        "category": "의류"
+      },
+      {
+        "start": "12:45",
+        "end": "13:45",
+        "brand": "셀렙샵에디션",
+        "product": "26SS 린넨블렌디드 초경량 투턱 D 데님",
+        "price": 59900,
+        "link": "https://display.cjonstyle.com/p/item/2080649212?channelCode=30002002",
+        "category": "의류"
+      },
+      {
         "start": "13:45",
         "end": "14:45",
         "brand": "",
@@ -536,6 +608,15 @@
         "price": 49900,
         "link": "https://display.cjonstyle.com/p/item/2082078723?channelCode=30002002",
         "category": "일반식품"
+      },
+      {
+        "start": "18:45",
+        "end": "19:45",
+        "brand": "에디바우어",
+        "product": "26SS 파워텐션 하이드로쿨 트리코트 팬츠 남성",
+        "price": 89000,
+        "link": "https://display.cjonstyle.com/p/item/2078251312?channelCode=30002002",
+        "category": "의류"
       },
       {
         "start": "19:45",
@@ -572,18 +653,18 @@
         "price": 0,
         "link": "https://display.cjonstyle.com/p/item/2052347104?channelCode=30002002",
         "category": "보험"
+      },
+      {
+        "start": "23:45",
+        "end": "00:45",
+        "brand": "더엣지",
+        "product": "26S/S 메탈 카라 돌먼니트",
+        "price": 59900,
+        "link": "https://display.cjonstyle.com/p/item/2082769989?channelCode=30002002",
+        "category": "의류"
       }
     ],
     "2026-07-03": [
-      {
-        "start": "00:45",
-        "end": "01:45",
-        "brand": "다니엘크레뮤",
-        "product": "26SS 워셔블 수피마 코튼 100% 카라 니트",
-        "price": 79000,
-        "link": "https://display.cjonstyle.com/p/item/2081130196?channelCode=30002002",
-        "category": "의류"
-      },
       {
         "start": "05:15",
         "end": "05:45",
@@ -666,6 +747,15 @@
         "category": "언더웨어"
       },
       {
+        "start": "19:45",
+        "end": "20:45",
+        "brand": "에어룸",
+        "product": "라지킹_아이스Max 쿨드론 냉감패드 풀패키지T",
+        "price": 159900,
+        "link": "https://display.cjonstyle.com/p/item/2085134063?channelCode=30002002",
+        "category": "리빙/주방"
+      },
+      {
         "start": "20:45",
         "end": "21:45",
         "brand": "그레인온",
@@ -692,6 +782,15 @@
         "product": "26SS 썸머 액티브 데님팬츠 남성",
         "price": 69000,
         "link": "https://display.cjonstyle.com/p/item/2082254100?channelCode=30002002",
+        "category": "의류"
+      },
+      {
+        "start": "02:45",
+        "end": "03:30",
+        "brand": "유에스피에이",
+        "product": "26SS 라이크라® 반팔 카라티 남성",
+        "price": 89000,
+        "link": "https://display.cjonstyle.com/p/item/2079047994?channelCode=30002002",
         "category": "의류"
       },
       {

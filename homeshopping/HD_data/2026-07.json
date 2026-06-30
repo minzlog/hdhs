@@ -251,12 +251,21 @@
     "2026-07-02": [
       {
         "start": "00:00",
-        "end": "01:40",
+        "end": "01:20",
         "brand": "알레보",
         "product": "디엣지 플러스 유리 밥용기 1 1세트_",
         "price": 59800,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250158734&preview=true",
         "category": "리빙/주방"
+      },
+      {
+        "start": "01:20",
+        "end": "01:40",
+        "brand": "헬로바이오",
+        "product": "알파CD 원데이핏 알파시클로덱스트린 난소화성말토덱스트린 14포 6 총 168포",
+        "price": 54900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2239438244&preview=true",
+        "category": "건강식품"
       },
       {
         "start": "01:40",
@@ -278,11 +287,20 @@
       },
       {
         "start": "03:00",
-        "end": "03:40",
+        "end": "03:20",
         "brand": "매일유업",
         "product": "프로틴 고소한맛 304gx5캔 보틀1개",
         "price": 179800,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250312314&preview=true",
+        "category": "건강식품"
+      },
+      {
+        "start": "03:20",
+        "end": "03:40",
+        "brand": "토비콤",
+        "product": "토비콤 루테인지아잔틴",
+        "price": 258000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2211697425&preview=true",
         "category": "건강식품"
       },
       {
@@ -323,12 +341,30 @@
       },
       {
         "start": "07:20",
-        "end": "11:20",
+        "end": "08:40",
         "brand": "셰퍼",
         "product": "스팀싹 스팀다리미",
         "price": 39800,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248869228&preview=true",
         "category": "가전"
+      },
+      {
+        "start": "08:40",
+        "end": "09:40",
+        "brand": "캘빈클라인",
+        "product": "Calvin Klein 스포츠 여성 썸머 점퍼",
+        "price": 69000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248942351&preview=true",
+        "category": "언더웨어"
+      },
+      {
+        "start": "09:40",
+        "end": "11:20",
+        "brand": "루나앤슬립",
+        "product": "기능성 냉감 메쉬 소파패드 1",
+        "price": 69900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250416282&preview=true",
+        "category": "리빙/주방"
       },
       {
         "start": "11:20",
@@ -359,11 +395,20 @@
       },
       {
         "start": "13:40",
-        "end": "15:00",
+        "end": "14:20",
         "brand": "김오곤",
         "product": "원장의 한방 다이어트환 4",
         "price": 99000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2233363992&preview=true",
+        "category": "건강식품"
+      },
+      {
+        "start": "14:20",
+        "end": "15:00",
+        "brand": "안국약품",
+        "product": "토비콤 루테인지아잔틴 아스타잔틴",
+        "price": 149000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2238050566&preview=true",
         "category": "건강식품"
       },
       {
@@ -514,12 +559,21 @@
       },
       {
         "start": "22:40",
-        "end": "23:39",
+        "end": "23:40",
         "brand": "한샘",
         "product": "스타일에디션 상담예약",
         "price": 40602179,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2227334680&preview=true",
         "category": "일반렌탈"
+      },
+      {
+        "start": "23:40",
+        "end": "00:39",
+        "brand": "여수유탑마리나호텔",
+        "product": "여수 유탑 마리나 호텔",
+        "price": 379000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251644771&preview=true",
+        "category": "여행"
       }
     ],
     "2026-07-04": [
