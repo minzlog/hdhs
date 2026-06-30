@@ -326,7 +326,7 @@ def click_all_days_tab(page, category):
     """
     try:
         page.wait_for_selector(".cm_tap_area", timeout=10000)
-        
+
         js_code = """
             () => {
                 const links = Array.from(document.querySelectorAll('.cm_tap_area ul li a'));
@@ -345,12 +345,12 @@ def click_all_days_tab(page, category):
             }
         """
         result = page.evaluate(js_code)
-        
+
         if result:
             if result['type'] == 'url':
                 target_url = urljoin(page.url, result['value'])
                 print(f"  [{category}] 🚀 '전체' 탭 주소 강제 추출 성공! 다이렉트 접속합니다.")
-                page.goto(target_url, wait_until="networkidle", timeout=30000)
+                safe_goto(page, target_url)
                 page.wait_for_timeout(2000)
                 return True
             elif result['type'] == 'click':
@@ -359,16 +359,48 @@ def click_all_days_tab(page, category):
                 return True
         else:
             print(f"  [{category}] '전체' 탭을 찾을 수 없습니다. (기본 화면 진행)")
-            
+
     except Exception as e:
         print(f"  [{category}] '전체' 탭 이동 중 예외 발생: {e}")
     return False
 
 
+# ---------- 네비게이션 헬퍼 (networkidle 타임아웃 방어) ----------
+
+def safe_goto(page, url: str, retries: int = 3, timeout: int = 30000):
+    """page.goto를 안전하게 수행한다.
+
+    'networkidle'은 네이버 검색 페이지처럼 백그라운드에서 분석/광고 요청이
+    계속 발생하는 페이지에서는 네트워크가 절대 idle 상태로 떨어지지 않아
+    타임아웃이 자주 발생한다(실제로는 페이지가 정상 렌더링됐어도). 그래서
+    'domcontentloaded'로 빠르게 진입한 뒤, 실제 콘텐츠(.cm_tap_area)가
+    뜨는지를 명시적으로 기다리는 방식으로 바꾼다. 그래도 실패하면(러너
+    IP 일시 차단/네트워크 불안정 등 진짜 장애) 잠깐 쉬었다가 재시도한다."""
+    from playwright.sync_api import TimeoutError as PWTimeoutError
+
+    last_err = None
+    for attempt in range(1, retries + 1):
+        try:
+            page.goto(url, wait_until="domcontentloaded", timeout=timeout)
+            try:
+                page.wait_for_selector(".cm_tap_area", timeout=15000)
+            except PWTimeoutError:
+                # 탭 영역이 끝내 안 뜨면 페이지 구조가 다르거나 비정상일 수
+                # 있으니, 재시도 루프가 다시 판단하도록 예외를 올린다.
+                raise
+            return
+        except PWTimeoutError as e:
+            last_err = e
+            print(f"  [safe_goto] 시도 {attempt}/{retries} 실패: {e}")
+            if attempt < retries:
+                page.wait_for_timeout(5000)
+    raise last_err
+
+
 # ---------- 데이터 수집 함수 ----------
 
 def fetch_drama(page, max_pages: int = 30):
-    page.goto(DRAMA_URL, wait_until="networkidle", timeout=30000)
+    safe_goto(page, DRAMA_URL)
     click_all_days_tab(page, "drama")
 
     all_programs = []
@@ -391,7 +423,7 @@ def fetch_drama(page, max_pages: int = 30):
 
         if cur is not None and tot is not None and cur >= tot:
             break
-            
+
         if cur is None and tot is None:
             break
 
@@ -413,7 +445,7 @@ def fetch_drama(page, max_pages: int = 30):
 
 
 def fetch_variety(page, max_pages: int = 30):
-    page.goto(VARIETY_URL, wait_until="networkidle", timeout=30000)
+    safe_goto(page, VARIETY_URL)
     click_all_days_tab(page, "variety")
 
     all_programs = []
