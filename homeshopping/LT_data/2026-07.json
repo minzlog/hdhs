@@ -41,6 +41,15 @@
         "category": "잡화/주얼리"
       },
       {
+        "start": "02:25",
+        "end": "02:30",
+        "brand": "라포레",
+        "product": "● 라포레 스타일 텀블러 세트",
+        "price": 64900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911866",
+        "category": "리빙/주방"
+      },
+      {
         "start": "02:30",
         "end": "02:35",
         "brand": "쁠랑뜨",
@@ -48,6 +57,15 @@
         "price": 248000,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911640",
         "category": "일반식품"
+      },
+      {
+        "start": "02:35",
+        "end": "02:40",
+        "brand": "라포레",
+        "product": "○ 라포레 스타일 텀블러 세트",
+        "price": 64900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911867",
+        "category": "리빙/주방"
       },
       {
         "start": "02:40",
@@ -59,6 +77,15 @@
         "category": "일반식품"
       },
       {
+        "start": "02:45",
+        "end": "02:50",
+        "brand": "라포레",
+        "product": "◎ 라포레 스타일 텀블러 세트",
+        "price": 64900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911869",
+        "category": "리빙/주방"
+      },
+      {
         "start": "02:50",
         "end": "02:55",
         "brand": "쁠랑뜨",
@@ -66,6 +93,15 @@
         "price": 248000,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911643",
         "category": "일반식품"
+      },
+      {
+        "start": "02:55",
+        "end": "03:00",
+        "brand": "라포레",
+        "product": "○ 라포레 스타일 텀블러 세트",
+        "price": 64900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911867",
+        "category": "리빙/주방"
       },
       {
         "start": "03:00",
@@ -77,12 +113,21 @@
         "category": "일반식품"
       },
       {
+        "start": "03:05",
+        "end": "03:10",
+        "brand": "라포레",
+        "product": "◎ 라포레 스타일 텀블러 세트",
+        "price": 64900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911869",
+        "category": "리빙/주방"
+      },
+      {
         "start": "03:10",
         "end": "03:15",
         "brand": "쁠랑뜨",
         "product": "클렌즈 주스 스무디 40팩",
         "price": 248000,
-        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911641",
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911643",
         "category": "일반식품"
       },
       {
@@ -131,6 +176,33 @@
         "category": "리빙/주방"
       },
       {
+        "start": "04:20",
+        "end": "04:25",
+        "brand": "에버봄",
+        "product": "△에버봄 노르딕 빌베리 퓨레",
+        "price": 195000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911799",
+        "category": "건강식품"
+      },
+      {
+        "start": "04:40",
+        "end": "05:00",
+        "brand": "메디칼드림",
+        "product": "메디칼드림 프리미엄 4D 경추 바디 마사지기 M33",
+        "price": 129000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12912160",
+        "category": "가전"
+      },
+      {
+        "start": "05:00",
+        "end": "05:40",
+        "brand": "까스텔바작",
+        "product": "○ 까스텔바작 26SS 여성 크로쉐 앙상블",
+        "price": 69000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12902991",
+        "category": "의류"
+      },
+      {
         "start": "05:40",
         "end": "06:40",
         "brand": "블라우풍트",
@@ -138,6 +210,15 @@
         "price": 66540,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12871871",
         "category": "가전"
+      },
+      {
+        "start": "06:40",
+        "end": "07:40",
+        "brand": "바이브리짓",
+        "product": "○ 26SS 크로셰 인견블렌딩 셋업",
+        "price": 39900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12894239",
+        "category": "의류"
       },
       {
         "start": "08:40",
@@ -151,10 +232,10 @@
       {
         "start": "09:40",
         "end": "10:40",
-        "brand": "타린로즈",
-        "product": "○ 미라클 8 에어 스니커즈",
-        "price": 169000,
-        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12906432",
+        "brand": "골드에이스앤코",
+        "product": "○ 24K 순금 시그니처 볼륨반지 더블 세트 24K 순금 행운 클로버 반지 24K 순금 포나인 골드 파베 쌍반지",
+        "price": 898000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12910905",
         "category": "잡화/주얼리"
       },
       {
@@ -164,6 +245,15 @@
         "product": "○라스튜디오 26SS 여성 인견 100 슬리브리스",
         "price": 59900,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12906412",
+        "category": "의류"
+      },
+      {
+        "start": "11:40",
+        "end": "12:40",
+        "brand": "조르쥬 레쉬",
+        "product": "○26SS 새틴 셔링 블라우스",
+        "price": 59900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12899103",
         "category": "의류"
       },
       {
@@ -203,6 +293,24 @@
         "category": "미용"
       },
       {
+        "start": "16:00",
+        "end": "16:40",
+        "brand": "페이유에",
+        "product": "페이유에 1920 프렌치 스니커즈",
+        "price": 38160,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12896515",
+        "category": "잡화/주얼리"
+      },
+      {
+        "start": "16:40",
+        "end": "17:40",
+        "brand": "도티",
+        "product": "26SS NC 썸머 8부 팬츠",
+        "price": 49900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12900392",
+        "category": "의류"
+      },
+      {
         "start": "17:40",
         "end": "18:40",
         "brand": "임성근",
@@ -239,6 +347,24 @@
         "category": "가전"
       },
       {
+        "start": "21:40",
+        "end": "22:40",
+        "brand": "조르쥬 레쉬",
+        "product": "○26SS 썸머 코튼 나일론 배럴 팬츠",
+        "price": 59900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12897226",
+        "category": "의류"
+      },
+      {
+        "start": "22:40",
+        "end": "23:40",
+        "brand": "NFL",
+        "product": "○ NFL 26SS 여성 디테쳐블 2in1 셋업",
+        "price": 41650,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12907916",
+        "category": "의류"
+      },
+      {
         "start": "23:40",
         "end": "00:40",
         "brand": "힐링버드",
@@ -249,6 +375,24 @@
       }
     ],
     "2026-07-02": [
+      {
+        "start": "00:40",
+        "end": "01:20",
+        "brand": "LBL",
+        "product": "○26 SUMMER 호주코튼100 뷔스티에 티셔츠",
+        "price": 69900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12900943",
+        "category": "의류"
+      },
+      {
+        "start": "01:20",
+        "end": "02:00",
+        "brand": "바이브리짓",
+        "product": "○ 26SS 썸머 그래픽 티셔츠",
+        "price": 79900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12908274",
+        "category": "의류"
+      },
       {
         "start": "02:00",
         "end": "02:05",
@@ -338,6 +482,15 @@
         "price": 19900,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12910021",
         "category": "일반식품"
+      },
+      {
+        "start": "09:35",
+        "end": "10:35",
+        "brand": "에스까다스포츠",
+        "product": "○ 에스카다스포츠 26SS 여성 셔링 시스루 윈드 점퍼",
+        "price": 296650,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12898869",
+        "category": "의류"
       },
       {
         "start": "11:35",
@@ -431,6 +584,15 @@
       }
     ],
     "2026-07-03": [
+      {
+        "start": "01:20",
+        "end": "02:00",
+        "brand": "오프로드",
+        "product": "O 오프로드 26SS 여성 썸머 유틸리티 아노락 셔켓",
+        "price": 69000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12901973",
+        "category": "의류"
+      },
       {
         "start": "02:00",
         "end": "02:20",
@@ -558,6 +720,15 @@
         "category": "잡화/주얼리"
       },
       {
+        "start": "16:00",
+        "end": "16:40",
+        "brand": "올타",
+        "product": "유기농 리얼 당당 레몬즙 총 150포",
+        "price": 49000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12909355",
+        "category": "건강식품"
+      },
+      {
         "start": "17:40",
         "end": "18:40",
         "brand": "아티잔",
@@ -587,15 +758,6 @@
     ],
     "2026-07-04": [
       {
-        "start": "03:20",
-        "end": "03:25",
-        "brand": "플랜잇",
-        "product": "플랜잇 에어로 BLDC 드라이기",
-        "price": 39900,
-        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12902150",
-        "category": "가전"
-      },
-      {
         "start": "09:20",
         "end": "10:20",
         "brand": "나에노",
@@ -612,6 +774,15 @@
         "price": 58900,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12902152",
         "category": "일반식품"
+      },
+      {
+        "start": "18:40",
+        "end": "19:40",
+        "brand": "잭니클라우스",
+        "product": "O 잭니클라우스 26SS 남성 스탠다드핏 하프팬츠",
+        "price": 58650,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12901492",
+        "category": "의류"
       },
       {
         "start": "20:40",

@@ -55,6 +55,16 @@
         "lavangba_category": "화장품/미용"
       },
       {
+        "start": "02:15",
+        "end": "02:30",
+        "brand": "모르간",
+        "product": "모르간 26SS 플루이드 밴딩팬츠",
+        "price": 89900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1105961989&brddate=20260701021500&pgmID=13307&ordChannel=WE&tveshop=Y",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
         "start": "02:31",
         "end": "02:51",
         "brand": "덴피언",
@@ -133,6 +143,16 @@
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1110736735&brddate=20260705035300&pgmID=6753&ordChannel=WE&tveshop=Y",
         "category": "의류",
         "lavangba_category": "패션의류"
+      },
+      {
+        "start": "04:34",
+        "end": "04:54",
+        "brand": "올레비다",
+        "product": "올레비다 AOP인증 프랑스 산도0.21 냉압착 엑스트라버진 올리브유 고함량 폴리페놀 올리브오일",
+        "price": 69900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1103102021&brddate=20260701043400&pgmID=6997&ordChannel=WE&tveshop=Y",
+        "category": "일반식품",
+        "lavangba_category": "식품"
       },
       {
         "start": "04:55",
@@ -315,6 +335,16 @@
         "lavangba_category": "식품"
       },
       {
+        "start": "19:38",
+        "end": "20:38",
+        "brand": "",
+        "product": "AIA백세시대꼭하나건강보험_M",
+        "price": 0,
+        "link": "",
+        "category": "보험",
+        "lavangba_category": ""
+      },
+      {
         "start": "20:38",
         "end": "21:38",
         "brand": "브루마스",
@@ -407,6 +437,16 @@
         "lavangba_category": "패션의류"
       },
       {
+        "start": "09:36",
+        "end": "10:36",
+        "brand": "시슬리",
+        "product": "시슬리 26SS 여성 블루종 시어 크리즈 재킷",
+        "price": 109000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1110930869&brddate=20260702093600&pgmID=12557&ordChannel=WE&tveshop=Y",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
         "start": "10:36",
         "end": "11:36",
         "brand": "오프로드",
@@ -427,6 +467,16 @@
         "lavangba_category": "생활/건강"
       },
       {
+        "start": "12:36",
+        "end": "13:36",
+        "brand": "삭루츠",
+        "product": "삭루츠 벨로엔 자동 우양산",
+        "price": 79000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1123396575&brddate=20260702123600&pgmID=6736&ordChannel=WE&tveshop=Y",
+        "category": "잡화/주얼리",
+        "lavangba_category": "패션잡화"
+      },
+      {
         "start": "13:37",
         "end": "14:37",
         "brand": "쏘내추럴",
@@ -445,6 +495,16 @@
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1103304061&brddate=20260702143700&pgmID=6997&ordChannel=WE&tveshop=Y",
         "category": "일반식품",
         "lavangba_category": "식품"
+      },
+      {
+        "start": "15:38",
+        "end": "17:38",
+        "brand": "아쿠아스큐텀",
+        "product": "아쿠아스큐텀 26SS 쿨맥스 시어서커 원피스",
+        "price": 79900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1112289270&brddate=20260702153800&pgmID=13307&ordChannel=WE&tveshop=Y",
+        "category": "의류",
+        "lavangba_category": "패션의류"
       },
       {
         "start": "17:38",
@@ -569,6 +629,16 @@
         "lavangba_category": "식품"
       },
       {
+        "start": "07:36",
+        "end": "08:36",
+        "brand": "살림백서",
+        "product": "딥클리어 실내건조 세탁세제 유연제1L",
+        "price": 39900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1121479079&brddate=20260703073600&pgmID=6742&ordChannel=WE&tveshop=Y",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
         "start": "10:36",
         "end": "11:36",
         "brand": "세라",
@@ -652,11 +722,31 @@
         "start": "18:38",
         "end": "19:38",
         "brand": "궁키친",
-        "product": "궁키친 이상민 블랙 타이거 새우 5팩 100미 갈릭 감바스소스 1병",
+        "product": "궁키친 이상민 블랙타이거 새우 5팩 100미 갈릭 감바스소스 1병",
         "price": 65900,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1054984056&brddate=20260703183800&pgmID=6997&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1055020373&brddate=20260703183800&pgmID=6997&ordChannel=WE&tveshop=Y",
         "category": "일반식품",
         "lavangba_category": "식품"
+      },
+      {
+        "start": "19:38",
+        "end": "20:38",
+        "brand": "이지듀",
+        "product": "이지듀 기미앰플 시카에디션 6 시카토너 1 시카겔패치",
+        "price": 149000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1124206157&brddate=20260703193800&pgmID=6737&ordChannel=WE&tveshop=Y",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "21:38",
+        "end": "22:38",
+        "brand": "코어",
+        "product": "코어 어센틱 26SS 크롭 치노 팬츠",
+        "price": 49900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1103555600&brddate=20260703213800&pgmID=13307&ordChannel=WE&tveshop=Y",
+        "category": "의류",
+        "lavangba_category": "패션의류"
       },
       {
         "start": "22:38",
@@ -833,6 +923,16 @@
     ],
     "2026-07-05": [
       {
+        "start": "01:39",
+        "end": "01:44",
+        "brand": "기절베개",
+        "product": "아이스텍 더냉감 싱글세트",
+        "price": 69900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126718455&brddate=20260705025100&pgmID=6740&ordChannel=WE&tveshop=Y",
+        "category": "리빙/주방",
+        "lavangba_category": "가구/인테리어"
+      },
+      {
         "start": "02:10",
         "end": "02:30",
         "brand": "필립스",
@@ -841,6 +941,16 @@
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1091561299&brddate=20260705021000&pgmID=872&ordChannel=WE&tveshop=Y",
         "category": "가전",
         "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "02:51",
+        "end": "02:56",
+        "brand": "기절베개",
+        "product": "아이스텍 더냉감 싱글세트",
+        "price": 69900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126718455&brddate=20260705025100&pgmID=6740&ordChannel=WE&tveshop=Y",
+        "category": "리빙/주방",
+        "lavangba_category": "가구/인테리어"
       },
       {
         "start": "03:53",
@@ -911,6 +1021,16 @@
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1097083536&brddate=20260705143700&pgmID=6737&ordChannel=WE&tveshop=Y",
         "category": "문화/스포츠",
         "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "17:38",
+        "end": "18:38",
+        "brand": "테이트",
+        "product": "테이트 26SS 여성 아트웍 티셔츠",
+        "price": 59900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1104289625&brddate=20260705173800&pgmID=12557&ordChannel=WE&tveshop=Y",
+        "category": "의류",
+        "lavangba_category": "패션의류"
       },
       {
         "start": "18:38",

@@ -8,9 +8,9 @@
         "start": "01:00",
         "end": "01:30",
         "brand": "메종비오비(BOB)",
-        "product": "BOB 26SS 여성 반팔 카라티셔츠",
+        "product": "BOB 26SS 남성 반팔 카라티셔츠",
         "price": 119000,
-        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12897718",
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12897722",
         "category": "의류"
       },
       {
@@ -18,7 +18,7 @@
         "end": "02:00",
         "brand": "메종비오비(BOB)",
         "product": "BOB 여성 26SS 하프 팬츠",
-        "price": 58650,
+        "price": 79000,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12900258",
         "category": "의류"
       },
@@ -72,17 +72,17 @@
         "end": "05:15",
         "brand": "까스텔바작",
         "product": "까스텔바작 26SS 여성 크로쉐 앙상블",
-        "price": 89000,
+        "price": 75650,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12902044",
         "category": "의류"
       },
       {
         "start": "05:15",
         "end": "07:15",
-        "brand": "네메르",
-        "product": "25FW 울100 리버시블 케이프코트",
-        "price": 99500,
-        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12870531",
+        "brand": "폴앤조",
+        "product": "26SS 아트웍 피그먼트 반팔티",
+        "price": 59900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12908362",
         "category": "의류"
       },
       {
@@ -128,7 +128,7 @@
         "product": "무배당 삼성화재 우리집행복지킴이",
         "price": 0,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12908162",
-        "category": "GA"
+        "category": "가전"
       },
       {
         "start": "11:55",
@@ -137,7 +137,7 @@
         "product": "삼성화재 고고 새로고침",
         "price": 0,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12880232",
-        "category": "보험"
+        "category": "가전"
       },
       {
         "start": "12:35",
@@ -151,10 +151,10 @@
       {
         "start": "13:35",
         "end": "15:30",
-        "brand": "조르쥬 레쉬",
-        "product": "26SS 튀르키예 오가닉 티셔츠",
-        "price": 49900,
-        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12894672",
+        "brand": "테이트",
+        "product": "26SS 남녀 오가닉 튜블러 티셔츠",
+        "price": 39900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12912513",
         "category": "의류"
       },
       {
@@ -183,6 +183,15 @@
         "price": 58900,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12906719",
         "category": "일반식품"
+      },
+      {
+        "start": "18:30",
+        "end": "19:35",
+        "brand": "삼성전자",
+        "product": "삼성 AI 에어컨 무풍클래식 홈멀티",
+        "price": 2279000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12912491",
+        "category": "가전"
       },
       {
         "start": "19:35",
@@ -236,7 +245,7 @@
         "end": "02:00",
         "brand": "엠유스포츠",
         "product": "26SS 여성 반팔 라운드 니트",
-        "price": 79000,
+        "price": 67150,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12897914",
         "category": "의류"
       },
@@ -270,18 +279,27 @@
       {
         "start": "03:45",
         "end": "04:00",
-        "brand": "브루노말리",
-        "product": "크림핑 레더 샌들",
-        "price": 89000,
-        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12908859",
+        "brand": "안나수이",
+        "product": "아이코닉 변색안경",
+        "price": 129000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12885911",
         "category": "잡화/주얼리"
+      },
+      {
+        "start": "04:00",
+        "end": "04:35",
+        "brand": "아트델리",
+        "product": "쌩얼 선크림 선쿠션15g 전고객 선크림 핑크 키링참 1",
+        "price": 69900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12907477",
+        "category": "미용"
       },
       {
         "start": "04:35",
         "end": "05:15",
         "brand": "네메르",
         "product": "26SS 코튼 블렌디드 자카드 셔츠",
-        "price": 79000,
+        "price": 89000,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12888190",
         "category": "의류"
       },
@@ -298,9 +316,9 @@
         "start": "06:15",
         "end": "07:15",
         "brand": "셀폰즈",
-        "product": "셀폰즈 바르는 녹는실 앰플",
-        "price": 169000,
-        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12877074",
+        "product": "셀폰즈 바르는 녹는실 앰플 16회분 찬스 더",
+        "price": 199800,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12912181",
         "category": "미용"
       },
       {
@@ -308,7 +326,7 @@
         "end": "09:25",
         "brand": "트루릴리전",
         "product": "트루릴리전 26SS 여성 데님 하프 셋업",
-        "price": 69000,
+        "price": 58650,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12905945",
         "category": "의류"
       },
@@ -316,7 +334,7 @@
         "start": "09:25",
         "end": "10:25",
         "brand": "모아도",
-        "product": "모아도 제습제 9입 2입",
+        "product": "반영구 제습제 모아도 9입 2입",
         "price": 79900,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911310",
         "category": "일반식품"
@@ -376,6 +394,15 @@
         "category": "건강식품"
       },
       {
+        "start": "17:30",
+        "end": "18:30",
+        "brand": "키친스토리",
+        "product": "빅마마 이혜정의 소갈비살 8팩",
+        "price": 79900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12910472",
+        "category": "일반식품"
+      },
+      {
         "start": "18:30",
         "end": "19:35",
         "brand": "플리츠미",
@@ -388,9 +415,9 @@
         "start": "19:35",
         "end": "20:45",
         "brand": "셀폰즈",
-        "product": "셀폰즈 바르는 녹는실 앰플",
-        "price": 169000,
-        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12875837",
+        "product": "셀폰즈 바르는 녹는실 앰플 16회분 찬스 더",
+        "price": 199800,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12912173",
         "category": "미용"
       },
       {
@@ -472,7 +499,7 @@
         "end": "05:15",
         "brand": "까스텔바작",
         "product": "까스텔바작 26SS 여성 메종 헤리티지 카라 니트",
-        "price": 79000,
+        "price": 67150,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12902056",
         "category": "의류"
       },
@@ -497,11 +524,11 @@
       {
         "start": "08:15",
         "end": "10:25",
-        "brand": "베네통",
-        "product": "샤인스톤 쥬얼 샌들",
-        "price": 63200,
-        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12906155",
-        "category": "잡화/주얼리"
+        "brand": "지지피엑스",
+        "product": "26SS 텐션업 썸머 셋업",
+        "price": 42410,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12905797",
+        "category": "의류"
       },
       {
         "start": "11:35",
@@ -533,11 +560,11 @@
       {
         "start": "14:35",
         "end": "16:30",
-        "brand": "베네통",
-        "product": "베네통 25SS 기능성 남녀공용 반팔티셔츠",
+        "brand": "비비안 슬림핏",
+        "product": "26SS 비비안 SLIMFIT 바로 쿨 슬림 사각팬티",
         "price": 55920,
-        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12843879",
-        "category": "의류"
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12901776",
+        "category": "언더웨어"
       },
       {
         "start": "16:30",
@@ -686,15 +713,6 @@
         "category": "미용"
       },
       {
-        "start": "13:55",
-        "end": "15:10",
-        "brand": "김영근",
-        "product": "김영근 명인 제주 메밀 순면 15팩 순 동치미육수 8팩 순 비빔장 7팩",
-        "price": 59900,
-        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12903617",
-        "category": "일반식품"
-      },
-      {
         "start": "15:10",
         "end": "16:25",
         "brand": "유피토스",
@@ -763,9 +781,9 @@
         "start": "03:35",
         "end": "03:55",
         "brand": "LBL",
-        "product": "26 SUMMER 피그먼트 팬츠",
-        "price": 59000,
-        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12909818",
+        "product": "26 SUMMER 피그먼트 티셔츠",
+        "price": 69000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12909819",
         "category": "의류"
       },
       {
@@ -839,6 +857,15 @@
         "price": 169000,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12907095",
         "category": "리빙/주방"
+      },
+      {
+        "start": "15:00",
+        "end": "16:10",
+        "brand": "이나카안",
+        "product": "이나카안 민물장어 구이 세트",
+        "price": 89900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12883815",
+        "category": "일반식품"
       },
       {
         "start": "16:10",

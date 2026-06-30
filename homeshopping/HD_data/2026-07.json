@@ -78,7 +78,7 @@
       },
       {
         "start": "06:00",
-        "end": "07:20",
+        "end": "06:40",
         "brand": "라칼로",
         "product": "라칼로 브리사 버뮤다 팬츠",
         "price": 39900,
@@ -86,12 +86,30 @@
         "category": "의류"
       },
       {
+        "start": "06:40",
+        "end": "07:20",
+        "brand": "테디크루",
+        "product": "테디크루 26SS 여성 나일론 웨더자켓",
+        "price": 29900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249662119&preview=true",
+        "category": "의류"
+      },
+      {
         "start": "07:20",
-        "end": "08:20",
+        "end": "07:40",
         "brand": "태그미",
         "product": "태그미 썸머 플리츠 플라워 원피스",
         "price": 39900,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2234841363&preview=true",
+        "category": "의류"
+      },
+      {
+        "start": "07:40",
+        "end": "08:20",
+        "brand": "지베르니",
+        "product": "지베르니 26SS 시어서커 블라우스 재킷",
+        "price": 39900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250265109&preview=true",
         "category": "의류"
       },
       {
@@ -114,7 +132,7 @@
       },
       {
         "start": "11:20",
-        "end": "12:40",
+        "end": "12:00",
         "brand": "루이까또즈",
         "product": "루이즈 버킷햇",
         "price": 54000,
@@ -122,8 +140,17 @@
         "category": "잡화/주얼리"
       },
       {
+        "start": "12:00",
+        "end": "12:40",
+        "brand": "솔솔랩",
+        "product": "냉감 국산 편백 베개 세트",
+        "price": 64900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251274929&preview=true",
+        "category": "리빙/주방"
+      },
+      {
         "start": "12:40",
-        "end": "14:40",
+        "end": "13:40",
         "brand": "SAKROOTS",
         "product": "26SS 삭루츠 우양산",
         "price": 69900,
@@ -131,13 +158,31 @@
         "category": "잡화/주얼리"
       },
       {
+        "start": "13:40",
+        "end": "14:40",
+        "brand": "메디칼드림",
+        "product": "경추 안마 베개 K38",
+        "price": 59800,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250343555&preview=true",
+        "category": "리빙/주방"
+      },
+      {
         "start": "14:40",
-        "end": "16:00",
+        "end": "15:00",
         "brand": "흙이음",
         "product": "100% 국내산 햇 찰 옥수수",
         "price": 29900,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251597854&preview=true",
         "category": "일반식품"
+      },
+      {
+        "start": "15:00",
+        "end": "16:00",
+        "brand": "립밤",
+        "product": "립밤 썸머 티블라우스",
+        "price": 39000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2232430456&preview=true",
+        "category": "의류"
       },
       {
         "start": "16:00",
@@ -159,7 +204,7 @@
       },
       {
         "start": "18:20",
-        "end": "20:40",
+        "end": "19:20",
         "brand": "충주사과",
         "product": "프레샤인 충주 세척사과",
         "price": 59900,
@@ -167,13 +212,31 @@
         "category": "일반식품"
       },
       {
+        "start": "19:20",
+        "end": "20:40",
+        "brand": "라포레",
+        "product": "라포레 칵테일 보온보냉병 풀세트",
+        "price": 64900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250847929&preview=true",
+        "category": "리빙/주방"
+      },
+      {
         "start": "20:40",
-        "end": "23:40",
+        "end": "21:40",
         "brand": "바디프랜드",
         "product": "바디프랜드 카릭스로봇 안마의자",
         "price": 2940000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2243730345&preview=true",
         "category": "일반렌탈"
+      },
+      {
+        "start": "21:40",
+        "end": "23:40",
+        "brand": "삼성",
+        "product": "삼성 AI Mini LED TV 85형",
+        "price": 3090000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250628694&preview=true",
+        "category": "가전"
       },
       {
         "start": "23:40",
@@ -197,12 +260,39 @@
       },
       {
         "start": "01:40",
-        "end": "04:40",
+        "end": "02:20",
         "brand": "LG전자",
         "product": "LG QNED AI TV 85형",
         "price": 4370000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249510829&preview=true",
         "category": "가전"
+      },
+      {
+        "start": "02:20",
+        "end": "03:00",
+        "brand": "마제타",
+        "product": "마제타 와이드 플리츠 팬츠 세트",
+        "price": 39900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251614735&preview=true",
+        "category": "의류"
+      },
+      {
+        "start": "03:00",
+        "end": "03:40",
+        "brand": "매일유업",
+        "product": "프로틴 고소한맛 304gx5캔 보틀1개",
+        "price": 179800,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250312314&preview=true",
+        "category": "건강식품"
+      },
+      {
+        "start": "03:40",
+        "end": "04:40",
+        "brand": "오리지날리",
+        "product": "썸머 프린트 팬츠",
+        "price": 39900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2236148362&preview=true",
+        "category": "의류"
       },
       {
         "start": "04:40",
@@ -215,12 +305,21 @@
       },
       {
         "start": "05:20",
-        "end": "07:20",
+        "end": "06:00",
         "brand": "아놀드파마",
         "product": "26SS 아놀드파마 여성 PK 반팔티셔츠",
         "price": 49900,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250273077&preview=true",
         "category": "의류"
+      },
+      {
+        "start": "06:00",
+        "end": "07:20",
+        "brand": "흙이음",
+        "product": "100% 국내산 햇 홍감자",
+        "price": 19900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251231375&preview=true",
+        "category": "일반식품"
       },
       {
         "start": "07:20",
@@ -251,12 +350,21 @@
       },
       {
         "start": "12:40",
-        "end": "15:00",
+        "end": "13:40",
         "brand": "준우젬",
         "product": "24K 천연석 트리플링 팔찌 24K 순금볼 리얼 담수 진주 팔찌",
         "price": 149000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251004000&preview=true",
         "category": "잡화/주얼리"
+      },
+      {
+        "start": "13:40",
+        "end": "15:00",
+        "brand": "김오곤",
+        "product": "원장의 한방 다이어트환 4",
+        "price": 99000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2233363992&preview=true",
+        "category": "건강식품"
       },
       {
         "start": "15:00",
@@ -288,8 +396,17 @@
     ],
     "2026-07-03": [
       {
+        "start": "02:20",
+        "end": "03:40",
+        "brand": "오리지날리",
+        "product": "썸머 프린트 팬츠",
+        "price": 39900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2236148362&preview=true",
+        "category": "의류"
+      },
+      {
         "start": "03:40",
-        "end": "06:00",
+        "end": "05:20",
         "brand": "데일리아이디어",
         "product": "데일리아이디어 혁명티슈 .",
         "price": 59900,
@@ -297,8 +414,17 @@
         "category": "리빙/주방"
       },
       {
+        "start": "05:20",
+        "end": "06:00",
+        "brand": "경남제약",
+        "product": "경남제약 리포좀 소연골 콘드로이친",
+        "price": 189000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2237040702&preview=true",
+        "category": "건강식품"
+      },
+      {
         "start": "06:00",
-        "end": "10:40",
+        "end": "09:40",
         "brand": "",
         "product": "바로인 낫소 여성 핸즈프리 다이얼 워킹화",
         "price": 69000,
@@ -306,13 +432,31 @@
         "category": "잡화/주얼리"
       },
       {
+        "start": "09:40",
+        "end": "10:40",
+        "brand": "브로킹",
+        "product": "냉감 방수 소파매트 1",
+        "price": 64900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2235372903&preview=true",
+        "category": "리빙/주방"
+      },
+      {
         "start": "10:40",
-        "end": "15:40",
+        "end": "13:40",
         "brand": "박정수",
         "product": "올바른가 자연산 한입 조기 140토막",
         "price": 49900,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2239540042&preview=true",
         "category": "일반식품"
+      },
+      {
+        "start": "13:40",
+        "end": "15:40",
+        "brand": "골든클레프",
+        "product": "18K 인피니티 체인 팔찌",
+        "price": 2399000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251596784&preview=true",
+        "category": "잡화/주얼리"
       },
       {
         "start": "15:40",
@@ -325,12 +469,39 @@
       },
       {
         "start": "16:00",
-        "end": "21:00",
+        "end": "17:20",
         "brand": "서대문 평양옥",
         "product": "토종닭으로만든 토종백숙삼계탕 1.1kgX6팩",
         "price": 69900,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251120214&preview=true",
         "category": "일반식품"
+      },
+      {
+        "start": "17:20",
+        "end": "19:40",
+        "brand": "아임피쉬",
+        "product": "아임피쉬 가시바른 두툼한 순살갈치 총2kg 25토막 조림양념1통",
+        "price": 59900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2226644936&preview=true",
+        "category": "일반식품"
+      },
+      {
+        "start": "19:40",
+        "end": "20:20",
+        "brand": "바이아우어",
+        "product": "바이아우어 맥주효모 탈모샴푸 컨디셔너",
+        "price": 64800,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250353790&preview=true",
+        "category": "미용"
+      },
+      {
+        "start": "20:20",
+        "end": "21:00",
+        "brand": "신영와코루",
+        "product": "2026 로맨틱블룸 인견 쉐이퍼",
+        "price": 179000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248492211&preview=true",
+        "category": "언더웨어"
       },
       {
         "start": "21:00",
@@ -352,6 +523,15 @@
       }
     ],
     "2026-07-04": [
+      {
+        "start": "01:40",
+        "end": "03:20",
+        "brand": "지니라이프",
+        "product": "유기농 레몬즙 레자몽즙",
+        "price": 190000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251321531&preview=true",
+        "category": "건강식품"
+      },
       {
         "start": "03:20",
         "end": "03:40",
@@ -445,12 +625,30 @@
     ],
     "2026-07-05": [
       {
+        "start": "09:40",
+        "end": "16:40",
+        "brand": "신영와코루",
+        "product": "2026 로맨틱블룸 인견 쉐이퍼",
+        "price": 179000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248492211&preview=true",
+        "category": "언더웨어"
+      },
+      {
         "start": "16:40",
-        "end": "17:39",
+        "end": "23:40",
         "brand": "알레보",
         "product": "디엣지 플러스 유리 밥용기 1 1세트_",
         "price": 59800,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250158734&preview=true",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "23:40",
+        "end": "00:39",
+        "brand": "브로킹",
+        "product": "누빔 매트리스 방수 커버 1",
+        "price": 59900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2147493763&preview=true",
         "category": "리빙/주방"
       }
     ]

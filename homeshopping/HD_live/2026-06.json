@@ -2223,6 +2223,24 @@
         "category": "의류"
       },
       {
+        "start": "10:25",
+        "end": "12:25",
+        "brand": "리오벨",
+        "product": "리오벨 26 풀스킨 렉스퍼 리버서블 야상 자켓",
+        "price": 599000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251579563&preview=true",
+        "category": "의류"
+      },
+      {
+        "start": "10:25",
+        "end": "12:25",
+        "brand": "고비",
+        "product": "실크 캐시미어 스트링 원피스",
+        "price": 279000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248654324&preview=true",
+        "category": "의류"
+      },
+      {
         "start": "12:25",
         "end": "13:25",
         "brand": "도깨비방망이",
@@ -2292,7 +2310,7 @@
         "product": "미니 에어젯 핸디팬 4개구성",
         "price": 79800,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251672801&preview=true",
-        "category": "미용"
+        "category": "가전"
       },
       {
         "start": "19:30",
@@ -2307,7 +2325,7 @@
         "start": "19:30",
         "end": "21:45",
         "brand": "자담치킨",
-        "product": "자담치킨 맵쏘이킥 윙봉치킨 매콤간장맛 총10팩",
+        "product": "자담치킨 맵쏘이킥 윙봉치킨 총10팩",
         "price": 59900,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251641700&preview=true",
         "category": "일반식품"
@@ -2353,7 +2371,7 @@
         "end": "01:00",
         "brand": "V1969",
         "product": "V19.69 ITALIA 도로 프린티드 티블라우스2종",
-        "price": 99000,
+        "price": 79000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250827054&preview=true",
         "category": "의류"
       }
