@@ -36,7 +36,7 @@
       },
       {
         "start": "03:30",
-        "end": "03:50",
+        "end": "03:51",
         "brand": "",
         "product": "씨위드 시어서커 이불",
         "price": 69900,
@@ -69,7 +69,7 @@
         "end": "07:15",
         "brand": "닥터린",
         "product": "콘드로이친 콘레이티 MBP ×",
-        "price": 329000,
+        "price": 164500,
         "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11941769",
         "category": "건강식품",
         "lavangba_category": "식품"
@@ -149,7 +149,7 @@
         "end": "15:40",
         "brand": "",
         "product": "플리츠 이지웨어 상하의",
-        "price": 39900,
+        "price": 37900,
         "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11946061",
         "category": "언더웨어",
         "lavangba_category": "패션의류"
@@ -159,7 +159,7 @@
         "end": "16:40",
         "brand": "",
         "product": "메리엔느 아이스쿨 냉감패드 2장세트",
-        "price": 84900,
+        "price": 79900,
         "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11941879",
         "category": "리빙/주방",
         "lavangba_category": "가구/인테리어"
@@ -239,7 +239,7 @@
         "end": "01:00",
         "brand": "",
         "product": "이로운떡 5종세트_서리태콩떡,호박인절미,쑥앙금절편,동부모시떡,동부비트떡",
-        "price": 49900,
+        "price": 46900,
         "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11933618",
         "category": "일반식품",
         "lavangba_category": "식품"
@@ -472,7 +472,7 @@
         "start": "01:00",
         "end": "02:00",
         "brand": "",
-        "product": "한돈 앞다리 순살 족발 8팩 별미 양념꼬리 2팩",
+        "product": "앞다리 순살 족발 8팩 별미 양념꼬리 2팩",
         "price": 39900,
         "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11936106",
         "category": "일반식품",
@@ -503,7 +503,7 @@
         "end": "03:50",
         "brand": "",
         "product": "트리플 콘드로이친 1200 MBP",
-        "price": 159000,
+        "price": 318000,
         "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11932011",
         "category": "건강식품",
         "lavangba_category": "식품"
@@ -572,7 +572,7 @@
         "start": "12:40",
         "end": "13:30",
         "brand": "",
-        "product": "제주 미니 밤단호박",
+        "product": "친환경 제주 미니 밤단호박",
         "price": 29900,
         "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11945510",
         "category": "일반식품",
@@ -663,7 +663,7 @@
         "end": "21:45",
         "brand": "",
         "product": "26년 햇 정담 성주참외",
-        "price": 31900,
+        "price": 30900,
         "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11943574",
         "category": "일반식품",
         "lavangba_category": "식품"
@@ -853,8 +853,8 @@
       {
         "start": "22:45",
         "end": "23:45",
-        "brand": "",
-        "product": "레비오 사각 싱크볼 교체 패키지 설치비포함",
+        "brand": "원앙",
+        "product": "레비오 사각 싱크볼 교체 패키지",
         "price": 599000,
         "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11943995",
         "category": "리빙/주방",
@@ -917,7 +917,7 @@
         "end": "05:00",
         "brand": "",
         "product": "메리엔느 아이스쿨 냉감패드 2장세트",
-        "price": 84900,
+        "price": 79900,
         "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11943824",
         "category": "리빙/주방",
         "lavangba_category": "가구/인테리어"
@@ -1006,7 +1006,7 @@
         "start": "16:15",
         "end": "17:25",
         "brand": "",
-        "product": "3단 접이식 매트리스 Q _경추베개",
+        "product": "3단 접이식 매트리스 퀸 경추베개",
         "price": 198000,
         "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11931184",
         "category": "리빙/주방",
@@ -1049,6 +1049,148 @@
         "product": "운동화세탁망4개 운동화전용 크리너",
         "price": 29900,
         "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11938107",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      }
+    ],
+    "2026-07-06": [
+      {
+        "start": "02:50",
+        "end": "03:20",
+        "brand": "",
+        "product": "레드플러스청양구기자17통 스푼5개_R",
+        "price": 158000,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11945703",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "06:00",
+        "end": "07:15",
+        "brand": "AGK",
+        "product": "AGK 전동강판",
+        "price": 59900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11942653",
+        "category": "가전",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "07:15",
+        "end": "08:20",
+        "brand": "",
+        "product": "바이렌 엔드그레인 도마 세트",
+        "price": 69900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11946210",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "09:20",
+        "end": "10:25",
+        "brand": "2026",
+        "product": "김정배명인새우젓500g×",
+        "price": 69900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11946414",
+        "category": "미용",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "10:25",
+        "end": "11:35",
+        "brand": "",
+        "product": "강병원한우투뿔구이 130gx10팩",
+        "price": 69900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11932309",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "11:35",
+        "end": "12:40",
+        "brand": "",
+        "product": "이금선 명인의 가자미식해 x",
+        "price": 49900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11929714",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "12:40",
+        "end": "13:40",
+        "brand": "",
+        "product": "고기담은밥상 연탄석쇠불고기 x 8팩",
+        "price": 29900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11945488",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "15:40",
+        "end": "16:40",
+        "brand": "",
+        "product": "하루약콩 THE 진한 서목태 두유",
+        "price": 59900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11943989",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "16:40",
+        "end": "17:40",
+        "brand": "리센느",
+        "product": "인견포켓포인트반바지4종",
+        "price": 39900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11946456",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "17:40",
+        "end": "18:40",
+        "brand": "",
+        "product": "간이 딱! 손질 고등어 ×9팩, 총18미",
+        "price": 39900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11939145",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "18:40",
+        "end": "19:40",
+        "brand": "",
+        "product": "강병원 갈비탕 x 10팩",
+        "price": 43900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11923975",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "20:40",
+        "end": "21:45",
+        "brand": "라꾸라꾸",
+        "product": "접이식 이동형 침대_온도조절가능",
+        "price": 299000,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11917413",
+        "category": "리빙/주방",
+        "lavangba_category": "가구/인테리어"
+      },
+      {
+        "start": "22:50",
+        "end": "23:50",
+        "brand": "라벨르",
+        "product": "아라벨르 시어서커 이불 3장세트",
+        "price": 74900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11941053",
+        "category": "의류",
+        "lavangba_category": "가구/인테리어"
+      },
+      {
+        "start": "23:50",
+        "end": "01:00",
+        "brand": "습기제로",
+        "product": "습기제로 제습제",
+        "price": 39900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11942011",
         "category": "리빙/주방",
         "lavangba_category": "생활/건강"
       }

@@ -6,7 +6,7 @@
     "2026-07-01": [
       {
         "start": "00:15",
-        "end": "00:35",
+        "end": "00:36",
         "brand": "",
         "product": "보험 2부",
         "price": 0,
@@ -16,7 +16,7 @@
       },
       {
         "start": "00:35",
-        "end": "00:55",
+        "end": "00:56",
         "brand": "",
         "product": "보험 3부",
         "price": 0,
@@ -26,7 +26,7 @@
       },
       {
         "start": "00:55",
-        "end": "01:00",
+        "end": "01:01",
         "brand": "",
         "product": "보험 4부",
         "price": 0,
@@ -46,7 +46,7 @@
       },
       {
         "start": "02:00",
-        "end": "02:40",
+        "end": "02:41",
         "brand": "",
         "product": "히트상품 앵콜방송 2부",
         "price": 29900,
@@ -56,7 +56,7 @@
       },
       {
         "start": "03:20",
-        "end": "04:00",
+        "end": "04:01",
         "brand": "",
         "product": "히트상품 앵콜방송3부",
         "price": 198000,
@@ -66,7 +66,7 @@
       },
       {
         "start": "04:00",
-        "end": "05:00",
+        "end": "05:01",
         "brand": "",
         "product": "히트상품 앵콜방송4부",
         "price": 29900,
@@ -76,7 +76,7 @@
       },
       {
         "start": "05:00",
-        "end": "05:40",
+        "end": "05:41",
         "brand": "",
         "product": "브이존양말",
         "price": 29900,
@@ -86,7 +86,7 @@
       },
       {
         "start": "05:40",
-        "end": "06:30",
+        "end": "06:31",
         "brand": "",
         "product": "브이존양말 2부",
         "price": 7900,
@@ -96,7 +96,7 @@
       },
       {
         "start": "06:30",
-        "end": "07:30",
+        "end": "07:31",
         "brand": "",
         "product": "칼만저압냄비",
         "price": 99000,
@@ -811,6 +811,16 @@
         "lavangba_category": "식품"
       },
       {
+        "start": "08:20",
+        "end": "09:20",
+        "brand": "",
+        "product": "유기농야생빌베리",
+        "price": 29000,
+        "link": "https://m.nsmall.com/goods/36013225",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
         "start": "09:20",
         "end": "10:20",
         "brand": "빈블랑",
@@ -1043,6 +1053,16 @@
         "lavangba_category": "식품"
       },
       {
+        "start": "20:35",
+        "end": "21:40",
+        "brand": "",
+        "product": "꾸띄르샴푸",
+        "price": 109800,
+        "link": "https://m.nsmall.com/goods/36012055",
+        "category": "미용",
+        "lavangba_category": "생활/건강"
+      },
+      {
         "start": "21:40",
         "end": "22:45",
         "brand": "",
@@ -1061,6 +1081,128 @@
         "link": "https://m.nsmall.com/goods/35987939",
         "category": "가전",
         "lavangba_category": "디지털/가전"
+      }
+    ],
+    "2026-07-06": [
+      {
+        "start": "05:20",
+        "end": "06:25",
+        "brand": "이경제",
+        "product": "이경제흑염소진액",
+        "price": 179000,
+        "link": "https://m.nsmall.com/goods/34825416",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "07:25",
+        "end": "08:25",
+        "brand": "매스틱",
+        "product": "위매스틱케어",
+        "price": 499000,
+        "link": "https://m.nsmall.com/goods/36021024",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "10:25",
+        "end": "11:30",
+        "brand": "비에날씬",
+        "product": "비에날씬프로",
+        "price": 376000,
+        "link": "https://m.nsmall.com/goods/35797506",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "12:30",
+        "end": "13:25",
+        "brand": "이경제",
+        "product": "이경제흑염소진액 2부",
+        "price": 179000,
+        "link": "https://m.nsmall.com/goods/35179145",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "14:25",
+        "end": "15:25",
+        "brand": "",
+        "product": "정성가득ABC주스",
+        "price": 69500,
+        "link": "https://m.nsmall.com/goods/35412661",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "15:25",
+        "end": "16:20",
+        "brand": "",
+        "product": "꽃게장",
+        "price": 49900,
+        "link": "https://m.nsmall.com/goods/36032730",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "16:20",
+        "end": "17:10",
+        "brand": "목우촌",
+        "product": "목우촌훈제오리",
+        "price": 59900,
+        "link": "https://m.nsmall.com/goods/33902682",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "17:10",
+        "end": "17:50",
+        "brand": "",
+        "product": "청연담식혜",
+        "price": 39900,
+        "link": "https://m.nsmall.com/goods/35346144",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "18:30",
+        "end": "19:30",
+        "brand": "",
+        "product": "해통령육수명장",
+        "price": 59900,
+        "link": "https://m.nsmall.com/goods/35325536",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "19:30",
+        "end": "20:35",
+        "brand": "",
+        "product": "상황버섯쌀",
+        "price": 109000,
+        "link": "https://m.nsmall.com/goods/35680212",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "20:35",
+        "end": "21:40",
+        "brand": "",
+        "product": "두뇌엔닥터PS",
+        "price": 198000,
+        "link": "https://m.nsmall.com/goods/35903244",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "22:45",
+        "end": "23:55",
+        "brand": "",
+        "product": "쿠쿠정수기",
+        "price": 0,
+        "link": "https://m.nsmall.com/goods/35841795",
+        "category": "일반렌탈",
+        "lavangba_category": "여가/생활편의"
       }
     ]
   }

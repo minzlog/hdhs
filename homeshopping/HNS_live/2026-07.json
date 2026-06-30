@@ -119,7 +119,7 @@
         "end": "13:30",
         "brand": "꼼빠니아",
         "product": "블랙에디션 민소매 티블라우스 메쉬 가디건",
-        "price": 44000,
+        "price": 39900,
         "link": "http://www.hnsmall.com/display/goods.do?goods_code=80578328",
         "category": "의류",
         "lavangba_category": "패션의류"
@@ -163,6 +163,16 @@
         "link": "http://www.hnsmall.com/display/goods.do?goods_code=81139615",
         "category": "건강식품",
         "lavangba_category": "식품"
+      },
+      {
+        "start": "16:50",
+        "end": "17:40",
+        "brand": "",
+        "product": "미바 다크스팟 커버 멜팅 밤 팩트 구성",
+        "price": 59900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=77440663",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
       },
       {
         "start": "17:40",
@@ -387,6 +397,16 @@
         "lavangba_category": "식품"
       },
       {
+        "start": "16:00",
+        "end": "16:50",
+        "brand": "",
+        "product": "신덕재 명인의 손두부 순두부 세트8팩 두부틀1 면포2",
+        "price": 42900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80294743",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
         "start": "16:50",
         "end": "17:40",
         "brand": "",
@@ -420,9 +440,9 @@
         "start": "20:45",
         "end": "21:45",
         "brand": "비에날씬",
-        "product": "다이어트유산균BNR17 비에날씬프로 24주분",
-        "price": 376000,
-        "link": "http://www.hnsmall.com/display/goods.do?goods_code=62368854",
+        "product": "다이어트유산균BNR17 비에날씬프로 36주분 셰퍼무드등날개없는선풍기 슬림플러스",
+        "price": 548000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=77836033",
         "category": "건강식품",
         "lavangba_category": "식품"
       },
@@ -435,6 +455,16 @@
         "link": "http://www.hnsmall.com/display/goods.do?goods_code=80577168",
         "category": "의류",
         "lavangba_category": "패션의류"
+      },
+      {
+        "start": "22:55",
+        "end": "23:55",
+        "brand": "",
+        "product": "유럽 문화의 중심 이탈리아 9일 완벽 일주 vs 스위스 이탈리아 9일 여행",
+        "price": 0,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81091721",
+        "category": "여행",
+        "lavangba_category": "도서"
       },
       {
         "start": "23:55",
@@ -791,6 +821,16 @@
         "lavangba_category": "디지털/가전"
       },
       {
+        "start": "19:30",
+        "end": "20:30",
+        "brand": "이지듀",
+        "product": "이지듀 멜라토닝 기미 매쉬 커버 쿠션 본품1개",
+        "price": 49800,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80826301",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
         "start": "22:50",
         "end": "23:50",
         "brand": "엘로엘",
@@ -943,6 +983,16 @@
         "lavangba_category": "식품"
       },
       {
+        "start": "18:20",
+        "end": "19:25",
+        "brand": "",
+        "product": "품격 있는 가성비 동유럽 3개국 9일",
+        "price": 0,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81173958",
+        "category": "일반식품",
+        "lavangba_category": "도서"
+      },
+      {
         "start": "20:30",
         "end": "21:35",
         "brand": "이자녹스",
@@ -961,6 +1011,158 @@
         "link": "http://www.hnsmall.com/display/goods.do?goods_code=74544961",
         "category": "의류",
         "lavangba_category": "패션의류"
+      }
+    ],
+    "2026-07-06": [
+      {
+        "start": "02:00",
+        "end": "03:00",
+        "brand": "",
+        "product": "26SS 아뜰리에 유로피안 린넨 블렌딩 썸머 티 에디션",
+        "price": 59900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80317096",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "03:00",
+        "end": "03:20",
+        "brand": "",
+        "product": "26SS 벨크로 스트랩 썸머 스니커즈",
+        "price": 59800,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=79403845",
+        "category": "잡화/주얼리",
+        "lavangba_category": "패션잡화"
+      },
+      {
+        "start": "03:20",
+        "end": "03:50",
+        "brand": "그레인온",
+        "product": "골드 파로효소 캡슐레이션",
+        "price": 418000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=73203915",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "03:50",
+        "end": "04:55",
+        "brand": "",
+        "product": "루미에르스퀘어 세라믹 스톤크라운 DIA",
+        "price": 270000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=68008855",
+        "category": "잡화/주얼리",
+        "lavangba_category": "패션잡화"
+      },
+      {
+        "start": "04:55",
+        "end": "06:00",
+        "brand": "2026",
+        "product": "TAF 무선 헤어스타일러",
+        "price": 109000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=79792793",
+        "category": "가전",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "06:00",
+        "end": "07:15",
+        "brand": "관절엔 콘드로이친",
+        "product": "관절엔 콘드로이친 1200 식물성 오메가3",
+        "price": 648000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=79088458",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "09:25",
+        "end": "10:25",
+        "brand": "팬암",
+        "product": "26SS 여성 코튼 썸머 티셔츠",
+        "price": 39000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=76740487",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "10:25",
+        "end": "11:35",
+        "brand": "로라애슐리",
+        "product": "손수건/로라애슐리 프리미엄 접이식 암막 양우산",
+        "price": 69900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80318309",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "11:35",
+        "end": "12:40",
+        "brand": "홀베리",
+        "product": "유기농 레몬자몽즙",
+        "price": 99900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=64027323",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "14:20",
+        "end": "15:10",
+        "brand": "",
+        "product": "캡슐세제",
+        "price": 49900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=72092203",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "16:00",
+        "end": "16:50",
+        "brand": "",
+        "product": "완도 섬전복 대왕특大사이즈 총 이상",
+        "price": 42900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81110728",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "16:50",
+        "end": "17:40",
+        "brand": "",
+        "product": "보람상조피플 스마트299",
+        "price": 0,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=71427035",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "17:40",
+        "end": "18:40",
+        "brand": "AHC",
+        "product": "AHC 마스터즈 에어 리치 선스틱",
+        "price": 119000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=76113316",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "18:40",
+        "end": "19:35",
+        "brand": "",
+        "product": "디마떼오 피자 /20팩",
+        "price": 60900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=72014008",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "19:35",
+        "end": "20:45",
+        "brand": "드모아",
+        "product": "드모아 에어웹 플러스 필로우 베개 총",
+        "price": 169000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80793236",
+        "category": "리빙/주방",
+        "lavangba_category": "가구/인테리어"
       }
     ]
   }

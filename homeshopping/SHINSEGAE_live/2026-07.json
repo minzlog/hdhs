@@ -46,7 +46,7 @@
       },
       {
         "start": "03:59",
-        "end": "04:19",
+        "end": "04:20",
         "brand": "하루틴",
         "product": "하루틴 리포좀 멀티비타민 미네랄 액티브",
         "price": 288000,
@@ -66,7 +66,7 @@
       },
       {
         "start": "04:30",
-        "end": "05:30",
+        "end": "05:31",
         "brand": "",
         "product": "거북목 및 목디스크 치료기! 국내제조, 한국의료기기 안전정보원 인증",
         "price": 398000,
@@ -76,7 +76,7 @@
       },
       {
         "start": "05:30",
-        "end": "06:30",
+        "end": "06:31",
         "brand": "비에날씬",
         "product": "BNR17 다이어트 유산균 비에날씬 프로 슬림플러스",
         "price": 548000,
@@ -123,6 +123,16 @@
         "link": "https://www.shinsegaetvshopping.com/display/detail/20073172",
         "category": "언더웨어",
         "lavangba_category": "패션의류"
+      },
+      {
+        "start": "09:32",
+        "end": "10:32",
+        "brand": "부하우스",
+        "product": "부하우스 압축파우치",
+        "price": 158000,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20069826",
+        "category": "리빙/주방",
+        "lavangba_category": "가구/인테리어"
       },
       {
         "start": "10:32",
@@ -761,6 +771,7 @@
         "lavangba_category": "화장품/미용"
       }
     ],
-    "2026-07-05": []
+    "2026-07-05": [],
+    "2026-07-06": []
   }
 }
