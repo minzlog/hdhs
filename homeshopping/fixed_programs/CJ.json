@@ -1,49 +1,7 @@
 {
   "company": "CJ",
-  "collectedAt": "2026-06-30T06:09:39.587320+09:00",
+  "collectedAt": "2026-07-01T06:15:28.173381+09:00",
   "programs": [
-    {
-      "pgm_cd": "563703",
-      "title": "건강 슈퍼히어로",
-      "schedule_raw": "일요일 오전",
-      "thumbnail": "https://image.cjonstyle.net/public/confirm/assets/tdp_cate_cont/202309/27/5549818/ee243609305aea0a7b0fd6f6712d337cd6eb5877.png",
-      "pgmshop_link": "https://display.cjonstyle.com/m/pgmShop/563703",
-      "upcoming_products": [
-        {
-          "name": "[1등 생식] 황성주 박사의 라이프 밀 4박스+흔들컵1",
-          "price": 249000,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/670/2070472670L.jpg?timestamp=20260526152220",
-          "link": "https://display.cjonstyle.com/m/item/2070472670?channelCode=30002002"
-        },
-        {
-          "name": "[목주름콜라겐] 최신상 더마콜라겐 시그니처RN 10+3박스",
-          "price": 429000,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/840/2069765840L.jpg?timestamp=20260510085802",
-          "link": "https://display.cjonstyle.com/m/item/2069765840?channelCode=30002002"
-        }
-      ]
-    },
-    {
-      "pgm_cd": "563680",
-      "title": "스튜디오B",
-      "schedule_raw": "매주 월요일 09:20",
-      "thumbnail": "https://image.cjonstyle.net/public/confirm/assets/tdp_cate_cont/202602/26/5672094/fd49157b5d13c22e65570118c9ace7ecf937f3fb.png",
-      "pgmshop_link": "https://display.cjonstyle.com/m/pgmShop/100021",
-      "upcoming_products": [
-        {
-          "name": "1-1 센존 블루라벨  26SS 이태리 큐브백",
-          "price": 389000,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/374/2078800374L.jpg?timestamp=20260212175535",
-          "link": "https://display.cjonstyle.com/m/item/2078800374?channelCode=30002002"
-        },
-        {
-          "name": "고칼슘 서리태 맷돌 두유 4박스 80팩",
-          "price": 80900,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/724/2072099724L.jpg?timestamp=20260331140719",
-          "link": "https://display.cjonstyle.com/m/item/2072099724?channelCode=30002002"
-        }
-      ]
-    },
     {
       "pgm_cd": "562904",
       "title": "최화정쇼",
@@ -58,7 +16,7 @@
           "link": "https://display.cjonstyle.com/m/item/2087721306?channelCode=30002002"
         },
         {
-          "name": "[최화정쇼]초강력세트 자석밀대+워터포 리필4통+일렉포 리필2통",
+          "name": "[최화정쇼]초강력세트 자석밀대+워터포 리필5통+일렉포 리필2통",
           "price": 89900,
           "image": "https://itemimage.cjonstyle.net/goods_images/20/297/2084943297L.jpg?timestamp=20260624205003",
           "link": "https://display.cjonstyle.com/m/item/2084943297?channelCode=30002002"
@@ -74,7 +32,7 @@
       "upcoming_products": [
         {
           "name": "24K 클로버 볼 더블 반지",
-          "price": 499000,
+          "price": 489000,
           "image": "https://itemimage.cjonstyle.net/goods_images/20/221/2083437221L.jpg?timestamp=20260508152550",
           "link": "https://display.cjonstyle.com/m/item/2083437221?channelCode=30002002"
         },
@@ -94,10 +52,10 @@
       "pgmshop_link": "https://display.cjonstyle.com/m/pgmShop/563049",
       "upcoming_products": [
         {
-          "name": "핀란드 야생빌베리 NFC 100 12박스",
+          "name": "[동가게] 핀란드 야생빌베리 NFC 100 13박스",
           "price": 169000,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/472/2087737472L.jpg?timestamp=20260629132055",
-          "link": "https://display.cjonstyle.com/m/item/2087737472?channelCode=30002002"
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/647/2087737647L.jpg?timestamp=20260629150401",
+          "link": "https://display.cjonstyle.com/m/item/2087737647?channelCode=30002002"
         },
         {
           "name": "925실버 파베볼 목걸이",
@@ -115,16 +73,16 @@
       "pgmshop_link": "https://display.cjonstyle.com/m/pgmShop/563883",
       "upcoming_products": [
         {
+          "name": "라지킹_아이스Max 쿨드론 냉감패드 7종 풀패키지T",
+          "price": 159900,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/063/2085134063L.jpg?timestamp=20260521144953",
+          "link": "https://display.cjonstyle.com/m/item/2085134063?channelCode=30002002"
+        },
+        {
           "name": "선일금고 메타셀 메타알레 밀크 40L MC-40",
           "price": 1048000,
           "image": "https://itemimage.cjonstyle.net/goods_images/20/002/2082524002L.jpg?timestamp=20260407112951",
           "link": "https://display.cjonstyle.com/m/item/2082524002?channelCode=30002002"
-        },
-        {
-          "name": "라지킹_아이스Max 쿨드론 냉감패드 7종 풀패키지",
-          "price": 159900,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/126/2082966126L.jpg?timestamp=20260504090741",
-          "link": "https://display.cjonstyle.com/m/item/2082966126?channelCode=30002002"
         }
       ]
     },
@@ -163,7 +121,7 @@
           "link": "https://display.cjonstyle.com/m/item/2079050655?channelCode=30002002"
         },
         {
-          "name": "헐리우드 48시간 8병 + 전용보틀 + 가이드북",
+          "name": "[조윤주Pick] 헐리우드 48시간 8병 + 전용보틀 + 가이드북",
           "price": 159000,
           "image": "https://itemimage.cjonstyle.net/goods_images/20/320/2055769320L.jpg?timestamp=20260619155921",
           "link": "https://display.cjonstyle.com/m/item/2055769320?channelCode=30002002"
@@ -178,16 +136,16 @@
       "pgmshop_link": "https://display.cjonstyle.com/m/pgmShop/562953",
       "upcoming_products": [
         {
-          "name": "25FW 리버시블 후드 숏 무스탕",
-          "price": 1190000,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/119/2073791119L.jpg?timestamp=20251218112203",
-          "link": "https://display.cjonstyle.com/m/item/2073791119?channelCode=30002002"
+          "name": "[최초가59,900원]26SS BCI콤드코튼 포인텔 탑 3종",
+          "price": 39900,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/632/2082675632L.jpg?timestamp=20260424112351",
+          "link": "https://item.cjonstyle.com/celebshop/item/2082675632?channelCode=30002002"
         },
         {
-          "name": "25FW 캐시미어 100 양면 머플러",
-          "price": 69900,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/692/2068291692L.jpg?timestamp=20250915131518",
-          "link": "https://display.cjonstyle.com/m/item/2068291692?channelCode=30002002"
+          "name": "26SS 아트 다잉 티셔츠 3종",
+          "price": 119900,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/329/2081631329L.jpg?timestamp=20260326165615",
+          "link": "https://item.cjonstyle.com/celebshop/item/2081631329?channelCode=30002002"
         }
       ]
     },
@@ -207,6 +165,27 @@
       ]
     },
     {
+      "pgm_cd": "563703",
+      "title": "건강 슈퍼히어로",
+      "schedule_raw": "일요일 오전",
+      "thumbnail": "https://image.cjonstyle.net/public/confirm/assets/tdp_cate_cont/202309/27/5549818/ee243609305aea0a7b0fd6f6712d337cd6eb5877.png",
+      "pgmshop_link": "https://display.cjonstyle.com/m/pgmShop/563703",
+      "upcoming_products": [
+        {
+          "name": "[슈퍼히어로] 스페셜 견과 루비에디션 4+2박스 (120봉)",
+          "price": 119000,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/310/2076464310L.jpg?timestamp=20260114125712",
+          "link": "https://display.cjonstyle.com/m/item/2076464310?channelCode=30002002"
+        },
+        {
+          "name": "[1등 생식] 황성주 박사의 라이프 밀 4박스+흔들컵1",
+          "price": 249000,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/670/2070472670L.jpg?timestamp=20260526152220",
+          "link": "https://display.cjonstyle.com/m/item/2070472670?channelCode=30002002"
+        }
+      ]
+    },
+    {
       "pgm_cd": "563677",
       "title": "탑쇼",
       "schedule_raw": "TOP상품!  TOP혜택!",
@@ -214,16 +193,16 @@
       "pgmshop_link": "https://display.cjonstyle.com/m/exhibition/exhibitionDetail?plnExhbId=202403265646",
       "upcoming_products": [
         {
+          "name": "[탑쇼특집] 아이콘3/얼음 정수기",
+          "price": 0,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/300/2003183300L.jpg?timestamp=20260303101453",
+          "link": "https://display.cjonstyle.com/m/item/2003183300?channelCode=30002002"
+        },
+        {
           "name": "[공식正品] SS 듀라론-쿨100% 민트라벨 최고사양 냉감패드 2종세트",
           "price": 139000,
           "image": "https://itemimage.cjonstyle.net/goods_images/20/401/2084637401L.jpg?timestamp=20260604235925",
           "link": "https://display.cjonstyle.com/m/item/2084637401?channelCode=30002002"
-        },
-        {
-          "name": "[공식正品] SK/LK 듀라론-쿨100% 민트라벨 최고사양 냉감패드 2종세트",
-          "price": 189000,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/849/2084633849L.jpg?timestamp=20260604235310",
-          "link": "https://display.cjonstyle.com/m/item/2084633849?channelCode=30002002"
         }
       ]
     },
@@ -255,6 +234,27 @@
       "thumbnail": "https://image.cjonstyle.net/public/confirm/assets/tdp_cate_cont/202404/11/5582871/fffb2f809280f6e87008e452e35bf51a6b317100.png",
       "pgmshop_link": "https://display.cjonstyle.com/m/pgmShop/562503",
       "upcoming_products": []
+    },
+    {
+      "pgm_cd": "563680",
+      "title": "스튜디오B",
+      "schedule_raw": "매주 월요일 09:20",
+      "thumbnail": "https://image.cjonstyle.net/public/confirm/assets/tdp_cate_cont/202602/26/5672094/fd49157b5d13c22e65570118c9ace7ecf937f3fb.png",
+      "pgmshop_link": "https://display.cjonstyle.com/m/pgmShop/100021",
+      "upcoming_products": [
+        {
+          "name": "벨루엔 우양산 세트",
+          "price": 79000,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/362/2085438362L.jpg?timestamp=20260619170227",
+          "link": "https://display.cjonstyle.com/m/item/2085438362?channelCode=30002002"
+        },
+        {
+          "name": "26SS 저온스 루즈핏 쿨데님 여성용",
+          "price": 49900,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/581/2081636581L.jpg?timestamp=20260507162001",
+          "link": "https://display.cjonstyle.com/m/item/2081636581?channelCode=30002002"
+        }
+      ]
     },
     {
       "pgm_cd": "563068",

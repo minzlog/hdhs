@@ -1,5 +1,168 @@
 {
   "company": "GS",
-  "collectedAt": "2026-06-30T06:09:38.637016+09:00",
-  "programs": []
+  "collectedAt": "2026-07-01T06:15:26.558129+09:00",
+  "programs": [
+    {
+      "title": "지금 백지연",
+      "schedule_raw": "매주 목요일 저녁 8시 45분",
+      "desc": "프리미엄 큐레이션의 시작 지금 백지연",
+      "thumbnail": "https://static.m-gs.kr/planprd/banner_NEW_SUB/832708554_01.png",
+      "detail_link": "https://m.gsshop.com/section/broad/specialPgm/13437?mseq=W00618-TV_PRO_BB-1",
+      "upcoming_products": [
+        {
+          "name": "100% 토마토 착즙 주스 72팩 200ml (백지연 PICK)",
+          "price": 70900,
+          "image": "https://asset.m-gs.kr/prod/1087081310/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1087081310&mseq=W00618-TV_PRO-1"
+        },
+        {
+          "name": "시그니처 플러스 샤워기 1개+시그니처 샤워기1개+탄소리필필터 3팩(바디 9개+ 헤드9개)+여행용 세트 + 리필필터 1팩(바디2개+헤드2개)",
+          "price": 104000,
+          "image": "https://asset.m-gs.kr/prod/1127930263/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1127930263&mseq=W00618-TV_PRO-2"
+        }
+      ]
+    },
+    {
+      "title": "소유진쇼",
+      "schedule_raw": "매주 금요일 저녁 8시 35분",
+      "desc": "금요일 밤 차원이 다른 쇼핑",
+      "thumbnail": "https://static.m-gs.kr/planprd/banner_NEW_SUB/907067658_01.jpg",
+      "detail_link": "https://m.gsshop.com/section/broad/specialPgm/13401?mseq=W00618-TV_PRO_BB-2",
+      "upcoming_products": [
+        {
+          "name": "죽염담은 녹두삼계탕 1.2kg*7팩 + 인산가 4회 구운 죽염 150g*1통",
+          "price": 69900,
+          "image": "https://asset.m-gs.kr/prod/1127946797/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1127946797&mseq=W00618-TV_PRO-1"
+        },
+        {
+          "name": "간편한 제주 야채찜 30팩",
+          "price": 129000,
+          "image": "https://asset.m-gs.kr/prod/1126246708/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1126246708&mseq=W00618-TV_PRO-2"
+        }
+      ]
+    },
+    {
+      "title": "더컬렉션",
+      "schedule_raw": "매주 토요일 오전 9시 20분",
+      "desc": "프리미엄 편집샵 더 컬렉션",
+      "thumbnail": "https://static.m-gs.kr/planprd/banner_NEW_SUB/906461584_01.png",
+      "detail_link": "https://m.gsshop.com/section/broad/specialPgm/13136?mseq=W00618-TV_PRO_BB-3",
+      "upcoming_products": [
+        {
+          "name": "26S/S 린넨 시어 가디건 3종",
+          "price": 69900,
+          "image": "https://asset.m-gs.kr/prod/1110710978/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1110710978&mseq=W00618-TV_PRO-1"
+        },
+        {
+          "name": "26SS 핸드크리즈 플리츠 원피스",
+          "price": 99900,
+          "image": "https://asset.m-gs.kr/prod/1106211424/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1106211424&mseq=W00618-TV_PRO-2"
+        }
+      ]
+    },
+    {
+      "title": "쇼미더트렌드",
+      "schedule_raw": "매주 토요일 밤 9시 35분",
+      "desc": "트렌드를 스타일링하다, SHOW ME THE TREND",
+      "thumbnail": "https://static.m-gs.kr/planprd/banner_NEW_SUB/907067613_01.jpg",
+      "detail_link": "https://m.gsshop.com/section/broad/specialPgm/11670?mseq=W00618-TV_PRO_BB-4",
+      "upcoming_products": [
+        {
+          "name": "26SS 스티치 포인트 버뮤다 데님 1종",
+          "price": 59900,
+          "image": "https://asset.m-gs.kr/prod/1104822074/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1104822074&mseq=W00618-TV_PRO-1"
+        },
+        {
+          "name": "26SS크리즈 셋업 3PCS (재킷+팬츠+원피스) [런칭 가격 79,900원]",
+          "price": 59900,
+          "image": "https://asset.m-gs.kr/prod/1107884161/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1107884161&mseq=W00618-TV_PRO-2"
+        }
+      ]
+    },
+    {
+      "title": "신상뷰티찬스",
+      "schedule_raw": "격주 토요일 낮 11시 50분",
+      "desc": "지금 핫한 뷰티 신상 이찬석 PICK 신상뷰티",
+      "thumbnail": "https://static.m-gs.kr/planprd/banner_NEW_SUB/925186200_01.jpg",
+      "detail_link": "https://m.gsshop.com/section/broad/specialPgm/13428?mseq=W00618-TV_PRO_BB-5",
+      "upcoming_products": [
+        {
+          "name": "리프투글로우",
+          "price": 899000,
+          "image": "https://asset.m-gs.kr/prod/1123554209/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1123554209&mseq=W00618-TV_PRO-1"
+        },
+        {
+          "name": "[메디큐브] 부스터프로 시즌2 찬스쇼 단독 런칭 (핑크)",
+          "price": 399000,
+          "image": "https://asset.m-gs.kr/prod/1117330943/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1117330943&mseq=W00618-TV_PRO-2"
+        }
+      ]
+    },
+    {
+      "title": "스타일나우; 더 김동은",
+      "schedule_raw": "매주 화요일 오전 8시 15분",
+      "desc": "당신만의 퍼스널쇼퍼 더 김동은",
+      "thumbnail": "https://static.m-gs.kr/planprd/banner_NEW_SUB/900413935_01.jpg",
+      "detail_link": "https://m.gsshop.com/section/broad/specialPgm/13422?mseq=W00618-TV_PRO_BB-6",
+      "upcoming_products": [
+        {
+          "name": "ELLE 티타늄 오픈 선글라스 EL3005",
+          "price": 49800,
+          "image": "https://asset.m-gs.kr/prod/1126830667/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1126830667&mseq=W00618-TV_PRO-1"
+        },
+        {
+          "name": "린넨 2pcs 베스트+팬츠[런칭 가격 89,900원]",
+          "price": 69900,
+          "image": "https://asset.m-gs.kr/prod/1104436284/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1104436284&mseq=W00618-TV_PRO-2"
+        }
+      ]
+    },
+    {
+      "title": "이진아 셀렉션",
+      "schedule_raw": "월요일 오전 8시 15분",
+      "desc": "이진아의 큐레이션 럭셔리 셀렉샵",
+      "thumbnail": "https://static.m-gs.kr/planprd/banner_NEW_SUB/907015613_01.jpg",
+      "detail_link": "https://m.gsshop.com/section/broad/specialPgm/13435?mseq=W00618-TV_PRO_BB-7",
+      "upcoming_products": [
+        {
+          "name": "26SS 셔링 경량 블라우스 3종[런칭 가격 79,900원]",
+          "price": 59900,
+          "image": "https://asset.m-gs.kr/prod/1102027541/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1102027541&mseq=W00618-TV_PRO-1"
+        },
+        {
+          "name": "25FW 무스탕 하프코트 1종",
+          "price": 1399000,
+          "image": "https://asset.m-gs.kr/prod/1093853850/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1093853850&mseq=W00618-TV_PRO-2"
+        }
+      ]
+    },
+    {
+      "title": "지금 여행",
+      "schedule_raw": "매주 일요일 저녁",
+      "desc": "한 차원 높은 프리미엄 여행 큐레이션",
+      "thumbnail": "https://static.m-gs.kr/planprd/banner_NEW_SUB/907015620_01.jpg",
+      "detail_link": "https://m.gsshop.com/section/broad/specialPgm/13447?mseq=W00618-TV_PRO_BB-8",
+      "upcoming_products": [
+        {
+          "name": "[교원투어 여행이지] 뉴질랜드 남/북섬 + 호주 10일&13일. 대한항공. NO 선택관광. NO 환율추가금",
+          "price": 3699000,
+          "image": "https://asset.m-gs.kr/prod/1126756704/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1126756704&mseq=W00618-TV_PRO-1"
+        }
+      ]
+    }
+  ]
 }

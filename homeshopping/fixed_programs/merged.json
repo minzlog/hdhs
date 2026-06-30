@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-06-30T06:10:02.215540+09:00",
+  "collectedAt": "2026-07-01T06:15:53.891694+09:00",
   "companies": [
     "HD",
     "GS",
@@ -7,6 +7,29 @@
     "LT"
   ],
   "slots": [
+    {
+      "company": "GS",
+      "day": "월",
+      "time": "08:15",
+      "title": "이진아 셀렉션",
+      "schedule_raw": "월요일 오전 8시 15분",
+      "thumbnail": "https://static.m-gs.kr/planprd/banner_NEW_SUB/907015613_01.jpg",
+      "detail_link": "https://m.gsshop.com/section/broad/specialPgm/13435?mseq=W00618-TV_PRO_BB-7",
+      "upcoming_products": [
+        {
+          "name": "26SS 셔링 경량 블라우스 3종[런칭 가격 79,900원]",
+          "price": 59900,
+          "image": "https://asset.m-gs.kr/prod/1102027541/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1102027541&mseq=W00618-TV_PRO-1"
+        },
+        {
+          "name": "25FW 무스탕 하프코트 1종",
+          "price": 1399000,
+          "image": "https://asset.m-gs.kr/prod/1093853850/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1093853850&mseq=W00618-TV_PRO-2"
+        }
+      ]
+    },
     {
       "company": "CJ",
       "day": "월",
@@ -17,16 +40,16 @@
       "detail_link": "https://display.cjonstyle.com/m/pgmShop/100021",
       "upcoming_products": [
         {
-          "name": "1-1 센존 블루라벨  26SS 이태리 큐브백",
-          "price": 389000,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/374/2078800374L.jpg?timestamp=20260212175535",
-          "link": "https://display.cjonstyle.com/m/item/2078800374?channelCode=30002002"
+          "name": "벨루엔 우양산 세트",
+          "price": 79000,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/362/2085438362L.jpg?timestamp=20260619170227",
+          "link": "https://display.cjonstyle.com/m/item/2085438362?channelCode=30002002"
         },
         {
-          "name": "고칼슘 서리태 맷돌 두유 4박스 80팩",
-          "price": 80900,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/724/2072099724L.jpg?timestamp=20260331140719",
-          "link": "https://display.cjonstyle.com/m/item/2072099724?channelCode=30002002"
+          "name": "26SS 저온스 루즈핏 쿨데님 여성용",
+          "price": 49900,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/581/2081636581L.jpg?timestamp=20260507162001",
+          "link": "https://display.cjonstyle.com/m/item/2081636581?channelCode=30002002"
         }
       ]
     },
@@ -54,6 +77,29 @@
       ]
     },
     {
+      "company": "GS",
+      "day": "화",
+      "time": "08:15",
+      "title": "스타일나우; 더 김동은",
+      "schedule_raw": "매주 화요일 오전 8시 15분",
+      "thumbnail": "https://static.m-gs.kr/planprd/banner_NEW_SUB/900413935_01.jpg",
+      "detail_link": "https://m.gsshop.com/section/broad/specialPgm/13422?mseq=W00618-TV_PRO_BB-6",
+      "upcoming_products": [
+        {
+          "name": "ELLE 티타늄 오픈 선글라스 EL3005",
+          "price": 49800,
+          "image": "https://asset.m-gs.kr/prod/1126830667/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1126830667&mseq=W00618-TV_PRO-1"
+        },
+        {
+          "name": "린넨 2pcs 베스트+팬츠[런칭 가격 89,900원]",
+          "price": 69900,
+          "image": "https://asset.m-gs.kr/prod/1104436284/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1104436284&mseq=W00618-TV_PRO-2"
+        }
+      ]
+    },
+    {
       "company": "LT",
       "day": "화",
       "time": "19:00",
@@ -71,20 +117,7 @@
       "schedule_raw": "매주 화요일 19시 30분",
       "thumbnail": "https://image.hmall.com/MH/HM005_SL/20260618/090343/disp3059445085416.jpg",
       "detail_link": "https://www.hmall.com/md/dpa/pgmComm?sectId=3094172",
-      "upcoming_products": [
-        {
-          "name": "[까사무띠] 더블월 글라스 세트 10P",
-          "price": 89000,
-          "image": "https://image.hmall.com/2233415279_0.jpg",
-          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2233415279"
-        },
-        {
-          "name": "[방송에서만 이가격]자담치킨 맵쏘이킥 윙봉치킨 매콤간장맛 총10팩",
-          "price": 59900,
-          "image": "https://image.hmall.com/2251641700_0.jpg",
-          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251641700"
-        }
-      ]
+      "upcoming_products": []
     },
     {
       "company": "HD",
@@ -96,16 +129,16 @@
       "detail_link": "https://www.hmall.com/md/dpa/pgmComm?sectId=2718261",
       "upcoming_products": [
         {
-          "name": "프리마클라쎄 GEO 프린트 셔츠 1종",
-          "price": 109000,
-          "image": "https://image.hmall.com/2250581411_0.jpg",
-          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250581411"
+          "name": "올라카일리 26SS 식스티 stem 백팩 1종",
+          "price": 129000,
+          "image": "https://image.hmall.com/2251186493_0.jpg",
+          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251186493"
         },
         {
-          "name": "프리마클라쎄 플루이드 이지 팬츠 1종",
-          "price": 109000,
-          "image": "https://image.hmall.com/2248732910_0.jpg",
-          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248732910"
+          "name": "올라카일리 26SS 코튼120수 위켄드 블라우스 1종",
+          "price": 79000,
+          "image": "https://image.hmall.com/2250600407_0.jpg",
+          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250600407"
         }
       ]
     },
@@ -129,16 +162,16 @@
       "detail_link": "https://www.hmall.com/md/dpa/pgmComm?sectId=2718248",
       "upcoming_products": [
         {
-          "name": "[빅히트 재입고] 아이그너 26SS 심볼 프린트 티셔츠",
-          "price": 99000,
-          "image": "https://image.hmall.com/2249206353_0.jpg",
-          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249206353"
+          "name": "마크제이콥스 미디움 백팩",
+          "price": 279000,
+          "image": "https://image.hmall.com/2236146509_0.jpg",
+          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2236146509"
         },
         {
-          "name": "아이그너 26SS 심볼 플리츠 배색 슬리브리스 탑",
-          "price": 99000,
-          "image": "https://image.hmall.com/2249665580_0.jpg",
-          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249665580"
+          "name": "버버리 다이아몬드 체크 실크 스카프",
+          "price": 329000,
+          "image": "https://image.hmall.com/2244338911_0.jpg",
+          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2244338911"
         }
       ]
     },
@@ -152,22 +185,40 @@
       "detail_link": "https://www.lotteimall.com/contstmpl/viewContsTmplDetail.lotte?conts_no=417",
       "upcoming_products": [
         {
-          "name": "[주문1]트리플 올리브캡슐 10개월분(총312포, 12박스+방송에서만 1박스)+쇼핑백 대사이즈 2매",
-          "price": 278000,
-          "image": "https://image2.lotteimall.com/goods/72/17/91/12911772_3.jpg/dims/resizemc/640x360/optimize",
-          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911772"
+          "name": "[유리네 단독조건](19+6형) 삼성 AI 에어컨 무풍클래식 홈멀티[AF70F19D11BRT](기본설치비 포함)",
+          "price": 2279000,
+          "image": "https://image2.lotteimall.com/goods/91/24/91/12912491_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12912491"
         },
         {
-          "name": "[주문2]트리플 올리브캡슐 5개월분(총168포)+쇼핑백 대사이즈 1매",
-          "price": 178000,
-          "image": "https://image2.lotteimall.com/goods/73/17/91/12911773_3.jpg/dims/resizemc/640x360/optimize",
-          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911773"
+          "name": "[유리네 단독조건](17+6형) 삼성 AI 에어컨 무풍클래식 홈멀티[AF70F17D11BRT](기본설치비 포함)",
+          "price": 2179000,
+          "image": "https://image2.lotteimall.com/goods/97/24/91/12912497_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12912497"
         },
         {
-          "name": "[주문3]트리플 올리브캡슐 패밀리구성 16개월분(총504포, 19박스+방송에서만 2박스)+쇼핑백 대사이즈 3매",
-          "price": 429000,
-          "image": "https://image2.lotteimall.com/goods/74/17/91/12911774_3.jpg/dims/resizemc/640x360/optimize",
-          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911774"
+          "name": "[유리네 단독조건](19형) 삼성 비스포크 에어컨 무풍 클래식 스탠드형 [AF70F19D11BT] (기본설치비 포함)(리모콘 포함)",
+          "price": 1879000,
+          "image": "https://image2.lotteimall.com/goods/12/25/91/12912512_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12912512"
+        },
+        {
+          "name": "[유리네 단독조건](17형) 삼성 비스포크 에어컨 무풍 클래식 스탠드형 [AF70F17D11BT] (기본설치비 포함)(리모콘 포함)",
+          "price": 1779000,
+          "image": "https://image2.lotteimall.com/goods/19/25/91/12912519_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12912519"
+        },
+        {
+          "name": "[위바이옴] [더블] NEW 두뇌엔 닥터 PS 맥스 (2g*30포*6박스)",
+          "price": 356000,
+          "image": "https://image2.lotteimall.com/goods/22/38/90/12903822_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12903822"
+        },
+        {
+          "name": "[위바이옴] [싱글] NEW 두뇌엔 닥터 PS 맥스 (2g*30포*3박스)",
+          "price": 198000,
+          "image": "https://image2.lotteimall.com/goods/24/38/90/12903824_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12903824"
         }
       ]
     },
@@ -187,7 +238,7 @@
           "link": "https://display.cjonstyle.com/m/item/2087721306?channelCode=30002002"
         },
         {
-          "name": "[최화정쇼]초강력세트 자석밀대+워터포 리필4통+일렉포 리필2통",
+          "name": "[최화정쇼]초강력세트 자석밀대+워터포 리필5통+일렉포 리필2통",
           "price": 89900,
           "image": "https://itemimage.cjonstyle.net/goods_images/20/297/2084943297L.jpg?timestamp=20260624205003",
           "link": "https://display.cjonstyle.com/m/item/2084943297?channelCode=30002002"
@@ -235,7 +286,7 @@
         },
         {
           "name": "[골드에이스앤코] 24K 순금 피오레 클로버 목걸이 S + 24K 순금 클로버 골드1종",
-          "price": 629100,
+          "price": 699000,
           "image": "https://image2.lotteimall.com/goods/65/03/91/12910365_1.jpg/dims/resizemc/640x360/optimize",
           "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12910365"
         },
@@ -253,21 +304,39 @@
         },
         {
           "name": "[골드에이스앤코] 24K 순금 시그니처 볼륨반지 싱글 세트 + 24K 순금 클로버 골드 1종",
-          "price": 509150,
+          "price": 599000,
           "image": "https://image2.lotteimall.com/goods/80/74/90/12907480_1.jpg/dims/resizemc/640x360/optimize",
           "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12907480"
         },
         {
+          "name": "[지지피엑스] 26SS 텐션업 썸머 셋업 3종",
+          "price": 42410,
+          "image": "https://image2.lotteimall.com/goods/97/57/90/12905797_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12905797"
+        },
+        {
           "name": "[베네통] 샤인스톤 쥬얼 샌들",
-          "price": 63200,
+          "price": 79000,
           "image": "https://image2.lotteimall.com/goods/55/61/90/12906155_1.jpg/dims/resizemc/640x360/optimize",
           "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12906155"
         },
         {
           "name": "[베네통] 쿨에어 메리제인 스니커즈",
-          "price": 79200,
+          "price": 79000,
           "image": "https://image2.lotteimall.com/goods/30/39/90/12903930_1.jpg/dims/resizemc/640x360/optimize",
           "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12903930"
+        },
+        {
+          "name": "[팬암] 팬암 26SS 여성 반팔티셔츠 4종",
+          "price": 49000,
+          "image": "https://image2.lotteimall.com/goods/40/96/89/12899640_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12899640"
+        },
+        {
+          "name": "[팬암] 팬암 26SS 남성 반팔티셔츠 4종",
+          "price": 49000,
+          "image": "https://image2.lotteimall.com/goods/22/97/89/12899722_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12899722"
         },
         {
           "name": "[덴마크 유산균이야기] 방송에서만! 가장 저렴하게! 덴프스 덴마크 유산균이야기 우먼 6병(12개월분)",
@@ -305,26 +374,56 @@
       "detail_link": "https://www.lotteimall.com/contstmpl/viewContsTmplDetail.lotte?conts_no=1168",
       "upcoming_products": [
         {
+          "name": "[아쿠아리모네] 아쿠아리모네 26SS 여성 피그먼트 원피스",
+          "price": 69900,
+          "image": "https://image2.lotteimall.com/goods/79/14/91/12911479_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911479"
+        },
+        {
+          "name": "[조르쥬 레쉬] 26SS 코튼 블렌딩 헨리넥 캡슬리브 탑 5종",
+          "price": 69900,
+          "image": "https://image2.lotteimall.com/goods/41/77/90/12907741_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12907741"
+        },
+        {
           "name": "[트루릴리전] 트루릴리전 26SS 여성 데님 하프 셋업 2종",
-          "price": 69000,
+          "price": 58650,
           "image": "https://image2.lotteimall.com/goods/45/59/90/12905945_1.jpg/dims/resizemc/640x360/optimize",
           "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12905945"
         },
         {
+          "name": "[아쿠아리모네] 아쿠아리모네 26SS 여성 리오셀 블렌디드 플리츠 데님 팬츠",
+          "price": 69900,
+          "image": "https://image2.lotteimall.com/goods/76/14/91/12911476_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911476"
+        },
+        {
+          "name": "[조르쥬 레쉬] 26SS 썸머 9부 배럴 팬츠 3종 (G6CBW)",
+          "price": 59900,
+          "image": "https://image2.lotteimall.com/goods/19/30/90/12903019_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12903019"
+        },
+        {
           "name": "[트루릴리전] 트루릴리전 26SS 남성 데님 하프 셋업 2종",
-          "price": 69000,
+          "price": 58650,
           "image": "https://image2.lotteimall.com/goods/47/59/90/12905947_1.jpg/dims/resizemc/640x360/optimize",
           "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12905947"
         },
         {
           "name": "[트루릴리전] 트루릴리전 26SS 여성 세미오버핏 그래픽 티셔츠 4종",
-          "price": 69000,
+          "price": 50150,
           "image": "https://image2.lotteimall.com/goods/48/31/90/12903148_1.jpg/dims/resizemc/640x360/optimize",
           "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12903148"
         },
         {
+          "name": "[아쿠아리모네] 아쿠아리모네 26SS 여성 썸머 빈티지 니트 베스트",
+          "price": 59900,
+          "image": "https://image2.lotteimall.com/goods/77/14/91/12911477_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911477"
+        },
+        {
           "name": "[트루릴리전] 트루릴리전 26SS 남성 세미오버핏 그래픽 티셔츠 4종",
-          "price": 69000,
+          "price": 50150,
           "image": "https://image2.lotteimall.com/goods/50/31/90/12903150_1.jpg/dims/resizemc/640x360/optimize",
           "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12903150"
         }
@@ -341,7 +440,7 @@
       "upcoming_products": [
         {
           "name": "24K 클로버 볼 더블 반지",
-          "price": 499000,
+          "price": 489000,
           "image": "https://itemimage.cjonstyle.net/goods_images/20/221/2083437221L.jpg?timestamp=20260508152550",
           "link": "https://display.cjonstyle.com/m/item/2083437221?channelCode=30002002"
         },
@@ -403,22 +502,52 @@
       "detail_link": "https://www.lotteimall.com/contstmpl/viewContsTmplDetail.lotte?conts_no=1149",
       "upcoming_products": [
         {
-          "name": "[유난희쇼 단독패키지] 모아도 제습제 300G 9입 + 600G 2입",
+          "name": "[TV홈쇼핑단독최초] 우롱차향 힐링 고체탈취제 6개 + 무화과 샤쉐 2개",
+          "price": 99000,
+          "image": "https://image2.lotteimall.com/goods/28/98/90/12909828_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12909828"
+        },
+        {
+          "name": "[샤쉐패키지] 무화과 샤쉐 15개",
+          "price": 49900,
+          "image": "https://image2.lotteimall.com/goods/63/20/91/12912063_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12912063"
+        },
+        {
+          "name": "[한정더블세트] 우롱차향 힐링 고체탈취제 12개 + 무화과 샤쉐 4개",
+          "price": 198000,
+          "image": "https://image2.lotteimall.com/goods/58/20/91/12912058_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12912058"
+        },
+        {
+          "name": "[유난희쇼 단독패키지] 반영구 제습제 모아도 300G 9입 + 600G 2입",
           "price": 79900,
           "image": "https://image2.lotteimall.com/goods/10/13/91/12911310_1.jpg/dims/resizemc/640x360/optimize",
           "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911310"
         },
         {
-          "name": "[대용량 패키지] 모아도 제습제 600G 8입",
+          "name": "[대용량 패키지] 반영구 제습제 모아도 600G 8입",
           "price": 99000,
           "image": "https://image2.lotteimall.com/goods/78/19/91/12911978_1.jpg/dims/resizemc/640x360/optimize",
           "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911978"
         },
         {
-          "name": "[기본 패키지] 모아도 제습제 300G 4입 + 600G 2입",
+          "name": "[기본 패키지] 반영구 제습제 모아도 300G 4입 + 600G 2입",
           "price": 59900,
           "image": "https://image2.lotteimall.com/goods/11/13/91/12911311_1.jpg/dims/resizemc/640x360/optimize",
           "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911311"
+        },
+        {
+          "name": "[에버봄] 유난희 패키지 방송에서만 1박스 더! 에버봄 노르딕 빌베리 퓨레 6+1박스(30g*12포*7박스)",
+          "price": 175000,
+          "image": "https://image2.lotteimall.com/goods/33/24/91/12912433_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12912433"
+        },
+        {
+          "name": "[더블] 에버봄 노르딕 빌베리 퓨레 14박스(30g*12포*14박스)",
+          "price": 337000,
+          "image": "https://image2.lotteimall.com/goods/57/24/91/12912457_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12912457"
         }
       ]
     },
@@ -443,27 +572,33 @@
       "upcoming_products": [
         {
           "name": "[플리츠미] 26SS 플리츠 스퀘어넥 롱 원피스(원피스+이너슬립)",
-          "price": 84150,
+          "price": 99000,
           "image": "https://image2.lotteimall.com/goods/01/21/90/12902101_1.jpg/dims/resizemc/640x360/optimize",
           "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12902101"
         },
         {
           "name": "[플리츠미] 26SS 플리츠 메쉬 브이넥 가디건",
-          "price": 67150,
+          "price": 79000,
           "image": "https://image2.lotteimall.com/goods/17/21/90/12902117_1.jpg/dims/resizemc/640x360/optimize",
           "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12902117"
         },
         {
           "name": "[플리츠미] 26SS NEW 시그니처 에어리 플리츠 후드 집업",
-          "price": 67150,
+          "price": 79000,
           "image": "https://image2.lotteimall.com/goods/77/11/89/12891177_1.jpg/dims/resizemc/640x360/optimize",
           "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12891177"
         },
         {
           "name": "[플리츠미] 26SS 플리츠 웨이브 퍼프 블라우스 2종",
-          "price": 75650,
+          "price": 89000,
           "image": "https://image2.lotteimall.com/goods/86/49/89/12894986_1.jpg/dims/resizemc/640x360/optimize",
           "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12894986"
+        },
+        {
+          "name": "[플리츠미] 플리츠 투티어드 와이드 팬츠",
+          "price": 79000,
+          "image": "https://image2.lotteimall.com/goods/27/66/86/12866627_4.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12866627"
         }
       ]
     },
@@ -477,16 +612,39 @@
       "detail_link": "https://display.cjonstyle.com/m/pgmShop/563049",
       "upcoming_products": [
         {
-          "name": "핀란드 야생빌베리 NFC 100 12박스",
+          "name": "[동가게] 핀란드 야생빌베리 NFC 100 13박스",
           "price": 169000,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/472/2087737472L.jpg?timestamp=20260629132055",
-          "link": "https://display.cjonstyle.com/m/item/2087737472?channelCode=30002002"
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/647/2087737647L.jpg?timestamp=20260629150401",
+          "link": "https://display.cjonstyle.com/m/item/2087737647?channelCode=30002002"
         },
         {
           "name": "925실버 파베볼 목걸이",
           "price": 139900,
           "image": "https://itemimage.cjonstyle.net/goods_images/20/943/2082265943L.jpg?timestamp=20260620132754",
           "link": "https://display.cjonstyle.com/m/item/2082265943?channelCode=30002002"
+        }
+      ]
+    },
+    {
+      "company": "GS",
+      "day": "목",
+      "time": "20:45",
+      "title": "지금 백지연",
+      "schedule_raw": "매주 목요일 저녁 8시 45분",
+      "thumbnail": "https://static.m-gs.kr/planprd/banner_NEW_SUB/832708554_01.png",
+      "detail_link": "https://m.gsshop.com/section/broad/specialPgm/13437?mseq=W00618-TV_PRO_BB-1",
+      "upcoming_products": [
+        {
+          "name": "100% 토마토 착즙 주스 72팩 200ml (백지연 PICK)",
+          "price": 70900,
+          "image": "https://asset.m-gs.kr/prod/1087081310/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1087081310&mseq=W00618-TV_PRO-1"
+        },
+        {
+          "name": "시그니처 플러스 샤워기 1개+시그니처 샤워기1개+탄소리필필터 3팩(바디 9개+ 헤드9개)+여행용 세트 + 리필필터 1팩(바디2개+헤드2개)",
+          "price": 104000,
+          "image": "https://asset.m-gs.kr/prod/1127930263/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1127930263&mseq=W00618-TV_PRO-2"
         }
       ]
     },
@@ -506,10 +664,16 @@
           "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12863888"
         },
         {
-          "name": "[롯데호텔서울] 방송에서만 롯데호텔 배추김치 7kg x 2세트",
-          "price": 128800,
-          "image": "https://image2.lotteimall.com/goods/65/67/90/12906765_1.jpg/dims/resizemc/640x360/optimize",
-          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12906765"
+          "name": "[롯데호텔서울] 최유라쇼 롯데호텔 배추김치 4kg + 열무김치 3kg",
+          "price": 79000,
+          "image": "https://image2.lotteimall.com/goods/48/22/91/12912248_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12912248"
+        },
+        {
+          "name": "[롯데호텔서울] 최유라쇼 롯데호텔 배추김치 7kg",
+          "price": 66400,
+          "image": "https://image2.lotteimall.com/goods/06/79/86/12867906_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12867906"
         },
         {
           "name": "[최유라쇼 한정물량] 콘덴스 제습건조기 ELD Plus +[특별구성] 전용 호스세트 2종",
@@ -542,6 +706,12 @@
           "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12909163"
         },
         {
+          "name": "[밥스누] 서울대 밥스누 약콩 프로틴바 35 g X 10 ea X 4박스 ",
+          "price": 59900,
+          "image": "https://image2.lotteimall.com/goods/50/37/89/12893750_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12893750"
+        },
+        {
           "name": "[명예의 전당]프란치 빌라마그라+비올라 콜레루이타+콰트로치오키 올리바스트로+보나미니 발폴리첼라 500ml 총 4병 ",
           "price": 199000,
           "image": "https://image2.lotteimall.com/goods/54/01/90/12900154_1.jpg/dims/resizemc/640x360/optimize",
@@ -552,6 +722,18 @@
           "price": 60900,
           "image": "https://image2.lotteimall.com/goods/48/40/83/12834048_1.jpg/dims/resizemc/640x360/optimize",
           "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12834048"
+        },
+        {
+          "name": "[최초가 399,000원] 방송에서만 역대최저가 [더블]덴프스 덴마크 단백질 초이스(20g x 16포 x 12박스)",
+          "price": 299000,
+          "image": "https://image2.lotteimall.com/goods/83/22/91/12912283_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12912283"
+        },
+        {
+          "name": "[덴프스] 방송에서만 이 가격 [싱글]덴프스 덴마크 단백질 초이스(20g x 16포 x 6박스)",
+          "price": 158000,
+          "image": "https://image2.lotteimall.com/goods/73/22/91/12912273_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12912273"
         }
       ]
     },
@@ -565,7 +747,7 @@
       "detail_link": "https://www.hmall.com/md/dpa/pgmComm?sectId=3131034",
       "upcoming_products": [
         {
-          "name": "[JAPAN FABRIC][살안타템] 머티리얼랩 26SS 다이이치오리모노 Cubetex® 레인코트",
+          "name": "[JAPAN FABRIC][살안타템] 머티리얼랩 26SS 다이이치 Cubetex® 웨더 롱 자켓",
           "price": 189000,
           "image": "https://image.hmall.com/2248763709_0.jpg",
           "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248763709"
@@ -619,7 +801,7 @@
         },
         {
           "name": "[골드에이스앤코] 24K 순금 피오레 클로버 목걸이 S + 24K 순금 클로버 골드1종",
-          "price": 629100,
+          "price": 699000,
           "image": "https://image2.lotteimall.com/goods/65/03/91/12910365_1.jpg/dims/resizemc/640x360/optimize",
           "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12910365"
         },
@@ -637,21 +819,39 @@
         },
         {
           "name": "[골드에이스앤코] 24K 순금 시그니처 볼륨반지 싱글 세트 + 24K 순금 클로버 골드 1종",
-          "price": 509150,
+          "price": 599000,
           "image": "https://image2.lotteimall.com/goods/80/74/90/12907480_1.jpg/dims/resizemc/640x360/optimize",
           "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12907480"
         },
         {
+          "name": "[지지피엑스] 26SS 텐션업 썸머 셋업 3종",
+          "price": 42410,
+          "image": "https://image2.lotteimall.com/goods/97/57/90/12905797_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12905797"
+        },
+        {
           "name": "[베네통] 샤인스톤 쥬얼 샌들",
-          "price": 63200,
+          "price": 79000,
           "image": "https://image2.lotteimall.com/goods/55/61/90/12906155_1.jpg/dims/resizemc/640x360/optimize",
           "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12906155"
         },
         {
           "name": "[베네통] 쿨에어 메리제인 스니커즈",
-          "price": 79200,
+          "price": 79000,
           "image": "https://image2.lotteimall.com/goods/30/39/90/12903930_1.jpg/dims/resizemc/640x360/optimize",
           "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12903930"
+        },
+        {
+          "name": "[팬암] 팬암 26SS 여성 반팔티셔츠 4종",
+          "price": 49000,
+          "image": "https://image2.lotteimall.com/goods/40/96/89/12899640_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12899640"
+        },
+        {
+          "name": "[팬암] 팬암 26SS 남성 반팔티셔츠 4종",
+          "price": 49000,
+          "image": "https://image2.lotteimall.com/goods/22/97/89/12899722_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12899722"
         },
         {
           "name": "[덴마크 유산균이야기] 방송에서만! 가장 저렴하게! 덴프스 덴마크 유산균이야기 우먼 6병(12개월분)",
@@ -676,6 +876,29 @@
           "price": 70000,
           "image": "https://image2.lotteimall.com/goods/05/56/90/12905605_1.jpg/dims/resizemc/640x360/optimize",
           "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12905605"
+        }
+      ]
+    },
+    {
+      "company": "GS",
+      "day": "금",
+      "time": "20:35",
+      "title": "소유진쇼",
+      "schedule_raw": "매주 금요일 저녁 8시 35분",
+      "thumbnail": "https://static.m-gs.kr/planprd/banner_NEW_SUB/907067658_01.jpg",
+      "detail_link": "https://m.gsshop.com/section/broad/specialPgm/13401?mseq=W00618-TV_PRO_BB-2",
+      "upcoming_products": [
+        {
+          "name": "죽염담은 녹두삼계탕 1.2kg*7팩 + 인산가 4회 구운 죽염 150g*1통",
+          "price": 69900,
+          "image": "https://asset.m-gs.kr/prod/1127946797/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1127946797&mseq=W00618-TV_PRO-1"
+        },
+        {
+          "name": "간편한 제주 야채찜 30팩",
+          "price": 129000,
+          "image": "https://asset.m-gs.kr/prod/1126246708/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1126246708&mseq=W00618-TV_PRO-2"
         }
       ]
     },
@@ -741,10 +964,16 @@
           "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12863888"
         },
         {
-          "name": "[롯데호텔서울] 방송에서만 롯데호텔 배추김치 7kg x 2세트",
-          "price": 128800,
-          "image": "https://image2.lotteimall.com/goods/65/67/90/12906765_1.jpg/dims/resizemc/640x360/optimize",
-          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12906765"
+          "name": "[롯데호텔서울] 최유라쇼 롯데호텔 배추김치 4kg + 열무김치 3kg",
+          "price": 79000,
+          "image": "https://image2.lotteimall.com/goods/48/22/91/12912248_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12912248"
+        },
+        {
+          "name": "[롯데호텔서울] 최유라쇼 롯데호텔 배추김치 7kg",
+          "price": 66400,
+          "image": "https://image2.lotteimall.com/goods/06/79/86/12867906_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12867906"
         },
         {
           "name": "[최유라쇼 한정물량] 콘덴스 제습건조기 ELD Plus +[특별구성] 전용 호스세트 2종",
@@ -777,6 +1006,12 @@
           "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12909163"
         },
         {
+          "name": "[밥스누] 서울대 밥스누 약콩 프로틴바 35 g X 10 ea X 4박스 ",
+          "price": 59900,
+          "image": "https://image2.lotteimall.com/goods/50/37/89/12893750_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12893750"
+        },
+        {
           "name": "[명예의 전당]프란치 빌라마그라+비올라 콜레루이타+콰트로치오키 올리바스트로+보나미니 발폴리첼라 500ml 총 4병 ",
           "price": 199000,
           "image": "https://image2.lotteimall.com/goods/54/01/90/12900154_1.jpg/dims/resizemc/640x360/optimize",
@@ -787,6 +1022,41 @@
           "price": 60900,
           "image": "https://image2.lotteimall.com/goods/48/40/83/12834048_1.jpg/dims/resizemc/640x360/optimize",
           "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12834048"
+        },
+        {
+          "name": "[최초가 399,000원] 방송에서만 역대최저가 [더블]덴프스 덴마크 단백질 초이스(20g x 16포 x 12박스)",
+          "price": 299000,
+          "image": "https://image2.lotteimall.com/goods/83/22/91/12912283_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12912283"
+        },
+        {
+          "name": "[덴프스] 방송에서만 이 가격 [싱글]덴프스 덴마크 단백질 초이스(20g x 16포 x 6박스)",
+          "price": 158000,
+          "image": "https://image2.lotteimall.com/goods/73/22/91/12912273_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12912273"
+        }
+      ]
+    },
+    {
+      "company": "GS",
+      "day": "토",
+      "time": "09:20",
+      "title": "더컬렉션",
+      "schedule_raw": "매주 토요일 오전 9시 20분",
+      "thumbnail": "https://static.m-gs.kr/planprd/banner_NEW_SUB/906461584_01.png",
+      "detail_link": "https://m.gsshop.com/section/broad/specialPgm/13136?mseq=W00618-TV_PRO_BB-3",
+      "upcoming_products": [
+        {
+          "name": "26S/S 린넨 시어 가디건 3종",
+          "price": 69900,
+          "image": "https://asset.m-gs.kr/prod/1110710978/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1110710978&mseq=W00618-TV_PRO-1"
+        },
+        {
+          "name": "26SS 핸드크리즈 플리츠 원피스",
+          "price": 99900,
+          "image": "https://asset.m-gs.kr/prod/1106211424/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1106211424&mseq=W00618-TV_PRO-2"
         }
       ]
     },
@@ -800,10 +1070,10 @@
       "detail_link": "https://display.cjonstyle.com/m/pgmShop/563049",
       "upcoming_products": [
         {
-          "name": "핀란드 야생빌베리 NFC 100 12박스",
+          "name": "[동가게] 핀란드 야생빌베리 NFC 100 13박스",
           "price": 169000,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/472/2087737472L.jpg?timestamp=20260629132055",
-          "link": "https://display.cjonstyle.com/m/item/2087737472?channelCode=30002002"
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/647/2087737647L.jpg?timestamp=20260629150401",
+          "link": "https://display.cjonstyle.com/m/item/2087737647?channelCode=30002002"
         },
         {
           "name": "925실버 파베볼 목걸이",
@@ -823,16 +1093,16 @@
       "detail_link": "https://www.hmall.com/md/dpa/pgmComm?sectId=2718248",
       "upcoming_products": [
         {
-          "name": "[빅히트 재입고] 아이그너 26SS 심볼 프린트 티셔츠",
-          "price": 99000,
-          "image": "https://image.hmall.com/2249206353_0.jpg",
-          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249206353"
+          "name": "마크제이콥스 미디움 백팩",
+          "price": 279000,
+          "image": "https://image.hmall.com/2236146509_0.jpg",
+          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2236146509"
         },
         {
-          "name": "아이그너 26SS 심볼 플리츠 배색 슬리브리스 탑",
-          "price": 99000,
-          "image": "https://image.hmall.com/2249665580_0.jpg",
-          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249665580"
+          "name": "버버리 다이아몬드 체크 실크 스카프",
+          "price": 329000,
+          "image": "https://image.hmall.com/2244338911_0.jpg",
+          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2244338911"
         }
       ]
     },
@@ -847,6 +1117,29 @@
       "upcoming_products": []
     },
     {
+      "company": "GS",
+      "day": "토",
+      "time": "11:50",
+      "title": "신상뷰티찬스",
+      "schedule_raw": "격주 토요일 낮 11시 50분",
+      "thumbnail": "https://static.m-gs.kr/planprd/banner_NEW_SUB/925186200_01.jpg",
+      "detail_link": "https://m.gsshop.com/section/broad/specialPgm/13428?mseq=W00618-TV_PRO_BB-5",
+      "upcoming_products": [
+        {
+          "name": "리프투글로우",
+          "price": 899000,
+          "image": "https://asset.m-gs.kr/prod/1123554209/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1123554209&mseq=W00618-TV_PRO-1"
+        },
+        {
+          "name": "[메디큐브] 부스터프로 시즌2 찬스쇼 단독 런칭 (핑크)",
+          "price": 399000,
+          "image": "https://asset.m-gs.kr/prod/1117330943/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1117330943&mseq=W00618-TV_PRO-2"
+        }
+      ]
+    },
+    {
       "company": "CJ",
       "day": "토",
       "time": "20:45",
@@ -856,16 +1149,39 @@
       "detail_link": "https://display.cjonstyle.com/m/pgmShop/563883",
       "upcoming_products": [
         {
+          "name": "라지킹_아이스Max 쿨드론 냉감패드 7종 풀패키지T",
+          "price": 159900,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/063/2085134063L.jpg?timestamp=20260521144953",
+          "link": "https://display.cjonstyle.com/m/item/2085134063?channelCode=30002002"
+        },
+        {
           "name": "선일금고 메타셀 메타알레 밀크 40L MC-40",
           "price": 1048000,
           "image": "https://itemimage.cjonstyle.net/goods_images/20/002/2082524002L.jpg?timestamp=20260407112951",
           "link": "https://display.cjonstyle.com/m/item/2082524002?channelCode=30002002"
+        }
+      ]
+    },
+    {
+      "company": "GS",
+      "day": "토",
+      "time": "21:35",
+      "title": "쇼미더트렌드",
+      "schedule_raw": "매주 토요일 밤 9시 35분",
+      "thumbnail": "https://static.m-gs.kr/planprd/banner_NEW_SUB/907067613_01.jpg",
+      "detail_link": "https://m.gsshop.com/section/broad/specialPgm/11670?mseq=W00618-TV_PRO_BB-4",
+      "upcoming_products": [
+        {
+          "name": "26SS 스티치 포인트 버뮤다 데님 1종",
+          "price": 59900,
+          "image": "https://asset.m-gs.kr/prod/1104822074/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1104822074&mseq=W00618-TV_PRO-1"
         },
         {
-          "name": "라지킹_아이스Max 쿨드론 냉감패드 7종 풀패키지",
-          "price": 159900,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/126/2082966126L.jpg?timestamp=20260504090741",
-          "link": "https://display.cjonstyle.com/m/item/2082966126?channelCode=30002002"
+          "name": "26SS크리즈 셋업 3PCS (재킷+팬츠+원피스) [런칭 가격 79,900원]",
+          "price": 59900,
+          "image": "https://asset.m-gs.kr/prod/1107884161/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1107884161&mseq=W00618-TV_PRO-2"
         }
       ]
     },
@@ -879,16 +1195,16 @@
       "detail_link": "https://display.cjonstyle.com/m/pgmShop/562953",
       "upcoming_products": [
         {
-          "name": "25FW 리버시블 후드 숏 무스탕",
-          "price": 1190000,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/119/2073791119L.jpg?timestamp=20251218112203",
-          "link": "https://display.cjonstyle.com/m/item/2073791119?channelCode=30002002"
+          "name": "[최초가59,900원]26SS BCI콤드코튼 포인텔 탑 3종",
+          "price": 39900,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/632/2082675632L.jpg?timestamp=20260424112351",
+          "link": "https://item.cjonstyle.com/celebshop/item/2082675632?channelCode=30002002"
         },
         {
-          "name": "25FW 캐시미어 100 양면 머플러",
-          "price": 69900,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/692/2068291692L.jpg?timestamp=20250915131518",
-          "link": "https://display.cjonstyle.com/m/item/2068291692?channelCode=30002002"
+          "name": "26SS 아트 다잉 티셔츠 3종",
+          "price": 119900,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/329/2081631329L.jpg?timestamp=20260326165615",
+          "link": "https://item.cjonstyle.com/celebshop/item/2081631329?channelCode=30002002"
         }
       ]
     },
@@ -912,22 +1228,40 @@
       "detail_link": "https://www.lotteimall.com/contstmpl/viewContsTmplDetail.lotte?conts_no=417",
       "upcoming_products": [
         {
-          "name": "[주문1]트리플 올리브캡슐 10개월분(총312포, 12박스+방송에서만 1박스)+쇼핑백 대사이즈 2매",
-          "price": 278000,
-          "image": "https://image2.lotteimall.com/goods/72/17/91/12911772_3.jpg/dims/resizemc/640x360/optimize",
-          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911772"
+          "name": "[유리네 단독조건](19+6형) 삼성 AI 에어컨 무풍클래식 홈멀티[AF70F19D11BRT](기본설치비 포함)",
+          "price": 2279000,
+          "image": "https://image2.lotteimall.com/goods/91/24/91/12912491_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12912491"
         },
         {
-          "name": "[주문2]트리플 올리브캡슐 5개월분(총168포)+쇼핑백 대사이즈 1매",
-          "price": 178000,
-          "image": "https://image2.lotteimall.com/goods/73/17/91/12911773_3.jpg/dims/resizemc/640x360/optimize",
-          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911773"
+          "name": "[유리네 단독조건](17+6형) 삼성 AI 에어컨 무풍클래식 홈멀티[AF70F17D11BRT](기본설치비 포함)",
+          "price": 2179000,
+          "image": "https://image2.lotteimall.com/goods/97/24/91/12912497_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12912497"
         },
         {
-          "name": "[주문3]트리플 올리브캡슐 패밀리구성 16개월분(총504포, 19박스+방송에서만 2박스)+쇼핑백 대사이즈 3매",
-          "price": 429000,
-          "image": "https://image2.lotteimall.com/goods/74/17/91/12911774_3.jpg/dims/resizemc/640x360/optimize",
-          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911774"
+          "name": "[유리네 단독조건](19형) 삼성 비스포크 에어컨 무풍 클래식 스탠드형 [AF70F19D11BT] (기본설치비 포함)(리모콘 포함)",
+          "price": 1879000,
+          "image": "https://image2.lotteimall.com/goods/12/25/91/12912512_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12912512"
+        },
+        {
+          "name": "[유리네 단독조건](17형) 삼성 비스포크 에어컨 무풍 클래식 스탠드형 [AF70F17D11BT] (기본설치비 포함)(리모콘 포함)",
+          "price": 1779000,
+          "image": "https://image2.lotteimall.com/goods/19/25/91/12912519_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12912519"
+        },
+        {
+          "name": "[위바이옴] [더블] NEW 두뇌엔 닥터 PS 맥스 (2g*30포*6박스)",
+          "price": 356000,
+          "image": "https://image2.lotteimall.com/goods/22/38/90/12903822_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12903822"
+        },
+        {
+          "name": "[위바이옴] [싱글] NEW 두뇌엔 닥터 PS 맥스 (2g*30포*3박스)",
+          "price": 198000,
+          "image": "https://image2.lotteimall.com/goods/24/38/90/12903824_1.jpg/dims/resizemc/640x360/optimize",
+          "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12903824"
         }
       ]
     },
@@ -990,7 +1324,7 @@
           "link": "https://display.cjonstyle.com/m/item/2079050655?channelCode=30002002"
         },
         {
-          "name": "헐리우드 48시간 8병 + 전용보틀 + 가이드북",
+          "name": "[조윤주Pick] 헐리우드 48시간 8병 + 전용보틀 + 가이드북",
           "price": 159000,
           "image": "https://itemimage.cjonstyle.net/goods_images/20/320/2055769320L.jpg?timestamp=20260619155921",
           "link": "https://display.cjonstyle.com/m/item/2055769320?channelCode=30002002"
@@ -1000,14 +1334,19 @@
   ],
   "unscheduled": [
     {
-      "company": "CJ",
-      "title": "건강 슈퍼히어로",
-      "schedule_raw": "일요일 오전"
+      "company": "GS",
+      "title": "지금 여행",
+      "schedule_raw": "매주 일요일 저녁"
     },
     {
       "company": "CJ",
       "title": "건강이 오네",
       "schedule_raw": "토요일 오전"
+    },
+    {
+      "company": "CJ",
+      "title": "건강 슈퍼히어로",
+      "schedule_raw": "일요일 오전"
     },
     {
       "company": "CJ",
@@ -1021,6 +1360,26 @@
     },
     {
       "company": "LT",
+      "title": "뷰티패스",
+      "schedule_raw": ""
+    },
+    {
+      "company": "LT",
+      "title": "가전패스",
+      "schedule_raw": "6월 매주 목요일"
+    },
+    {
+      "company": "LT",
+      "title": "미숙씨 X 가전 LIVE",
+      "schedule_raw": ""
+    },
+    {
+      "company": "LT",
+      "title": "엘라이브 가구단지",
+      "schedule_raw": "엘단지로 완성하는 우리집 스타일링"
+    },
+    {
+      "company": "LT",
       "title": "섭PD의 어섭쇼!",
       "schedule_raw": ""
     },
@@ -1031,28 +1390,8 @@
     },
     {
       "company": "LT",
-      "title": "뷰티패스",
-      "schedule_raw": ""
-    },
-    {
-      "company": "LT",
-      "title": "미숙씨 X 가전 LIVE",
-      "schedule_raw": ""
-    },
-    {
-      "company": "LT",
       "title": "태윤맘과 맘심톡톡!",
       "schedule_raw": ""
-    },
-    {
-      "company": "LT",
-      "title": "가전패스",
-      "schedule_raw": "6월 매주 목요일"
-    },
-    {
-      "company": "LT",
-      "title": "엘라이브 가구단지",
-      "schedule_raw": "엘단지로 완성하는 우리집 스타일링"
     }
   ]
 }
