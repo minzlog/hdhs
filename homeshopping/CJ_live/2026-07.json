@@ -116,9 +116,9 @@
         "start": "09:20",
         "end": "10:25",
         "brand": "지스튜디오",
-        "product": "26SS 아트 다잉 티셔츠",
-        "price": 119900,
-        "link": "https://display.cjonstyle.com/p/item/2081631329?channelCode=30002002",
+        "product": "26SS 투웨이 아일렛 원피스",
+        "price": 119000,
+        "link": "https://display.cjonstyle.com/p/item/2078630229?channelCode=30002002",
         "category": "의류"
       },
       {
@@ -158,6 +158,15 @@
         "category": "건강식품"
       },
       {
+        "start": "14:35",
+        "end": "15:30",
+        "brand": "라이프밀",
+        "product": "황성주 박사의 라이프 밀 흔들컵1",
+        "price": 249000,
+        "link": "https://display.cjonstyle.com/p/item/2070472670?channelCode=30002002",
+        "category": "건강식품"
+      },
+      {
         "start": "15:30",
         "end": "16:30",
         "brand": "엔알랩",
@@ -188,7 +197,7 @@
         "start": "18:30",
         "end": "19:35",
         "brand": "바바라",
-        "product": "100주년에디션 쿨에어립 퓨징 런닝형 브라팬티 V29",
+        "product": "100주년에디션 쿨에어립 퓨징 런닝후크형 브라팬티 V29",
         "price": 199000,
         "link": "https://display.cjonstyle.com/p/item/2083038502?channelCode=30002002",
         "category": "언더웨어"
@@ -205,20 +214,20 @@
       {
         "start": "20:45",
         "end": "22:55",
-        "brand": "휘슬러",
-        "product": "루나스톤 프라이팬 풀세트",
-        "price": 329000,
-        "link": "https://display.cjonstyle.com/p/item/2087721306?channelCode=30002002",
+        "brand": "호무로",
+        "product": "최화정PICK 슈퍼하이쿨 텐셀리오셀 냉감침구 풀세트_SK.",
+        "price": 249000,
+        "link": "https://display.cjonstyle.com/p/item/2084423544?channelCode=30002002",
         "category": "리빙/주방"
       },
       {
         "start": "22:55",
         "end": "23:55",
         "brand": "",
-        "product": "짐샌더슨 조리도구 키친툴 세트 스푼 국자 스파츄라 뒤집개",
-        "price": 85900,
-        "link": "https://display.cjonstyle.com/p/item/2082444594?channelCode=30002002",
-        "category": "리빙/주방"
+        "product": "짐샌더슨 롤앤고 쇼퍼백 L S 실버 롤링 토트백 카트 바퀴 쇼핑백",
+        "price": 120000,
+        "link": "https://display.cjonstyle.com/p/item/2086286800?channelCode=30002002",
+        "category": "잡화/주얼리"
       },
       {
         "start": "23:55",
@@ -239,15 +248,6 @@
         "price": 109000,
         "link": "https://display.cjonstyle.com/p/item/2031472180?channelCode=30002002",
         "category": "건강식품"
-      },
-      {
-        "start": "01:30",
-        "end": "02:35",
-        "brand": "뮤엘올리바",
-        "product": "스페인 엑스트라버진 올리브오일 5병",
-        "price": 105000,
-        "link": "https://display.cjonstyle.com/p/item/2083808605?channelCode=30002002",
-        "category": "일반식품"
       },
       {
         "start": "02:35",
@@ -275,6 +275,15 @@
         "price": 179000,
         "link": "https://display.cjonstyle.com/p/item/2076950411?channelCode=30002002",
         "category": "잡화/주얼리"
+      },
+      {
+        "start": "03:50",
+        "end": "04:20",
+        "brand": "빈블랑",
+        "product": "빈블랑 모듈 드레스룸 1",
+        "price": 728000,
+        "link": "https://display.cjonstyle.com/p/item/2086286889?channelCode=30002002",
+        "category": "리빙/주방"
       },
       {
         "start": "04:20",
@@ -457,6 +466,15 @@
         "price": 49000,
         "link": "https://display.cjonstyle.com/p/item/2056513339?channelCode=30002002",
         "category": "의류"
+      },
+      {
+        "start": "02:00",
+        "end": "03:00",
+        "brand": "라비오라",
+        "product": "배종옥 레몬꿀팩 레몬허니워시오프팩 타올1매",
+        "price": 99000,
+        "link": "https://display.cjonstyle.com/p/item/2070029628?channelCode=30002002",
+        "category": "미용"
       },
       {
         "start": "03:00",
@@ -677,6 +695,15 @@
         "category": "일반식품"
       },
       {
+        "start": "07:20",
+        "end": "08:20",
+        "brand": "닥터린",
+        "product": "하이퍼셀 대마종자유",
+        "price": 298000,
+        "link": "https://display.cjonstyle.com/p/item/2073740455?channelCode=30002002",
+        "category": "건강식품"
+      },
+      {
         "start": "08:20",
         "end": "10:20",
         "brand": "휘슬러",
@@ -761,13 +788,31 @@
         "start": "22:30",
         "end": "01:00",
         "brand": "셀렙샵에디션",
-        "product": "26SS 루즈핏 멀티 스트라이프 아사셔츠",
-        "price": 69900,
-        "link": "https://display.cjonstyle.com/p/item/2082077114?channelCode=30002002",
+        "product": "26SS BCI콤드코튼 포인텔 탑",
+        "price": 39900,
+        "link": "https://display.cjonstyle.com/p/item/2082675632?channelCode=30002002",
         "category": "의류"
       }
     ],
     "2026-07-05": [
+      {
+        "start": "02:50",
+        "end": "03:05",
+        "brand": "보르고세시아",
+        "product": "26SS 히든 후드 사파리 점퍼",
+        "price": 119000,
+        "link": "https://display.cjonstyle.com/p/item/2077310397?channelCode=30002002",
+        "category": "의류"
+      },
+      {
+        "start": "03:20",
+        "end": "04:30",
+        "brand": "다니엘크레뮤",
+        "product": "26SS 워셔블 쿨맥스® 스트레치 수트",
+        "price": 129000,
+        "link": "https://display.cjonstyle.com/p/item/2081616988?channelCode=30002002",
+        "category": "의류"
+      },
       {
         "start": "05:00",
         "end": "06:00",
@@ -808,9 +853,9 @@
         "start": "08:50",
         "end": "10:00",
         "brand": "주영엔에스",
-        "product": "1등 지성콘드로이친 관절엔 콘드로이친1200",
-        "price": 99000,
-        "link": "https://display.cjonstyle.com/p/item/2010768402?channelCode=30002002",
+        "product": "관절엔 콘드로이친1200",
+        "price": 648000,
+        "link": "https://display.cjonstyle.com/p/item/2081328628?channelCode=30002002",
         "category": "건강식품"
       },
       {
@@ -902,6 +947,89 @@
         "price": 1620000,
         "link": "https://display.cjonstyle.com/p/item/2087658664?channelCode=30002002",
         "category": "가전"
+      }
+    ],
+    "2026-07-06": [
+      {
+        "start": "06:00",
+        "end": "07:15",
+        "brand": "비리빙",
+        "product": "비리빙 허니콤 시스템 압축파우치",
+        "price": 129000,
+        "link": "https://display.cjonstyle.com/p/item/2083652662?channelCode=30002002",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "08:15",
+        "end": "09:20",
+        "brand": "은나노스텝",
+        "product": "다용도500ml 대용량 스프레이건",
+        "price": 89800,
+        "link": "https://display.cjonstyle.com/p/item/2064962209?channelCode=30002002",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "09:20",
+        "end": "11:25",
+        "brand": "",
+        "product": "벨루엔 우양산 세트",
+        "price": 79000,
+        "link": "https://display.cjonstyle.com/p/item/2085438362?channelCode=30002002",
+        "category": "일반식품"
+      },
+      {
+        "start": "11:25",
+        "end": "11:35",
+        "brand": "",
+        "product": "26년 햇 성주참외5kg",
+        "price": 16900,
+        "link": "https://display.cjonstyle.com/p/item/2087570841?channelCode=30002002",
+        "category": "일반식품"
+      },
+      {
+        "start": "12:35",
+        "end": "13:35",
+        "brand": "슬로기",
+        "product": "26SS ZEROFEEL 레이스 브라팬티",
+        "price": 109900,
+        "link": "https://display.cjonstyle.com/p/item/2085510825?channelCode=30002002",
+        "category": "언더웨어"
+      },
+      {
+        "start": "15:30",
+        "end": "16:30",
+        "brand": "레이델",
+        "product": "폴리코사놀5 30정",
+        "price": 499000,
+        "link": "https://display.cjonstyle.com/p/item/2044146981?channelCode=30002002",
+        "category": "건강식품"
+      },
+      {
+        "start": "18:30",
+        "end": "19:35",
+        "brand": "오하루 자연가득",
+        "product": "스페셜 견과 루비에디션 4",
+        "price": 119000,
+        "link": "https://display.cjonstyle.com/p/item/2076464310?channelCode=30002002",
+        "category": "일반식품"
+      },
+      {
+        "start": "19:35",
+        "end": "21:45",
+        "brand": "라로쉐",
+        "product": "프랑스직수입 베르사유 컬렉션 총 22P",
+        "price": 239000,
+        "link": "https://display.cjonstyle.com/p/item/2087724641?channelCode=30002002",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "21:45",
+        "end": "22:55",
+        "brand": "라이나생명",
+        "product": "라이나 생명 새로담는 간편건강보험",
+        "price": 0,
+        "link": "https://display.cjonstyle.com/p/item/2073490212?channelCode=30002002",
+        "category": "보험"
       }
     ]
   }

@@ -6,7 +6,7 @@
     "2026-07-01": [
       {
         "start": "00:38",
-        "end": "01:38",
+        "end": "01:39",
         "brand": "하퍼스바자",
         "product": "하퍼스바자 멜라토닝 글로우크림 기본구성",
         "price": 109000,
@@ -30,7 +30,7 @@
         "brand": "",
         "product": "르까프 26SS 남성 썸머 이지 조거팬츠",
         "price": 59000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126814121&brddate=20260701015500&pgmID=12502&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126814121&brddate=20260702013900&pgmID=12502&ordChannel=WE&tveshop=Y",
         "category": "의류",
         "lavangba_category": "패션의류"
       },
@@ -40,27 +40,37 @@
         "brand": "",
         "product": "엘레강스 파리 SPORT 26SS 여성 시어서커 카라 티셔츠",
         "price": 49000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1125699620&brddate=20260701020000&pgmID=12502&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1125699620&brddate=20260701034200&pgmID=12502&ordChannel=WE&tveshop=Y",
         "category": "의류",
         "lavangba_category": "패션의류"
       },
       {
         "start": "02:05",
-        "end": "02:10",
+        "end": "02:11",
         "brand": "뉴트리코어",
         "product": "뉴트리코어 하이퍼셀 PDRN 젤 크림 패키지",
         "price": 189000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126784324&brddate=20260701020500&pgmID=6737&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126784324&brddate=20260701034700&pgmID=6737&ordChannel=WE&tveshop=Y",
         "category": "미용",
         "lavangba_category": "화장품/미용"
       },
       {
+        "start": "02:10",
+        "end": "02:15",
+        "brand": "락앤락",
+        "product": "락앤락 스마트킵 프래쉬 패키지",
+        "price": 49800,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1114518634&brddate=20260701035300&pgmID=6995&ordChannel=WE&tveshop=Y",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
         "start": "02:15",
-        "end": "02:30",
+        "end": "02:31",
         "brand": "모르간",
         "product": "모르간 26SS 플루이드 밴딩팬츠",
         "price": 89900,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1105961989&brddate=20260701021500&pgmID=13307&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1105961989&brddate=20260701035800&pgmID=13307&ordChannel=WE&tveshop=Y",
         "category": "의류",
         "lavangba_category": "패션의류"
       },
@@ -76,7 +86,7 @@
       },
       {
         "start": "02:51",
-        "end": "03:11",
+        "end": "03:12",
         "brand": "베네통",
         "product": "베네통 26SS 소프트 골지 퓨징 브라탑 3종세트",
         "price": 59900,
@@ -110,7 +120,7 @@
         "brand": "",
         "product": "르까프 26SS 남성 썸머 이지 조거팬츠",
         "price": 59000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126814121&brddate=20260701015500&pgmID=12502&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126814121&brddate=20260702013900&pgmID=12502&ordChannel=WE&tveshop=Y",
         "category": "의류",
         "lavangba_category": "패션의류"
       },
@@ -120,19 +130,29 @@
         "brand": "",
         "product": "엘레강스 파리 SPORT 26SS 여성 시어서커 카라 티셔츠",
         "price": 49000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1125699620&brddate=20260701020000&pgmID=12502&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1125699620&brddate=20260701034200&pgmID=12502&ordChannel=WE&tveshop=Y",
         "category": "의류",
         "lavangba_category": "패션의류"
       },
       {
         "start": "03:47",
-        "end": "03:52",
+        "end": "03:53",
         "brand": "뉴트리코어",
         "product": "뉴트리코어 하이퍼셀 PDRN 젤 크림 패키지",
         "price": 189000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126784324&brddate=20260701020500&pgmID=6737&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126784324&brddate=20260701034700&pgmID=6737&ordChannel=WE&tveshop=Y",
         "category": "미용",
         "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "03:53",
+        "end": "03:58",
+        "brand": "락앤락",
+        "product": "락앤락 스마트킵 프래쉬 패키지",
+        "price": 49800,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1114518634&brddate=20260701035300&pgmID=6995&ordChannel=WE&tveshop=Y",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
       },
       {
         "start": "03:58",
@@ -140,13 +160,13 @@
         "brand": "모르간",
         "product": "모르간 26SS 플루이드 밴딩팬츠",
         "price": 89900,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1105961989&brddate=20260701021500&pgmID=13307&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1105961989&brddate=20260701035800&pgmID=13307&ordChannel=WE&tveshop=Y",
         "category": "의류",
         "lavangba_category": "패션의류"
       },
       {
         "start": "04:13",
-        "end": "04:33",
+        "end": "04:34",
         "brand": "",
         "product": "26신상 조아하다 프리사이즈 플리츠 상하의",
         "price": 39900,
@@ -156,10 +176,10 @@
       },
       {
         "start": "04:34",
-        "end": "04:54",
+        "end": "04:55",
         "brand": "올레비다",
         "product": "올레비다 AOP인증 프랑스 산도0.21 냉압착 엑스트라버진 올리브유 고함량 폴리페놀 올리브오일",
-        "price": 69900,
+        "price": 59900,
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1103102021&brddate=20260701043400&pgmID=6997&ordChannel=WE&tveshop=Y",
         "category": "일반식품",
         "lavangba_category": "식품"
@@ -169,7 +189,7 @@
         "end": "05:15",
         "brand": "베네통",
         "product": "베네통 26SS 남여공용 시그니처 반팔 티셔츠 5종세트",
-        "price": 79900,
+        "price": 69900,
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1108228116&brddate=20260704035300&pgmID=6753&ordChannel=WE&tveshop=Y",
         "category": "의류",
         "lavangba_category": "패션의류"
@@ -186,11 +206,11 @@
       },
       {
         "start": "05:55",
-        "end": "06:35",
+        "end": "06:36",
         "brand": "습기제로",
         "product": "NEW 대용량 제습제",
         "price": 39900,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1053837358&brddate=20260701055500&pgmID=6742&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1053837358&brddate=20260706055500&pgmID=6742&ordChannel=WE&tveshop=Y",
         "category": "리빙/주방",
         "lavangba_category": "생활/건강"
       },
@@ -200,7 +220,7 @@
         "brand": "덴프스",
         "product": "덴프스 트루바이타민 올인원 멀티비타민 루테인 밀크씨슬",
         "price": 278000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1100912130&brddate=20260701063600&pgmID=13352&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1100912130&brddate=20260706123600&pgmID=13352&ordChannel=WE&tveshop=Y",
         "category": "건강식품",
         "lavangba_category": "식품"
       },
@@ -247,10 +267,10 @@
       {
         "start": "11:36",
         "end": "12:36",
-        "brand": "삼성",
-        "product": "삼성 비스포크 AI 무풍클래식 에어컨 AF70F19D11GRT 19 6형 홈멀티",
-        "price": 2749000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1110346585&brddate=20260701113600&pgmID=6589&ordChannel=WE&tveshop=Y",
+        "brand": "블라우풍트",
+        "product": "스마트워치 BLP-SW331",
+        "price": 79800,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1111968743&brddate=20260701113600&pgmID=872&ordChannel=WE&tveshop=Y",
         "category": "가전",
         "lavangba_category": "디지털/가전"
       },
@@ -309,7 +329,7 @@
         "end": "16:38",
         "brand": "게스 언더웨어",
         "product": "26SS 게스 언더웨어 에센셜 썸머 코튼셋업",
-        "price": 69900,
+        "price": 59900,
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1115688948&brddate=20260701161800&pgmID=13454&ordChannel=WE&tveshop=Y",
         "category": "언더웨어",
         "lavangba_category": "패션의류"
@@ -387,6 +407,16 @@
         "lavangba_category": "식품"
       },
       {
+        "start": "01:39",
+        "end": "01:49",
+        "brand": "",
+        "product": "르까프 26SS 남성 썸머 이지 조거팬츠",
+        "price": 59000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126814121&brddate=20260702013900&pgmID=12502&ordChannel=WE&tveshop=Y",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
         "start": "01:50",
         "end": "02:10",
         "brand": "",
@@ -397,6 +427,16 @@
         "lavangba_category": "패션의류"
       },
       {
+        "start": "02:10",
+        "end": "02:15",
+        "brand": "도깨비방망이",
+        "product": "도깨비방망이 헤리티지 프리미엄 1995 마스터 무선 핸드블렌더",
+        "price": 139000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126846267&brddate=20260702041300&pgmID=872&ordChannel=WE&tveshop=Y",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
         "start": "02:31",
         "end": "02:51",
         "brand": "",
@@ -405,6 +445,16 @@
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1111561450&brddate=20260702023100&pgmID=6753&ordChannel=WE&tveshop=Y",
         "category": "언더웨어",
         "lavangba_category": "패션의류"
+      },
+      {
+        "start": "02:51",
+        "end": "02:56",
+        "brand": "도깨비방망이",
+        "product": "도깨비방망이 헤리티지 프리미엄 1995 마스터 무선 핸드블렌더",
+        "price": 139000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126846267&brddate=20260702041300&pgmID=872&ordChannel=WE&tveshop=Y",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
       },
       {
         "start": "03:12",
@@ -427,6 +477,16 @@
         "lavangba_category": "생활/건강"
       },
       {
+        "start": "04:13",
+        "end": "04:18",
+        "brand": "도깨비방망이",
+        "product": "도깨비방망이 헤리티지 프리미엄 1995 마스터 무선 핸드블렌더",
+        "price": 139000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126846267&brddate=20260702041300&pgmID=872&ordChannel=WE&tveshop=Y",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
         "start": "04:34",
         "end": "04:54",
         "brand": "풍기인견",
@@ -434,6 +494,16 @@
         "price": 49900,
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1114011562&brddate=20260704073600&pgmID=6753&ordChannel=WE&tveshop=Y",
         "category": "언더웨어",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "05:55",
+        "end": "06:35",
+        "brand": "쏘내추럴",
+        "product": "쏘내추럴 26SS 펀칭 아일렛 점퍼",
+        "price": 69900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1107876362&brddate=20260702055500&pgmID=13307&ordChannel=WE&tveshop=Y",
+        "category": "의류",
         "lavangba_category": "패션의류"
       },
       {
@@ -585,6 +655,16 @@
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1083630431&brddate=20260702223800&pgmID=6742&ordChannel=WE&tveshop=Y",
         "category": "리빙/주방",
         "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "23:38",
+        "end": "00:38",
+        "brand": "클럭",
+        "product": "클럭 스트레칭 마사지기 울트라",
+        "price": 390000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1117357770&brddate=20260702233800&pgmID=6742&ordChannel=WE&tveshop=Y",
+        "category": "문화/스포츠",
+        "lavangba_category": "디지털/가전"
       }
     ],
     "2026-07-03": [
@@ -639,6 +719,16 @@
         "lavangba_category": "생활/건강"
       },
       {
+        "start": "03:53",
+        "end": "03:58",
+        "brand": "키리아",
+        "product": "키리아 아바 새부리형 KF94 마스크 컬러5종 혼합",
+        "price": 39800,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1100912058&brddate=20260703035300&pgmID=6742&ordChannel=WE&tveshop=Y",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
         "start": "04:18",
         "end": "04:23",
         "brand": "타파웨어",
@@ -657,6 +747,16 @@
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1116224880&brddate=20260703045500&pgmID=6737&ordChannel=WE&tveshop=Y",
         "category": "미용",
         "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "05:55",
+        "end": "06:35",
+        "brand": "",
+        "product": "브이존 메쉬 양말 24켤레",
+        "price": 39900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1117307534&brddate=20260703055500&pgmID=6742&ordChannel=WE&tveshop=Y",
+        "category": "잡화/주얼리",
+        "lavangba_category": "패션잡화"
       },
       {
         "start": "06:36",
@@ -865,7 +965,7 @@
         "end": "04:13",
         "brand": "베네통",
         "product": "베네통 26SS 남여공용 시그니처 반팔 티셔츠 5종세트",
-        "price": 79900,
+        "price": 69900,
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1108228116&brddate=20260704035300&pgmID=6753&ordChannel=WE&tveshop=Y",
         "category": "의류",
         "lavangba_category": "패션의류"
@@ -881,12 +981,22 @@
         "lavangba_category": "패션의류"
       },
       {
+        "start": "05:55",
+        "end": "06:35",
+        "brand": "슈디",
+        "product": "슈디 양가죽 셔링 펌프스",
+        "price": 69000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1103480766&brddate=20260704055500&pgmID=6736&ordChannel=WE&tveshop=Y",
+        "category": "잡화/주얼리",
+        "lavangba_category": "패션잡화"
+      },
+      {
         "start": "06:36",
         "end": "07:36",
         "brand": "닥터린",
         "product": "닥터린 콘드로이친 1200 콘레이티 MBPK2",
         "price": 164500,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1068197192&brddate=20260704063600&pgmID=13352&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1068197192&brddate=20260706163800&pgmID=13352&ordChannel=WE&tveshop=Y",
         "category": "건강식품",
         "lavangba_category": "식품"
       },
@@ -979,6 +1089,16 @@
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1105155116&brddate=20260704193800&pgmID=6753&ordChannel=WE&tveshop=Y",
         "category": "언더웨어",
         "lavangba_category": "패션의류"
+      },
+      {
+        "start": "21:38",
+        "end": "22:38",
+        "brand": "로보락",
+        "product": "로보락 S9 MaxV Ultra 로봇청소기 초슬림디자인 장애물회피 로봇팔 문턱리프팅",
+        "price": 1840000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1101476773&brddate=20260704213800&pgmID=872&ordChannel=WE&tveshop=Y",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
       }
     ],
     "2026-07-05": [
@@ -988,7 +1108,7 @@
         "brand": "기절베개",
         "product": "아이스텍 더냉감 싱글세트",
         "price": 69900,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126718455&brddate=20260705013900&pgmID=6740&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126718455&brddate=20260706041800&pgmID=6740&ordChannel=WE&tveshop=Y",
         "category": "리빙/주방",
         "lavangba_category": "가구/인테리어"
       },
@@ -1008,7 +1128,7 @@
         "brand": "기절베개",
         "product": "아이스텍 더냉감 싱글세트",
         "price": 69900,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126718455&brddate=20260705013900&pgmID=6740&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126718455&brddate=20260706041800&pgmID=6740&ordChannel=WE&tveshop=Y",
         "category": "리빙/주방",
         "lavangba_category": "가구/인테리어"
       },
@@ -1093,6 +1213,16 @@
         "lavangba_category": "화장품/미용"
       },
       {
+        "start": "16:38",
+        "end": "17:38",
+        "brand": "",
+        "product": "비오진 전인화 알부민 톤업 썬크림 알부민크림",
+        "price": 79900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1110172262&brddate=20260705163800&pgmID=6737&ordChannel=WE&tveshop=Y",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
         "start": "17:38",
         "end": "18:38",
         "brand": "테이트",
@@ -1129,6 +1259,188 @@
         "product": "UBGS 컴포트 퓨징 브라",
         "price": 39900,
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1108554598&brddate=20260705223800&pgmID=6753&ordChannel=WE&tveshop=Y",
+        "category": "언더웨어",
+        "lavangba_category": "패션의류"
+      }
+    ],
+    "2026-07-06": [
+      {
+        "start": "00:38",
+        "end": "01:38",
+        "brand": "네츄럴오가닉",
+        "product": "네츄럴오가닉 라벤더 제습제",
+        "price": 40900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1121044127&brddate=20260706003800&pgmID=6742&ordChannel=WE&tveshop=Y",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "01:44",
+        "end": "01:49",
+        "brand": "기절베개",
+        "product": "아이스텍 더냉감 싱글세트",
+        "price": 69900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126718455&brddate=20260706041800&pgmID=6740&ordChannel=WE&tveshop=Y",
+        "category": "리빙/주방",
+        "lavangba_category": "가구/인테리어"
+      },
+      {
+        "start": "02:10",
+        "end": "02:30",
+        "brand": "아스타",
+        "product": "종근당 아이클리어 루테인 지아잔틴아스타잔틴 미니",
+        "price": 238000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1125326470&brddate=20260706021000&pgmID=13352&ordChannel=WE&tveshop=Y",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "02:56",
+        "end": "03:01",
+        "brand": "기절베개",
+        "product": "아이스텍 더냉감 싱글세트",
+        "price": 69900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126718455&brddate=20260706041800&pgmID=6740&ordChannel=WE&tveshop=Y",
+        "category": "리빙/주방",
+        "lavangba_category": "가구/인테리어"
+      },
+      {
+        "start": "04:18",
+        "end": "04:23",
+        "brand": "기절베개",
+        "product": "아이스텍 더냉감 싱글세트",
+        "price": 69900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126718455&brddate=20260706041800&pgmID=6740&ordChannel=WE&tveshop=Y",
+        "category": "리빙/주방",
+        "lavangba_category": "가구/인테리어"
+      },
+      {
+        "start": "04:55",
+        "end": "05:55",
+        "brand": "",
+        "product": "26SS 텐셀모달 무빙 브라팬티",
+        "price": 59900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1101955942&brddate=20260706045500&pgmID=6753&ordChannel=WE&tveshop=Y",
+        "category": "언더웨어",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "05:55",
+        "end": "06:35",
+        "brand": "습기제로",
+        "product": "NEW 대용량 제습제",
+        "price": 39900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1053837358&brddate=20260706055500&pgmID=6742&ordChannel=WE&tveshop=Y",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "07:36",
+        "end": "08:36",
+        "brand": "라비오라",
+        "product": "라비오라 레몬허니워시오프팩 시즌3 배종옥 패키지",
+        "price": 99000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1087102799&brddate=20260706073600&pgmID=6737&ordChannel=WE&tveshop=Y",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "09:36",
+        "end": "10:36",
+        "brand": "닥터린",
+        "product": "닥터린 콘드로이친 1200 콘레이티 MBPK2",
+        "price": 164500,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1068197192&brddate=20260706163800&pgmID=13352&ordChannel=WE&tveshop=Y",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "11:36",
+        "end": "12:36",
+        "brand": "뉴트리원",
+        "product": "뉴트리원 이병헌 루테인지아잔틴164 GR",
+        "price": 184000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1071310432&brddate=20260706113600&pgmID=13352&ordChannel=WE&tveshop=Y",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "12:36",
+        "end": "13:36",
+        "brand": "덴프스",
+        "product": "덴프스 트루바이타민 올인원 멀티비타민 루테인 밀크씨슬",
+        "price": 278000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1100912130&brddate=20260706123600&pgmID=13352&ordChannel=WE&tveshop=Y",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "13:37",
+        "end": "13:57",
+        "brand": "",
+        "product": "한생원 천연 육수팩 4팩 천연버섯소금3종",
+        "price": 34900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1028263499&brddate=20260706133700&pgmID=13190&ordChannel=WE&tveshop=Y",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "14:57",
+        "end": "15:37",
+        "brand": "라코스테",
+        "product": "26 라코스테 피케 매쉬 드로즈 패키지",
+        "price": 89000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1106572247&brddate=20260706145700&pgmID=13454&ordChannel=WE&tveshop=Y",
+        "category": "언더웨어",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "15:38",
+        "end": "16:38",
+        "brand": "비트",
+        "product": "비트 실내건조 캡슐세제 28개입x5팩 5개입x2팩",
+        "price": 69900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1102265621&brddate=20260706153800&pgmID=6742&ordChannel=WE&tveshop=Y",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "16:38",
+        "end": "17:38",
+        "brand": "닥터린",
+        "product": "닥터린 콘드로이친 1200 콘레이티 MBPK2",
+        "price": 164500,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1068197192&brddate=20260706163800&pgmID=13352&ordChannel=WE&tveshop=Y",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "18:38",
+        "end": "19:38",
+        "brand": "종가",
+        "product": "종가 아삭한포기김치 2, 총",
+        "price": 68900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1055285171&brddate=20260706183800&pgmID=13463&ordChannel=WE&tveshop=Y",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "20:38",
+        "end": "21:38",
+        "brand": "바이애콤",
+        "product": "바이애콤 EGF 콜라겐 마스크팩 더블구성",
+        "price": 138000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1127032903&brddate=20260706203800&pgmID=6737&ordChannel=WE&tveshop=Y",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "22:38",
+        "end": "23:38",
+        "brand": "비비안",
+        "product": "26SS 비비안 쿨썸머 스킨패키지 브라팬티",
+        "price": 179900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1105107792&brddate=20260706223800&pgmID=6753&ordChannel=WE&tveshop=Y",
         "category": "언더웨어",
         "lavangba_category": "패션의류"
       }
