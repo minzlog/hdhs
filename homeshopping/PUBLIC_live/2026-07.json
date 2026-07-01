@@ -330,7 +330,7 @@
         "start": "08:20",
         "end": "09:20",
         "brand": "정성곳간",
-        "product": "뼈없는 한우갈비탕 10팩",
+        "product": "정성곳간 뼈없는 한우 갈비탕 10팩",
         "price": 59900,
         "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11929373",
         "category": "일반식품",
@@ -457,6 +457,26 @@
         "lavangba_category": "식품"
       },
       {
+        "start": "21:45",
+        "end": "22:50",
+        "brand": "",
+        "product": "해남 땅끝마을 포기김치9kg 총각김치2kg 보리열무김치1kg",
+        "price": 49900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11947720",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "22:50",
+        "end": "23:50",
+        "brand": "",
+        "product": "든든한끼 삼계탕 x 8팩",
+        "price": 51900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11810541",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
         "start": "23:50",
         "end": "01:00",
         "brand": "2026",
@@ -569,6 +589,16 @@
         "lavangba_category": "생활/건강"
       },
       {
+        "start": "11:35",
+        "end": "12:40",
+        "brand": "",
+        "product": "동철원농협 철원오대쌀 1포",
+        "price": 79900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11949232",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
         "start": "12:40",
         "end": "13:30",
         "brand": "",
@@ -663,7 +693,7 @@
         "end": "21:45",
         "brand": "",
         "product": "26년 햇 정담 성주참외",
-        "price": 30900,
+        "price": 29900,
         "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11943574",
         "category": "일반식품",
         "lavangba_category": "식품"
@@ -714,7 +744,7 @@
         "start": "02:00",
         "end": "03:00",
         "brand": "정성곳간",
-        "product": "버섯 파불고기 x 11팩",
+        "product": "정성곳간 버섯 파불고기 x 11팩",
         "price": 49900,
         "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11932471",
         "category": "일반식품",
@@ -771,6 +801,16 @@
         "lavangba_category": "식품"
       },
       {
+        "start": "09:25",
+        "end": "10:25",
+        "brand": "",
+        "product": "고창 복분자 발효농축분말 스푼5개",
+        "price": 148000,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11948730",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
         "start": "11:35",
         "end": "12:50",
         "brand": "",
@@ -784,9 +824,9 @@
         "start": "12:50",
         "end": "14:00",
         "brand": "",
-        "product": "영광 보리굴비 1.4kg내외 10미",
-        "price": 52900,
-        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11908441",
+        "product": "백조기 보리굴비 1.4kg내외 10미",
+        "price": 54900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11949461",
         "category": "일반식품",
         "lavangba_category": "식품"
       },
@@ -849,6 +889,16 @@
         "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11948886",
         "category": "일반식품",
         "lavangba_category": "식품"
+      },
+      {
+        "start": "21:40",
+        "end": "22:45",
+        "brand": "투어비스",
+        "product": "태항산 패키지_260222",
+        "price": 0,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11948515",
+        "category": "여행",
+        "lavangba_category": "패션의류"
       },
       {
         "start": "22:45",
@@ -993,6 +1043,16 @@
         "lavangba_category": "식품"
       },
       {
+        "start": "12:45",
+        "end": "13:55",
+        "brand": "라벨르",
+        "product": "아라벨르 인견 시어서커 이불 4장세트",
+        "price": 89900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11941939",
+        "category": "의류",
+        "lavangba_category": "가구/인테리어"
+      },
+      {
         "start": "13:55",
         "end": "15:05",
         "brand": "",
@@ -1013,6 +1073,16 @@
         "lavangba_category": "가구/인테리어"
       },
       {
+        "start": "17:25",
+        "end": "18:40",
+        "brand": "정성곳간",
+        "product": "정성곳간 강순의 명인 김치 포기6. 총각2kg 열무2kg 유자백김치1kg",
+        "price": 49900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11947379",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
         "start": "18:40",
         "end": "19:50",
         "brand": "",
@@ -1021,6 +1091,16 @@
         "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11948349",
         "category": "일반식품",
         "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "19:50",
+        "end": "21:00",
+        "brand": "바른투어",
+        "product": "중국 장가계 여행",
+        "price": 0,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11948520",
+        "category": "여행",
+        "lavangba_category": "도서"
       },
       {
         "start": "21:00",
@@ -1055,6 +1135,26 @@
     ],
     "2026-07-06": [
       {
+        "start": "01:00",
+        "end": "02:00",
+        "brand": "",
+        "product": "제주흑돼지 양념왕구이 7팩",
+        "price": 29900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11939527",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "02:00",
+        "end": "02:50",
+        "brand": "",
+        "product": "손질 참돔 x 7팩",
+        "price": 39900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11944038",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
         "start": "02:50",
         "end": "03:20",
         "brand": "",
@@ -1063,6 +1163,26 @@
         "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11945703",
         "category": "건강식품",
         "lavangba_category": "식품"
+      },
+      {
+        "start": "03:20",
+        "end": "03:50",
+        "brand": "스칸디노티아",
+        "product": "스칸디노티아 케틀팟",
+        "price": 39800,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11923526",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "05:00",
+        "end": "06:00",
+        "brand": "몬스터",
+        "product": "뉴몬스터팡팡 청소기 1",
+        "price": 39800,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11934199",
+        "category": "가전",
+        "lavangba_category": "생활/건강"
       },
       {
         "start": "06:00",
@@ -1083,6 +1203,16 @@
         "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11946210",
         "category": "리빙/주방",
         "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "08:20",
+        "end": "09:20",
+        "brand": "라스튜디오",
+        "product": "여성 썸머 다트데님팬츠3종",
+        "price": 49900,
+        "link": "https://www.gongyoungshop.kr/goods/selectGoodsDetail.do?prdId=11944237",
+        "category": "의류",
+        "lavangba_category": "패션의류"
       },
       {
         "start": "09:20",

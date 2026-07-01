@@ -76,7 +76,7 @@
       },
       {
         "start": "06:29",
-        "end": "07:29",
+        "end": "07:33",
         "brand": "",
         "product": "샤론느_브라탑",
         "price": 59900,
@@ -86,7 +86,7 @@
       },
       {
         "start": "07:30",
-        "end": "08:30",
+        "end": "08:32",
         "brand": "마미케어",
         "product": "마미케어_들깨크림",
         "price": 69900,
@@ -96,7 +96,7 @@
       },
       {
         "start": "08:30",
-        "end": "09:30",
+        "end": "09:31",
         "brand": "레드캠프",
         "product": "레드캠프_냉감팬츠",
         "price": 59900,
@@ -106,7 +106,7 @@
       },
       {
         "start": "09:30",
-        "end": "10:30",
+        "end": "10:32",
         "brand": "라라츄",
         "product": "라라츄_헤어커버",
         "price": 79900,
@@ -116,7 +116,7 @@
       },
       {
         "start": "10:30",
-        "end": "11:30",
+        "end": "11:33",
         "brand": "닥터루템",
         "product": "닥터루템_알부민",
         "price": 198000,
@@ -126,17 +126,17 @@
       },
       {
         "start": "11:30",
-        "end": "12:30",
+        "end": "12:33",
         "brand": "브로킹",
         "product": "브로킹_냉감소파패드",
-        "price": 54900,
-        "link": "https://m.kshop.co.kr/display/product/8781909",
+        "price": 64900,
+        "link": "https://m.kshop.co.kr/display/product/8781910",
         "category": "리빙/주방",
         "lavangba_category": "가구/인테리어"
       },
       {
         "start": "12:31",
-        "end": "13:31",
+        "end": "13:33",
         "brand": "일동후디스",
         "product": "일동후디스_하이뮨",
         "price": 318000,
@@ -146,17 +146,17 @@
       },
       {
         "start": "13:31",
-        "end": "14:31",
+        "end": "14:33",
         "brand": "슈리오",
         "product": "슈리오_메시컴포트화",
-        "price": 49800,
-        "link": "https://m.kshop.co.kr/display/product/8738235",
+        "price": 59800,
+        "link": "https://m.kshop.co.kr/display/product/8757619",
         "category": "잡화/주얼리",
         "lavangba_category": "패션잡화"
       },
       {
         "start": "14:31",
-        "end": "15:31",
+        "end": "15:33",
         "brand": "",
         "product": "코몽트_메쉬자켓",
         "price": 49900,
@@ -166,7 +166,7 @@
       },
       {
         "start": "15:32",
-        "end": "16:32",
+        "end": "16:33",
         "brand": "",
         "product": "바띠_블라우스",
         "price": 49900,
@@ -220,7 +220,7 @@
         "brand": "비버리힐즈폴로클럽",
         "product": "비버리힐즈폴로클럽_모크넥",
         "price": 69900,
-        "link": "https://m.kshop.co.kr/display/product/9386381",
+        "link": "https://m.kshop.co.kr/display/product/9386392",
         "category": "의류",
         "lavangba_category": "패션의류"
       },
@@ -272,7 +272,7 @@
         "brand": "",
         "product": "엘레강스스포츠_티셔츠",
         "price": 49000,
-        "link": "https://m.kshop.co.kr/display/product/10014291",
+        "link": "https://m.kshop.co.kr/display/product/10014290",
         "category": "의류",
         "lavangba_category": "패션의류"
       },
@@ -292,7 +292,7 @@
         "brand": "비버리힐즈폴로클럽",
         "product": "비버리힐즈폴로클럽_티셔츠",
         "price": 69900,
-        "link": "https://m.kshop.co.kr/display/product/8586959",
+        "link": "https://m.kshop.co.kr/display/product/8586958",
         "category": "의류",
         "lavangba_category": "패션의류"
       },
@@ -301,8 +301,8 @@
         "end": "04:09",
         "brand": "에넥스",
         "product": "에넥스_프리미엄침대",
-        "price": 3098000,
-        "link": "https://m.kshop.co.kr/display/product/9085734",
+        "price": 3198000,
+        "link": "https://m.kshop.co.kr/display/product/9085732",
         "category": "리빙/주방",
         "lavangba_category": "가구/인테리어"
       },
@@ -321,8 +321,8 @@
         "end": "05:30",
         "brand": "테이핑테크",
         "product": "테이핑테크_무릎보호대",
-        "price": 39800,
-        "link": "https://m.kshop.co.kr/display/product/7914383",
+        "price": 29800,
+        "link": "https://m.kshop.co.kr/display/product/7914382",
         "category": "가전",
         "lavangba_category": "스포츠/레저"
       },
@@ -381,8 +381,8 @@
         "end": "10:31",
         "brand": "클로리에",
         "product": "클로리에_은컬렉션",
-        "price": 149000,
-        "link": "https://m.kshop.co.kr/display/product/9067783",
+        "price": 279000,
+        "link": "https://m.kshop.co.kr/display/product/9067785",
         "category": "잡화/주얼리",
         "lavangba_category": "패션잡화"
       },
@@ -491,8 +491,8 @@
         "end": "21:33",
         "brand": "비에날씬",
         "product": "비에날씬_다이어트유산균",
-        "price": 548000,
-        "link": "https://m.kshop.co.kr/display/product/8755345",
+        "price": 376000,
+        "link": "https://m.kshop.co.kr/display/product/5215468",
         "category": "건강식품",
         "lavangba_category": "식품"
       },
@@ -583,8 +583,8 @@
         "end": "07:32",
         "brand": "일동후디스",
         "product": "일동후디스_하이뮨",
-        "price": 318000,
-        "link": "https://m.kshop.co.kr/display/product/8910002",
+        "price": 169000,
+        "link": "https://m.kshop.co.kr/display/product/7204944",
         "category": "건강식품",
         "lavangba_category": "식품"
       },
@@ -653,8 +653,8 @@
         "end": "15:35",
         "brand": "프라이",
         "product": "테팔_프라이팬세트",
-        "price": 64000,
-        "link": "https://m.kshop.co.kr/display/product/2540796",
+        "price": 68000,
+        "link": "https://m.kshop.co.kr/display/product/2540797",
         "category": "잡화/주얼리",
         "lavangba_category": "생활/건강"
       },

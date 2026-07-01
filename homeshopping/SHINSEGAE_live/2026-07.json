@@ -86,7 +86,7 @@
       },
       {
         "start": "06:30",
-        "end": "07:31",
+        "end": "07:32",
         "brand": "",
         "product": "보넬 아이엠 당근 NFC 착즙주스 12병",
         "price": 99000,
@@ -96,7 +96,7 @@
       },
       {
         "start": "07:31",
-        "end": "08:31",
+        "end": "08:32",
         "brand": "끌레드벨",
         "product": "끌레드벨 파워 리프팅팩 최대용량찬스",
         "price": 69000,
@@ -126,7 +126,7 @@
       },
       {
         "start": "09:32",
-        "end": "10:32",
+        "end": "10:33",
         "brand": "부하우스",
         "product": "부하우스 압축파우치",
         "price": 158000,
@@ -136,7 +136,7 @@
       },
       {
         "start": "10:32",
-        "end": "11:32",
+        "end": "11:33",
         "brand": "이시형",
         "product": "이시형 박사의 인생 마그네슘 영양제 6 / 총",
         "price": 279000,
@@ -156,7 +156,7 @@
       },
       {
         "start": "12:33",
-        "end": "13:33",
+        "end": "13:34",
         "brand": "",
         "product": "에디티드 브리즈 가디건",
         "price": 69000,
@@ -166,7 +166,7 @@
       },
       {
         "start": "13:33",
-        "end": "14:33",
+        "end": "14:34",
         "brand": "리즐온",
         "product": "리즐온 아보카도 엑스트라버진 오일 9 1, 10병",
         "price": 89000,
@@ -186,7 +186,7 @@
       },
       {
         "start": "15:34",
-        "end": "16:34",
+        "end": "16:35",
         "brand": "풍기인견",
         "product": "자연감성 풍기인견 트렁크 총",
         "price": 69900,
@@ -457,6 +457,26 @@
         "lavangba_category": "패션의류"
       },
       {
+        "start": "14:33",
+        "end": "15:34",
+        "brand": "",
+        "product": "이지드롭 시즌3 변기클리너 스페셜 패키지 168회분 세트",
+        "price": 49800,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20061415",
+        "category": "미용",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "14:33",
+        "end": "15:34",
+        "brand": "루나앤슬립",
+        "product": "루나앤슬립 메쉬 냉감 소파패드",
+        "price": 69900,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/1000793277",
+        "category": "리빙/주방",
+        "lavangba_category": "가구/인테리어"
+      },
+      {
         "start": "15:34",
         "end": "16:34",
         "brand": "더루핀랩",
@@ -572,9 +592,19 @@
         "start": "00:37",
         "end": "01:38",
         "brand": "",
-        "product": "블루핏 캡슬리브 티셔츠",
-        "price": 69000,
-        "link": "https://www.shinsegaetvshopping.com/display/detail/1000790141",
+        "product": "블루핏 26SS NEW 하프 데님",
+        "price": 49900,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20071370",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "01:38",
+        "end": "02:38",
+        "brand": "",
+        "product": "블루핏 NEW 썸머 와이드 데님",
+        "price": 69900,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20070837",
         "category": "의류",
         "lavangba_category": "패션의류"
       },
@@ -619,6 +649,16 @@
         "lavangba_category": "식품"
       },
       {
+        "start": "04:30",
+        "end": "05:30",
+        "brand": "",
+        "product": "미녀의 콜라겐 양태반 360포",
+        "price": 99000,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20064902",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
         "start": "05:30",
         "end": "06:30",
         "brand": "플리츠미",
@@ -637,16 +677,6 @@
         "link": "https://www.shinsegaetvshopping.com/display/detail/20071652",
         "category": "건강식품",
         "lavangba_category": "식품"
-      },
-      {
-        "start": "07:31",
-        "end": "08:31",
-        "brand": "리브이셀",
-        "product": "리브이셀 콜라겐 투명 랩핑 마스크 x 총 최저가 패키지",
-        "price": 139000,
-        "link": "https://www.shinsegaetvshopping.com/display/detail/20058024",
-        "category": "미용",
-        "lavangba_category": "화장품/미용"
       },
       {
         "start": "08:31",
@@ -682,16 +712,6 @@
         "start": "14:33",
         "end": "15:34",
         "brand": "",
-        "product": "브이컷 코튼100 튜블러 티셔츠",
-        "price": 49900,
-        "link": "https://www.shinsegaetvshopping.com/display/detail/20063182",
-        "category": "의류",
-        "lavangba_category": "패션의류"
-      },
-      {
-        "start": "14:33",
-        "end": "15:34",
-        "brand": "",
         "product": "앳클로젯 26SS 니팅 하프 데님",
         "price": 49000,
         "link": "https://www.shinsegaetvshopping.com/display/detail/20072621",
@@ -709,6 +729,16 @@
         "lavangba_category": "화장품/미용"
       },
       {
+        "start": "16:34",
+        "end": "17:34",
+        "brand": "조선호텔",
+        "product": "조선호텔 진한 한우도가니탕 X 5팩",
+        "price": 69900,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20067026",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
         "start": "17:34",
         "end": "18:35",
         "brand": "히트락",
@@ -724,7 +754,7 @@
         "brand": "",
         "product": "기라로쉬 26 썸머 린넨 실크 블렌디드 수트",
         "price": 179000,
-        "link": "https://www.shinsegaetvshopping.com/display/detail/20073170",
+        "link": "https://www.shinsegaetvshopping.com/display/detail/1002211042",
         "category": "의류",
         "lavangba_category": "패션의류"
       },
@@ -761,6 +791,96 @@
     ],
     "2026-07-04": [
       {
+        "start": "01:38",
+        "end": "02:38",
+        "brand": "",
+        "product": "블루핏 NEW 시어니트 가디건",
+        "price": 69900,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20071369",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "02:38",
+        "end": "03:39",
+        "brand": "톤28",
+        "product": "최현우패키지 톤28 펩타시카 무농약 해남병풀 세럼 특대용량 7병",
+        "price": 168000,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20072248",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "03:39",
+        "end": "03:59",
+        "brand": "",
+        "product": "미녀의석류콜라겐 200포",
+        "price": 241000,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20062613",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "03:59",
+        "end": "04:19",
+        "brand": "레드닥터",
+        "product": "레드닥터 벤업 라이프 시리즈",
+        "price": 69800,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/1000489372",
+        "category": "문화/스포츠",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "05:20",
+        "end": "06:20",
+        "brand": "HLB제약",
+        "product": "HLB제약 양태반 프리미엄 골드 320",
+        "price": 169000,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/1002449573",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "07:20",
+        "end": "08:21",
+        "brand": "비너지",
+        "product": "비너지 유기농 대마종자유 총",
+        "price": 134000,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20070194",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "08:21",
+        "end": "09:21",
+        "brand": "",
+        "product": "비오진 멜라리셋 톤업 선크림 리프팅 크림 2",
+        "price": 79900,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/1000713486",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "09:21",
+        "end": "10:22",
+        "brand": "",
+        "product": "총 ! 리프팅팩 리프팅 밴드",
+        "price": 89900,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20072578",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "10:22",
+        "end": "11:22",
+        "brand": "",
+        "product": "성분에디터 녹는실 앰플 쿠션 세트 본품2 리필3 녹는실앰플",
+        "price": 84000,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/1000539595",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
         "start": "11:22",
         "end": "12:22",
         "brand": "끌레드벨",
@@ -769,9 +889,331 @@
         "link": "https://www.shinsegaetvshopping.com/display/detail/20069420",
         "category": "미용",
         "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "12:22",
+        "end": "13:23",
+        "brand": "",
+        "product": "조이너스 썸머 원피스",
+        "price": 49900,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/1001331468",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "13:23",
+        "end": "14:23",
+        "brand": "",
+        "product": "에디티드 린넨 혼방 보트넥 슬리브리스",
+        "price": 69000,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20073091",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "14:23",
+        "end": "15:23",
+        "brand": "",
+        "product": "25SS 르까프 쿨링마스크 8종세트",
+        "price": 39900,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20065098",
+        "category": "리빙/주방",
+        "lavangba_category": "스포츠/레저"
+      },
+      {
+        "start": "16:24",
+        "end": "17:24",
+        "brand": "무드매쳐",
+        "product": "미국 직수입★ 반전 립스틱 x 기본 패키지",
+        "price": 69900,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20072021",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "17:24",
+        "end": "18:24",
+        "brand": "조선호텔",
+        "product": "조선호텔 양념 LA갈비 X 8팩",
+        "price": 119900,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20060824",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "18:24",
+        "end": "19:25",
+        "brand": "조선호텔",
+        "product": "조선호텔 붉은대게 포기김치",
+        "price": 49900,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/1001890604",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "23:26",
+        "end": "00:27",
+        "brand": "여기어때",
+        "product": "여기어때 청도 4일 노옵션 월드체인호텔 3박 오전자유일정 399천원부터",
+        "price": 0,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/1001797420",
+        "category": "여행",
+        "lavangba_category": "도서"
+      },
+      {
+        "start": "23:26",
+        "end": "00:27",
+        "brand": "라스튜디오",
+        "product": "26SS ♥라스튜디오♥ 시어 블라우스3종 이너",
+        "price": 39900,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20071979",
+        "category": "의류",
+        "lavangba_category": "패션의류"
       }
     ],
-    "2026-07-05": [],
-    "2026-07-06": []
+    "2026-07-05": [
+      {
+        "start": "00:27",
+        "end": "01:38",
+        "brand": "주영엔에스",
+        "product": "주영엔에스 뼈엔 엠비피 MBP 식물성 오메가3",
+        "price": 459000,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20072547",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "01:38",
+        "end": "02:38",
+        "brand": "홀베리",
+        "product": "홀베리 유기농 레몬즙 20",
+        "price": 198000,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/1000193224",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "02:38",
+        "end": "03:39",
+        "brand": "프라이",
+        "product": "NEW 보랄 쿡앤킵 에어프라이어",
+        "price": 159000,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20071126",
+        "category": "잡화/주얼리",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "03:39",
+        "end": "04:09",
+        "brand": "",
+        "product": "블루핏 26SS NEW 하프 데님",
+        "price": 49900,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20071370",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "04:09",
+        "end": "04:19",
+        "brand": "맑은 물에",
+        "product": "맑은물에 김석원 낫또 x",
+        "price": 32900,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/10193559",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "04:19",
+        "end": "05:20",
+        "brand": "",
+        "product": "미녀의 콜라겐 양태반 360포",
+        "price": 99000,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20064902",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "05:20",
+        "end": "06:40",
+        "brand": "나인닷",
+        "product": "지압 순환 머신 2 IN 1",
+        "price": 499000,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20072234",
+        "category": "문화/스포츠",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "06:40",
+        "end": "08:00",
+        "brand": "라오메뜨",
+        "product": "전설의 패치 프리미엄",
+        "price": 49900,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20071306",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "08:00",
+        "end": "09:01",
+        "brand": "데이즈온",
+        "product": "데이즈온 파라다이스 그레인 버닝 6",
+        "price": 248000,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/1002449172",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "09:01",
+        "end": "10:21",
+        "brand": "도미나스",
+        "product": "태극제약 도미나스 트라넥삼산 기미쿠션 시즌2 본품2 리필4 에센스 1병",
+        "price": 89000,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20071497",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "10:21",
+        "end": "11:22",
+        "brand": "이시형",
+        "product": "이시형 박사의 인생 마그네슘 영양제 6 / 총",
+        "price": 279000,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/1000883647",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "11:22",
+        "end": "12:22",
+        "brand": "리즐온",
+        "product": "리즐온 아보카도 엑스트라버진 오일 9 1, 10병",
+        "price": 89000,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/1000570999",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "12:22",
+        "end": "13:22",
+        "brand": "",
+        "product": "브이컷 26SS 면100 튜블러 7부소매 티셔츠",
+        "price": 49900,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20071466",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "13:22",
+        "end": "14:23",
+        "brand": "인산가",
+        "product": "인산가 죽염담은 부세보리굴비 8팩",
+        "price": 69900,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20071323",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "14:23",
+        "end": "15:23",
+        "brand": "조선호텔",
+        "product": "조선호텔 열무얼갈이김치",
+        "price": 33000,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20061513",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "16:23",
+        "end": "17:24",
+        "brand": "",
+        "product": "들깨미백크림 특대용량패키지",
+        "price": 69900,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20067490",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "17:24",
+        "end": "18:24",
+        "brand": "트렉스타스포츠",
+        "product": "26SS 트렉스타스포츠 여성 올인원 세트",
+        "price": 39900,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20072237",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "18:24",
+        "end": "19:24",
+        "brand": "횡성축협한우",
+        "product": "최현석 횡성축협한우 한돈한우 직화스테이크 21팩",
+        "price": 59900,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20072782",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "19:24",
+        "end": "20:25",
+        "brand": "리가",
+        "product": "리가 풀스킨 밍크 폭스 콤비 구스다운",
+        "price": 398000,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20070168",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "20:25",
+        "end": "21:25",
+        "brand": "리브이셀",
+        "product": "리브이셀 콜라겐 투명 랩핑 마스크 x 총 최저가 패키지",
+        "price": 139000,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20068374",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "21:25",
+        "end": "22:26",
+        "brand": "",
+        "product": "신세계맨즈컬렉션 핫썸머 팬츠3SET",
+        "price": 99000,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20071391",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "22:26",
+        "end": "23:26",
+        "brand": "블랑로더",
+        "product": "매직 립 타투 총 패키지",
+        "price": 88000,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/1001998498",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "23:26",
+        "end": "00:27",
+        "brand": "",
+        "product": "블루핏 캡슬리브 티셔츠",
+        "price": 69000,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/1000790141",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      }
+    ],
+    "2026-07-06": [
+      {
+        "start": "01:58",
+        "end": "02:38",
+        "brand": "",
+        "product": "엘라코닉 레이스 풀커버 브라팬티",
+        "price": 99900,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20071455",
+        "category": "언더웨어",
+        "lavangba_category": "패션의류"
+      }
+    ]
   }
 }

@@ -407,16 +407,6 @@
         "lavangba_category": "식품"
       },
       {
-        "start": "16:50",
-        "end": "17:40",
-        "brand": "",
-        "product": "사랑채포기김치5kg 열무김치2kg 오이통김치1kg 왕자총각김치2kg 파김치1Kg",
-        "price": 59900,
-        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80539617",
-        "category": "일반식품",
-        "lavangba_category": "식품"
-      },
-      {
         "start": "17:40",
         "end": "18:40",
         "brand": "보넬드",
@@ -424,6 +414,16 @@
         "price": 78900,
         "link": "http://www.hnsmall.com/display/goods.do?goods_code=81182603",
         "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "18:40",
+        "end": "19:35",
+        "brand": "",
+        "product": "금일수협 손질 전복 18미 2미",
+        "price": 59900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=70008606",
+        "category": "일반식품",
         "lavangba_category": "식품"
       },
       {
@@ -451,8 +451,8 @@
         "end": "22:55",
         "brand": "",
         "product": "26 SUMMER 오픈카라 벨티드 원피스1종",
-        "price": 69900,
-        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80577168",
+        "price": 59900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80527349",
         "category": "의류",
         "lavangba_category": "패션의류"
       },
@@ -494,7 +494,7 @@
         "brand": "슬로기",
         "product": "썸머 쿨 터치 제로필 브라팬티",
         "price": 89000,
-        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80784493",
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81337081",
         "category": "언더웨어",
         "lavangba_category": "패션의류"
       },
@@ -539,6 +539,16 @@
         "lavangba_category": "화장품/미용"
       },
       {
+        "start": "07:15",
+        "end": "08:15",
+        "brand": "크로커다일",
+        "product": "인견 100% 플로럴 라운지웨어 원피스1종",
+        "price": 59900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81119741",
+        "category": "언더웨어",
+        "lavangba_category": ""
+      },
+      {
         "start": "08:15",
         "end": "09:25",
         "brand": "",
@@ -569,6 +579,16 @@
         "lavangba_category": "스포츠/레저"
       },
       {
+        "start": "11:35",
+        "end": "12:40",
+        "brand": "보넬드",
+        "product": "NFC 착즙 보넬드 아이엠 당근 12병",
+        "price": 99000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=66028711",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
         "start": "12:40",
         "end": "13:30",
         "brand": "",
@@ -597,6 +617,16 @@
         "link": "http://www.hnsmall.com/display/goods.do?goods_code=71424445",
         "category": "일반렌탈",
         "lavangba_category": "식품"
+      },
+      {
+        "start": "15:10",
+        "end": "16:00",
+        "brand": "",
+        "product": "터널 로스팅 서리태가루 x 6팩",
+        "price": 31500,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81095272",
+        "category": "일반식품",
+        "lavangba_category": ""
       },
       {
         "start": "16:00",
@@ -672,9 +702,9 @@
         "start": "22:45",
         "end": "23:50",
         "brand": "",
-        "product": "밀키웨이 미오엘로 실버 목걸이 펜던트 SET",
-        "price": 239000,
-        "link": "http://www.hnsmall.com/display/goods.do?goods_code=71381542",
+        "product": "밀키웨이 미오엘로 실버 목걸이",
+        "price": 159000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81217741",
         "category": "잡화/주얼리",
         "lavangba_category": "패션잡화"
       },
@@ -744,11 +774,21 @@
         "start": "06:00",
         "end": "07:15",
         "brand": "",
-        "product": "26SS 여성 베이스레이어 집업",
-        "price": 79900,
-        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80352209",
+        "product": "26SS 베이스레이어 쿨 집업",
+        "price": 77000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81349069",
         "category": "의류",
         "lavangba_category": "패션의류"
+      },
+      {
+        "start": "07:15",
+        "end": "08:20",
+        "brand": "카사베르디",
+        "product": "카사베르디 유기농 레드와인 비니거 비니거 2병 디스펜서1개",
+        "price": 129000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81101199",
+        "category": "건강식품",
+        "lavangba_category": "식품"
       },
       {
         "start": "08:20",
@@ -821,12 +861,22 @@
         "lavangba_category": "디지털/가전"
       },
       {
+        "start": "16:45",
+        "end": "17:40",
+        "brand": "쿨슬립",
+        "product": "10%앱할인/ 스퀘어핀쿨 슬립테크 냉감패드2장 냉감베개패드2장 냉감쇼파패드1장 냉감이불1장",
+        "price": 139900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81351127",
+        "category": "리빙/주방",
+        "lavangba_category": "가구/인테리어"
+      },
+      {
         "start": "19:30",
         "end": "20:30",
         "brand": "이지듀",
-        "product": "이지듀 멜라토닝 기미 매쉬 커버 쿠션 본품1개",
-        "price": 49800,
-        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80826301",
+        "product": "이지듀 멜라토닝 기미 매쉬 커버쿠션 스페셜패키지",
+        "price": 99000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81351055",
         "category": "미용",
         "lavangba_category": "화장품/미용"
       },
@@ -906,9 +956,9 @@
         "start": "06:00",
         "end": "06:50",
         "brand": "크로커다일",
-        "product": "인견 100% 플로럴 라운지웨어 원피스1종",
-        "price": 79900,
-        "link": "http://www.hnsmall.com/display/goods.do?goods_code=77871653",
+        "product": "에어리핏 레이스 헴 브라팬티",
+        "price": 69900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=79382090",
         "category": "언더웨어",
         "lavangba_category": "패션의류"
       },
@@ -973,6 +1023,16 @@
         "lavangba_category": "패션의류"
       },
       {
+        "start": "14:50",
+        "end": "16:05",
+        "brand": "마미케어",
+        "product": "마미케어 애사비 클렌저 광채 패키지",
+        "price": 79900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81344629",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
         "start": "16:05",
         "end": "17:20",
         "brand": "비너지",
@@ -996,9 +1056,9 @@
         "start": "20:30",
         "end": "21:35",
         "brand": "이자녹스",
-        "product": "이자녹스 트리플 트루셀 기초세트",
+        "product": "이자녹스 트리플 트루셀기초 바캉스패키지 보스턴백1",
         "price": 158000,
-        "link": "http://www.hnsmall.com/display/goods.do?goods_code=78662878",
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81337745",
         "category": "미용",
         "lavangba_category": "화장품/미용"
       },
@@ -1010,6 +1070,16 @@
         "price": 52000,
         "link": "http://www.hnsmall.com/display/goods.do?goods_code=74544961",
         "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "23:50",
+        "end": "00:40",
+        "brand": "비비안",
+        "product": "BBC 26SS 쿨 메쉬 텐션핏 브라팬티 패키지",
+        "price": 99900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=76458669",
+        "category": "언더웨어",
         "lavangba_category": "패션의류"
       }
     ],
@@ -1068,11 +1138,21 @@
         "start": "06:00",
         "end": "07:15",
         "brand": "관절엔 콘드로이친",
-        "product": "관절엔 콘드로이친 1200 식물성 오메가3",
+        "product": "관절엔 콘드로이친 1200",
         "price": 648000,
-        "link": "http://www.hnsmall.com/display/goods.do?goods_code=79088458",
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=43575749",
         "category": "건강식품",
         "lavangba_category": "식품"
+      },
+      {
+        "start": "07:15",
+        "end": "08:15",
+        "brand": "",
+        "product": "컬러딥 찐커버 블랙에디션 기본패키지",
+        "price": 69900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81345386",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
       },
       {
         "start": "09:25",
@@ -1113,6 +1193,16 @@
         "link": "http://www.hnsmall.com/display/goods.do?goods_code=72092203",
         "category": "리빙/주방",
         "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "15:10",
+        "end": "16:00",
+        "brand": "주왕산",
+        "product": "달인김치",
+        "price": 39900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81302416",
+        "category": "일반식품",
+        "lavangba_category": "식품"
       },
       {
         "start": "16:00",
