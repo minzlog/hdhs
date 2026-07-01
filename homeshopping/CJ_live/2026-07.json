@@ -161,9 +161,9 @@
         "start": "14:35",
         "end": "15:30",
         "brand": "라이프밀",
-        "product": "황성주 박사의 라이프 밀6 흔들컵2",
-        "price": 298000,
-        "link": "https://display.cjonstyle.com/p/item/2070030642?channelCode=30002002",
+        "product": "황성주 박사의 라이프 밀 흔들컵1",
+        "price": 249000,
+        "link": "https://display.cjonstyle.com/p/item/2070472670?channelCode=30002002",
         "category": "건강식품"
       },
       {
@@ -250,6 +250,15 @@
         "category": "건강식품"
       },
       {
+        "start": "01:30",
+        "end": "02:35",
+        "brand": "뮤엘올리바",
+        "product": "스페인 엑스트라버진 올리브오일 5병",
+        "price": 105000,
+        "link": "https://display.cjonstyle.com/p/item/2083808605?channelCode=30002002",
+        "category": "일반식품"
+      },
+      {
         "start": "02:35",
         "end": "02:50",
         "brand": "로보",
@@ -328,7 +337,7 @@
         "product": "24K 클로버 볼 더블 반지",
         "price": 489000,
         "link": "https://display.cjonstyle.com/p/item/2083437221?channelCode=30002002",
-        "category": "가전"
+        "category": "잡화/주얼리"
       },
       {
         "start": "10:25",
@@ -427,7 +436,7 @@
         "product": "925실버 파베볼 목걸이",
         "price": 139900,
         "link": "https://display.cjonstyle.com/p/item/2082265943?channelCode=30002002",
-        "category": "가전"
+        "category": "잡화/주얼리"
       },
       {
         "start": "22:55",
@@ -1021,6 +1030,15 @@
         "price": 499000,
         "link": "https://display.cjonstyle.com/p/item/2044146981?channelCode=30002002",
         "category": "건강식품"
+      },
+      {
+        "start": "16:30",
+        "end": "17:30",
+        "brand": "신세계푸드",
+        "product": "올반 유황먹인 냉장닭 영양삼계탕 8팩",
+        "price": 60900,
+        "link": "https://display.cjonstyle.com/p/item/2016783619?channelCode=30002002",
+        "category": "일반식품"
       },
       {
         "start": "18:30",
