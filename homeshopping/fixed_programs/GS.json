@@ -1,6 +1,6 @@
 {
   "company": "GS",
-  "collectedAt": "2026-07-01T06:15:26.558129+09:00",
+  "collectedAt": "2026-07-02T06:08:11.042667+09:00",
   "programs": [
     {
       "title": "지금 백지연",
@@ -10,16 +10,16 @@
       "detail_link": "https://m.gsshop.com/section/broad/specialPgm/13437?mseq=W00618-TV_PRO_BB-1",
       "upcoming_products": [
         {
-          "name": "100% 토마토 착즙 주스 72팩 200ml (백지연 PICK)",
-          "price": 70900,
-          "image": "https://asset.m-gs.kr/prod/1087081310/1/370",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1087081310&mseq=W00618-TV_PRO-1"
-        },
-        {
           "name": "시그니처 플러스 샤워기 1개+시그니처 샤워기1개+탄소리필필터 3팩(바디 9개+ 헤드9개)+여행용 세트 + 리필필터 1팩(바디2개+헤드2개)",
           "price": 104000,
           "image": "https://asset.m-gs.kr/prod/1127930263/1/370",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1127930263&mseq=W00618-TV_PRO-2"
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1127930263&mseq=W00618-TV_PRO-1"
+        },
+        {
+          "name": "100% 토마토 착즙 주스 72팩 200ml (백지연 PICK)",
+          "price": 70900,
+          "image": "https://asset.m-gs.kr/prod/1087081310/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1087081310&mseq=W00618-TV_PRO-2"
         }
       ]
     },
@@ -37,10 +37,10 @@
           "link": "https://m.gsshop.com/prd/prd.gs?prdid=1127946797&mseq=W00618-TV_PRO-1"
         },
         {
-          "name": "간편한 제주 야채찜 30팩",
-          "price": 129000,
-          "image": "https://asset.m-gs.kr/prod/1126246708/1/370",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1126246708&mseq=W00618-TV_PRO-2"
+          "name": "비에날씬 프로 다이어트 유산균(9박스) + 슬림 3박스(30포)",
+          "price": 548000,
+          "image": "https://asset.m-gs.kr/prod/1104929041/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1104929041&mseq=W00618-TV_PRO-2"
         }
       ]
     },
@@ -58,10 +58,10 @@
           "link": "https://m.gsshop.com/prd/prd.gs?prdid=1110710978&mseq=W00618-TV_PRO-1"
         },
         {
-          "name": "26SS 핸드크리즈 플리츠 원피스",
-          "price": 99900,
-          "image": "https://asset.m-gs.kr/prod/1106211424/1/370",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1106211424&mseq=W00618-TV_PRO-2"
+          "name": "26SS 여성 헤리티지 윈콜 점퍼",
+          "price": 89900,
+          "image": "https://asset.m-gs.kr/prod/1106364331/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1106364331&mseq=W00618-TV_PRO-2"
         }
       ]
     },
@@ -79,10 +79,10 @@
           "link": "https://m.gsshop.com/prd/prd.gs?prdid=1104822074&mseq=W00618-TV_PRO-1"
         },
         {
-          "name": "26SS크리즈 셋업 3PCS (재킷+팬츠+원피스) [런칭 가격 79,900원]",
-          "price": 59900,
-          "image": "https://asset.m-gs.kr/prod/1107884161/1/370",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1107884161&mseq=W00618-TV_PRO-2"
+          "name": "26SS 코튼 헨리넥 리브드 탑 3종 [런칭 가격 69,900원]",
+          "price": 39900,
+          "image": "https://asset.m-gs.kr/prod/1102573535/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1102573535&mseq=W00618-TV_PRO-2"
         }
       ]
     },
@@ -136,16 +136,16 @@
       "detail_link": "https://m.gsshop.com/section/broad/specialPgm/13435?mseq=W00618-TV_PRO_BB-7",
       "upcoming_products": [
         {
+          "name": "26SS 그레이스 볼륨라인 데님 팬츠 1종 [런칭 가격 89,900원]",
+          "price": 69900,
+          "image": "https://asset.m-gs.kr/prod/1105260457/1/370",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1105260457&mseq=W00618-TV_PRO-1"
+        },
+        {
           "name": "26SS 셔링 경량 블라우스 3종[런칭 가격 79,900원]",
           "price": 59900,
           "image": "https://asset.m-gs.kr/prod/1102027541/1/370",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1102027541&mseq=W00618-TV_PRO-1"
-        },
-        {
-          "name": "25FW 무스탕 하프코트 1종",
-          "price": 1399000,
-          "image": "https://asset.m-gs.kr/prod/1093853850/1/370",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1093853850&mseq=W00618-TV_PRO-2"
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1102027541&mseq=W00618-TV_PRO-2"
         }
       ]
     },

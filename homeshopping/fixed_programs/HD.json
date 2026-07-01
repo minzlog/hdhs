@@ -1,6 +1,6 @@
 {
   "company": "HD",
-  "collectedAt": "2026-07-01T06:15:24.853735+09:00",
+  "collectedAt": "2026-07-02T06:08:09.014663+09:00",
   "programs": [
     {
       "title": "왕영은의 톡투게더",
@@ -13,22 +13,22 @@
       "detail_link": "https://www.hmall.com/md/dpa/pgmComm?sectId=2683513",
       "upcoming_products": [
         {
-          "name": "(품절대란템)샤크 프리미엄선풍기 터보블레이드팬(TF200SKR)",
-          "price": 299900,
-          "image": "https://image.hmall.com/2250317899_0.jpg",
-          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250317899"
-        },
-        {
           "name": "조선호텔 한우사골 眞 삼계탕 8팩",
           "price": 79900,
           "image": "https://image.hmall.com/2236376059_0.jpg",
           "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2236376059"
+        },
+        {
+          "name": "그레인온 이탈리아산 파로 단품구성(280gX1봉)",
+          "price": 15000,
+          "image": "https://image.hmall.com/2209189608_0.jpg",
+          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2209189608"
         }
       ]
     },
     {
       "title": "클럽 노블레스",
-      "broadcast_title": "클럽노블레스 메종",
+      "broadcast_title": "Club Noblesse",
       "schedule_raw": "매주 수요일 19시 30분 | 토요일 11시 20분",
       "day": "수",
       "time": "19:30",
@@ -37,42 +37,29 @@
       "detail_link": "https://www.hmall.com/md/dpa/pgmComm?sectId=2718248",
       "upcoming_products": [
         {
-          "name": "마크제이콥스 미디움 백팩",
-          "price": 279000,
-          "image": "https://image.hmall.com/2236146509_0.jpg",
-          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2236146509"
+          "name": "마스케라 마렌(Maren) 스트라이프 리버시블햇 1종",
+          "price": 49900,
+          "image": "https://image.hmall.com/2249326814_0.jpg",
+          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249326814"
         },
         {
-          "name": "버버리 다이아몬드 체크 실크 스카프",
-          "price": 329000,
-          "image": "https://image.hmall.com/2244338911_0.jpg",
-          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2244338911"
+          "name": "화이트샌즈 우양산 2종 SET",
+          "price": 69900,
+          "image": "https://image.hmall.com/2250716441_0.jpg",
+          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250716441"
         }
       ]
     },
     {
       "title": "서아랑의 쇼핑라이브",
-      "broadcast_title": "아쇼라",
+      "broadcast_title": null,
       "schedule_raw": "매주 수요일 08시 15분",
       "day": "수",
       "time": "08:15",
       "desc": "#내가 원하는 스타일 #Hey, 아쇼라!",
       "thumbnail": "https://image.hmall.com/MH/HM005_SL/20260618/090322/disp3059445085416.jpg",
       "detail_link": "https://www.hmall.com/md/dpa/pgmComm?sectId=2718261",
-      "upcoming_products": [
-        {
-          "name": "올라카일리 26SS 식스티 stem 백팩 1종",
-          "price": 129000,
-          "image": "https://image.hmall.com/2251186493_0.jpg",
-          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251186493"
-        },
-        {
-          "name": "올라카일리 26SS 코튼120수 위켄드 블라우스 1종",
-          "price": 79000,
-          "image": "https://image.hmall.com/2250600407_0.jpg",
-          "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250600407"
-        }
-      ]
+      "upcoming_products": []
     },
     {
       "title": "황정민쇼",

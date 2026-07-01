@@ -1,28 +1,7 @@
 {
   "company": "CJ",
-  "collectedAt": "2026-07-01T06:15:28.173381+09:00",
+  "collectedAt": "2026-07-02T06:08:11.926146+09:00",
   "programs": [
-    {
-      "pgm_cd": "562904",
-      "title": "최화정쇼",
-      "schedule_raw": "수요일 밤 8시 45분",
-      "thumbnail": "https://image.cjonstyle.net/public/confirm/assets/tdp_cate_cont/202306/01/5549815/756debea2b4d2a1ec3b9d56f256c67474c4a5d97.png",
-      "pgmshop_link": "https://display.cjonstyle.com/m/pgmShop/100027",
-      "upcoming_products": [
-        {
-          "name": "[역대최저가/백화점가73%OFF] 루나스톤 프라이팬 풀세트",
-          "price": 329000,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/306/2087721306L.jpg?timestamp=20260625101530",
-          "link": "https://display.cjonstyle.com/m/item/2087721306?channelCode=30002002"
-        },
-        {
-          "name": "[최화정쇼]초강력세트 자석밀대+워터포 리필5통+일렉포 리필2통",
-          "price": 89900,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/297/2084943297L.jpg?timestamp=20260624205003",
-          "link": "https://display.cjonstyle.com/m/item/2084943297?channelCode=30002002"
-        }
-      ]
-    },
     {
       "pgm_cd": "563888",
       "title": "아쇼라",
@@ -274,6 +253,27 @@
           "price": 258000,
           "image": "https://itemimage.cjonstyle.net/goods_images/20/507/2076858507L.jpg?timestamp=20260112201900",
           "link": "https://display.cjonstyle.com/m/item/2076858507?channelCode=30002002"
+        }
+      ]
+    },
+    {
+      "pgm_cd": "562904",
+      "title": "최화정쇼",
+      "schedule_raw": "수요일 밤 8시 45분",
+      "thumbnail": "https://image.cjonstyle.net/public/confirm/assets/tdp_cate_cont/202306/01/5549815/756debea2b4d2a1ec3b9d56f256c67474c4a5d97.png",
+      "pgmshop_link": "https://display.cjonstyle.com/m/pgmShop/100027",
+      "upcoming_products": [
+        {
+          "name": "[TV]   접이식 미니 실내자전거 한뼘 바이크.",
+          "price": 399000,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/549/2048403549L.jpg?timestamp=20260615101313",
+          "link": "https://display.cjonstyle.com/m/item/2048403549?channelCode=30002002"
+        },
+        {
+          "name": "[최화정쇼pick]자일리톨스톤(민트6+블랙2+레몬2) 총 10통",
+          "price": 60900,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/396/2060465396L.jpg?timestamp=20260520155150",
+          "link": "https://display.cjonstyle.com/m/item/2060465396?channelCode=30002002"
         }
       ]
     }
