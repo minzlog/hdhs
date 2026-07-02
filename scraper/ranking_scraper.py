@@ -112,9 +112,11 @@ CATEGORIES = [
     "자동차/공구", "취미", "문화/컨텐츠", "디지털", "컴퓨터",
 ]
 
-OUTBOUND_LINK_RE = re.compile(
-    r'<a target="_blank" rel="noopener noreferrer"[^>]*href="([^"]+)"'
-)
+# 상세페이지 <a> 태그의 속성 순서가 채널/카드마다 제각각이라(예: href가
+# target보다 먼저 오는 경우가 실제로 훨씬 많았음), 속성 순서를 가정하지 않고
+# 태그 하나를 통째로 잡은 뒤 그 안에서 target="_blank" 여부와 href를 따로 검사한다.
+TAG_RE = re.compile(r'<a\b([^>]*)>')
+HREF_ATTR_RE = re.compile(r'href="([^"]+)"')
 
 
 def now_kst() -> datetime:
@@ -182,16 +184,28 @@ def fetch_ranking(category: str) -> list:
 
 
 def fetch_outbound_link(pdid: str) -> str:
-    """상품 상세페이지에서 '바로가기' 실제 구매 링크를 추출한다. 실패 시 빈 문자열."""
+    """상품 상세페이지에서 '바로가기' 실제 구매 링크를 추출한다. 실패 시 빈 문자열.
+
+    상세페이지에는 target="_blank" 달린 <a> 태그가 여러 개 있다(진짜 구매
+    버튼 1개 + 하단 '관련상품' 카드 여러 개). 관련상품 카드는 href가
+    "/product/{다른pdid}" 같은 사이트 내부 상대경로이고, 진짜 구매 버튼만
+    실채널(cjmall/gsshop/...) 도메인의 절대 URL(http로 시작)이므로 이걸로
+    구분해서 첫 번째로 매치되는 절대 URL을 채택한다."""
     url = PRODUCT_URL_TMPL.format(pdid=pdid)
     try:
         r = requests.get(url, headers=DETAIL_HEADERS, timeout=12)
         if r.status_code != 200:
             return ""
-        m = OUTBOUND_LINK_RE.search(r.text)
-        if not m:
-            return ""
-        return m.group(1).replace("&amp;", "&")
+        for attrs in TAG_RE.findall(r.text):
+            if 'target="_blank"' not in attrs:
+                continue
+            m = HREF_ATTR_RE.search(attrs)
+            if not m:
+                continue
+            href = m.group(1)
+            if href.startswith("http"):
+                return href.replace("&amp;", "&")
+        return ""
     except Exception as e:
         print(f"      [link] {pdid} 오류: {e}")
         return ""
