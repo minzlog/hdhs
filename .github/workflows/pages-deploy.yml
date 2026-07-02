@@ -1,0 +1,43 @@
+name: pages-deploy
+
+on:
+  # 1) 사람이 직접 main에 푸시했을 때는 원래처럼 그냥 자동으로 돈다.
+  push:
+    branches: [main]
+  # 2) 스크래퍼 워크플로우들(github-actions[bot] 계정으로 커밋/푸시)은
+  #    push 이벤트가 다른 워크플로우를 재귀 트리거하지 않는 GitHub 정책
+  #    때문에 위 push 트리거가 안 먹는다. 그래서 각 스크래퍼 워크플로우가
+  #    커밋 후 이 workflow_dispatch를 API로 직접 호출해서 강제로 배포한다.
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 배포가 겹쳐 들어와도 순서대로 처리하고, 진행 중인 배포는 취소하지 않는다.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      - name: Pages 설정
+        uses: actions/configure-pages@v5
+
+      - name: 사이트 아티팩트 업로드
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Pages 배포
+        id: deployment
+        uses: actions/deploy-pages@v5
