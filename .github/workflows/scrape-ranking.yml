@@ -26,7 +26,8 @@ jobs:
         run: pip install requests
 
       - name: 홈쇼핑 랭킹 스크래퍼 실행
-        run: python ranking_scraper.py
+        # 파일이 scraper 폴더 안에 있으므로 경로를 수정합니다.
+        run: python scraper/ranking_scraper.py
 
       - name: 변경사항 커밋
         run: |
