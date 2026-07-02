@@ -432,7 +432,7 @@
         "brand": "도깨비방망이",
         "product": "도깨비방망이 헤리티지 프리미엄 1995 마스터 무선 핸드블렌더",
         "price": 139000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126846267&brddate=20260702041300&pgmID=872&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126846267&brddate=20260703042800&pgmID=872&ordChannel=WE&tveshop=Y",
         "category": "가전",
         "lavangba_category": "디지털/가전"
       },
@@ -462,7 +462,7 @@
         "brand": "도깨비방망이",
         "product": "도깨비방망이 헤리티지 프리미엄 1995 마스터 무선 핸드블렌더",
         "price": 139000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126846267&brddate=20260702041300&pgmID=872&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126846267&brddate=20260703042800&pgmID=872&ordChannel=WE&tveshop=Y",
         "category": "가전",
         "lavangba_category": "디지털/가전"
       },
@@ -512,7 +512,7 @@
         "brand": "도깨비방망이",
         "product": "도깨비방망이 헤리티지 프리미엄 1995 마스터 무선 핸드블렌더",
         "price": 139000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126846267&brddate=20260702041300&pgmID=872&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126846267&brddate=20260703042800&pgmID=872&ordChannel=WE&tveshop=Y",
         "category": "가전",
         "lavangba_category": "디지털/가전"
       },
@@ -618,17 +618,17 @@
       },
       {
         "start": "12:36",
-        "end": "13:36",
+        "end": "13:37",
         "brand": "삭루츠",
         "product": "삭루츠 벨로엔 자동 우양산",
-        "price": 79000,
+        "price": 69900,
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1123396575&brddate=20260702123600&pgmID=6736&ordChannel=WE&tveshop=Y",
         "category": "잡화/주얼리",
         "lavangba_category": "패션잡화"
       },
       {
         "start": "13:37",
-        "end": "14:37",
+        "end": "14:38",
         "brand": "쏘내추럴",
         "product": "쏘내추럴 26SS Naia 아세테이트 100 블라우스",
         "price": 69900,
@@ -638,7 +638,7 @@
       },
       {
         "start": "14:37",
-        "end": "15:37",
+        "end": "15:38",
         "brand": "하이랜드",
         "product": "하이랜드 프레쉬 100% 블루베리 착즙 주스 48팩",
         "price": 98900,
@@ -672,7 +672,7 @@
         "brand": "이연복",
         "product": "이연복 뼈다귀탕 5팩",
         "price": 59900,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1118492395&brddate=20260702183800&pgmID=6997&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1118492395&brddate=20260702183800&pgmID=13454&ordChannel=WE&tveshop=Y",
         "category": "일반식품",
         "lavangba_category": "식품"
       },
@@ -712,7 +712,7 @@
         "brand": "라오메뜨",
         "product": "라오메뜨 전설의 패치 프리미엄",
         "price": 79900,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1083630431&brddate=20260702223800&pgmID=6742&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1083630431&brddate=20260706033200&pgmID=6742&ordChannel=WE&tveshop=Y",
         "category": "리빙/주방",
         "lavangba_category": "생활/건강"
       },
@@ -739,6 +739,16 @@
         "lavangba_category": "화장품/미용"
       },
       {
+        "start": "01:39",
+        "end": "01:44",
+        "brand": "드루",
+        "product": "드루 26SS 여름팬츠 여성용",
+        "price": 99000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1125016255&brddate=20260704033200&pgmID=12502&ordChannel=WE&tveshop=Y",
+        "category": "의류",
+        "lavangba_category": "스포츠/레저"
+      },
+      {
         "start": "01:44",
         "end": "01:49",
         "brand": "타파웨어",
@@ -747,6 +757,16 @@
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126672652&brddate=20260704014400&pgmID=6995&ordChannel=WE&tveshop=Y",
         "category": "리빙/주방",
         "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "01:50",
+        "end": "02:10",
+        "brand": "라페어",
+        "product": "라페어 26SS 에어렛 퓨징 브라팬티",
+        "price": 119000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1117333007&brddate=20260706023100&pgmID=6753&ordChannel=WE&tveshop=Y",
+        "category": "언더웨어",
+        "lavangba_category": "패션의류"
       },
       {
         "start": "02:10",
@@ -759,14 +779,24 @@
         "lavangba_category": "생활/건강"
       },
       {
-        "start": "02:51",
+        "start": "02:31",
         "end": "03:11",
         "brand": "",
         "product": "루시헨느 텐셀 쉐이핑 팬티",
         "price": 59900,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1110362588&brddate=20260703025100&pgmID=6753&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1110362588&brddate=20260703023100&pgmID=6753&ordChannel=WE&tveshop=Y",
         "category": "언더웨어",
         "lavangba_category": "패션의류"
+      },
+      {
+        "start": "03:12",
+        "end": "03:17",
+        "brand": "드루",
+        "product": "드루 26SS 여름팬츠 여성용",
+        "price": 99000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1125016255&brddate=20260704033200&pgmID=12502&ordChannel=WE&tveshop=Y",
+        "category": "의류",
+        "lavangba_category": "스포츠/레저"
       },
       {
         "start": "03:17",
@@ -789,14 +819,44 @@
         "lavangba_category": "패션잡화"
       },
       {
+        "start": "03:27",
+        "end": "03:32",
+        "brand": "도깨비방망이",
+        "product": "도깨비방망이 헤리티지 프리미엄 1995 마스터 무선 핸드블렌더",
+        "price": 139000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126846267&brddate=20260703042800&pgmID=872&ordChannel=WE&tveshop=Y",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "03:32",
+        "end": "03:52",
+        "brand": "프리메로",
+        "product": "D프리메로 레몬즙",
+        "price": 98000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1122707101&brddate=20260703033200&pgmID=13352&ordChannel=WE&tveshop=Y",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
         "start": "03:53",
-        "end": "03:58",
+        "end": "04:13",
         "brand": "키리아",
         "product": "키리아 아바 새부리형 KF94 마스크 컬러5종 혼합",
         "price": 39800,
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1100912058&brddate=20260703035300&pgmID=6742&ordChannel=WE&tveshop=Y",
         "category": "리빙/주방",
         "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "04:13",
+        "end": "04:18",
+        "brand": "드루",
+        "product": "드루 26SS 여름팬츠 여성용",
+        "price": 99000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1125016255&brddate=20260704033200&pgmID=12502&ordChannel=WE&tveshop=Y",
+        "category": "의류",
+        "lavangba_category": "스포츠/레저"
       },
       {
         "start": "04:18",
@@ -819,6 +879,26 @@
         "lavangba_category": "패션잡화"
       },
       {
+        "start": "04:28",
+        "end": "04:33",
+        "brand": "도깨비방망이",
+        "product": "도깨비방망이 헤리티지 프리미엄 1995 마스터 무선 핸드블렌더",
+        "price": 139000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126846267&brddate=20260703042800&pgmID=872&ordChannel=WE&tveshop=Y",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "04:34",
+        "end": "04:54",
+        "brand": "비비안",
+        "product": "비비안 26SS 로맨틱 플로럴 브라팬티 세컨팬티",
+        "price": 159900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1107933827&brddate=20260703043400&pgmID=13307&ordChannel=WE&tveshop=Y",
+        "category": "언더웨어",
+        "lavangba_category": "패션의류"
+      },
+      {
         "start": "04:55",
         "end": "05:35",
         "brand": "닥터오기덤",
@@ -827,6 +907,16 @@
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1116224880&brddate=20260703045500&pgmID=6737&ordChannel=WE&tveshop=Y",
         "category": "미용",
         "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "05:35",
+        "end": "05:55",
+        "brand": "",
+        "product": "한생원 천연 육수팩 4팩 천연버섯소금3종",
+        "price": 34900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1028263499&brddate=20260706133700&pgmID=13190&ordChannel=WE&tveshop=Y",
+        "category": "일반식품",
+        "lavangba_category": "식품"
       },
       {
         "start": "05:55",
@@ -872,7 +962,7 @@
         "start": "09:36",
         "end": "10:36",
         "brand": "분트로이",
-        "product": "분트로이 26SS ALLNEW 벨에어 멀티 팬츠 2종_기본기장",
+        "product": "분트로이 26SS ALLNEW 벨에어 멀티 팬츠",
         "price": 59900,
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1117497559&brddate=20260703093600&pgmID=12557&ordChannel=WE&tveshop=Y",
         "category": "의류",
@@ -997,6 +1087,16 @@
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1103555600&brddate=20260703213800&pgmID=13307&ordChannel=WE&tveshop=Y",
         "category": "의류",
         "lavangba_category": "패션의류"
+      },
+      {
+        "start": "22:38",
+        "end": "23:38",
+        "brand": "세라",
+        "product": "세라 젤리슈즈",
+        "price": 39900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1127937419&brddate=20260703223800&pgmID=6736&ordChannel=WE&tveshop=Y",
+        "category": "잡화/주얼리",
+        "lavangba_category": "패션잡화"
       }
     ],
     "2026-07-04": [
@@ -1009,6 +1109,16 @@
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1112089089&brddate=20260704003800&pgmID=872&ordChannel=WE&tveshop=Y",
         "category": "가전",
         "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "01:39",
+        "end": "01:44",
+        "brand": "드루",
+        "product": "드루 26SS 여름팬츠 여성용",
+        "price": 99000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1125016255&brddate=20260704033200&pgmID=12502&ordChannel=WE&tveshop=Y",
+        "category": "의류",
+        "lavangba_category": "스포츠/레저"
       },
       {
         "start": "01:44",
@@ -1032,7 +1142,7 @@
       },
       {
         "start": "02:31",
-        "end": "02:36",
+        "end": "02:51",
         "brand": "살림백서",
         "product": "대용량 디퓨저 500nl 차량용 디퓨저",
         "price": 39900,
@@ -1051,14 +1161,14 @@
         "lavangba_category": "패션잡화"
       },
       {
-        "start": "02:56",
-        "end": "03:01",
-        "brand": "데일리어니언",
-        "product": "데일리어니언 양파껍질차 40병",
-        "price": 64000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126855014&brddate=20260705025600&pgmID=6997&ordChannel=WE&tveshop=Y",
-        "category": "일반식품",
-        "lavangba_category": "식품"
+        "start": "03:32",
+        "end": "03:37",
+        "brand": "드루",
+        "product": "드루 26SS 여름팬츠 여성용",
+        "price": 99000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1125016255&brddate=20260704033200&pgmID=12502&ordChannel=WE&tveshop=Y",
+        "category": "의류",
+        "lavangba_category": "스포츠/레저"
       },
       {
         "start": "03:37",
@@ -1069,16 +1179,6 @@
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126672652&brddate=20260704014400&pgmID=6995&ordChannel=WE&tveshop=Y",
         "category": "리빙/주방",
         "lavangba_category": "생활/건강"
-      },
-      {
-        "start": "03:42",
-        "end": "03:47",
-        "brand": "데일리어니언",
-        "product": "데일리어니언 양파껍질차 40병",
-        "price": 64000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126855014&brddate=20260705025600&pgmID=6997&ordChannel=WE&tveshop=Y",
-        "category": "일반식품",
-        "lavangba_category": "식품"
       },
       {
         "start": "03:47",
@@ -1092,7 +1192,7 @@
       },
       {
         "start": "03:53",
-        "end": "04:13",
+        "end": "04:33",
         "brand": "베네통",
         "product": "베네통 26SS 남여공용 시그니처 반팔 티셔츠 5종세트",
         "price": 69900,
@@ -1109,16 +1209,6 @@
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1123493832&brddate=20260704043400&pgmID=13307&ordChannel=WE&tveshop=Y",
         "category": "의류",
         "lavangba_category": "패션잡화"
-      },
-      {
-        "start": "04:39",
-        "end": "04:44",
-        "brand": "데일리어니언",
-        "product": "데일리어니언 양파껍질차 40병",
-        "price": 64000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126855014&brddate=20260705025600&pgmID=6997&ordChannel=WE&tveshop=Y",
-        "category": "일반식품",
-        "lavangba_category": "식품"
       },
       {
         "start": "04:55",
@@ -1187,6 +1277,16 @@
         "product": "SJ와니 26SS 에디션 슬리브리스 니트탑",
         "price": 59900,
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1104409652&brddate=20260704113600&pgmID=13307&ordChannel=WE&tveshop=Y",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "12:36",
+        "end": "13:36",
+        "brand": "스튜디오디페",
+        "product": "스튜디오디페 26SS 셔링 경량 블라우스",
+        "price": 59900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1102027541&brddate=20260704123600&pgmID=13307&ordChannel=WE&tveshop=Y",
         "category": "의류",
         "lavangba_category": "패션의류"
       },
@@ -1288,19 +1388,9 @@
         "brand": "기절베개",
         "product": "아이스텍 더냉감 싱글세트",
         "price": 69900,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126718455&brddate=20260706025600&pgmID=6740&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126718455&brddate=20260706041800&pgmID=6740&ordChannel=WE&tveshop=Y",
         "category": "리빙/주방",
         "lavangba_category": "가구/인테리어"
-      },
-      {
-        "start": "01:44",
-        "end": "01:49",
-        "brand": "데일리어니언",
-        "product": "데일리어니언 양파껍질차 40병",
-        "price": 64000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126855014&brddate=20260705025600&pgmID=6997&ordChannel=WE&tveshop=Y",
-        "category": "일반식품",
-        "lavangba_category": "식품"
       },
       {
         "start": "02:10",
@@ -1318,19 +1408,9 @@
         "brand": "기절베개",
         "product": "아이스텍 더냉감 싱글세트",
         "price": 69900,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126718455&brddate=20260706025600&pgmID=6740&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126718455&brddate=20260706041800&pgmID=6740&ordChannel=WE&tveshop=Y",
         "category": "리빙/주방",
         "lavangba_category": "가구/인테리어"
-      },
-      {
-        "start": "02:56",
-        "end": "03:01",
-        "brand": "데일리어니언",
-        "product": "데일리어니언 양파껍질차 40병",
-        "price": 64000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126855014&brddate=20260705025600&pgmID=6997&ordChannel=WE&tveshop=Y",
-        "category": "일반식품",
-        "lavangba_category": "식품"
       },
       {
         "start": "03:01",
@@ -1338,12 +1418,22 @@
         "brand": "세포랩",
         "product": "세포랩 하이드레이션",
         "price": 289000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1128066873&brddate=20260706030100&pgmID=6737&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1128066873&brddate=20260706042300&pgmID=6737&ordChannel=WE&tveshop=Y",
         "category": "미용",
         "lavangba_category": "화장품/미용"
       },
       {
-        "start": "03:53",
+        "start": "03:12",
+        "end": "03:32",
+        "brand": "라오메뜨",
+        "product": "라오메뜨 전설의 패치 프리미엄",
+        "price": 79900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1083630431&brddate=20260706033200&pgmID=6742&ordChannel=WE&tveshop=Y",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "03:33",
         "end": "04:13",
         "brand": "",
         "product": "26신상 조아하다 프리사이즈 플리츠 상하의",
@@ -1358,7 +1448,7 @@
         "brand": "세포랩",
         "product": "세포랩 하이드레이션",
         "price": 289000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1128066873&brddate=20260706030100&pgmID=6737&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1128066873&brddate=20260706042300&pgmID=6737&ordChannel=WE&tveshop=Y",
         "category": "미용",
         "lavangba_category": "화장품/미용"
       },
@@ -1368,9 +1458,19 @@
         "brand": "세포랩",
         "product": "세포랩 하이드레이션",
         "price": 289000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1128066873&brddate=20260706030100&pgmID=6737&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1128066873&brddate=20260706042300&pgmID=6737&ordChannel=WE&tveshop=Y",
         "category": "미용",
         "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "04:34",
+        "end": "04:54",
+        "brand": "",
+        "product": "코몽트 26SS 남성 메쉬 자켓 , 냉감 티셔츠",
+        "price": 59900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1120804299&brddate=20260705043400&pgmID=12502&ordChannel=WE&tveshop=Y",
+        "category": "의류",
+        "lavangba_category": "스포츠/레저"
       },
       {
         "start": "04:55",
@@ -1523,6 +1623,16 @@
         "lavangba_category": "디지털/가전"
       },
       {
+        "start": "20:38",
+        "end": "21:38",
+        "brand": "레드캠프",
+        "product": "레드캠프 26SS 신상 냉감 쿨링팬츠 세트 여성용",
+        "price": 59900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1122064283&brddate=20260705203800&pgmID=12502&ordChannel=WE&tveshop=Y",
+        "category": "의류",
+        "lavangba_category": "스포츠/레저"
+      },
+      {
         "start": "22:38",
         "end": "23:38",
         "brand": "UBGS",
@@ -1550,7 +1660,7 @@
         "brand": "기절베개",
         "product": "아이스텍 더냉감 싱글세트",
         "price": 69900,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126718455&brddate=20260706025600&pgmID=6740&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126718455&brddate=20260706041800&pgmID=6740&ordChannel=WE&tveshop=Y",
         "category": "리빙/주방",
         "lavangba_category": "가구/인테리어"
       },
@@ -1565,12 +1675,22 @@
         "lavangba_category": "식품"
       },
       {
+        "start": "02:31",
+        "end": "02:51",
+        "brand": "라페어",
+        "product": "라페어 26SS 에어렛 퓨징 브라팬티",
+        "price": 119000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1117333007&brddate=20260706023100&pgmID=6753&ordChannel=WE&tveshop=Y",
+        "category": "언더웨어",
+        "lavangba_category": "패션의류"
+      },
+      {
         "start": "02:56",
         "end": "03:01",
         "brand": "기절베개",
         "product": "아이스텍 더냉감 싱글세트",
         "price": 69900,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126718455&brddate=20260706025600&pgmID=6740&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126718455&brddate=20260706041800&pgmID=6740&ordChannel=WE&tveshop=Y",
         "category": "리빙/주방",
         "lavangba_category": "가구/인테리어"
       },
@@ -1580,9 +1700,29 @@
         "brand": "세포랩",
         "product": "세포랩 하이드레이션",
         "price": 289000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1128066873&brddate=20260706030100&pgmID=6737&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1128066873&brddate=20260706042300&pgmID=6737&ordChannel=WE&tveshop=Y",
         "category": "미용",
         "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "03:32",
+        "end": "03:52",
+        "brand": "라오메뜨",
+        "product": "라오메뜨 전설의 패치 프리미엄",
+        "price": 79900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1083630431&brddate=20260706033200&pgmID=6742&ordChannel=WE&tveshop=Y",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "03:53",
+        "end": "04:13",
+        "brand": "",
+        "product": "유로스티머 멀티 다지기",
+        "price": 39900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1072589108&brddate=20260706035300&pgmID=872&ordChannel=WE&tveshop=Y",
+        "category": "가전",
+        "lavangba_category": "생활/건강"
       },
       {
         "start": "04:18",
@@ -1590,7 +1730,7 @@
         "brand": "기절베개",
         "product": "아이스텍 더냉감 싱글세트",
         "price": 69900,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126718455&brddate=20260706025600&pgmID=6740&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126718455&brddate=20260706041800&pgmID=6740&ordChannel=WE&tveshop=Y",
         "category": "리빙/주방",
         "lavangba_category": "가구/인테리어"
       },
@@ -1600,7 +1740,7 @@
         "brand": "세포랩",
         "product": "세포랩 하이드레이션",
         "price": 289000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1128066873&brddate=20260706030100&pgmID=6737&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1128066873&brddate=20260706042300&pgmID=6737&ordChannel=WE&tveshop=Y",
         "category": "미용",
         "lavangba_category": "화장품/미용"
       },
@@ -1653,6 +1793,16 @@
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1068197192&brddate=20260706163800&pgmID=13352&ordChannel=WE&tveshop=Y",
         "category": "건강식품",
         "lavangba_category": "식품"
+      },
+      {
+        "start": "10:36",
+        "end": "11:36",
+        "brand": "",
+        "product": "엘레강스 파리 SPORT 26SS 여성 냉감 라운드 티셔츠",
+        "price": 49000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1122649340&brddate=20260706103600&pgmID=12502&ordChannel=WE&tveshop=Y",
+        "category": "의류",
+        "lavangba_category": "스포츠/레저"
       },
       {
         "start": "11:36",
@@ -1812,7 +1962,7 @@
         "brand": "오라틱스",
         "product": "잇몸유산균 오라틱스 오라씨엠유",
         "price": 359000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126773773&brddate=20260707041800&pgmID=13352&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126773773&brddate=20260707015500&pgmID=13352&ordChannel=WE&tveshop=Y",
         "category": "건강식품",
         "lavangba_category": "식품"
       },
@@ -1842,7 +1992,7 @@
         "brand": "오라틱스",
         "product": "잇몸유산균 오라틱스 오라씨엠유",
         "price": 359000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126773773&brddate=20260707041800&pgmID=13352&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126773773&brddate=20260707015500&pgmID=13352&ordChannel=WE&tveshop=Y",
         "category": "건강식품",
         "lavangba_category": "식품"
       },
@@ -1865,6 +2015,16 @@
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1121222074&brddate=20260707083600&pgmID=13352&ordChannel=WE&tveshop=Y",
         "category": "건강식품",
         "lavangba_category": "식품"
+      },
+      {
+        "start": "09:36",
+        "end": "10:36",
+        "brand": "클로리에",
+        "product": "클로리에 실버925 인피니티 체인 목걸이",
+        "price": 199000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1127106098&brddate=20260707093600&pgmID=13403&ordChannel=WE&tveshop=Y",
+        "category": "잡화/주얼리",
+        "lavangba_category": "패션잡화"
       },
       {
         "start": "10:36",

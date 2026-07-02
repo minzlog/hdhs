@@ -775,12 +775,21 @@
       },
       {
         "start": "21:00",
-        "end": "22:40",
+        "end": "21:40",
         "brand": "베지밀",
         "product": "베지밀 총 90팩",
         "price": 49900,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248989221&preview=true",
         "category": "일반식품"
+      },
+      {
+        "start": "21:40",
+        "end": "22:40",
+        "brand": "삼성",
+        "product": "삼성 AI Mini LED TV 85형",
+        "price": 3090000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250628694&preview=true",
+        "category": "가전"
       },
       {
         "start": "22:40",
@@ -804,7 +813,7 @@
     "2026-07-04": [
       {
         "start": "01:40",
-        "end": "03:20",
+        "end": "03:00",
         "brand": "지니라이프",
         "product": "유기농 레몬즙 레자몽즙",
         "price": 190000,
@@ -812,35 +821,71 @@
         "category": "건강식품"
       },
       {
+        "start": "03:00",
+        "end": "03:20",
+        "brand": "주영엔에스",
+        "product": "모발콜라겐 3270",
+        "price": 205000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251628306&preview=true",
+        "category": "건강식품"
+      },
+      {
         "start": "03:20",
-        "end": "03:40",
+        "end": "03:30",
         "brand": "김가연",
         "product": "돈까스 16팩",
         "price": 54900,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251604821&preview=true",
+        "category": "일반식품"
+      },
+      {
+        "start": "03:30",
+        "end": "03:40",
+        "brand": "제주농협",
+        "product": "햇 미니 단호박",
+        "price": 29900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251354391&preview=true",
         "category": "일반식품"
       },
       {
         "start": "03:40",
-        "end": "03:50",
+        "end": "03:45",
         "brand": "김가연",
         "product": "돈까스 16팩",
         "price": 54900,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251604821&preview=true",
+        "category": "일반식품"
+      },
+      {
+        "start": "03:45",
+        "end": "03:50",
+        "brand": "제주농협",
+        "product": "햇 미니 단호박",
+        "price": 29900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251354391&preview=true",
         "category": "일반식품"
       },
       {
         "start": "03:50",
-        "end": "04:00",
+        "end": "03:55",
         "brand": "김가연",
         "product": "돈까스 16팩",
         "price": 54900,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251604821&preview=true",
+        "category": "일반식품"
+      },
+      {
+        "start": "03:55",
+        "end": "04:00",
+        "brand": "제주농협",
+        "product": "햇 미니 단호박",
+        "price": 29900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251354391&preview=true",
         "category": "일반식품"
       },
       {
         "start": "04:00",
-        "end": "04:10",
+        "end": "04:05",
         "brand": "김가연",
         "product": "돈까스 16팩",
         "price": 54900,
@@ -848,12 +893,30 @@
         "category": "일반식품"
       },
       {
+        "start": "04:05",
+        "end": "04:10",
+        "brand": "제주농협",
+        "product": "햇 미니 단호박",
+        "price": 29900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251354391&preview=true",
+        "category": "일반식품"
+      },
+      {
         "start": "04:10",
-        "end": "06:00",
+        "end": "04:15",
         "brand": "김가연",
         "product": "돈까스 16팩",
         "price": 54900,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251604821&preview=true",
+        "category": "일반식품"
+      },
+      {
+        "start": "04:15",
+        "end": "06:00",
+        "brand": "제주농협",
+        "product": "햇 미니 단호박",
+        "price": 29900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251354391&preview=true",
         "category": "일반식품"
       },
       {
@@ -894,12 +957,30 @@
       },
       {
         "start": "10:40",
-        "end": "15:40",
+        "end": "12:40",
         "brand": "크린바바",
         "product": "한번에 싹 버블왕 플러스",
         "price": 59800,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2244970364&preview=true",
         "category": "리빙/주방"
+      },
+      {
+        "start": "12:40",
+        "end": "14:40",
+        "brand": "삼성",
+        "product": "삼성 AI Mini LED TV 85형",
+        "price": 3090000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250628694&preview=true",
+        "category": "가전"
+      },
+      {
+        "start": "14:40",
+        "end": "15:40",
+        "brand": "",
+        "product": "2026SS 푸마 기능성 메쉬 쿨 티셔츠 _남여공용",
+        "price": 55000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251025538&preview=true",
+        "category": "언더웨어"
       },
       {
         "start": "15:40",
@@ -912,11 +993,20 @@
       },
       {
         "start": "17:40",
-        "end": "20:40",
+        "end": "19:40",
         "brand": "삼성",
         "product": "삼성 AI Q9000 에어컨 홈멀티형",
         "price": 2299000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248932976&preview=true",
+        "category": "가전"
+      },
+      {
+        "start": "19:40",
+        "end": "20:40",
+        "brand": "삼성",
+        "product": "삼성 AI Mini LED TV 85형",
+        "price": 3090000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250628694&preview=true",
         "category": "가전"
       },
       {
@@ -948,6 +1038,15 @@
       }
     ],
     "2026-07-05": [
+      {
+        "start": "01:00",
+        "end": "02:25",
+        "brand": "뼈엔MBP",
+        "product": "뼈엔 엠비피 MBP",
+        "price": 459000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248985620&preview=true",
+        "category": "건강식품"
+      },
       {
         "start": "02:25",
         "end": "02:35",
@@ -986,6 +1085,42 @@
       },
       {
         "start": "03:10",
+        "end": "03:20",
+        "brand": "오리지날리",
+        "product": "26SS 썸머 프린트 팬츠",
+        "price": 49900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251259430&preview=true",
+        "category": "의류"
+      },
+      {
+        "start": "03:20",
+        "end": "03:40",
+        "brand": "올라카일리",
+        "product": "26SS stem 레더 크로스백",
+        "price": 159000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250930098&preview=true",
+        "category": "의류"
+      },
+      {
+        "start": "03:40",
+        "end": "05:20",
+        "brand": "팔레오",
+        "product": "팔레오 슈퍼플렉스 콘드로이친 plus 류신",
+        "price": 99000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2237735244&preview=true",
+        "category": "건강식품"
+      },
+      {
+        "start": "05:20",
+        "end": "06:20",
+        "brand": "에이스바이옴",
+        "product": "패밀리세트 비에날씬 12BOX 비에날씬프로틴 3BOX",
+        "price": 699000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2201734283&preview=true",
+        "category": "건강식품"
+      },
+      {
+        "start": "06:20",
         "end": "07:00",
         "brand": "오리지날리",
         "product": "26SS 썸머 프린트 팬츠",
@@ -995,7 +1130,7 @@
       },
       {
         "start": "07:00",
-        "end": "09:40",
+        "end": "08:00",
         "brand": "메디칼드림",
         "product": "경추 안마 베개 K38",
         "price": 59800,
@@ -1003,13 +1138,31 @@
         "category": "리빙/주방"
       },
       {
+        "start": "08:00",
+        "end": "09:40",
+        "brand": "데이즈온",
+        "product": "데이즈온 파라다이스 그레인 버닝 6",
+        "price": 248000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2247065384&preview=true",
+        "category": "건강식품"
+      },
+      {
         "start": "09:40",
-        "end": "13:40",
+        "end": "11:40",
         "brand": "신영와코루",
         "product": "2026 로맨틱블룸 인견 쉐이퍼",
         "price": 179000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248492211&preview=true",
         "category": "언더웨어"
+      },
+      {
+        "start": "11:40",
+        "end": "13:40",
+        "brand": "삼성",
+        "product": "삼성 AI Mini LED TV 85형",
+        "price": 3090000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250628694&preview=true",
+        "category": "가전"
       },
       {
         "start": "13:40",
@@ -1087,34 +1240,61 @@
     "2026-07-06": [
       {
         "start": "02:20",
-        "end": "02:40",
+        "end": "02:35",
         "brand": "도미나스",
         "product": "태극제약 도미나스 NMN 3X 플럼핑 세럼 x",
         "price": 119000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251597240&preview=true",
         "category": "미용"
+      },
+      {
+        "start": "02:35",
+        "end": "02:40",
+        "brand": "LG전자",
+        "product": "LG 휘센 오브제 제습기",
+        "price": 750000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251777218&preview=true",
+        "category": "가전"
       },
       {
         "start": "02:40",
-        "end": "03:00",
+        "end": "02:55",
         "brand": "도미나스",
         "product": "태극제약 도미나스 NMN 3X 플럼핑 세럼 x",
         "price": 119000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251597240&preview=true",
         "category": "미용"
+      },
+      {
+        "start": "02:55",
+        "end": "03:00",
+        "brand": "LG전자",
+        "product": "LG 휘센 오브제 제습기",
+        "price": 750000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251777218&preview=true",
+        "category": "가전"
       },
       {
         "start": "03:00",
-        "end": "03:20",
+        "end": "03:15",
         "brand": "도미나스",
         "product": "태극제약 도미나스 NMN 3X 플럼핑 세럼 x",
         "price": 119000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251597240&preview=true",
         "category": "미용"
+      },
+      {
+        "start": "03:15",
+        "end": "03:20",
+        "brand": "LG전자",
+        "product": "LG 휘센 오브제 제습기",
+        "price": 750000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251777218&preview=true",
+        "category": "가전"
       },
       {
         "start": "03:20",
-        "end": "03:40",
+        "end": "03:35",
         "brand": "도미나스",
         "product": "태극제약 도미나스 NMN 3X 플럼핑 세럼 x",
         "price": 119000,
@@ -1122,13 +1302,40 @@
         "category": "미용"
       },
       {
+        "start": "03:35",
+        "end": "03:40",
+        "brand": "LG전자",
+        "product": "LG 휘센 오브제 제습기",
+        "price": 750000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251777218&preview=true",
+        "category": "가전"
+      },
+      {
         "start": "03:40",
-        "end": "06:40",
+        "end": "03:55",
         "brand": "도미나스",
         "product": "태극제약 도미나스 NMN 3X 플럼핑 세럼 x",
         "price": 119000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251597240&preview=true",
         "category": "미용"
+      },
+      {
+        "start": "03:55",
+        "end": "04:00",
+        "brand": "LG전자",
+        "product": "LG 휘센 오브제 제습기",
+        "price": 750000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251777218&preview=true",
+        "category": "가전"
+      },
+      {
+        "start": "04:00",
+        "end": "06:40",
+        "brand": "삼성",
+        "product": "삼성 AI Mini LED TV 85형",
+        "price": 3690000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250133802&preview=true",
+        "category": "가전"
       },
       {
         "start": "06:40",
@@ -1141,12 +1348,30 @@
       },
       {
         "start": "08:40",
-        "end": "12:20",
+        "end": "10:40",
         "brand": "퓨레어",
         "product": "퓨레어 퍼퓸 탈취제 더블세트",
         "price": 89800,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2241233693&preview=true",
         "category": "리빙/주방"
+      },
+      {
+        "start": "10:40",
+        "end": "11:40",
+        "brand": "박정수",
+        "product": "올바른가 자연산 한입 조기 140토막",
+        "price": 49900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2239540042&preview=true",
+        "category": "일반식품"
+      },
+      {
+        "start": "11:40",
+        "end": "12:20",
+        "brand": "잭앤질",
+        "product": "말랑말랑 레인부츠",
+        "price": 29900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251228658&preview=true",
+        "category": "잡화/주얼리"
       },
       {
         "start": "12:20",
@@ -1204,12 +1429,21 @@
       },
       {
         "start": "19:40",
-        "end": "21:40",
+        "end": "20:40",
         "brand": "충주사과",
         "product": "프레샤인 충주 세척사과",
         "price": 59900,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2230623086&preview=true",
         "category": "일반식품"
+      },
+      {
+        "start": "20:40",
+        "end": "21:40",
+        "brand": "세라젬",
+        "product": "세라젬 마스터 시리즈",
+        "price": 7134000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2233575852&preview=true",
+        "category": "일반렌탈"
       },
       {
         "start": "21:40",
@@ -1232,6 +1466,24 @@
     ],
     "2026-07-07": [
       {
+        "start": "01:00",
+        "end": "03:20",
+        "brand": "데이즈온",
+        "product": "데이즈온 파라다이스 그레인 버닝 6",
+        "price": 248000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2247065384&preview=true",
+        "category": "건강식품"
+      },
+      {
+        "start": "03:20",
+        "end": "07:00",
+        "brand": "몬테밀라노",
+        "product": "26 SUMMER 보트넥 패턴 티블라우스",
+        "price": 49900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250041476&preview=true",
+        "category": "의류"
+      },
+      {
         "start": "07:00",
         "end": "07:40",
         "brand": "루니툰",
@@ -1242,12 +1494,30 @@
       },
       {
         "start": "07:40",
-        "end": "12:00",
+        "end": "10:40",
         "brand": "솔솔랩",
         "product": "냉감 국산 편백 베개 세트",
         "price": 64900,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251274929&preview=true",
         "category": "리빙/주방"
+      },
+      {
+        "start": "10:40",
+        "end": "11:20",
+        "brand": "올라카일리",
+        "product": "26SS stem 레더 크로스백",
+        "price": 159000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250930098&preview=true",
+        "category": "의류"
+      },
+      {
+        "start": "11:20",
+        "end": "12:00",
+        "brand": "르쎄뜨",
+        "product": "르쎄뜨 파리안 토트백",
+        "price": 59900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250794222&preview=true",
+        "category": "잡화/주얼리"
       },
       {
         "start": "12:00",
@@ -1278,7 +1548,7 @@
       },
       {
         "start": "14:40",
-        "end": "17:20",
+        "end": "16:40",
         "brand": "흙이음",
         "product": "100% 국내산 햇 찰 옥수수",
         "price": 29900,
@@ -1286,13 +1556,31 @@
         "category": "일반식품"
       },
       {
+        "start": "16:40",
+        "end": "17:20",
+        "brand": "태그",
+        "product": "태그 26SS 아메리칸 레터링 티셔츠",
+        "price": 59900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248829070&preview=true",
+        "category": "의류"
+      },
+      {
         "start": "17:20",
-        "end": "22:40",
+        "end": "18:00",
         "brand": "박준면",
         "product": "의 김치이야기 포기김치4kg 총각김치1kg",
         "price": 45900,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251290001&preview=true",
         "category": "일반식품"
+      },
+      {
+        "start": "18:00",
+        "end": "22:40",
+        "brand": "헉슬리",
+        "product": "헉슬리 소가죽 피셔맨 2WAY 데일리 샌들",
+        "price": 69800,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251453129&preview=true",
+        "category": "잡화/주얼리"
       },
       {
         "start": "22:40",

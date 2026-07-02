@@ -352,7 +352,7 @@
         "start": "06:15",
         "end": "08:15",
         "brand": "로라파커",
-        "product": "26SS 넥카프팔토시 팔토시1종",
+        "product": "26SS 넥카프3종 팔토시1종",
         "price": 29900,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250246543&preview=true",
         "category": "의류"
@@ -427,6 +427,15 @@
         "product": "삼성 AI Q9000 에어컨 홈멀티형",
         "price": 2299000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251740959&preview=true",
+        "category": "가전"
+      },
+      {
+        "start": "14:05",
+        "end": "15:45",
+        "brand": "삼성",
+        "product": "삼성 Bespoke AI 스팀 울트라 로봇청소기",
+        "price": 2250000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250261224&preview=true",
         "category": "가전"
       },
       {
@@ -711,6 +720,15 @@
         "category": "보험"
       },
       {
+        "start": "18:30",
+        "end": "19:30",
+        "brand": "온누리투어",
+        "product": "푸꾸옥 5일 or 나트랑달랏 5일 or 하노이하롱베이 5일",
+        "price": 702000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251742996&preview=true",
+        "category": "여행"
+      },
+      {
         "start": "19:30",
         "end": "20:45",
         "brand": "아치솔",
@@ -807,7 +825,7 @@
         "end": "06:20",
         "brand": "아델로",
         "product": "아델로 썸머 플리츠 셋업 세트",
-        "price": 39900,
+        "price": 29900,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251606318&preview=true",
         "category": "의류"
       },
@@ -857,6 +875,15 @@
         "category": "잡화/주얼리"
       },
       {
+        "start": "11:20",
+        "end": "13:45",
+        "brand": "골든클레프",
+        "product": "18K 조디악 목걸이",
+        "price": 1299000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250752220&preview=true",
+        "category": "잡화/주얼리"
+      },
+      {
         "start": "13:45",
         "end": "14:55",
         "brand": "리터니티",
@@ -864,6 +891,24 @@
         "price": 189000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250915855&preview=true",
         "category": "미용"
+      },
+      {
+        "start": "14:55",
+        "end": "16:05",
+        "brand": "USPA",
+        "product": "USPA 26SS 여성 패커블 점퍼",
+        "price": 59000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248887898&preview=true",
+        "category": "의류"
+      },
+      {
+        "start": "16:05",
+        "end": "17:05",
+        "brand": "라포레",
+        "product": "라포레 플레이팅팬 플러스 풀세트",
+        "price": 189000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250847834&preview=true",
+        "category": "리빙/주방"
       },
       {
         "start": "17:35",
@@ -891,6 +936,24 @@
         "price": 299000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251644746&preview=true",
         "category": "여행"
+      },
+      {
+        "start": "21:30",
+        "end": "22:30",
+        "brand": "참좋은여행",
+        "product": "튀르키예 완전일주 9일",
+        "price": 2126500,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251721521&preview=true",
+        "category": "여행"
+      },
+      {
+        "start": "22:30",
+        "end": "23:30",
+        "brand": "셀폰즈",
+        "product": "셀폰즈 고래펩타이드 녹는실 리프팅 앰플",
+        "price": 199800,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251482738&preview=true",
+        "category": "미용"
       },
       {
         "start": "23:30",
@@ -928,6 +991,15 @@
         "product": "이상봉에디션 26SS 소로나 레이어 블라우스",
         "price": 39900,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249534265&preview=true",
+        "category": "의류"
+      },
+      {
+        "start": "03:00",
+        "end": "03:30",
+        "brand": "플리츠미",
+        "product": "26SS 슈링크 코튼 블라우스",
+        "price": 89000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251046145&preview=true",
         "category": "의류"
       },
       {
@@ -970,7 +1042,7 @@
         "start": "07:50",
         "end": "08:50",
         "brand": "에바큐브",
-        "product": "에바큐브 26SS Mix플리츠 노카라 자켓",
+        "product": "26SS Mix플리츠 노카라 자켓",
         "price": 299000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248246921&preview=true",
         "category": "의류"
@@ -1037,6 +1109,15 @@
         "price": 7153200,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2234235531&preview=true",
         "category": "일반렌탈"
+      },
+      {
+        "start": "18:25",
+        "end": "19:25",
+        "brand": "노랑풍선",
+        "product": "호주/뉴질랜드 9/10/12일 완벽 일주",
+        "price": 4319500,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251600728&preview=true",
+        "category": "여행"
       },
       {
         "start": "19:25",
@@ -1131,6 +1212,24 @@
         "category": "의류"
       },
       {
+        "start": "07:15",
+        "end": "08:15",
+        "brand": "대상",
+        "product": "뉴케어 구수한맛 밸런스업 144팩",
+        "price": 289000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2214209216&preview=true",
+        "category": "건강식품"
+      },
+      {
+        "start": "08:15",
+        "end": "09:25",
+        "brand": "이상봉",
+        "product": "에디션 26SS 레이첼 2way 소가죽 백팩",
+        "price": 129000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249529958&preview=true",
+        "category": "의류"
+      },
+      {
         "start": "09:25",
         "end": "10:25",
         "brand": "이지듀",
@@ -1194,6 +1293,24 @@
         "category": "일반렌탈"
       },
       {
+        "start": "16:10",
+        "end": "17:00",
+        "brand": "종근당건강",
+        "product": "종근당건강 락토핏 당케어프로",
+        "price": 209000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2224742249&preview=true",
+        "category": "건강식품"
+      },
+      {
+        "start": "17:00",
+        "end": "18:30",
+        "brand": "제주바람뜰",
+        "product": "제주 우도생땅콩 x 5봉",
+        "price": 59900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251145247&preview=true",
+        "category": "일반식품"
+      },
+      {
         "start": "17:00",
         "end": "18:30",
         "brand": "김가연",
@@ -1250,12 +1367,66 @@
     ],
     "2026-07-07": [
       {
+        "start": "01:50",
+        "end": "02:40",
+        "brand": "세인트프랑",
+        "product": "에스테틱 대용량 크림 매니아패키지",
+        "price": 249000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251080532&preview=true",
+        "category": "미용"
+      },
+      {
+        "start": "02:40",
+        "end": "03:10",
+        "brand": "미세스문",
+        "product": "삶아쓰는 뱀부 100% 포레라 침구 세트 SK",
+        "price": 238000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251423757&preview=true",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "03:10",
+        "end": "03:30",
+        "brand": "디아루체",
+        "product": "26SS 하프 문백",
+        "price": 69900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251231907&preview=true",
+        "category": "의류"
+      },
+      {
+        "start": "03:30",
+        "end": "04:20",
+        "brand": "알레보",
+        "product": "알레보 디엣지 듀얼핏 TPU 반달도마 세트",
+        "price": 69000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2244974638&preview=true",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "04:20",
+        "end": "05:20",
+        "brand": "리오벨",
+        "product": "리오벨 26 풀스킨 렉스퍼 리버서블 야상 자켓",
+        "price": 599000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251579563&preview=true",
+        "category": "의류"
+      },
+      {
         "start": "05:20",
         "end": "06:15",
         "brand": "닥터린",
         "product": "닥터린 하이퍼셀 대마종자유",
         "price": 298000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2247060956&preview=true",
+        "category": "건강식품"
+      },
+      {
+        "start": "06:15",
+        "end": "07:15",
+        "brand": "데이즈온",
+        "product": "데이즈온 파라다이스 그레인 버닝",
+        "price": 248000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2247065424&preview=true",
         "category": "건강식품"
       },
       {
@@ -1295,6 +1466,15 @@
         "category": "보험"
       },
       {
+        "start": "19:30",
+        "end": "21:45",
+        "brand": "사대부집곳간",
+        "product": "전통 녹두 삼계탕 X 8팩",
+        "price": 65900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2211849564&preview=true",
+        "category": "일반식품"
+      },
+      {
         "start": "21:45",
         "end": "22:55",
         "brand": "안나수이",
@@ -1302,6 +1482,15 @@
         "price": 99000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2244872081&preview=true",
         "category": "잡화/주얼리"
+      },
+      {
+        "start": "22:55",
+        "end": "23:55",
+        "brand": "로보",
+        "product": "로보 25FW 리버시블 넥벨트 더블 하프 무스탕",
+        "price": 1390000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2244055270&preview=true",
+        "category": "의류"
       },
       {
         "start": "23:55",
