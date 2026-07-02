@@ -10,6 +10,7 @@ on:
 
 permissions:
   contents: write
+  actions: write   # pages-deploy 워크플로우를 API로 dispatch하려면 필요
 
 jobs:
   scrape:
@@ -35,13 +36,33 @@ jobs:
           python scrape_naver.py --out-dir ../data/dramavariety --max-pages 30
 
       - name: 변경사항 커밋
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/dramavariety/*.json
-          git diff --cached --quiet || git commit -m "chore: 드라마/예능 편성 데이터 갱신 ($(date -u +%Y-%m-%d))"
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "chore: 드라마/예능 편성 데이터 갱신 ($(date -u +%Y-%m-%d))"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
           for i in 1 2 3 4 5; do
             git pull --rebase origin main && git push && break
             echo "push 실패, 재시도 ($i)"
             sleep $((RANDOM % 10 + 1))
           done
+
+      - name: Pages 재배포 트리거
+        # github-actions[bot] 계정(GITHUB_TOKEN)으로 만든 push는 GitHub이
+        # 다른 워크플로우를 재귀적으로 트리거하지 않아, 위에서 데이터를
+        # 새로 커밋해도 pages-deploy.yml이 자동으로 반응하지 않을 수 있다.
+        # workflow_dispatch를 API로 직접 호출해 배포를 강제로 큐에 넣는다.
+        if: steps.commit.outputs.changed == 'true'
+        run: |
+          curl -L -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/pages-deploy.yml/dispatches" \
+            -d '{"ref":"main"}'
