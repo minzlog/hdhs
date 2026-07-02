@@ -10,7 +10,7 @@ rank_change를 계산한다.
   rank_change > 0 : 순위 상승 (숫자가 작아짐, 예: 5위 -> 2위 => +3)
   rank_change < 0 : 순위 하락
   rank_change = null : 그 주 들어 이 카테고리에 처음 등장 (신규 진입, 또는
-                        그 주의 첫 실행이라 비교 대상 자체가 없음)
+                       그 주의 첫 실행이라 비교 대상 자체가 없음)
 월요일 첫 실행은 비교 대상이 없어 전부 null(NEW)로 뜨는 게 정상이다.
 
 == 1단계: 랭킹 목록 수집 ==
@@ -203,7 +203,8 @@ def load_previous_snapshot(week_start: str) -> dict:
     path = os.path.join(OUTPUT_DIR, f"{week_start}.json")
     if os.path.exists(path):
         try:
-            return json.load(open(path, encoding="utf-8")).get("categories", {})
+            with open(path, "r", encoding="utf-8") as f:
+                return json.load(f).get("categories", {})
         except Exception:
             return {}
     return {}
@@ -230,10 +231,11 @@ def apply_rank_change(categories_data: dict, prev_lookup: dict):
                 it["rank_change"] = None
 
 
-
+def load_link_cache() -> dict:
     if os.path.exists(LINK_CACHE_PATH):
         try:
-            return json.load(open(LINK_CACHE_PATH, encoding="utf-8"))
+            with open(LINK_CACHE_PATH, "r", encoding="utf-8") as f:
+                return json.load(f)
         except Exception:
             return {}
     return {}
